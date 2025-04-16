@@ -1,11 +1,72 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Jiatao Yan - Medical Image Analysis & Artificial Intelligence Researcher"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
+
+## Research Focus
+
+My research focuses on applying deep learning methodologies to medical image analysis and object detection, with an emphasis on multi-modal data integration. I work at the intersection of computer vision and healthcare, developing innovative solutions for medical diagnostics and disease prediction.
+
+### Academic Profiles
+* [Google Scholar](https://scholar.google.com/citations?user=Z0_RjPsAAAAJ&hl=zh-CN)
+* [ORCID: 0000-0002-2302-8407](https://orcid.org/0000-0002-2302-8407)
+
+### Research Interests
+
+* **Medical AI**: Deep learning for medical image analysis, disease prediction and diagnosis, multi-modal clinical data integration
+* **Computer Vision**: Attention-based object detection, real-time recognition systems, medical image segmentation
+
+## Education
+
+* **Master in Artificial Intelligence and Adaptive System**
+  * Sussex Artificial Intelligence Institute, Zhejiang Gongshang University
+  * Hangzhou, China
+  * Sept 2024 -- Present
+  * Research Focus: Advanced machine learning algorithms for medical image analysis
+  * Key Courses: Intelligence in Animals and Machines, Image Processing, Machine Learning
+
+* **Bachelor in Computer Science and Technology**
+  * Wenzhou Business College
+  * Wenzhou, China
+  * Sept 2019 -- June 2023
+  * GPA: 3.41/5.0 (84.7/100)
+  * Undergraduate Thesis: "Smoking behavior detection based on deep learning and skeletal framework"
+
+## Research Experience
+
+### Research Intern
+**Wenzhou Medical University First Affiliated Hospital - Hepato-Pancreato-biliary surgery Laboratory**  
+Wenzhou, China  
+Sept 2022 -- Jan 2023
+
+* Developed medical image preprocessing software for clinical applications, leading to software copyright registration
+* Designed and implemented deep learning models for leukemia diagnosis based on tongue image analysis, resulting in patent application
+* Created machine learning algorithms for exosome feature analysis in hepatocellular carcinoma research
+* Collaborated with medical professionals to validate the effectiveness of developed algorithms and systems
+
+### Principal Investigator
+**National Innovation Training Project**  
+Wenzhou Business College  
+June 2022 -- June 2023
+
+* Led research on enhancing YOLO architecture with attention mechanisms for real-time object detection
+* Applied self-attention module, improving detection accuracy in challenging conditions
+* Managed a team of 4 students, coordinating technical development and experimental validation
+* Successfully translated research into intellectual property, resulting in patent applications and software copyrights
+
+## Skills
+
+* **Programming Languages**: Python, C, Java, C#, SQL, JavaScript, Vue
+* **Deep Learning**: PyTorch, TensorFlow, Computer Vision, NLP
+* **Research Tools**: LaTeX, Git, Linux
+* **Data Analysis**: Statistical Analysis, Data Visualization
+* **Development**: Web Development, Database Design
+* **Languages**: English (IELTS 6.0: L:6.5, R:6.5, W:5.5, S:6.0), CET-6 467
+* **Certifications**: DevCloud Summer Training Camp (Huawei), Python, AI, Deep Learning Basics (Shandong University)
 
 This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
 
