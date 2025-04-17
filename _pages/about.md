@@ -1,14 +1,10 @@
 ---
 permalink: /
-title: "Jiatao Yan"
+title: ""
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
-header:
-  overlay_image: /images/header-bg.jpg
-  overlay_filter: 0.5
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
 
 <div style="text-align: center; margin-bottom: 2em;">

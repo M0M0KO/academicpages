@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Jiatao Yan / Personal Academic Website"
+title                    : "Jiatao Yan / Personal Website"
 title_separator          : "-"
 name                     : &name "Jiatao Yan"
 description              : &description "Medical Image Analysis Background / Postgraduate Student Self-learning Embodied Intelligence"

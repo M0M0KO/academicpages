@@ -1,13 +1,22 @@
 ---
 layout: archive
 permalink: /year-archive/
-title: "Blog posts"
+title: "Blog Posts"
 author_profile: true
 redirect_from:
   - /wordpress/blog-posts/
 ---
 
 {% include base_path %}
+
+<div style="text-align: center; margin: 3em 0; padding: 2em; border: 1px solid #e0e0e0; border-radius: 5px; background-color: #f9f9f9;">
+  <h2 style="color: #494e52;"><i class="fas fa-pen-fancy" style="margin-right: 0.5em;"></i>Content Coming Soon</h2>
+  <p>My blog posts section is currently under development.</p>
+  <p>I'm preparing to share insights, research notes, and thoughts on my areas of interest.</p>
+  <p>Please check back later for updates!</p>
+</div>
+
+{% comment %}
 {% capture written_year %}'None'{% endcapture %}
 {% for post in site.posts %}
   {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
@@ -17,3 +26,4 @@ redirect_from:
   {% endif %}
   {% include archive-single.html %}
 {% endfor %}
+{% endcomment %}

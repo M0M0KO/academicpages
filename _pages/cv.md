@@ -5,9 +5,6 @@ permalink: /cv/
 author_profile: true
 redirect_from:
   - /resume
-header:
-  overlay_image: /images/header-bg.jpg
-  overlay_filter: 0.5
 ---
 
 {% include base_path %}
