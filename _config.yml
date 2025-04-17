@@ -27,7 +27,7 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "Postgraduate student with medical image analysis experience, currently self-learning embodied intelligence"
   location         : "Hangzhou, China"
-  employer         : "Sussex AI Institute, Zhejiang Gongshang University"
+  employer         : "Sussex AI Institute, ZJSU"
   uri              : # URL
   email            : "momokoyjt@outlook.com" 
 
@@ -77,12 +77,12 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
-  books:
-    title: 'Books'
-  manuscripts:
-    title: 'Journal Articles'    
+  journals:
+    title: 'Journal Articles'
   conferences:
     title: 'Conference Papers'
+  manuscripts:
+    title: 'Manuscripts Under Review'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"

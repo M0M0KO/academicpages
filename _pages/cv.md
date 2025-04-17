@@ -14,12 +14,6 @@ redirect_from:
   <p><em>Academic and professional journey</em></p>
 </div>
 
-## Academic Profiles
-<div class="profiles" style="display: flex; gap: 2em; margin-bottom: 1em;">
-  <div><i class="ai ai-google-scholar" style="font-size: 1.2em;"></i> <a href="https://scholar.google.com/citations?user=Z0_RjPsAAAAJ&hl=zh-CN">Google Scholar</a></div>
-  <div><i class="ai ai-orcid" style="font-size: 1.2em;"></i> <a href="https://orcid.org/0000-0002-2302-8407">ORCID: 0000-0002-2302-8407</a></div>
-</div>
-
 ---
 
 ## Education
