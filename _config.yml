@@ -12,7 +12,7 @@ site_theme               : "default"
 title                    : "Jiatao Yan / Personal Website"
 title_separator          : "-"
 name                     : &name "Jiatao Yan"
-description              : &description "Medical Image Analysis Background / Postgraduate Student Self-learning Embodied Intelligence"
+description              : &description "Postgraduate Student"
 url                      : https://M0M0KO.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "M0M0KO/academicpages.github.io"
@@ -24,8 +24,8 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Jiatao Yan"
-  pronouns         : # example: "she/her"  
-  bio              : "Postgraduate student with medical image analysis experience, currently self-learning embodied intelligence"
+  pronouns         : "he/him"  
+  bio              : "Postgraduate student with medical image analysis experience, interested in embodied AI"
   location         : "Hangzhou, China"
   employer         : "Sussex AI Institute, ZJSU"
   uri              : # URL
@@ -46,7 +46,7 @@ author:
   codepen          : # Username
   dribbble         : # Username
   github           : "M0M0KO"
-  kaggle           : # Username  
+  kaggle           : "https://www.kaggle.com/momokoyan"
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media

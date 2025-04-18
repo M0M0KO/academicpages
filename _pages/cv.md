@@ -9,11 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-<div style="text-align: center; margin-bottom: 2em;">
-  <h1 style="font-size: 2.5em; color: #494e52;">Curriculum Vitae</h1>
-  <p><em>Academic and professional journey</em></p>
-</div>
-
 ---
 
 ## Education
@@ -90,9 +85,19 @@ redirect_from:
 ## Publications
 
 <div class="publications">
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  <div class="paper">
+    <h3><i class="fas fa-file-alt" style="margin-right: 0.5em; color: #494e52;"></i>Machine Learning Identifies Exosome Features Related to Hepatocellular Carcinoma</h3>
+    <p>Published in <em>Frontiers in Cell and Developmental Biology</em> (September 2022)</p>
+    <p>Authors: Kai Zhu, Qiana Tao, <strong>Jiatao Yan</strong>, Zhengzhi Lang, Xiaohan Li, Yajing Li, Chuan Fan, Zhixian Yu</p>
+    <p><a href="https://doi.org/10.3389/fcell.2022.1020415" target="_blank">DOI: 10.3389/fcell.2022.1020415</a></p>
+  </div>
+  
+  <div class="paper">
+    <h3><i class="fas fa-file-alt" style="margin-right: 0.5em; color: #494e52;"></i>Multi-omics and Machine Learning-driven CD8+ T Cell Heterogeneity Score for Prognosis</h3>
+    <p>Published in <em>Molecular Therapy Nucleic Acids</em> (December 2024)</p>
+    <p>Authors: Dazhi He, Zhan Yang, Tao Zhang, Yaxian Luo, Lianjie Peng, <strong>Jiatao Yan</strong>, Tao Qiu, Jingyu Zhang, Luying Qin, Zhichao Liu, Xiaomei Zhang, Li Lin, Mouyuan Sun</p>
+    <p><a href="https://doi.org/10.1016/j.omtn.2024.102413" target="_blank">DOI: 10.1016/j.omtn.2024.102413</a></p>
+  </div>
 </div>
 
 ---
@@ -102,14 +107,14 @@ redirect_from:
 <div class="manuscripts">
   <div class="paper">
     <h3><i class="fas fa-file-alt" style="margin-right: 0.5em; color: #494e52;"></i>Deep Learning Model for Survival Prediction of Localized Upper Tract Urothelial Carcinoma</h3>
-    <p>Submitted to <em>BMC Cancer</em> (June 24, 2024)</p>
+    <p>Submitted to <em>BMC Cancer</em> (June 24, 2024) - Revision Required</p>
     <p>Authors: Kai Zhu, Binwei Lin, <strong>Jiatao Yan</strong>, Honghui Zhu, Wei Chen, Xin Yao, Fengyan You, Yue Pan, Feng Wang, Peng Xia, Yeping Li, Lianguo Chen, Zhixian Yu, Shouliang Miao, Xiaomin Gao</p>
   </div>
 
   <div class="paper">
-    <h3><i class="fas fa-file-alt" style="margin-right: 0.5em; color: #494e52;"></i>Using Multi-omics and Machine Learning: An Insight for Improving Outcomes in Clear Cell Renal Cell Carcinoma</h3>
-    <p>Submitted to <em>BBA - Molecular Basis of Disease</em> (Nov 25, 2024)</p>
-    <p>Authors: Zhan Yang, Yaxian Luo, Lianjie Peng, Chaoran Pan, Tao Qiu, <strong>Jiatao Yan</strong>, Zhichao Liu, Jingyu Zhang, Yan Zhang, Mouyuan Sun</p>
+    <h3><i class="fas fa-file-alt" style="margin-right: 0.5em; color: #494e52;"></i>Using Multiomics and Machine Learning: Insights into Improving the Outcomes of Clear Cell Renal Cell Carcinoma via SRD5A3-AS1/hsa-let-7e-5p/RRM2 Axis</h3>
+    <p>Submitted to <em>ACS Omega</em> (November 25, 2024) - Under Review</p>
+    <p>Authors: Mouyuan Sun, Zhan Yang, Yaxian Luo, Luying Qin, Lianjie Peng, Chaoran Pan, <strong>Jiatao Yan</strong>, Tao Qiu, Yan Zhang</p>
   </div>
 </div>
 
