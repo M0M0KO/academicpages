@@ -1,8 +1,8 @@
 ---
 title: "Deep Learning Model for Survival Prediction of Localized Upper Tract Urothelial Carcinoma Based on Multi-Phase CT Images and Clinical Data"
 collection: publications
-permalink: /publication/2024-06-upper-tract-prediction
-excerpt: 'This study developed a deep learning model that combines multi-phase CT images and clinical data for improved survival prediction in patients with localized upper tract urothelial carcinoma.'
+permalink: /publications/2024-06-upper-tract-prediction
+excerpt: ''
 date: 2024-06-24
 venue: '(Revision Required)'
 paperurl: 

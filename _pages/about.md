@@ -8,8 +8,7 @@ redirect_from:
 ---
 
 <div style="text-align: center; margin-bottom: 2em;">
-  <h1 style="font-size: 2.5em; color: #494e52;">From Medical Imaging to Embodied Intelligence</h1>
-  <p><em>A journey of continuous learning and transformation</em></p>
+  <h1 style="font-size: 2.5em; color: #494e52;">Interested in Embodied AI</h1>
 </div>
 
 ## About Me
@@ -31,11 +30,11 @@ I am a postgraduate student with background experience in medical image analysis
   </div>
   <div>
     <i class="fas fa-eye" style="font-size: 2em; color: #494e52; margin-right: 0.5em;"></i>
-    <strong>Computer Vision</strong>: Experience with attention-based object detection and image segmentation, with interest in applying these to embodied systems
+    <strong>Computer Vision</strong>: Experience with attention-based object detection and image segmentation
   </div>
   <div>
     <i class="fas fa-project-diagram" style="font-size: 2em; color: #494e52; margin-right: 0.5em;"></i>
-    <strong>Multi-modal Learning</strong>: Exploring how to integrate visual, tactile, and motor data for embodied AI systems
+    <strong>Multi-modal Learning</strong>: Exploring Vision-Language-Action(VLA) model for embodied AI systems
   </div>
 </div>
 
@@ -51,7 +50,7 @@ I am a postgraduate student with background experience in medical image analysis
     Sept 2024 -- Present</p>
     <ul>
       <li>Current Study: Algorithms with applications in embodied intelligence</li>
-      <li>Key Courses: Intelligence in Animals and Machines, Image Processing, Machine Learning</li>
+      <li>Key Courses: Intelligence in Animals and Machines, Intelligent Systems Techniques, Image Processing, Machine Learning</li>
     </ul>
   </div>
 
@@ -102,16 +101,6 @@ I am a postgraduate student with background experience in medical image analysis
 
 ## Current Learning Focus
 
-<div class="learning-focus">
-  <p>I am currently dedicating my time to self-learning in the field of embodied intelligence:</p>
-  <ul>
-    <li><i class="fas fa-robot"></i> Robotics fundamentals and reinforcement learning</li>
-    <li><i class="fas fa-project-diagram"></i> Multi-modal integration for robotic perception</li>
-    <li><i class="fas fa-brain"></i> Sensorimotor learning and physical AI systems</li>
-    <li><i class="fas fa-vr-cardboard"></i> Simulating embodied agents in virtual environments</li>
-    <li><i class="fas fa-hands"></i> Physical manipulation tasks with computer vision</li>
-  </ul>
-</div>
 
 ---
 
@@ -140,7 +129,8 @@ I am a postgraduate student with background experience in medical image analysis
   
   <div class="skill-category">
     <h3><i class="fas fa-globe"></i> Languages</h3>
-    <p>English (IELTS 6.0: L:6.5, R:6.5, W:5.5, S:6.0), CET-6 467</p>
+    <p>English (IELTS 6.0: L:6.5, R:6.5, W:5.5, S:6.0)</p>
+    <p>CET-6 467</p>
   </div>
   
   <div class="skill-category">
