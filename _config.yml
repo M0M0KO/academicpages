@@ -14,7 +14,7 @@ title_separator          : "-"
 name                     : &name "Jiatao Yan"
 description              : &description "Postgraduate Student"
 url                      : https://M0M0KO.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
+baseurl                  : "/academicpages" # the subpath of your site, e.g. "/blog"
 repository               : "M0M0KO/academicpages.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
