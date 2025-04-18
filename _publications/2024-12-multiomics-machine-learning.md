@@ -12,7 +12,7 @@ category: journals
 
 ## Abstract
 
-This study integrates multi-omics data with advanced machine learning approaches to develop a CD8+ T cell heterogeneity score for improved prognosis. The research provides valuable insights into immune cell heterogeneity and its impact on disease outcomes.
+The heterogeneity of head and neck squamous cell carcinoma (HNSCC) poses a significant challenge to treatment, underscoring the urgent need for more precise and personalized therapeutic approaches. CD8+ T cells, integral components of the tumor immune microenvironment, have emerged as key targets for immunotherapy. Our research has established a correlation between a decrease in CD8+ T cell score and a poor clinical prognosis, highlighting the prognostic value of this biomarker. By analyzing the gene expression related to CD8+ T cells, we have differentiated HNSCC into cold and hot tumor subtypes, uncovering disparities in clinical prognosis and responses to immunotherapy. Utilizing eight machine learning methods, we identified the key gene OLR1. Single-cell analysis of HNSCC tissues and peripheral blood, along with spatial transcriptome analysis, revealed that OLR1 predominantly functions in macrophages, modulating the immune microenvironment of HNSCC. The expression level of OLR1 may serve as a predictive marker for immunotherapy responses. Moreover, drug sensitivity analysis and molecular docking studies have indicated that simvastatin and pazopanib are potential inhibitors of OLR1. These findings suggest that simvastatin and pazopanib could open up innovative potential therapeutic avenues for individuals with HNSCC.
 
 ## My Contribution
 
