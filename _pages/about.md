@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <div style="text-align: center; margin-bottom: 2em;">
-  <h1 style="font-size: 2.5em; color: #494e52;">Interested in Embodied AI</h1>
+  <h1 style="font-size: 2.5em; color: #494e52;">About</h1>
 </div>
 
 ## About Me
