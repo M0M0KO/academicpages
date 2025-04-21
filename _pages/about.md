@@ -54,19 +54,19 @@ I am a postgraduate student with background experience in medical image analysis
 
 <div class="research-interests">
   <div>
-    <i class="fas fa-brain" style="font-size: 2em; color: #494e52; margin-right: 0.5em;"></i>
+    <i class="fas fa-brain" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
     <strong>Medical AI</strong>: Previous experience with deep learning for medical image analysis, disease prediction and diagnosis, multi-modal clinical data integration
   </div>
   <div>
-    <i class="fas fa-robot" style="font-size: 2em; color: #494e52; margin-right: 0.5em;"></i>
+    <i class="fas fa-robot" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
     <strong>Embodied Intelligence</strong>: Self-learning about physical AI systems, robot learning, sensorimotor control, and human-robot interaction
   </div>
   <div>
-    <i class="fas fa-eye" style="font-size: 2em; color: #494e52; margin-right: 0.5em;"></i>
+    <i class="fas fa-eye" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
     <strong>Computer Vision</strong>: Experience with attention-based object detection and image segmentation
   </div>
   <div>
-    <i class="fas fa-project-diagram" style="font-size: 2em; color: #494e52; margin-right: 0.5em;"></i>
+    <i class="fas fa-project-diagram" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
     <strong>Multi-modal Learning</strong>: Exploring Vision-Language-Action(VLA) model for embodied AI systems
   </div>
 </div>
@@ -77,7 +77,7 @@ I am a postgraduate student with background experience in medical image analysis
 
 <div class="education">
   <div class="education-entry">
-    <h3>Master in Artificial Intelligence and Adaptive System</h3>
+    <h3><i class="fas fa-graduation-cap" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Master in Artificial Intelligence and Adaptive System</h3>
     <p><em>Sussex Artificial Intelligence Institute, Zhejiang Gongshang University</em><br>
     Hangzhou, China<br>
     Sept 2024 -- Present</p>
@@ -88,7 +88,7 @@ I am a postgraduate student with background experience in medical image analysis
   </div>
 
   <div class="education-entry">
-    <h3>Bachelor in Computer Science and Technology</h3>
+    <h3><i class="fas fa-graduation-cap" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Bachelor in Computer Science and Technology</h3>
     <p><em>Wenzhou Business College</em><br>
     Wenzhou, China<br>
     Sept 2019 -- June 2023</p>
@@ -105,7 +105,7 @@ I am a postgraduate student with background experience in medical image analysis
 
 <div class="experience">
   <div class="experience-entry">
-    <h3>Research Intern</h3>
+    <h3><i class="fas fa-flask" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Research Intern</h3>
     <p><em>Wenzhou Medical University First Affiliated Hospital - Hepato-Pancreato-biliary surgery Laboratory</em><br>
     Wenzhou, China<br>
     Sept 2022 -- Jan 2023</p>
@@ -118,7 +118,7 @@ I am a postgraduate student with background experience in medical image analysis
   </div>
 
   <div class="experience-entry">
-    <h3>Student Team Leader</h3>
+    <h3><i class="fas fa-users" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Student Team Leader</h3>
     <p><em>National Innovation Training Project, Wenzhou Business College</em><br>
     June 2022 -- June 2023</p>
     <ul>
@@ -136,11 +136,11 @@ I am a postgraduate student with background experience in medical image analysis
 
 <div class="learning-focus">
   <ul>
-    <li><i class="fas fa-graduation-cap"></i> <strong>Foundations of Robotics</strong>: Studying core robotics concepts including kinematics, dynamics, and control systems</li>
-    <li><i class="fas fa-code-branch"></i> <strong>Reinforcement Learning</strong>: Learning policies for robotic control and decision-making in physical environments</li>
-    <li><i class="fas fa-microchip"></i> <strong>Vision-Language-Action Models</strong>: Exploring how multimodal inputs can guide embodied agents to perform real-world tasks</li>
-    <li><i class="fas fa-sitemap"></i> <strong>Sensorimotor Learning</strong>: Understanding how perception and action can be effectively integrated in AI systems</li>
-    <li><i class="fas fa-flask"></i> <strong>Simulation Environments</strong>: Working with platforms like MuJoCo, Isaac Gym, and Habitat for embodied AI research</li>
+    <li><i class="fas fa-graduation-cap" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i> <strong>Foundations of Robotics</strong>: Studying core robotics concepts including kinematics, dynamics, and control systems</li>
+    <li><i class="fas fa-code-branch" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i> <strong>Reinforcement Learning</strong>: Learning policies for robotic control and decision-making in physical environments</li>
+    <li><i class="fas fa-microchip" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i> <strong>Vision-Language-Action Models</strong>: Exploring how multimodal inputs can guide embodied agents to perform real-world tasks</li>
+    <li><i class="fas fa-sitemap" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i> <strong>Sensorimotor Learning</strong>: Understanding how perception and action can be effectively integrated in AI systems</li>
+    <li><i class="fas fa-flask" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i> <strong>Simulation Environments</strong>: Working with platforms like MuJoCo, Isaac Gym, and Habitat for embodied AI research</li>
   </ul>
 </div>
 
@@ -152,7 +152,7 @@ I am a postgraduate student with background experience in medical image analysis
   <p>As a self-directed learner in embodied AI, I'm currently studying from these resources:</p>
   
   <div class="resource-category">
-    <h3><i class="fas fa-book"></i> Books & Textbooks</h3>
+    <h3><i class="fas fa-book" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i> Books & Textbooks</h3>
     <ul>
       <li>"Modern Robotics: Mechanics, Planning, and Control" by Kevin Lynch and Frank Park</li>
       <li>"Reinforcement Learning: An Introduction" by Richard S. Sutton and Andrew G. Barto</li>
@@ -161,7 +161,7 @@ I am a postgraduate student with background experience in medical image analysis
   </div>
   
   <div class="resource-category">
-    <h3><i class="fas fa-laptop"></i> Online Courses</h3>
+    <h3><i class="fas fa-laptop" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i> Online Courses</h3>
     <ul>
       <li>Stanford CS231n: Convolutional Neural Networks for Visual Recognition</li>
       <li>UC Berkeley CS285: Deep Reinforcement Learning</li>
@@ -170,7 +170,7 @@ I am a postgraduate student with background experience in medical image analysis
   </div>
   
   <div class="resource-category">
-    <h3><i class="fas fa-code-branch"></i> Code Repositories & Projects</h3>
+    <h3><i class="fas fa-code-branch" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i> Code Repositories & Projects</h3>
     <ul>
       <li>OpenAI Gym and MuJoCo environments for reinforcement learning practice</li>
       <li>PyBullet physics simulator for robotics</li>
@@ -179,7 +179,7 @@ I am a postgraduate student with background experience in medical image analysis
   </div>
   
   <div class="resource-category">
-    <h3><i class="fas fa-user-graduate"></i> Research Papers</h3>
+    <h3><i class="fas fa-user-graduate" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i> Research Papers</h3>
     <ul>
       <li>Survey papers on robot learning and embodied AI</li>
       <li>Case studies on successful applications of computer vision in robotics</li>
@@ -194,7 +194,7 @@ I am a postgraduate student with background experience in medical image analysis
 
 <div class="projects">
   <div class="project-entry">
-    <h3>Enhanced YOLO with Attention Mechanism</h3>
+    <h3><i class="fas fa-project-diagram" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Enhanced YOLO with Attention Mechanism</h3>
     <p><em>Object Detection Research Project</em></p>
     <p>Implemented an improved YOLO architecture incorporating self-attention modules to enhance detection accuracy while maintaining real-time performance. The project specifically focused on:</p>
     <ul>
@@ -206,7 +206,7 @@ I am a postgraduate student with background experience in medical image analysis
   </div>
   
   <div class="project-entry">
-    <h3>Medical Image Preprocessing Pipeline</h3>
+    <h3><i class="fas fa-microscope" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Medical Image Preprocessing Pipeline</h3>
     <p><em>Clinical Software Development</em></p>
     <p>Developed a comprehensive preprocessing pipeline for medical images to support clinical diagnostic applications. This software:</p>
     <ul>
@@ -219,7 +219,7 @@ I am a postgraduate student with background experience in medical image analysis
   </div>
   
   <div class="project-entry">
-    <h3>Smoking Behavior Detection System</h3>
+    <h3><i class="fas fa-smoking" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Smoking Behavior Detection System</h3>
     <p><em>Undergraduate Thesis Project</em></p>
     <p>Designed and implemented a system to automatically detect smoking behavior using pose estimation and deep learning. The system:</p>
     <ul>
@@ -237,33 +237,33 @@ I am a postgraduate student with background experience in medical image analysis
 
 <div class="skills">
   <div class="skill-category">
-    <h3><i class="fas fa-code"></i> Programming</h3>
+    <h3><i class="fas fa-code" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i> Programming</h3>
     <p>Python, C, Java, C#, SQL, JavaScript, Vue</p>
   </div>
   
   <div class="skill-category">
-    <h3><i class="fas fa-brain"></i> Deep Learning</h3>
+    <h3><i class="fas fa-brain" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i> Deep Learning</h3>
     <p>PyTorch, TensorFlow, Computer Vision, NLP</p>
   </div>
   
   <div class="skill-category">
-    <h3><i class="fas fa-tools"></i> Research Tools</h3>
+    <h3><i class="fas fa-tools" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i> Research Tools</h3>
     <p>LaTeX, Git, Linux</p>
   </div>
   
   <div class="skill-category">
-    <h3><i class="fas fa-chart-bar"></i> Data Analysis</h3>
+    <h3><i class="fas fa-chart-bar" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i> Data Analysis</h3>
     <p>Statistical Analysis, Data Visualization</p>
   </div>
   
   <div class="skill-category">
-    <h3><i class="fas fa-globe"></i> Languages</h3>
+    <h3><i class="fas fa-globe" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i> Languages</h3>
     <p>English (IELTS 6.0: L:6.5, R:6.5, W:5.5, S:6.0)</p>
     <p>CET-6 467</p>
   </div>
   
   <div class="skill-category">
-    <h3><i class="fas fa-certificate"></i> Certifications</h3>
+    <h3><i class="fas fa-certificate" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i> Certifications</h3>
     <p>DevCloud Summer Training Camp (Huawei), Python, AI, Deep Learning Basics (Shandong University)</p>
   </div>
 </div>
@@ -356,6 +356,17 @@ I am a postgraduate student with background experience in medical image analysis
   .resource-category ul {
     list-style-type: none;
     padding-left: 1em;
+  }
+  
+  /* 统一图标样式 */
+  .fa, .fas, .far, .fab {
+    color: #494e52;
+  }
+  
+  .section-icon {
+    font-size: 1.2em;
+    margin-right: 0.5em;
+    color: #494e52;
   }
   
   .learning-focus i,
