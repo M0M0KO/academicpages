@@ -23,28 +23,23 @@ I am a postgraduate student with background experience in medical image analysis
   <p>As someone new to the field of embodied AI, I believe in the power of continuous learning and exploration. My approach to this exciting field includes:</p>
   
   <div class="journey-point">
-    <i class="fas fa-book-open" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
-    <span><strong>Learning from fundamentals</strong>: Building a solid theoretical foundation before diving into advanced concepts</span>
+    <h4><i class="fas fa-book-open" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i><strong>Learning from fundamentals</strong>: Building a solid theoretical foundation before diving into advanced concepts</h4>
   </div>
   
   <div class="journey-point">
-    <i class="fas fa-laptop-code" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
-    <span><strong>Hands-on practice</strong>: Implementing basic concepts in small projects to reinforce understanding</span>
+    <h4><i class="fas fa-laptop-code" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i><strong>Hands-on practice</strong>: Implementing basic concepts in small projects to reinforce understanding</h4>
   </div>
   
   <div class="journey-point">
-    <i class="fas fa-users" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
-    <span><strong>Learning from the community</strong>: Following research papers, tutorials, and discussions from experts in the field</span>
+    <h4><i class="fas fa-users" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i><strong>Learning from the community</strong>: Following research papers, tutorials, and discussions from experts in the field</h4>
   </div>
   
   <div class="journey-point">
-    <i class="fas fa-sync-alt" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
-    <span><strong>Iterative improvement</strong>: Embracing the learning curve and using each challenge as an opportunity to grow</span>
+    <h4><i class="fas fa-sync-alt" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i><strong>Iterative improvement</strong>: Embracing the learning curve and using each challenge as an opportunity to grow</h4>
   </div>
   
   <div class="journey-point">
-    <i class="fas fa-puzzle-piece" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
-    <span><strong>Connecting knowledge domains</strong>: Finding ways to apply my background in computer vision to new concepts in robotics</span>
+    <h4><i class="fas fa-puzzle-piece" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i><strong>Connecting knowledge domains</strong>: Finding ways to apply my background in computer vision to new concepts in robotics</h4>
   </div>
 </div>
 
@@ -275,29 +270,24 @@ I am a postgraduate student with background experience in medical image analysis
 <div class="questions-exploring">
   <p>As a newcomer to embodied AI, I'm particularly curious about these questions:</p>
   
-  <div class="question-entry">
-    <i class="fas fa-question-circle" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
-    <span>How can we bridge the gap between computer vision systems and physical robot actions?</span>
+  <div class="question-item">
+    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>How can we bridge the gap between computer vision systems and physical robot actions?</h4>
   </div>
   
-  <div class="question-entry">
-    <i class="fas fa-question-circle" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
-    <span>What are the most effective approaches for robots to learn from limited demonstrations?</span>
+  <div class="question-item">
+    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>What are the most effective approaches for robots to learn from limited demonstrations?</h4>
   </div>
   
-  <div class="question-entry">
-    <i class="fas fa-question-circle" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
-    <span>How can medical imaging expertise contribute to better perceptual systems for robots?</span>
+  <div class="question-item">
+    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>How can medical imaging expertise contribute to better perceptual systems for robots?</h4>
   </div>
   
-  <div class="question-entry">
-    <i class="fas fa-question-circle" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
-    <span>What are the challenges in transferring learning from simulated to real-world environments?</span>
+  <div class="question-item">
+    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>What are the challenges in transferring learning from simulated to real-world environments?</h4>
   </div>
   
-  <div class="question-entry">
-    <i class="fas fa-question-circle" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
-    <span>How can multi-modal learning help robots better understand and interact with their surroundings?</span>
+  <div class="question-item">
+    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>How can multi-modal learning help robots better understand and interact with their surroundings?</h4>
   </div>
 </div>
 
@@ -308,24 +298,20 @@ I am a postgraduate student with background experience in medical image analysis
 <div class="future-goals">
   <p>As I continue my academic and research journey in embodied AI, I aim to:</p>
   
-  <div class="goal-entry">
-    <i class="fas fa-lightbulb" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
-    <span><strong>Contribute to research</strong> at the intersection of computer vision, robotics, and reinforcement learning</span>
+  <div class="goal-item">
+    <h4><i class="fas fa-lightbulb" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i><strong>Contribute to research</strong> at the intersection of computer vision, robotics, and reinforcement learning</h4>
   </div>
   
-  <div class="goal-entry">
-    <i class="fas fa-users" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
-    <span><strong>Collaborate with interdisciplinary teams</strong> to develop AI systems that can safely and effectively interact with humans and their environments</span>
+  <div class="goal-item">
+    <h4><i class="fas fa-users" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i><strong>Collaborate with interdisciplinary teams</strong> to develop AI systems that can safely and effectively interact with humans and their environments</h4>
   </div>
   
-  <div class="goal-entry">
-    <i class="fas fa-university" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
-    <span><strong>Pursue doctoral studies</strong> focused on innovative applications of embodied intelligence in healthcare or assistive technologies</span>
+  <div class="goal-item">
+    <h4><i class="fas fa-university" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i><strong>Pursue doctoral studies</strong> focused on innovative applications of embodied intelligence in healthcare or assistive technologies</h4>
   </div>
   
-  <div class="goal-entry">
-    <i class="fas fa-hands-helping" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
-    <span><strong>Develop AI solutions</strong> that address real-world challenges and improve quality of life</span>
+  <div class="goal-item">
+    <h4><i class="fas fa-hands-helping" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i><strong>Develop AI solutions</strong> that address real-world challenges and improve quality of life</h4>
   </div>
 </div>
 
@@ -335,10 +321,10 @@ I am a postgraduate student with background experience in medical image analysis
   .experience-entry,
   .skill-category,
   .project-entry,
-  .goal-entry,
+  .question-item,
+  .goal-item,
   .journey-point,
-  .resource-category,
-  .question-entry {
+  .resource-category {
     margin-bottom: 1.5em;
   }
   
@@ -352,7 +338,6 @@ I am a postgraduate student with background experience in medical image analysis
   }
   
   .learning-focus ul,
-  .future-goals ul,
   .resource-category ul {
     list-style-type: none;
     padding-left: 1em;
@@ -369,20 +354,29 @@ I am a postgraduate student with background experience in medical image analysis
     color: #494e52;
   }
   
-  .learning-focus i,
-  .future-goals i,
-  .journey-point i,
-  .question-entry i {
-    margin-right: 0.5em;
-    color: #494e52;
+  /* 学习旅程和问题探索 */
+  .journey-point,
+  .question-item,
+  .goal-item {
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    padding: 1em;
   }
   
-  .goal-entry,
-  .journey-point,
-  .question-entry {
+  .journey-point h4,
+  .question-item h4,
+  .goal-item h4 {
+    margin: 0 0 0.5em 0;
+    color: #494e52;
     display: flex;
-    align-items: flex-start;
-    margin-bottom: 1em;
+    align-items: center;
+  }
+  
+  .question-item h4,
+  .goal-item h4 {
+    margin-bottom: 0;
   }
   
   .skills {

@@ -82,33 +82,29 @@ redirect_from:
   
   <div class="journey-container">
     <div class="journey-item">
-      <div class="journey-icon"><i class="fas fa-book-open"></i></div>
       <div class="journey-content">
-        <h4>Foundation Building</h4>
+        <h4><i class="fas fa-book-open" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Foundation Building</h4>
         <p>Learning fundamentals of robotics, computer vision, and control systems to build a solid theoretical base</p>
       </div>
     </div>
     
     <div class="journey-item">
-      <div class="journey-icon"><i class="fas fa-code"></i></div>
       <div class="journey-content">
-        <h4>Practical Implementation</h4>
+        <h4><i class="fas fa-code" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Practical Implementation</h4>
         <p>Working on small projects to apply concepts and gain hands-on experience with tools and frameworks</p>
       </div>
     </div>
     
     <div class="journey-item">
-      <div class="journey-icon"><i class="fas fa-project-diagram"></i></div>
       <div class="journey-content">
-        <h4>Knowledge Integration</h4>
+        <h4><i class="fas fa-project-diagram" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Knowledge Integration</h4>
         <p>Connecting my background in medical imaging and computer vision with new robotics concepts</p>
       </div>
     </div>
     
     <div class="journey-item">
-      <div class="journey-icon"><i class="fas fa-users"></i></div>
       <div class="journey-content">
-        <h4>Community Learning</h4>
+        <h4><i class="fas fa-users" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Community Learning</h4>
         <p>Following research trends and participating in online communities to learn from experts</p>
       </div>
     </div>
@@ -237,41 +233,36 @@ redirect_from:
 
 <div class="achievements">
   <div class="achievement-item">
-    <div class="achievement-icon"><i class="fas fa-trophy"></i></div>
     <div class="achievement-content">
-      <h4>Kaggle HuBMAP + HPA Competition</h4>
+      <h4><i class="fas fa-trophy" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Kaggle HuBMAP + HPA Competition</h4>
       <p>Participant, Top 38% (442nd Place) | Global Competition | Sept 2022</p>
     </div>
   </div>
   
   <div class="achievement-item">
-    <div class="achievement-icon"><i class="fas fa-medal"></i></div>
     <div class="achievement-content">
-      <h4>18th Challenge Cup College Student Competition</h4>
+      <h4><i class="fas fa-medal" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>18th Challenge Cup College Student Competition</h4>
       <p>Bronze Medal Recipient | Zhejiang Province | May 2023</p>
     </div>
   </div>
   
   <div class="achievement-item">
-    <div class="achievement-icon"><i class="fas fa-award"></i></div>
     <div class="achievement-content">
-      <h4>4th National "Chuanzhi Cup" IT Skills Competition</h4>
+      <h4><i class="fas fa-award" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>4th National "Chuanzhi Cup" IT Skills Competition</h4>
       <p>Provincial Excellent Award | Zhejiang Province | Dec 2021</p>
     </div>
   </div>
   
   <div class="achievement-item">
-    <div class="achievement-icon"><i class="fas fa-award"></i></div>
     <div class="achievement-content">
-      <h4>2023 Wenzhou Computer Society Student Member Innovation and Entrepreneurship Award</h4>
+      <h4><i class="fas fa-award" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>2023 Wenzhou Computer Society Student Member Innovation and Entrepreneurship Award</h4>
       <p>3rd Prize Recipient | Wenzhou | April 2024</p>
     </div>
   </div>
   
   <div class="achievement-item">
-    <div class="achievement-icon"><i class="fas fa-trophy"></i></div>
     <div class="achievement-content">
-      <h4>Internet+ School-level Competition</h4>
+      <h4><i class="fas fa-trophy" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Internet+ School-level Competition</h4>
       <p>1st Place Team Member | Wenzhou Business College | May 2022</p>
     </div>
   </div>
@@ -369,31 +360,18 @@ redirect_from:
   }
   
   .journey-item {
-    display: flex;
     background-color: #f8f9fa;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-  }
-  
-  .journey-icon {
-    background-color: #494e52;
-    color: white;
     padding: 1em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.5em;
-  }
-  
-  .journey-content {
-    padding: 1em;
-    flex: 1;
   }
   
   .journey-content h4 {
     margin: 0 0 0.5em 0;
     color: #494e52;
+    display: flex;
+    align-items: center;
   }
   
   .journey-content p {
@@ -443,33 +421,18 @@ redirect_from:
   }
   
   .achievement-item {
-    display: flex;
-    align-items: center;
     background-color: #f8f9fa;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-  }
-  
-  .achievement-icon {
-    background-color: #494e52;
-    color: white;
     padding: 1em;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.2em;
-    min-width: 50px;
-  }
-  
-  .achievement-content {
-    padding: 1em;
-    flex: 1;
   }
   
   .achievement-content h4 {
     margin: 0 0 0.5em 0;
     color: #494e52;
+    display: flex;
+    align-items: center;
   }
   
   .achievement-content p {
@@ -513,17 +476,6 @@ redirect_from:
     .learning-grid, 
     .resources-grid {
       grid-template-columns: 1fr;
-    }
-    
-    .journey-item,
-    .achievement-item {
-      flex-direction: column;
-    }
-    
-    .journey-icon,
-    .achievement-icon {
-      width: 100%;
-      padding: 0.5em;
     }
   }
 </style>
