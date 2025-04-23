@@ -1,7 +1,7 @@
 ---
 title: "Deep Learning Model for Survival Prediction of Localized Upper Tract Urothelial Carcinoma Based on Multi-Phase CT Images and Clinical Data"
 collection: publications
-permalink: /publications/2024-06-upper-tract-prediction/
+permalink: publications/2024-06-upper-tract-prediction/
 excerpt: ''
 date: 2024-06-24
 venue: '(Revision Required)'
