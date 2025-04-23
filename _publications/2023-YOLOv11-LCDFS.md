@@ -1,7 +1,7 @@
 ---
 title: "YOLOv11-LCDFS: Enhanced Smoking Detection With Low-light Enhancement"
 collection: publications
-permalink: /academicpages/publications/2023-YOLOv11-LCDFS
+permalink: /publications/2023-YOLOv11-LCDFS/
 excerpt: ''
 date: 2023-12-15
 venue: '(Revision Required)'

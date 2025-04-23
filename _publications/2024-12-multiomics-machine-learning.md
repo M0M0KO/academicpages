@@ -1,7 +1,7 @@
 ---
 title: "Multi-omics and Machine Learning-driven CD8+ T Cell Heterogeneity Score for Prognosis"
 collection: publications
-permalink: /academicpages/publications/2024-12-multiomics-machine-learning
+permalink: /publications/2024-12-multiomics-machine-learning/
 excerpt: ''
 date: 2024-12-01
 venue: 'Molecular Therapy Nucleic Acids'
