@@ -71,21 +71,41 @@
         
         <!-- Publication Links -->
         <div class="publication-links" style="margin-top: 0.5em;">
-          {% if post.citation %}
+          {% if post.citation or post.bibtex %}
             <div class="citation-block" style="margin-bottom: 0.5em;">
               <details>
                 <summary style="cursor: pointer; color: #444; font-size: 0.9em; font-weight: 500;">
                   <i class="fas fa-quote-left" aria-hidden="true"></i> Show citation
                 </summary>
-                <div class="citation-content" style="margin-top: 0.5em; font-size: 0.9em; padding: 0.5em; background-color: #f8f9fa; border-radius: 4px;">
-                  {{ post.citation }}
+                <div style="margin-top: 0.5em; font-size: 0.9em;">
+                  <!-- Citation Tabs -->
+                  <div class="citation-tabs" style="display: flex; border-bottom: 1px solid #ddd; margin-bottom: 10px;">
+                    <div class="tab active" data-tab="ama" style="padding: 5px 10px; cursor: pointer; border: 1px solid #ddd; border-bottom: none; border-radius: 4px 4px 0 0; margin-right: 5px; background-color: #f8f9fa;">AMA</div>
+                    <div class="tab" data-tab="apa" style="padding: 5px 10px; cursor: pointer; border: 1px solid #ddd; border-bottom: none; border-radius: 4px 4px 0 0; margin-right: 5px;">APA</div>
+                    {% if post.bibtex %}
+                    <div class="tab" data-tab="bibtex" style="padding: 5px 10px; cursor: pointer; border: 1px solid #ddd; border-bottom: none; border-radius: 4px 4px 0 0;">BibTeX</div>
+                    {% endif %}
+                  </div>
+                  
+                  <!-- Citation Contents -->
+                  <div class="tab-content" id="ama-content" style="padding: 0.5em; background-color: #f8f9fa; border-radius: 0 4px 4px 4px;">
+                    {{ post.citation }}
+                  </div>
+                  <div class="tab-content" id="apa-content" style="display: none; padding: 0.5em; background-color: #f8f9fa; border-radius: 0 4px 4px 4px;">
+                    {{ post.citation_apa }}
+                  </div>
+                  {% if post.bibtex %}
+                  <div class="tab-content" id="bibtex-content" style="display: none; padding: 0.5em; background-color: #f8f9fa; border-radius: 0 4px 4px 4px; white-space: pre-wrap; font-family: monospace;">
+                    {{ post.bibtex }}
+                  </div>
+                  {% endif %}
                 </div>
               </details>
             </div>
           {% endif %}
           
           <div class="download-links" style="margin-top: 0.5em;">
-            {% if post.paperurl %}
+            {% if post.paperurl and post.paperurl != '' %}
               <a href="{{ post.paperurl }}" class="btn-pub" style="display: inline-block; padding: 4px 10px; background-color: #e8f0fe; border: 1px solid #d0e3ff; border-radius: 3px; font-size: 0.85em; margin-right: 0.5em; text-decoration: none; color: #0366d6; font-weight: 500; transition: all 0.2s ease;">
                 <i class="fas fa-file-pdf" aria-hidden="true"></i> Paper
               </a>
@@ -100,12 +120,6 @@
             {% if post.slidesurl and post.slidesurl != '' %}
               <a href="{{ post.slidesurl }}" class="btn-pub" style="display: inline-block; padding: 4px 10px; background-color: #e8f0fe; border: 1px solid #d0e3ff; border-radius: 3px; font-size: 0.85em; margin-right: 0.5em; text-decoration: none; color: #0366d6; font-weight: 500; transition: all 0.2s ease;">
                 <i class="fas fa-desktop" aria-hidden="true"></i> Slides
-              </a>
-            {% endif %}
-            
-            {% if post.bibtexurl and post.bibtexurl != '' %}
-              <a href="{{ post.bibtexurl }}" class="btn-pub" style="display: inline-block; padding: 4px 10px; background-color: #e8f0fe; border: 1px solid #d0e3ff; border-radius: 3px; font-size: 0.85em; margin-right: 0.5em; text-decoration: none; color: #0366d6; font-weight: 500; transition: all 0.2s ease;">
-                <i class="fas fa-quote-right" aria-hidden="true"></i> BibTeX
               </a>
             {% endif %}
             
@@ -157,4 +171,43 @@
     border-color: #a8c6f2 !important;
     color: #0550ae !important;
   }
+  
+  .citation-tabs .tab {
+    opacity: 0.7;
+  }
+  
+  .citation-tabs .tab.active {
+    opacity: 1;
+    background-color: #f8f9fa;
+    border-bottom-color: #f8f9fa;
+  }
 </style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // 为所有citation-tabs中的tab添加点击事件
+  document.querySelectorAll('.citation-tabs .tab').forEach(function(tab) {
+    tab.addEventListener('click', function() {
+      // 获取当前details元素
+      const details = this.closest('details');
+      
+      // 移除所有tab的active类
+      details.querySelectorAll('.tab').forEach(function(t) {
+        t.classList.remove('active');
+      });
+      
+      // 添加当前tab的active类
+      this.classList.add('active');
+      
+      // 隐藏所有内容
+      details.querySelectorAll('.tab-content').forEach(function(content) {
+        content.style.display = 'none';
+      });
+      
+      // 显示当前tab对应的内容
+      const tabId = this.getAttribute('data-tab');
+      details.querySelector(`#${tabId}-content`).style.display = 'block';
+    });
+  });
+});
+</script>

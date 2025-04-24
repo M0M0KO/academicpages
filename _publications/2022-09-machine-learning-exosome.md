@@ -6,13 +6,23 @@ excerpt: 'This study employs machine learning to identify exosome-related genes 
 date: 2022-09-01
 venue: 'Frontiers in Cell and Developmental Biology'
 paperurl: 'https://doi.org/10.3389/fcell.2022.1020415'
-citation: 'Zhu K, Tao Q, Yan J, Lang Z, Li X, Li Y, Fan C, Yu Z. (2022). &quot;Machine Learning Identifies Exosome Features Related to Hepatocellular Carcinoma.&quot; <i>Frontiers in Cell and Developmental Biology</i>. DOI: 10.3389/fcell.2022.1020415'
+citation: 'Zhu, K., Tao, Q., Yan, J., Lang, Z., Li, X., Li, Y., Fan, C., & Yu, Z. (2022). Machine learning identifies exosome features related to hepatocellular carcinoma. Frontiers in Cell and Developmental Biology, 10, 1020415.'
 category: journals
 header:
   teaser: 'publications/hcc_exosome.jpg'
 topic: 'Machine Learning'
 doi: '10.3389/fcell.2022.1020415'
-bibtexurl: '/files/bibtex/zhu2022machine.bib'
+bibtex: |
+  @article{zhu2022machine,
+    title={Machine Learning Identifies Exosome Features Related to Hepatocellular Carcinoma},
+    author={Zhu, Kai and Tao, Qiqi and Yan, Jiatao and Lang, Zhichao and Li, Xinmiao and Li, Yifei and Fan, Congcong and Yu, Zhengping},
+    journal={Frontiers in Cell and Developmental Biology},
+    volume={10},
+    pages={1020415},
+    year={2022},
+    publisher={Frontiers Media SA},
+    doi={10.3389/fcell.2022.1020415}
+  }
 # codeurl: ''
 # preprinturl: ''
 # dataseturl: ''
