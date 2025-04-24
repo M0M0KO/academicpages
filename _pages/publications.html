@@ -5,38 +5,154 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
 {% include base_path %}
 
-<div style="margin: 2em 0; padding: 1.5em; border: 1px solid #e0e0e0; border-radius: 5px; background-color: #f9f9f9;">
-  <h3 style="color: #494e52; margin-top: 0;"><i class="fas fa-file-alt" style="margin-right: 0.5em;"></i>Publication Information</h3>
-  <p>Below you'll find my publications and manuscripts. I'm continuously updating this section as new research is completed.</p>
-  <p>If you're interested in collaborating on research projects related to embodied intelligence or medical image analysis, please feel free to contact me.</p>
+<div class="publication-header" style="margin: 2em 0; padding: 1.5em; border: 1px solid #e0e0e0; border-radius: 5px; background-color: #f9f9f9;">
+  <h3 style="color: #494e52; margin-top: 0;"><i class="fas fa-file-alt" style="margin-right: 0.5em;"></i>Research Publications</h3>
+  <p>Welcome to my publications page. Here you'll find my research work spanning medical image analysis, machine learning, and artificial intelligence applications in healthcare.</p>
+  
+  {% if site.author.googlescholar %}
+    <p><i class="ai ai-google-scholar-square ai-fw"></i> View my complete publication record on <a href="{{site.author.googlescholar}}" target="_blank">Google Scholar</a>.</p>
+  {% endif %}
+  
+  {% if site.author.orcid %}
+    <p><i class="ai ai-orcid-square ai-fw"></i> View my ORCID profile at <a href="{{site.author.orcid}}" target="_blank">{{site.author.orcid}}</a>.</p>
+  {% endif %}
 </div>
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
+<!-- Publication filters -->
+<div class="publication-filters" style="margin: 2em 0; padding: 0 0 1em 0; border-bottom: 1px solid #eeeeee;">
+  <h4 style="display: inline-block; margin-right: 1em;">Filter by:</h4>
+  
+  <!-- Category filter -->
+  <div class="filter-group" style="display: inline-block; margin-right: 2em;">
+    <label for="category-filter" style="font-weight: bold; margin-right: 0.5em;">Category:</label>
+    <select id="category-filter" style="padding: 0.3em; border-radius: 3px; border: 1px solid #ddd;">
+      <option value="all">All Categories</option>
+      <option value="journals">Journal Articles</option>
+      <option value="conferences">Conference Papers</option>
+      <option value="manuscripts">Manuscripts Under Review</option>
+    </select>
+  </div>
+  
+  <!-- Year filter -->
+  <div class="filter-group" style="display: inline-block;">
+    <label for="year-filter" style="font-weight: bold; margin-right: 0.5em;">Year:</label>
+    <select id="year-filter" style="padding: 0.3em; border-radius: 3px; border: 1px solid #ddd;">
+      <option value="all">All Years</option>
+      <option value="2025">2025</option>
+      <option value="2024">2024</option>
+      <option value="2023">2023</option>
+      <option value="2022">2022</option>
+    </select>
+  </div>
+</div>
+
+<!-- New style rendering with publication categories -->
+<div id="publication-container">
+  {% if site.publication_category %}
+    {% for category in site.publication_category %}
+      <div class="publication-category" data-category="{{category[0]}}" style="margin-bottom: 2em;">
+        <h2 id="{{category[0]}}-heading">{{ category[1].title }}</h2>
+        <hr style="margin-top: 0.5em; margin-bottom: 1.5em; border-top: 2px solid #eaeaea;" />
+        
+        <div class="publication-list">
+          {% assign sorted_publications = site.publications | sort: 'date' | reverse %}
+          {% for post in sorted_publications %}
+            {% if post.category == category[0] %}
+              <div class="publication-item" data-year="{{post.date | date: '%Y'}}" style="margin-bottom: 1.5em; padding-bottom: 1.5em; border-bottom: 1px dashed #eaeaea;">
+                {% include archive-single.html %}
+                
+                <!-- Add topic badges if available -->
+                {% if post.topics %}
+                  <div class="publication-topics" style="margin-top: 0.5em;">
+                    {% assign topics = post.topics | split: "," %}
+                    {% for topic in topics %}
+                      <span class="publication-topic-badge" style="display: inline-block; background-color: #f0f7ff; color: #0366d6; padding: 0.2em 0.6em; border-radius: 3px; font-size: 0.8em; margin-right: 0.5em; margin-bottom: 0.5em;">{{ topic | strip }}</span>
+                    {% endfor %}
+                  </div>
+                {% endif %}
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+      </div>
     {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
-{% endif %}
+  {% else %}
+    <!-- Fall back to simple list if no categories defined -->
+    <div class="publication-list">
+      {% assign sorted_publications = site.publications | sort: 'date' | reverse %}
+      {% for post in sorted_publications %}
+        <div class="publication-item" data-year="{{post.date | date: '%Y'}}">
+          {% include archive-single.html %}
+        </div>
+      {% endfor %}
+    </div>
+  {% endif %}
+</div>
+
+<!-- Filtering JavaScript -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Get filter elements
+    const categoryFilter = document.getElementById('category-filter');
+    const yearFilter = document.getElementById('year-filter');
+    
+    // Add event listeners
+    categoryFilter.addEventListener('change', filterPublications);
+    yearFilter.addEventListener('change', filterPublications);
+    
+    function filterPublications() {
+      const selectedCategory = categoryFilter.value;
+      const selectedYear = yearFilter.value;
+      
+      // First handle category filtering
+      const categoryContainers = document.querySelectorAll('.publication-category');
+      categoryContainers.forEach(function(container) {
+        if (selectedCategory === 'all' || container.dataset.category === selectedCategory) {
+          container.style.display = 'block';
+        } else {
+          container.style.display = 'none';
+        }
+      });
+      
+      // Then handle year filtering
+      const publicationItems = document.querySelectorAll('.publication-item');
+      publicationItems.forEach(function(item) {
+        if (selectedYear === 'all' || item.dataset.year === selectedYear) {
+          item.style.display = 'block';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+      
+      // Check if any publications are visible within a visible category
+      categoryContainers.forEach(function(container) {
+        if (container.style.display === 'block') {
+          const visibleItems = container.querySelectorAll('.publication-item[style="display: block;"]');
+          if (visibleItems.length === 0) {
+            // No visible publications in this category
+            const noResultsMsg = container.querySelector('.no-results-message');
+            if (!noResultsMsg) {
+              const message = document.createElement('p');
+              message.className = 'no-results-message';
+              message.style.fontStyle = 'italic';
+              message.style.color = '#777';
+              message.textContent = 'No publications matching the selected filters.';
+              container.querySelector('.publication-list').appendChild(message);
+            }
+          } else {
+            // Remove any no results message
+            const noResultsMsg = container.querySelector('.no-results-message');
+            if (noResultsMsg) {
+              noResultsMsg.remove();
+            }
+          }
+        }
+      });
+    }
+  });
+</script>
 
 
 

@@ -8,6 +8,11 @@ venue: 'Frontiers in Cell and Developmental Biology'
 paperurl: 'https://doi.org/10.3389/fcell.2022.1020415'
 citation: 'Zhu K, Tao Q, Yan J, Lang Z, Li X, Li Y, Fan C, Yu Z. (2022). &quot;Machine Learning Identifies Exosome Features Related to Hepatocellular Carcinoma.&quot; <i>Frontiers in Cell and Developmental Biology</i>. DOI: 10.3389/fcell.2022.1020415'
 category: journals
+authors: ''
+topics: ''
+doi: '10.3389/fcell.2022.1020415'
+header:
+  teaser: 'hcc-exosome-teaser.png'
 ---
 
 ## Abstract

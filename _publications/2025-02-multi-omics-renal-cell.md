@@ -8,6 +8,10 @@ venue: 'ACS Omega (Under Review)'
 paperurl: 
 citation: 'Sun M, Yang Z, Luo Y, Qin L, Peng L, Pan C, Yan J, Qiu T, Zhang Y. (Submitted 2024). &quot;Using Multiomics and Machine Learning: Insights into Improving the Outcomes of Clear Cell Renal Cell Carcinoma via SRD5A3-AS1/hsa-let-7e-5p/RRM2 Axis.&quot; <i>ACS Omega</i>.'
 category: manuscripts
+authors: ''
+topics: ''
+header:
+  teaser: 'renal-cell-carcinoma-teaser.png'
 ---
 
 ## Abstract

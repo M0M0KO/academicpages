@@ -1,4 +1,3 @@
-
 # coding: utf-8
 
 # # Publications markdown generator for academicpages
@@ -74,7 +73,7 @@ for row, item in publications.iterrows():
     
     md += """collection: publications"""
     
-    md += """\npermalink: /publication/""" + html_filename
+    md += """\npermalink: publications/""" + html_filename
     
     if len(str(item.excerpt)) > 5:
         md += "\nexcerpt: '" + html_escape(item.excerpt) + "'"
@@ -85,6 +84,46 @@ for row, item in publications.iterrows():
     
     if len(str(item.paper_url)) > 5:
         md += "\npaperurl: '" + item.paper_url + "'"
+    
+    # Add support for slides URL
+    if 'slides_url' in item and len(str(item.slides_url)) > 5:
+        md += "\nslidesurl: '" + item.slides_url + "'"
+    
+    # Add support for code URL
+    if 'code_url' in item and len(str(item.code_url)) > 5:
+        md += "\ncodeurl: '" + item.code_url + "'"
+    
+    # Add support for poster URL
+    if 'poster_url' in item and len(str(item.poster_url)) > 5:
+        md += "\nposterurl: '" + item.poster_url + "'"
+    
+    # Add support for video URL
+    if 'video_url' in item and len(str(item.video_url)) > 5:
+        md += "\nvideourl: '" + item.video_url + "'"
+    
+    # Add support for bibtex URL
+    if 'bibtex_url' in item and len(str(item.bibtex_url)) > 5:
+        md += "\nbibtexurl: '" + item.bibtex_url + "'"
+    
+    # Add support for DOI
+    if 'doi' in item and len(str(item.doi)) > 5:
+        md += "\ndoi: '" + item.doi + "'"
+    
+    # Add support for authors
+    if 'authors' in item and len(str(item.authors)) > 5:
+        md += "\nauthors: '" + html_escape(item.authors) + "'"
+    
+    # Add support for topics (comma-separated)
+    if 'topics' in item and len(str(item.topics)) > 5:
+        md += "\ntopics: '" + html_escape(item.topics) + "'"
+    
+    # Add support for category
+    if 'category' in item and len(str(item.category)) > 5:
+        md += "\ncategory: " + item.category
+    
+    # Add support for teaser image
+    if 'teaser' in item and len(str(item.teaser)) > 5:
+        md += "\nheader:\n  teaser: '" + item.teaser + "'"
     
     md += "\ncitation: '" + html_escape(item.citation) + "'"
     

@@ -6,8 +6,13 @@ excerpt: ''
 date: 2024-06-24
 venue: '(Revision Required)'
 paperurl: 
+codeurl: ''
 citation: 'Zhu K, Lin B, Yan J, Zhu H, Chen W, Yao X, You F, Pan Y, Wang F, Xia P, Li Y, Chen L, Yu Z, Miao S, Gao X. (Submitted 2024). &quot;Deep Learning Model for Survival Prediction of Localized Upper Tract Urothelial Carcinoma Based on Multi-Phase CT Images and Clinical Data.&quot; <i></i> (Revision Required).'
 category: manuscripts
+authors: ''
+topics: 'Medical Imaging, Deep Learning, Survival Analysis, Oncology, Multi-modal Learning'
+header:
+  teaser: ''
 ---
 
 ## Abstract
