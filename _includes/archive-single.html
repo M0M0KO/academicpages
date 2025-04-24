@@ -14,92 +14,107 @@
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    <div class="publication-grid">
-      
-      {% if include.type == "grid" and teaser %}
-        <div class="archive__item-teaser">
+    <div class="publication-container" style="display: flex; flex-wrap: wrap; margin-bottom: 1em;">
+      <!-- Publication Image/Teaser -->
+      <div class="publication-image" style="flex: 0 0 100px; margin-right: 1em; margin-bottom: 1em;">
+        {% if post.header.teaser %}
           <img src=
             {% if teaser contains "://" %}
               "{{ teaser }}"
             {% else %}
               "{{ teaser | prepend: "/images/" | prepend: base_path }}"
             {% endif %}
-            alt="{{ title }}">
-        </div>
-      {% endif %}
-
-      <div class="publication-content">
-        <h2 class="archive__item-title" itemprop="headline">
+            alt="" style="width: 100px; height: auto; border-radius: 4px; border: 1px solid #eee;">
+        {% else %}
+          <div style="width: 100px; height: 100px; background-color: #f5f5f5; border-radius: 4px; display: flex; justify-content: center; align-items: center; border: 1px solid #eee;">
+            <i class="fas fa-file-alt" style="font-size: 2em; color: #ddd;"></i>
+          </div>
+        {% endif %}
+      </div>
+      
+      <!-- Publication Content -->
+      <div class="publication-content" style="flex: 1; min-width: 0;">
+        <h2 class="archive__item-title" itemprop="headline" style="margin-top: 0;">
           {% if post.link %}
-            <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fas fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+            <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
           {% else %}
             <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
           {% endif %}
         </h2>
         
-        <div class="publication-meta">
-          {% if post.collection == 'teaching' %}
-            <p><i class="fas fa-university" aria-hidden="true"></i> {{ post.type }}, <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
-          {% elsif post.collection == 'publications' %}
-            <p><i class="fas fa-book" aria-hidden="true"></i> Published in <i>{{ post.venue }}</i>, {{ post.date | default: "1900-01-01" | date: "%B %Y" }}</p>
-            
-            {% if post.authors %}
-              <p><i class="fas fa-users" aria-hidden="true"></i> {{ post.authors }}</p>
-            {% endif %}
-            
-            {% if post.doi %}
-              <p><i class="ai ai-doi" aria-hidden="true"></i> DOI: <a href="https://doi.org/{{ post.doi }}" target="_blank">{{ post.doi }}</a></p>
-            {% endif %}
-          {% elsif post.date %}
-            <p class="page__date"><i class="fas fa-calendar-alt" aria-hidden="true"></i> <time datetime="{{ post.date | default: "1900-01-01" | date_to_xmlschema }}">{{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}</time></p>
+        <!-- Publication Meta -->
+        <div class="publication-meta" style="margin-bottom: 0.5em;">
+          {% if post.collection == 'publications' %}
+            <p style="margin-bottom: 0.5em;">
+              <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}
+              {% if post.venue %}
+                 | <i class="fa fa-fw fa-book" aria-hidden="true"></i> <span class="venue">{{ post.venue }}</span>
+              {% endif %}
+              
+              {% if post.topic %}
+                <span class="topic-tag" style="display: inline-block; background-color: #eef5fd; border: 1px solid #dae8f7; padding: 1px 8px; border-radius: 3px; font-size: 0.8em; margin-left: 8px;">{{ post.topic }}</span>
+              {% endif %}
+            </p>
           {% endif %}
         </div>
-
+        
+        <!-- Publication Excerpt -->
         {% if post.excerpt and site.read_more != 'enabled' %}
-        <div class="archive__item-excerpt" itemprop="description">
-          {{ post.excerpt | markdownify }}
-        </div>
+          <div class="archive__item-excerpt" itemprop="description" style="margin-bottom: 0.5em;">
+            {{ post.excerpt | markdownify }}
+          </div>
         {% elsif post.excerpt and site.read_more == 'enabled' %}
-        <div class="archive__item-excerpt" itemprop="description">
-          <p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p>
-        </div>
+          <div class="archive__item-excerpt" itemprop="description" style="margin-bottom: 0.5em;">
+            {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong>
+          </div>
         {% endif %}
         
-        <div class="publication-links">
+        <!-- Publication Links -->
+        <div class="publication-links" style="margin-top: 0.5em;">
           {% if post.citation %}
-            <div class="citation-block">
+            <div class="citation-block" style="margin-bottom: 0.5em;">
               <details>
-                <summary>View Citation</summary>
-                <div>
+                <summary style="cursor: pointer; color: #595959; font-size: 0.9em;">
+                  <i class="fas fa-quote-left" aria-hidden="true"></i> Show citation
+                </summary>
+                <div class="citation-content" style="margin-top: 0.5em; font-size: 0.9em; padding: 0.5em; background-color: #f8f9fa; border-radius: 4px;">
                   {{ post.citation }}
                 </div>
               </details>
             </div>
           {% endif %}
           
-          {% if post.paperurl %}
-            <a href="{{ post.paperurl }}" class="btn paper-btn"><i class="fas fa-file-pdf"></i> PDF</a>
-          {% endif %}
-          
-          {% if post.slidesurl %}
-            <a href="{{ post.slidesurl }}" class="btn slides-btn"><i class="fas fa-desktop"></i> Slides</a>
-          {% endif %}
-          
-          {% if post.bibtexurl %}
-            <a href="{{ post.bibtexurl }}" class="btn bibtex-btn"><i class="fas fa-quote-left"></i> BibTeX</a>
-          {% endif %}
-          
-          {% if post.codeurl %}
-            <a href="{{ post.codeurl }}" class="btn code-btn"><i class="fas fa-code"></i> Code</a>
-          {% endif %}
-          
-          {% if post.posterurl %}
-            <a href="{{ post.posterurl }}" class="btn poster-btn"><i class="fas fa-image"></i> Poster</a>
-          {% endif %}
-          
-          {% if post.videourl %}
-            <a href="{{ post.videourl }}" class="btn video-btn"><i class="fas fa-video"></i> Video</a>
-          {% endif %}
+          <div class="download-links" style="margin-top: 0.5em;">
+            {% if post.paperurl %}
+              <a href="{{ post.paperurl }}" class="btn btn-sm" style="display: inline-block; padding: 2px 8px; background-color: #f8f9fa; border: 1px solid #ddd; border-radius: 3px; font-size: 0.8em; margin-right: 0.5em; text-decoration: none; color: #494e52;">
+                <i class="fas fa-file-pdf" aria-hidden="true"></i> Paper
+              </a>
+            {% endif %}
+            
+            {% if post.slidesurl %}
+              <a href="{{ post.slidesurl }}" class="btn btn-sm" style="display: inline-block; padding: 2px 8px; background-color: #f8f9fa; border: 1px solid #ddd; border-radius: 3px; font-size: 0.8em; margin-right: 0.5em; text-decoration: none; color: #494e52;">
+                <i class="fas fa-desktop" aria-hidden="true"></i> Slides
+              </a>
+            {% endif %}
+            
+            {% if post.bibtexurl %}
+              <a href="{{ post.bibtexurl }}" class="btn btn-sm" style="display: inline-block; padding: 2px 8px; background-color: #f8f9fa; border: 1px solid #ddd; border-radius: 3px; font-size: 0.8em; margin-right: 0.5em; text-decoration: none; color: #494e52;">
+                <i class="fas fa-quote-right" aria-hidden="true"></i> BibTeX
+              </a>
+            {% endif %}
+            
+            {% if post.codeurl %}
+              <a href="{{ post.codeurl }}" class="btn btn-sm" style="display: inline-block; padding: 2px 8px; background-color: #f8f9fa; border: 1px solid #ddd; border-radius: 3px; font-size: 0.8em; margin-right: 0.5em; text-decoration: none; color: #494e52;">
+                <i class="fas fa-code" aria-hidden="true"></i> Code
+              </a>
+            {% endif %}
+            
+            {% if post.doi %}
+              <a href="https://doi.org/{{ post.doi }}" class="btn btn-sm" style="display: inline-block; padding: 2px 8px; background-color: #f8f9fa; border: 1px solid #ddd; border-radius: 3px; font-size: 0.8em; text-decoration: none; color: #494e52;">
+                <i class="fas fa-external-link-alt" aria-hidden="true"></i> DOI
+              </a>
+            {% endif %}
+          </div>
         </div>
       </div>
     </div>

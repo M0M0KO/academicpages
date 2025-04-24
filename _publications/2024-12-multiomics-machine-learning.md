@@ -8,11 +8,6 @@ venue: 'Molecular Therapy Nucleic Acids'
 paperurl: 'https://doi.org/10.1016/j.omtn.2024.102413'
 citation: 'He D, Yang Z, Zhang T, Luo Y, Peng L, Yan J, Qiu T, Zhang J, Qin L, Liu Z, Zhang X, Lin L, Sun M. (2024). &quot;Multi-omics and Machine Learning-driven CD8+ T Cell Heterogeneity Score for Prognosis.&quot; <i>Molecular Therapy Nucleic Acids</i>. DOI: 10.1016/j.omtn.2024.102413'
 category: journals
-authors: ''
-topics: ''
-doi: '10.1016/j.omtn.2024.102413'
-header:
-  teaser: 'cd8-tcell-teaser.png'
 ---
 
 ## Abstract

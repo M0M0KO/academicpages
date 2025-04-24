@@ -15,6 +15,14 @@
 # - `pub_date` must be formatted as YYYY-MM-DD.
 # - `url_slug` will be the descriptive part of the .md file and the permalink URL for the page about the paper. The .md file will be `YYYY-MM-DD-[url_slug].md` and the permalink will be `https://[yourdomain]/publications/YYYY-MM-DD-[url_slug]`
 
+# Additional supported fields:
+# - `teaser`: Path to a teaser image for the publication
+# - `topic`: Topic or field of the publication (for tags)
+# - `codeurl`: URL to the code repository
+# - `bibtexurl`: URL to a BibTeX file
+# - `slidesurl`: URL to presentation slides
+# - `doi`: Digital Object Identifier (DOI) for the publication
+
 
 # ## Import pandas
 # 
@@ -73,7 +81,7 @@ for row, item in publications.iterrows():
     
     md += """collection: publications"""
     
-    md += """\npermalink: publications/""" + html_filename
+    md += """\npermalink: /publication/""" + html_filename
     
     if len(str(item.excerpt)) > 5:
         md += "\nexcerpt: '" + html_escape(item.excerpt) + "'"
@@ -85,47 +93,35 @@ for row, item in publications.iterrows():
     if len(str(item.paper_url)) > 5:
         md += "\npaperurl: '" + item.paper_url + "'"
     
-    # Add support for slides URL
-    if 'slides_url' in item and len(str(item.slides_url)) > 5:
-        md += "\nslidesurl: '" + item.slides_url + "'"
-    
-    # Add support for code URL
-    if 'code_url' in item and len(str(item.code_url)) > 5:
-        md += "\ncodeurl: '" + item.code_url + "'"
-    
-    # Add support for poster URL
-    if 'poster_url' in item and len(str(item.poster_url)) > 5:
-        md += "\nposterurl: '" + item.poster_url + "'"
-    
-    # Add support for video URL
-    if 'video_url' in item and len(str(item.video_url)) > 5:
-        md += "\nvideourl: '" + item.video_url + "'"
-    
-    # Add support for bibtex URL
-    if 'bibtex_url' in item and len(str(item.bibtex_url)) > 5:
-        md += "\nbibtexurl: '" + item.bibtex_url + "'"
-    
-    # Add support for DOI
-    if 'doi' in item and len(str(item.doi)) > 5:
-        md += "\ndoi: '" + item.doi + "'"
-    
-    # Add support for authors
-    if 'authors' in item and len(str(item.authors)) > 5:
-        md += "\nauthors: '" + html_escape(item.authors) + "'"
-    
-    # Add support for topics (comma-separated)
-    if 'topics' in item and len(str(item.topics)) > 5:
-        md += "\ntopics: '" + html_escape(item.topics) + "'"
-    
-    # Add support for category
-    if 'category' in item and len(str(item.category)) > 5:
-        md += "\ncategory: " + item.category
-    
-    # Add support for teaser image
-    if 'teaser' in item and len(str(item.teaser)) > 5:
-        md += "\nheader:\n  teaser: '" + item.teaser + "'"
-    
     md += "\ncitation: '" + html_escape(item.citation) + "'"
+    
+    # Add category if available
+    if hasattr(item, 'category') and len(str(item.category)) > 2:
+        md += "\ncategory: " + str(item.category)
+    
+    # Add header with teaser if available
+    if hasattr(item, 'teaser') and len(str(item.teaser)) > 2:
+        md += "\nheader:\n  teaser: '" + str(item.teaser) + "'"
+    
+    # Add topic if available
+    if hasattr(item, 'topic') and len(str(item.topic)) > 2:
+        md += "\ntopic: '" + str(item.topic) + "'"
+    
+    # Add code URL if available
+    if hasattr(item, 'codeurl') and len(str(item.codeurl)) > 5:
+        md += "\ncodeurl: '" + str(item.codeurl) + "'"
+    
+    # Add BibTeX URL if available
+    if hasattr(item, 'bibtexurl') and len(str(item.bibtexurl)) > 5:
+        md += "\nbibtexurl: '" + str(item.bibtexurl) + "'"
+    
+    # Add slides URL if available
+    if hasattr(item, 'slidesurl') and len(str(item.slidesurl)) > 5:
+        md += "\nslidesurl: '" + str(item.slidesurl) + "'"
+    
+    # Add DOI if available
+    if hasattr(item, 'doi') and len(str(item.doi)) > 5:
+        md += "\ndoi: '" + str(item.doi) + "'"
     
     md += "\n---"
     
