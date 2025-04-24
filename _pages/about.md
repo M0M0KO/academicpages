@@ -13,7 +13,7 @@ redirect_from:
 
 ## At a Glance
 
-I am a postgraduate student passionate about the intersection of medical image analysis and embodied intelligence. My academic journey began with computer vision and object detection, and I am now transitioning into the exciting field of embodied AI systems that can interact meaningfully with the physical world. I aim to bridge my experience in medical imaging with emerging knowledge in robotics and embodied intelligence to develop AI systems that can help solve real-world challenges.
+I am a postgraduate student with medical image analysis experience, interested in embodied AI. My academic journey began with computer vision and object detection during my undergraduate studies, and I am now eager to explore the exciting field of embodied AI. I'm currently learning about systems that can interact meaningfully with the physical world while continuing to build on my experience.
 
 <div class="highlight-box">
   <div class="highlight-item">
@@ -22,11 +22,11 @@ I am a postgraduate student passionate about the intersection of medical image a
   </div>
   <div class="highlight-item">
     <i class="fas fa-flask" style="font-size: 1.2em; color: #4285F4;"></i>
-    <p><strong>Research:</strong> Medical AI, Computer Vision, Embodied Intelligence</p>
+    <p><strong>Learning Focus:</strong> Medical AI, Computer Vision, Embodied Intelligence</p>
   </div>
   <div class="highlight-item">
     <i class="fas fa-trophy" style="font-size: 1.2em; color: #4285F4;"></i>
-    <p><strong>Recognition:</strong> Multiple competition medals, published research, patent applications</p>
+    <p><strong>Recognition:</strong> Competition awards, contributions to research publications, involvement in patents</p>
   </div>
 </div>
 
@@ -37,11 +37,11 @@ I am a postgraduate student passionate about the intersection of medical image a
 <div class="research-interests">
   <div>
     <i class="fas fa-brain" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
-    <strong>Medical AI</strong>: Deep learning for medical image analysis, disease prediction and diagnosis, multi-modal clinical data integration
+    <strong>Medical AI</strong>: Learning about deep learning for medical image analysis, disease prediction and diagnosis, multi-modal clinical data integration
   </div>
   <div>
     <i class="fas fa-robot" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
-    <strong>Embodied Intelligence</strong>: Self-learning about physical AI systems, robot learning, sensorimotor control, and human-robot interaction
+    <strong>Embodied Intelligence</strong>: Exploring physical AI systems, robot learning, and developing an understanding of sensorimotor control
   </div>
   <div>
     <i class="fas fa-eye" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
@@ -51,6 +51,10 @@ I am a postgraduate student passionate about the intersection of medical image a
     <i class="fas fa-project-diagram" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
     <strong>Multi-modal Learning</strong>: Exploring Vision-Language-Action(VLA) models for embodied AI systems
   </div>
+  <div>
+    <i class="fas fa-users" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
+    <strong>Multi-Agent Systems</strong>: Beginning to study collaborative AI systems
+  </div>
 </div>
 
 ---
@@ -58,30 +62,30 @@ I am a postgraduate student passionate about the intersection of medical image a
 ## Current Focus
 
 <div class="current-focus">
-  <p>I'm currently focused on developing the foundational knowledge and skills needed to contribute to the field of embodied intelligence:</p>
+  <p>As a student, I'm currently focused on building my knowledge in these areas:</p>
   
   <div class="focus-grid">
     <div class="focus-item">
       <i class="fas fa-book-open" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
       <div>
         <h4>Building Foundations</h4>
-        <p>Learning core robotics concepts, reinforcement learning, and computational perception</p>
+        <p>Studying core concepts in robotics, reinforcement learning, and computational perception</p>
       </div>
     </div>
     
     <div class="focus-item">
       <i class="fas fa-laptop-code" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
       <div>
-        <h4>Practical Implementation</h4>
-        <p>Working with simulation environments like MuJoCo and developing proof-of-concept projects</p>
+        <h4>Practical Skills</h4>
+        <p>Learning to work with simulation environments and developing small projects to apply theoretical knowledge</p>
       </div>
     </div>
     
     <div class="focus-item">
-      <i class="fas fa-puzzle-piece" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
+      <i class="fas fa-users" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
       <div>
-        <h4>Knowledge Integration</h4>
-        <p>Connecting my medical imaging experience with robotics to solve healthcare challenges</p>
+        <h4>Multi-Agent Learning</h4>
+        <p>Beginning to explore how multiple AI agents can interact, communicate, and solve problems collaboratively</p>
       </div>
     </div>
   </div>
@@ -109,7 +113,7 @@ I am a postgraduate student passionate about the intersection of medical image a
     </div>
     <div class="project-details">
       <h4>Medical Image Preprocessing Pipeline</h4>
-      <p>Developed software for standardizing multi-source medical images with noise reduction and artifact removal for clinical applications</p>
+      <p>Contributed to software development for standardizing medical images with noise reduction for clinical applications</p>
       <p class="tech-used">Python | OpenCV | Medical Imaging</p>
     </div>
   </div>
@@ -120,7 +124,7 @@ I am a postgraduate student passionate about the intersection of medical image a
     </div>
     <div class="project-details">
       <h4>Smoking Behavior Detection</h4>
-      <p>Created a system using pose estimation and temporal sequence modeling to detect and analyze smoking gestures</p>
+      <p>Undergraduate thesis project using pose estimation and temporal modeling to detect smoking gestures</p>
       <p class="tech-used">Deep Learning | Pose Estimation | Action Recognition</p>
     </div>
   </div>
@@ -158,7 +162,7 @@ I am a postgraduate student passionate about the intersection of medical image a
 
 ---
 
-## Publications Highlight
+## Publications Contributions
 
 <div class="publication-preview">
   <div class="publication-card">
@@ -166,7 +170,8 @@ I am a postgraduate student passionate about the intersection of medical image a
     <div>
       <h4>Machine Learning Identifies Exosome Features Related to Hepatocellular Carcinoma</h4>
       <p><em>Frontiers in Cell and Developmental Biology</em> (2022)</p>
-      <p>Developed ML algorithms for exosome feature analysis in cancer research</p>
+      <p>Assisted in developing machine learning algorithms for exosome feature analysis and classification in hepatocellular carcinoma
+research</p>
     </div>
   </div>
   
@@ -175,44 +180,44 @@ I am a postgraduate student passionate about the intersection of medical image a
     <div>
       <h4>Multi-omics and Machine Learning-driven CD8+ T Cell Heterogeneity Score for Prognosis</h4>
       <p><em>Molecular Therapy Nucleic Acids</em> (2024)</p>
-      <p>Implemented ML algorithms for key gene identification in cancer research</p>
+      <p>Helped implement various machine learning algorithms for key gene identification in HNSCC research</p>
     </div>
   </div>
 </div>
 
 ---
 
-## Questions I'm Exploring
+## Topics I'm Curious About
 
-<div class="questions-exploring">
+<div class="curious-about">
   <div class="question-item">
-    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>How can we bridge the gap between computer vision systems and physical robot actions?</h4>
+    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>How can computer vision systems be integrated with physical robot actions?</h4>
   </div>
   
   <div class="question-item">
-    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>What are the most effective approaches for robots to learn from limited demonstrations?</h4>
+    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>What approaches enable multi-agent systems to collaborate effectively?</h4>
   </div>
   
   <div class="question-item">
-    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>How can medical imaging expertise contribute to better perceptual systems for robots?</h4>
+    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>How might medical imaging techniques inform better perception systems for embodied AI?</h4>
   </div>
 </div>
 
 ---
 
-## Future Goals
+## Learning Goals
 
 <div class="future-goals">
   <div class="goal-item">
-    <h4><i class="fas fa-lightbulb" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i><strong>Contribute to research</strong> at the intersection of computer vision, robotics, and reinforcement learning</h4>
+    <h4><i class="fas fa-lightbulb" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i><strong>Develop understanding</strong> of the intersection between computer vision, robotics, and multi-agent systems</h4>
   </div>
   
   <div class="goal-item">
-    <h4><i class="fas fa-university" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i><strong>Pursue doctoral studies</strong> focused on innovative applications of embodied intelligence in healthcare</h4>
+    <h4><i class="fas fa-university" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i><strong>Continue academic growth</strong> toward research in embodied intelligence and healthcare applications</h4>
   </div>
   
   <div class="goal-item">
-    <h4><i class="fas fa-hands-helping" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i><strong>Develop AI solutions</strong> that address real-world healthcare challenges through embodied intelligence</h4>
+    <h4><i class="fas fa-hands-helping" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i><strong>Learn to create</strong> AI solutions that could address real-world challenges through collaborative intelligence</h4>
   </div>
 </div>
 

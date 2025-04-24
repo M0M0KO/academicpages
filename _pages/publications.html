@@ -18,11 +18,14 @@ author_profile: true
 </div>
 
 <!-- Publication Filters -->
-<div class="publication-filters" style="margin: 2em 0; display: flex; flex-wrap: wrap; gap: 10px;">
-  <button id="filter-all" class="filter-btn active" style="padding: 6px 12px; background-color: #f8f9fa; border: 1px solid #ddd; border-radius: 4px; cursor: pointer; font-size: 0.9em; font-weight: 500;">All</button>
-  {% for category in site.publication_category %}
-    <button id="filter-{{ category[0] }}" class="filter-btn" style="padding: 6px 12px; background-color: #f8f9fa; border: 1px solid #ddd; border-radius: 4px; cursor: pointer; font-size: 0.9em; font-weight: 500;">{{ category[1].title }}</button>
-  {% endfor %}
+<div class="publication-filters" style="margin: 2em 0;">
+  <h3 style="margin-bottom: 0.5em; color: #494e52;">Filter Publications:</h3>
+  <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <button id="filter-all" class="filter-btn active" style="padding: 8px 15px; background-color: #f8f9fa; border: 1px solid #ddd; border-radius: 4px; cursor: pointer; font-size: 0.9em; font-weight: 500; transition: all 0.2s ease;">All</button>
+    {% for category in site.publication_category %}
+      <button id="filter-{{ category[0] }}" class="filter-btn" style="padding: 8px 15px; background-color: #f8f9fa; border: 1px solid #ddd; border-radius: 4px; cursor: pointer; font-size: 0.9em; font-weight: 500; transition: all 0.2s ease;">{{ category[1].title }}</button>
+    {% endfor %}
+  </div>
 </div>
 
 <!-- All Publications Section -->
@@ -57,7 +60,9 @@ author_profile: true
 
 <!-- Simple JavaScript for filtering -->
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
+// 立即执行函数，确保代码无论何时加载都会运行
+(function() {
+  function initFilters() {
     // Get all filter buttons
     const filterButtons = document.querySelectorAll('.filter-btn');
     const categories = document.querySelectorAll('.publication-category');
@@ -92,7 +97,16 @@ author_profile: true
         }
       });
     });
-  });
+  }
+
+  // 在DOM完全加载后执行初始化
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initFilters);
+  } else {
+    // 如果DOM已经加载完毕，直接执行
+    initFilters();
+  }
+})();
 </script>
 
 <style>

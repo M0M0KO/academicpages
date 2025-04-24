@@ -74,16 +74,16 @@
           {% if post.citation or post.bibtex %}
             <div class="citation-block" style="margin-bottom: 0.5em;">
               <details>
-                <summary style="cursor: pointer; color: #444; font-size: 0.9em; font-weight: 500;">
+                <summary style="cursor: pointer; color: #0366d6; font-size: 0.9em; font-weight: 500; padding: 8px; background-color: #f0f7ff; border-radius: 4px; display: inline-block; margin-bottom: 5px; transition: all 0.2s ease;">
                   <i class="fas fa-quote-left" aria-hidden="true"></i> Show citation
                 </summary>
                 <div style="margin-top: 0.5em; font-size: 0.9em;">
                   <!-- Citation Tabs -->
                   <div class="citation-tabs" style="display: flex; border-bottom: 1px solid #ddd; margin-bottom: 10px;">
-                    <div class="tab active" data-tab="ama" style="padding: 5px 10px; cursor: pointer; border: 1px solid #ddd; border-bottom: none; border-radius: 4px 4px 0 0; margin-right: 5px; background-color: #f8f9fa;">AMA</div>
-                    <div class="tab" data-tab="apa" style="padding: 5px 10px; cursor: pointer; border: 1px solid #ddd; border-bottom: none; border-radius: 4px 4px 0 0; margin-right: 5px;">APA</div>
+                    <div class="tab active" data-tab="ama" style="padding: 8px 15px; cursor: pointer; border: 1px solid #ddd; border-bottom: none; border-radius: 4px 4px 0 0; margin-right: 5px; background-color: #f8f9fa; transition: all 0.2s ease; font-weight: 500;">AMA</div>
+                    <div class="tab" data-tab="apa" style="padding: 8px 15px; cursor: pointer; border: 1px solid #ddd; border-bottom: none; border-radius: 4px 4px 0 0; margin-right: 5px; transition: all 0.2s ease; font-weight: 500;">APA</div>
                     {% if post.bibtex %}
-                    <div class="tab" data-tab="bibtex" style="padding: 5px 10px; cursor: pointer; border: 1px solid #ddd; border-bottom: none; border-radius: 4px 4px 0 0;">BibTeX</div>
+                    <div class="tab" data-tab="bibtex" style="padding: 8px 15px; cursor: pointer; border: 1px solid #ddd; border-bottom: none; border-radius: 4px 4px 0 0; transition: all 0.2s ease; font-weight: 500;">BibTeX</div>
                     {% endif %}
                   </div>
                   
@@ -184,30 +184,41 @@
 </style>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  // 为所有citation-tabs中的tab添加点击事件
-  document.querySelectorAll('.citation-tabs .tab').forEach(function(tab) {
-    tab.addEventListener('click', function() {
-      // 获取当前details元素
-      const details = this.closest('details');
-      
-      // 移除所有tab的active类
-      details.querySelectorAll('.tab').forEach(function(t) {
-        t.classList.remove('active');
+// 立即执行函数，确保代码无论何时加载都会运行
+(function() {
+  function initCitationTabs() {
+    // 为所有citation-tabs中的tab添加点击事件
+    document.querySelectorAll('.citation-tabs .tab').forEach(function(tab) {
+      tab.addEventListener('click', function() {
+        // 获取当前details元素
+        const details = this.closest('details');
+        
+        // 移除所有tab的active类
+        details.querySelectorAll('.tab').forEach(function(t) {
+          t.classList.remove('active');
+        });
+        
+        // 添加当前tab的active类
+        this.classList.add('active');
+        
+        // 隐藏所有内容
+        details.querySelectorAll('.tab-content').forEach(function(content) {
+          content.style.display = 'none';
+        });
+        
+        // 显示当前tab对应的内容
+        const tabId = this.getAttribute('data-tab');
+        details.querySelector(`#${tabId}-content`).style.display = 'block';
       });
-      
-      // 添加当前tab的active类
-      this.classList.add('active');
-      
-      // 隐藏所有内容
-      details.querySelectorAll('.tab-content').forEach(function(content) {
-        content.style.display = 'none';
-      });
-      
-      // 显示当前tab对应的内容
-      const tabId = this.getAttribute('data-tab');
-      details.querySelector(`#${tabId}-content`).style.display = 'block';
     });
-  });
-});
+  }
+
+  // 在DOM完全加载后执行初始化
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initCitationTabs);
+  } else {
+    // 如果DOM已经加载完毕，直接执行
+    initCitationTabs();
+  }
+})();
 </script>
