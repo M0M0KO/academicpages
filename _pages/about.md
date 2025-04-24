@@ -8,38 +8,25 @@ redirect_from:
 ---
 
 <div style="text-align: center; margin-bottom: 2em;">
-  <h1 style="font-size: 2.5em; color: #494e52;">About</h1>
+  <h1 style="font-size: 2.5em; color: #494e52;">About Me</h1>
 </div>
 
-## About Me
+## At a Glance
 
-I am a postgraduate student with background experience in medical image analysis and object detection. That was my starting point, but I am now transitioning and self-learning in the field of embodied intelligence. I am interested in how AI can be integrated with physical systems to interact with the real world. As a student, I hope to bridge my past experience in computer vision with new knowledge in robotics and embodied AI systems.
+I am a postgraduate student passionate about the intersection of medical image analysis and embodied intelligence. My academic journey began with computer vision and object detection, and I am now transitioning into the exciting field of embodied AI systems that can interact meaningfully with the physical world. I aim to bridge my experience in medical imaging with emerging knowledge in robotics and embodied intelligence to develop AI systems that can help solve real-world challenges.
 
----
-
-## Learning Journey
-
-<div class="learning-journey">
-  <p>As someone new to the field of embodied AI, I believe in the power of continuous learning and exploration. My approach to this exciting field includes:</p>
-  
-  <div class="journey-point">
-    <h4><i class="fas fa-book-open" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i><strong>Learning from fundamentals</strong>: Building a solid theoretical foundation before diving into advanced concepts</h4>
+<div class="highlight-box">
+  <div class="highlight-item">
+    <i class="fas fa-graduation-cap" style="font-size: 1.2em; color: #4285F4;"></i>
+    <p><strong>Education:</strong> M.S. in AI & Adaptive Systems (In Progress), B.S. in Computer Science</p>
   </div>
-  
-  <div class="journey-point">
-    <h4><i class="fas fa-laptop-code" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i><strong>Hands-on practice</strong>: Implementing basic concepts in small projects to reinforce understanding</h4>
+  <div class="highlight-item">
+    <i class="fas fa-flask" style="font-size: 1.2em; color: #4285F4;"></i>
+    <p><strong>Research:</strong> Medical AI, Computer Vision, Embodied Intelligence</p>
   </div>
-  
-  <div class="journey-point">
-    <h4><i class="fas fa-users" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i><strong>Learning from the community</strong>: Following research papers, tutorials, and discussions from experts in the field</h4>
-  </div>
-  
-  <div class="journey-point">
-    <h4><i class="fas fa-sync-alt" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i><strong>Iterative improvement</strong>: Embracing the learning curve and using each challenge as an opportunity to grow</h4>
-  </div>
-  
-  <div class="journey-point">
-    <h4><i class="fas fa-puzzle-piece" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i><strong>Connecting knowledge domains</strong>: Finding ways to apply my background in computer vision to new concepts in robotics</h4>
+  <div class="highlight-item">
+    <i class="fas fa-trophy" style="font-size: 1.2em; color: #4285F4;"></i>
+    <p><strong>Recognition:</strong> Multiple competition medals, published research, patent applications</p>
   </div>
 </div>
 
@@ -50,7 +37,7 @@ I am a postgraduate student with background experience in medical image analysis
 <div class="research-interests">
   <div>
     <i class="fas fa-brain" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
-    <strong>Medical AI</strong>: Previous experience with deep learning for medical image analysis, disease prediction and diagnosis, multi-modal clinical data integration
+    <strong>Medical AI</strong>: Deep learning for medical image analysis, disease prediction and diagnosis, multi-modal clinical data integration
   </div>
   <div>
     <i class="fas fa-robot" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
@@ -58,239 +45,138 @@ I am a postgraduate student with background experience in medical image analysis
   </div>
   <div>
     <i class="fas fa-eye" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
-    <strong>Computer Vision</strong>: Experience with attention-based object detection and image segmentation
+    <strong>Computer Vision</strong>: Attention-based object detection, image segmentation, and human behavior recognition
   </div>
   <div>
     <i class="fas fa-project-diagram" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
-    <strong>Multi-modal Learning</strong>: Exploring Vision-Language-Action(VLA) model for embodied AI systems
+    <strong>Multi-modal Learning</strong>: Exploring Vision-Language-Action(VLA) models for embodied AI systems
   </div>
 </div>
 
 ---
 
-## Education
+## Current Focus
 
-<div class="education">
-  <div class="education-entry">
-    <h3><i class="fas fa-graduation-cap" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Master in Artificial Intelligence and Adaptive System</h3>
-    <p><em>Sussex Artificial Intelligence Institute, Zhejiang Gongshang University</em><br>
-    Hangzhou, China<br>
-    Sept 2024 -- Present</p>
-    <ul>
-      <li>Current Study: Algorithms with applications in embodied intelligence</li>
-      <li>Key Courses: Intelligence in Animals and Machines, Intelligent Systems Techniques, Image Processing, Machine Learning</li>
-    </ul>
-  </div>
-
-  <div class="education-entry">
-    <h3><i class="fas fa-graduation-cap" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Bachelor in Computer Science and Technology</h3>
-    <p><em>Wenzhou Business College</em><br>
-    Wenzhou, China<br>
-    Sept 2019 -- June 2023</p>
-    <ul>
-      <li>GPA: 3.41/5.0 (84.7/100)</li>
-      <li>Undergraduate Thesis: "Smoking behavior detection based on deep learning and skeletal framework"</li>
-    </ul>
+<div class="current-focus">
+  <p>I'm currently focused on developing the foundational knowledge and skills needed to contribute to the field of embodied intelligence:</p>
+  
+  <div class="focus-grid">
+    <div class="focus-item">
+      <i class="fas fa-book-open" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
+      <div>
+        <h4>Building Foundations</h4>
+        <p>Learning core robotics concepts, reinforcement learning, and computational perception</p>
+      </div>
+    </div>
+    
+    <div class="focus-item">
+      <i class="fas fa-laptop-code" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
+      <div>
+        <h4>Practical Implementation</h4>
+        <p>Working with simulation environments like MuJoCo and developing proof-of-concept projects</p>
+      </div>
+    </div>
+    
+    <div class="focus-item">
+      <i class="fas fa-puzzle-piece" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
+      <div>
+        <h4>Knowledge Integration</h4>
+        <p>Connecting my medical imaging experience with robotics to solve healthcare challenges</p>
+      </div>
+    </div>
   </div>
 </div>
 
 ---
 
-## Research Experience
+## Notable Projects
 
-<div class="experience">
-  <div class="experience-entry">
-    <h3><i class="fas fa-flask" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Research Intern</h3>
-    <p><em>Wenzhou Medical University First Affiliated Hospital - Hepato-Pancreato-biliary surgery Laboratory</em><br>
-    Wenzhou, China<br>
-    Sept 2022 -- Jan 2023</p>
-    <ul>
-      <li>Participated in the development of medical image preprocessing software for clinical applications, contributing to software copyright registration</li>
-      <li>Assisted in designing and implementing deep learning models for leukemia diagnosis based on tongue image analysis</li>
-      <li>Helped create machine learning algorithms for exosome feature analysis in hepatocellular carcinoma research</li>
-      <li>Collaborated with medical professionals to validate the effectiveness of developed algorithms and systems</li>
-    </ul>
+<div class="projects-preview">
+  <div class="project-card">
+    <div class="project-icon">
+      <i class="fas fa-project-diagram" style="font-size: 1.5em; color: #4285F4;"></i>
+    </div>
+    <div class="project-details">
+      <h4>Enhanced YOLO with Attention Mechanism</h4>
+      <p>Improved object detection accuracy while maintaining real-time performance by incorporating self-attention modules into YOLO architecture</p>
+      <p class="tech-used">PyTorch | Computer Vision | YOLO</p>
+    </div>
   </div>
-
-  <div class="experience-entry">
-    <h3><i class="fas fa-users" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Student Team Leader</h3>
-    <p><em>National Innovation Training Project, Wenzhou Business College</em><br>
-    June 2022 -- June 2023</p>
-    <ul>
-      <li>Participated in research on enhancing YOLO architecture with attention mechanisms for real-time object detection</li>
-      <li>Studied the application of self-attention module and its impact on detection accuracy</li>
-      <li>Worked with a team of 4 students, learning about technical development and experimental validation</li>
-      <li>Contributed to the project's intellectual property outcomes, including patent applications and software copyrights</li>
-    </ul>
+  
+  <div class="project-card">
+    <div class="project-icon">
+      <i class="fas fa-microscope" style="font-size: 1.5em; color: #4285F4;"></i>
+    </div>
+    <div class="project-details">
+      <h4>Medical Image Preprocessing Pipeline</h4>
+      <p>Developed software for standardizing multi-source medical images with noise reduction and artifact removal for clinical applications</p>
+      <p class="tech-used">Python | OpenCV | Medical Imaging</p>
+    </div>
+  </div>
+  
+  <div class="project-card">
+    <div class="project-icon">
+      <i class="fas fa-smoking" style="font-size: 1.5em; color: #4285F4;"></i>
+    </div>
+    <div class="project-details">
+      <h4>Smoking Behavior Detection</h4>
+      <p>Created a system using pose estimation and temporal sequence modeling to detect and analyze smoking gestures</p>
+      <p class="tech-used">Deep Learning | Pose Estimation | Action Recognition</p>
+    </div>
   </div>
 </div>
 
 ---
 
-## Current Learning Focus
+## Selected Achievements
 
-<div class="learning-focus">
-  <ul>
-    <li><i class="fas fa-graduation-cap" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i> <strong>Foundations of Robotics</strong>: Studying core robotics concepts including kinematics, dynamics, and control systems</li>
-    <li><i class="fas fa-code-branch" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i> <strong>Reinforcement Learning</strong>: Learning policies for robotic control and decision-making in physical environments</li>
-    <li><i class="fas fa-microchip" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i> <strong>Vision-Language-Action Models</strong>: Exploring how multimodal inputs can guide embodied agents to perform real-world tasks</li>
-    <li><i class="fas fa-sitemap" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i> <strong>Sensorimotor Learning</strong>: Understanding how perception and action can be effectively integrated in AI systems</li>
-    <li><i class="fas fa-flask" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i> <strong>Simulation Environments</strong>: Working with platforms like MuJoCo, Isaac Gym, and Habitat for embodied AI research</li>
-  </ul>
-</div>
+<div class="achievements-preview">
+  <div class="achievement-card">
+    <i class="fas fa-trophy" style="font-size: 1.2em; color: #D4AF37; margin-right: 0.5em;"></i>
+    <div>
+      <h4>Stanford RNA 3D Folding Competition</h4>
+      <p>Bronze Medal (87th/1093 Place) | Kaggle Global Competition</p>
+    </div>
+  </div>
 
----
-
-## Learning Resources
-
-<div class="learning-resources">
-  <p>As a self-directed learner in embodied AI, I'm currently studying from these resources:</p>
-  
-  <div class="resource-category">
-    <h3><i class="fas fa-book" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i> Books & Textbooks</h3>
-    <ul>
-      <li>"Modern Robotics: Mechanics, Planning, and Control" by Kevin Lynch and Frank Park</li>
-      <li>"Reinforcement Learning: An Introduction" by Richard S. Sutton and Andrew G. Barto</li>
-      <li>"Probabilistic Robotics" by Sebastian Thrun, Wolfram Burgard, and Dieter Fox</li>
-    </ul>
+  <div class="achievement-card">
+    <i class="fas fa-medal" style="font-size: 1.2em; color: #CD7F32; margin-right: 0.5em;"></i>
+    <div>
+      <h4>18th Challenge Cup College Student Competition</h4>
+      <p>Bronze Medal Recipient | Zhejiang Province</p>
+    </div>
   </div>
   
-  <div class="resource-category">
-    <h3><i class="fas fa-laptop" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i> Online Courses</h3>
-    <ul>
-      <li>Stanford CS231n: Convolutional Neural Networks for Visual Recognition</li>
-      <li>UC Berkeley CS285: Deep Reinforcement Learning</li>
-      <li>MIT 6.S094: Deep Learning for Self-Driving Cars</li>
-    </ul>
-  </div>
-  
-  <div class="resource-category">
-    <h3><i class="fas fa-code-branch" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i> Code Repositories & Projects</h3>
-    <ul>
-      <li>OpenAI Gym and MuJoCo environments for reinforcement learning practice</li>
-      <li>PyBullet physics simulator for robotics</li>
-      <li>Open-source computer vision libraries and tutorials</li>
-    </ul>
-  </div>
-  
-  <div class="resource-category">
-    <h3><i class="fas fa-user-graduate" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i> Research Papers</h3>
-    <ul>
-      <li>Survey papers on robot learning and embodied AI</li>
-      <li>Case studies on successful applications of computer vision in robotics</li>
-      <li>State-of-the-art papers in multimodal learning for embodied agents</li>
-    </ul>
+  <div class="achievement-card">
+    <i class="fas fa-award" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
+    <div>
+      <h4>4th National "Chuanzhi Cup" IT Skills Competition</h4>
+      <p>Provincial Excellent Award | Zhejiang Province</p>
+    </div>
   </div>
 </div>
 
 ---
 
-## Projects
+## Publications Highlight
 
-<div class="projects">
-  <div class="project-entry">
-    <h3><i class="fas fa-project-diagram" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Enhanced YOLO with Attention Mechanism</h3>
-    <p><em>Object Detection Research Project</em></p>
-    <p>Implemented an improved YOLO architecture incorporating self-attention modules to enhance detection accuracy while maintaining real-time performance. The project specifically focused on:</p>
-    <ul>
-      <li>Designing a lightweight attention mechanism compatible with YOLO's architecture</li>
-      <li>Benchmarking performance improvements on standard datasets</li>
-      <li>Optimizing for real-time inference on resource-constrained devices</li>
-    </ul>
-    <p><strong>Technologies</strong>: PyTorch, YOLO, Computer Vision</p>
+<div class="publication-preview">
+  <div class="publication-card">
+    <i class="fas fa-file-alt" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
+    <div>
+      <h4>Machine Learning Identifies Exosome Features Related to Hepatocellular Carcinoma</h4>
+      <p><em>Frontiers in Cell and Developmental Biology</em> (2022)</p>
+      <p>Developed ML algorithms for exosome feature analysis in cancer research</p>
+    </div>
   </div>
   
-  <div class="project-entry">
-    <h3><i class="fas fa-microscope" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Medical Image Preprocessing Pipeline</h3>
-    <p><em>Clinical Software Development</em></p>
-    <p>Developed a comprehensive preprocessing pipeline for medical images to support clinical diagnostic applications. This software:</p>
-    <ul>
-      <li>Standardized image formats from multiple medical imaging devices</li>
-      <li>Implemented noise reduction and artifact removal algorithms</li>
-      <li>Created an intuitive interface for medical professionals</li>
-      <li>Resulted in registered software copyright</li>
-    </ul>
-    <p><strong>Technologies</strong>: Python, OpenCV, Medical Imaging Libraries</p>
-  </div>
-  
-  <div class="project-entry">
-    <h3><i class="fas fa-smoking" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Smoking Behavior Detection System</h3>
-    <p><em>Undergraduate Thesis Project</em></p>
-    <p>Designed and implemented a system to automatically detect smoking behavior using pose estimation and deep learning. The system:</p>
-    <ul>
-      <li>Utilized skeletal framework analysis to identify characteristic smoking gestures</li>
-      <li>Employed temporal sequence modeling to differentiate smoking from similar actions</li>
-      <li>Achieved high accuracy in both controlled and real-world environments</li>
-    </ul>
-    <p><strong>Technologies</strong>: Deep Learning, Human Pose Estimation, Action Recognition</p>
-  </div>
-</div>
-
----
-
-## Skills
-
-<div class="skills">
-  <div class="skill-category">
-    <h3><i class="fas fa-code" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i> Programming</h3>
-    <p>Python, C, Java, C#, SQL, JavaScript, Vue</p>
-  </div>
-  
-  <div class="skill-category">
-    <h3><i class="fas fa-brain" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i> Deep Learning</h3>
-    <p>PyTorch, TensorFlow, Computer Vision, NLP</p>
-  </div>
-  
-  <div class="skill-category">
-    <h3><i class="fas fa-tools" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i> Research Tools</h3>
-    <p>LaTeX, Git, Linux</p>
-  </div>
-  
-  <div class="skill-category">
-    <h3><i class="fas fa-chart-bar" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i> Data Analysis</h3>
-    <p>Statistical Analysis, Data Visualization</p>
-  </div>
-  
-  <div class="skill-category">
-    <h3><i class="fas fa-globe" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i> Languages</h3>
-    <p>English (IELTS 6.0: L:6.5, R:6.5, W:5.5, S:6.0)</p>
-    <p>CET-6 467</p>
-  </div>
-  
-  <div class="skill-category">
-    <h3><i class="fas fa-certificate" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i> Certifications</h3>
-    <p>DevCloud Summer Training Camp (Huawei), Python, AI, Deep Learning Basics (Shandong University)</p>
-  </div>
-</div>
-
----
-
-## Academic Achievements
-
-<div class="achievements">
-  <div class="achievement-item">
-    <h4><i class="fas fa-trophy" style="font-size: 1.2em; color: #D4AF37; margin-right: 0.5em;"></i>Stanford RNA 3D Folding Competition</h4>
-    <p>Bronze Medal (87th/1093 Place) | Kaggle Global Competition | Ongoing</p>
-  </div>
-
-  <div class="achievement-item">
-    <h4><i class="fas fa-chart-line" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Predict Podcast Listening Time Competition</h4>
-    <p>Current Rank: 154th/2565 | Kaggle Global Competition | Ongoing</p>
-  </div>
-  
-  <div class="achievement-item">
-    <h4><i class="fas fa-trophy" style="font-size: 1.2em; color: #C0C0C0; margin-right: 0.5em;"></i>Kaggle HuBMAP + HPA Competition</h4>
-    <p>Participant, Top 38% (442nd Place) | Global Competition | Sept 2022</p>
-  </div>
-  
-  <div class="achievement-item">
-    <h4><i class="fas fa-medal" style="font-size: 1.2em; color: #CD7F32; margin-right: 0.5em;"></i>18th Challenge Cup College Student Competition</h4>
-    <p>Bronze Medal Recipient | Zhejiang Province | May 2023</p>
-  </div>
-  
-  <div class="achievement-item">
-    <h4><i class="fas fa-trophy" style="font-size: 1.2em; color: #FFD700; margin-right: 0.5em;"></i>Internet+ School-level Competition</h4>
-    <p>1st Place Team Member | Wenzhou Business College | May 2022</p>
+  <div class="publication-card">
+    <i class="fas fa-file-alt" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
+    <div>
+      <h4>Multi-omics and Machine Learning-driven CD8+ T Cell Heterogeneity Score for Prognosis</h4>
+      <p><em>Molecular Therapy Nucleic Acids</em> (2024)</p>
+      <p>Implemented ML algorithms for key gene identification in cancer research</p>
+    </div>
   </div>
 </div>
 
@@ -299,8 +185,6 @@ I am a postgraduate student with background experience in medical image analysis
 ## Questions I'm Exploring
 
 <div class="questions-exploring">
-  <p>As a newcomer to embodied AI, I'm particularly curious about these questions:</p>
-  
   <div class="question-item">
     <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>How can we bridge the gap between computer vision systems and physical robot actions?</h4>
   </div>
@@ -312,14 +196,6 @@ I am a postgraduate student with background experience in medical image analysis
   <div class="question-item">
     <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>How can medical imaging expertise contribute to better perceptual systems for robots?</h4>
   </div>
-  
-  <div class="question-item">
-    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>What are the challenges in transferring learning from simulated to real-world environments?</h4>
-  </div>
-  
-  <div class="question-item">
-    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>How can multi-modal learning help robots better understand and interact with their surroundings?</h4>
-  </div>
 </div>
 
 ---
@@ -327,131 +203,269 @@ I am a postgraduate student with background experience in medical image analysis
 ## Future Goals
 
 <div class="future-goals">
-  <p>As I continue my academic and research journey in embodied AI, I aim to:</p>
-  
   <div class="goal-item">
     <h4><i class="fas fa-lightbulb" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i><strong>Contribute to research</strong> at the intersection of computer vision, robotics, and reinforcement learning</h4>
   </div>
   
   <div class="goal-item">
-    <h4><i class="fas fa-users" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i><strong>Collaborate with interdisciplinary teams</strong> to develop AI systems that can safely and effectively interact with humans and their environments</h4>
+    <h4><i class="fas fa-university" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i><strong>Pursue doctoral studies</strong> focused on innovative applications of embodied intelligence in healthcare</h4>
   </div>
   
   <div class="goal-item">
-    <h4><i class="fas fa-university" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i><strong>Pursue doctoral studies</strong> focused on innovative applications of embodied intelligence in healthcare or assistive technologies</h4>
-  </div>
-  
-  <div class="goal-item">
-    <h4><i class="fas fa-hands-helping" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i><strong>Develop AI solutions</strong> that address real-world challenges and improve quality of life</h4>
+    <h4><i class="fas fa-hands-helping" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i><strong>Develop AI solutions</strong> that address real-world healthcare challenges through embodied intelligence</h4>
   </div>
 </div>
 
 <style>
-  .research-interests div, 
-  .education-entry, 
-  .experience-entry,
-  .skill-category,
-  .project-entry,
-  .question-item,
-  .goal-item,
-  .journey-point,
-  .resource-category,
-  .achievement-item {
+  /* Global styles */
+  h2 {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    padding-bottom: 0.5em;
+    border-bottom: 2px solid #f0f0f0;
+    color: #333;
+    font-weight: 600;
+  }
+  
+  hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
+    margin: 2em 0;
+  }
+  
+  /* Highlight box */
+  .highlight-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1em;
+    margin: 1.5em 0;
+  }
+  
+  .highlight-item {
+    flex: 1 0 30%;
+    min-width: 250px;
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5em;
+    padding: 1em;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+  
+  /* Research interests */
+  .research-interests {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1em;
+  }
+  
+  .research-interests div {
+    padding: 1em;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .research-interests div:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  /* Current focus */
+  .focus-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1.5em;
+    margin-top: 1em;
+  }
+  
+  .focus-item {
+    display: flex;
+    align-items: flex-start;
+    background-color: #f8f9fa;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .focus-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .focus-item h4 {
+    margin: 0 0 0.5em 0;
+    color: #494e52;
+  }
+  
+  .focus-item p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #666;
+  }
+  
+  /* Projects preview */
+  .projects-preview {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: a1.5em;
+  }
+  
+  .project-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 1em;
+    padding: 1.2em;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     margin-bottom: 1.5em;
+    transition: all 0.2s ease-in-out;
   }
   
-  .education-entry h3,
-  .experience-entry h3,
-  .skill-category h3,
-  .project-entry h3,
-  .resource-category h3 {
-    margin-bottom: 0.5em;
+  .project-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .project-icon {
+    flex-shrink: 0;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .project-details h4 {
+    margin: 0 0 0.5em 0;
     color: #494e52;
   }
   
-  .learning-focus ul,
-  .resource-category ul {
-    list-style-type: none;
-    padding-left: 1em;
+  .project-details p {
+    margin: 0 0 0.5em 0;
+    font-size: 0.95em;
+    color: #333;
   }
   
-  /* 统一图标样式 */
-  .fa, .fas, .far, .fab {
+  .tech-used {
+    font-size: 0.85em !important;
+    color: #666 !important;
+    font-style: italic;
+  }
+  
+  /* Achievements preview */
+  .achievements-preview {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+  }
+  
+  .achievement-card {
+    display: flex;
+    align-items: flex-start;
+    background-color: #f8f9fa;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .achievement-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .achievement-card h4 {
+    margin: 0 0 0.3em 0;
     color: #494e52;
   }
   
-  /* 成就图标特殊样式 - 覆盖全局样式 */
-  .achievement-item .fas {
-    color: inherit; /* 使用内联定义的颜色 */
+  .achievement-card p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #666;
   }
   
-  .section-icon {
-    font-size: 1.2em;
-    margin-right: 0.5em;
+  /* Publications preview */
+  .publication-preview {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1em;
+  }
+  
+  .publication-card {
+    display: flex;
+    align-items: flex-start;
+    background-color: #f8f9fa;
+    padding: 1em;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .publication-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .publication-card h4 {
+    margin: 0 0 0.3em 0;
     color: #494e52;
   }
   
-  /* 学习旅程和问题探索 */
-  .journey-point,
+  .publication-card p {
+    margin: 0 0 0.3em 0;
+    font-size: 0.9em;
+    color: #666;
+  }
+  
+  /* Questions and goals */
   .question-item,
-  .goal-item,
-  .achievement-item {
+  .goal-item {
     background-color: #f8f9fa;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     padding: 1em;
+    margin-bottom: 1em;
+    transition: all 0.2s ease-in-out;
   }
   
-  /* 成就项悬停效果 */
-  .achievement-item {
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-  }
-  
-  .achievement-item:hover {
+  .question-item:hover,
+  .goal-item:hover {
     transform: translateY(-3px);
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   }
   
-  .journey-point h4,
   .question-item h4,
-  .goal-item h4,
-  .achievement-item h4 {
-    margin: 0 0 0.5em 0;
+  .goal-item h4 {
+    margin: 0;
     color: #494e52;
     display: flex;
     align-items: center;
   }
   
-  .question-item h4,
-  .goal-item h4 {
-    margin-bottom: 0;
+  /* Icon consistency */
+  .fa, .fas, .far, .fab {
+    color: inherit;
   }
   
-  .skills {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    grid-gap: 1em;
-  }
-  
-  .project-entry,
-  .resource-category {
-    padding: 1em;
-    background-color: #f8f9fa;
-    border-radius: 5px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-  }
-  
-  .learning-journey p,
-  .learning-resources p,
-  .questions-exploring p {
-    margin-bottom: 1.5em;
-    font-style: italic;
-  }
-  
+  /* Responsive adjustments */
   @media (max-width: 768px) {
-    .skills {
+    .highlight-box,
+    .focus-grid,
+    .research-interests {
       grid-template-columns: 1fr;
+    }
+    
+    .highlight-item {
+      flex: 1 0 100%;
     }
   }
 </style>
