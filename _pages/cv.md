@@ -210,9 +210,10 @@ redirect_from:
 </div>
 
 ---
-  
+
 ## Manuscripts Under Review
 
+<div class="manuscripts">
   <div class="paper">
     <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>Using Multiomics and Machine Learning: Insights into Improving the Outcomes of Clear Cell Renal Cell Carcinoma via SRD5A3-AS1/hsa-let-7e-5p/RRM2 Axis</h3>
     <p><strong>Journal:</strong> <em>ACS Omega</em> (Submitted: February 12, 2025 - Under Review)</p>
@@ -233,7 +234,6 @@ redirect_from:
     <p class="contribution">Contribution: Designed and implemented the deep learning architecture for analyzing multi-phase CT images. Developed methods for integrating imaging features with clinical data to create a comprehensive predictive model. Participated in model validation and performance optimization.</p>
   </div>
 
-<div class="manuscripts">
   <div class="paper">
     <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>YOLOv11-LCDFS: Enhanced Smoking Detection With Low-light Enhancement</h3>
     <p><strong>In Revision</strong></p>
