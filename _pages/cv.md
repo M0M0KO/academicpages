@@ -11,7 +11,7 @@ redirect_from:
 
 <div style="text-align: center; margin-bottom: 1.5em;">
   <p style="font-size: 1.1em; color: #494e52; font-style: italic; max-width: 800px; margin: 0 auto;">
-    Medical Image Analysis Researcher transitioning to Embodied Intelligence
+    Computer Vision and Medical AI Postgraduate Student | Exploring Embodied Intelligence
   </p>
   
   <div class="download-button">
@@ -31,7 +31,7 @@ redirect_from:
     <ul>
       <li><strong>Research Focus:</strong> Embodied Intelligence, Robotics</li>
       <li><strong>Core Courses:</strong> Intelligence in Animals and Machines, Intelligent Systems Techniques, Image Processing, Machine Learning</li>
-      <li><strong>Academic Advisor:</strong> [Professor Name]</li>
+      <li><strong>Academic Advisors:</strong> Assistant Professor Peter Wijeratne (Sussex University) and Professor Xie Mande (Zhejiang Gongshang University)</li>
       <li><strong>Expected Graduation:</strong> June 2027</li>
     </ul>
   </div>
@@ -42,9 +42,9 @@ redirect_from:
     Wenzhou, China | 2019-2023</p>
     <ul>
       <li><strong>GPA:</strong> 3.41/5.0 (84.7/100)</li>
-      <li><strong>Thesis:</strong> "Smoking behavior detection based on deep learning and skeletal framework" (Distinguished)</li>
+      <li><strong>Thesis:</strong> "Smoking behavior detection based on deep learning and skeletal framework"</li>
       <li><strong>Relevant Coursework:</strong> Data Structures and Algorithms, Python Programming, Artificial Intelligence, Computer Vision, Data Analysis, Machine Learning</li>
-      <li><strong>Thesis Advisor:</strong> [Professor Name]</li>
+      <li><strong>Thesis Advisor:</strong> Prof. Fangjun Kuang</li>
     </ul>
   </div>
 </div>
@@ -59,12 +59,10 @@ redirect_from:
     <p><em>Wenzhou Medical University First Affiliated Hospital - Hepato-Pancreato-biliary Surgery Laboratory</em><br>
     Wenzhou, China | Sept 2022 - Jan 2023</p>
     <ul>
-      <li>Developed medical image preprocessing software for clinical applications, resulting in software copyright registration (2022SR0252378)</li>
-      <li>Designed and implemented deep learning models for leukemia diagnosis based on tongue image analysis, achieving 84% diagnostic accuracy</li>
-      <li>Created machine learning algorithms for exosome feature analysis in hepatocellular carcinoma research, contributing to a paper published in Frontiers in Cell and Developmental Biology</li>
-      <li>Collaborated with a multidisciplinary team of 6 medical professionals to validate algorithms against clinical data</li>
+      <li>Assisted in developing medical image preprocessing software for clinical applications, resulting in software copyright registration (2022SR0252378)</li>
+      <li>Contributed to deep learning models for leukemia diagnosis based on tongue image analysis</li>
+      <li>Helped create machine learning algorithms for exosome feature analysis in hepatocellular carcinoma research, contributing to a paper published in Frontiers in Cell and Developmental Biology</li>
       <li><strong>Technologies:</strong> PyTorch, TensorFlow, OpenCV, Medical Imaging Libraries</li>
-      <li><strong>Supervisor:</strong> [Professor/Doctor Name], [Title]</li>
     </ul>
   </div>
 
@@ -73,20 +71,20 @@ redirect_from:
     <p><em>Wenzhou Business College</em><br>
     June 2022 - June 2023</p>
     <ul>
-      <li>Led a team of 4 students in research on enhancing YOLO architecture with attention mechanisms for real-time object detection</li>
+      <li>Coordinated a team of 4 students in research on enhancing YOLO architecture with attention mechanisms for real-time object detection</li>
       <li>Implemented and benchmarked self-attention module modifications, achieving a 7% improvement in detection accuracy while maintaining real-time performance</li>
       <li>Conducted experimental validation on multiple datasets including COCO and custom domain-specific datasets</li>
-      <li>Secured 2 software copyrights and 1 patent application based on project outcomes</li>
+      <li>Contributed to securing 2 software copyrights and 1 patent application based on project outcomes</li>
       <li>Managed project timeline, task distribution, and documentation, ensuring project milestones were met on schedule</li>
-      <li><strong>Technologies:</strong> PyTorch, YOLO, Computer Vision, CUDA</li>
-      <li><strong>Advisor:</strong> [Professor Name], [Title]</li>
+      <li><strong>Technologies:</strong> PyTorch, YOLO, Computer Vision</li>
+      <li><strong>Advisor:</strong> Prof. Siyang Zhang</li>
     </ul>
   </div>
 </div>
 
 ---
 
-## Research Interests & Expertise
+## Research Interests
 
 <div class="research-interests">
   <div class="interest-area">
@@ -135,9 +133,9 @@ redirect_from:
     <div class="skill-category">
       <h3><i class="fas fa-code" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>Programming Languages</h3>
       <ul>
-        <li><strong>Advanced:</strong> Python</li>
-        <li><strong>Intermediate:</strong> C, Java, SQL</li>
-        <li><strong>Basic:</strong> C#, JavaScript, Vue</li>
+        <li>Python</li>
+        <li>C, Java, SQL</li>
+        <li>C#, JavaScript, Vue</li>
       </ul>
     </div>
     
@@ -164,7 +162,6 @@ redirect_from:
       <ul>
         <li><strong>Libraries:</strong> NumPy, Pandas, SciPy</li>
         <li><strong>Visualization:</strong> Matplotlib, Seaborn, Plotly</li>
-        <li><strong>Statistics:</strong> Hypothesis Testing, Regression Analysis</li>
       </ul>
     </div>
     
@@ -241,7 +238,7 @@ redirect_from:
     <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>YOLOv11-LCDFS: Enhanced Smoking Detection With Low-light Enhancement</h3>
     <p><strong>Target Journal:</strong> <em>IEEE Transactions on Image Processing</em> (Expected Submission: Q3 2025)</p>
     <p><strong>Authors:</strong> <strong>Jiatao Yan</strong>, Zhuzikai Zheng, Zhengtan Yang, Hao Jiang, Peichen Wang, Fangjun Kuang, Siyang Zhang</p>
-    <p class="contribution">Lead author developing a novel YOLO-based architecture with integrated low-light enhancement capability for reliable smoking behavior detection in challenging lighting conditions. Implementing attention mechanisms and custom data augmentation techniques to improve generalization.</p>
+    <p class="contribution">First author working on a YOLO-based architecture with integrated low-light enhancement capabilities, specialized loss functions, attention mechanisms, and optimized upsampling techniques for improved detection in challenging lighting conditions.</p>
   </div>
 </div>
 
@@ -256,7 +253,7 @@ redirect_from:
     <p><strong>Application Number:</strong> 202310277784.1</p>
     <p><strong>Status:</strong> Pending (Filed March 2023)</p>
     <p><strong>Inventors:</strong> Jiatao Yan, Zhuzikai Zheng, [Other names]</p>
-    <p><strong>Summary:</strong> A novel method combining pose estimation with temporal sequence analysis for real-time smoking behavior detection in public spaces.</p>
+    <p><strong>Summary:</strong> A method combining pose estimation with temporal sequence analysis for real-time smoking behavior detection in public spaces.</p>
   </div>
   
   <div class="software-copyrights">
@@ -295,7 +292,7 @@ redirect_from:
     <div class="achievement-content">
       <h4><i class="fas fa-trophy" style="font-size: 1.2em; color: #D4AF37; margin-right: 0.5em;"></i>Stanford RNA 3D Folding Competition</h4>
       <p><strong>Bronze Medal</strong> | 87th/1093 Place (Top 8%) | Kaggle Global Competition | 2023-Ongoing</p>
-      <p class="achievement-desc">Developed a deep learning approach for predicting RNA 3D structures from sequences, incorporating specialized attention mechanisms to capture long-range interactions.</p>
+      <p class="achievement-desc"></p>
     </div>
   </div>
 
@@ -303,15 +300,15 @@ redirect_from:
     <div class="achievement-content">
       <h4><i class="fas fa-chart-line" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Predict Podcast Listening Time Competition</h4>
       <p><strong>Ranked 154th/2565</strong> | Top 6% | Kaggle Global Competition | 2023-Ongoing</p>
-      <p class="achievement-desc">Created a machine learning pipeline to predict user engagement with podcast content, combining NLP techniques with temporal user behavior analysis.</p>
+      <p class="achievement-desc"></p>
     </div>
   </div>
   
   <div class="achievement-item">
     <div class="achievement-content">
-      <h4><i class="fas fa-trophy" style="font-size: 1.2em; color: #C0C0C0; margin-right: 0.5em;"></i>Kaggle HuBMAP + HPA Competition</h4>
-      <p><strong>Top 38%</strong> | 442nd Place | Global Competition | September 2022</p>
-      <p class="achievement-desc">Implemented semantic segmentation models to identify functional tissue units across different organs in microscopy images.</p>
+      <h4><i class="fas fa-trophy" style="font-size: 1.2em; color: #C0C0C0; margin-right: 0.5em;"></i>HuBMAP + HPA Competition</h4>
+      <p><strong>442nd Place</strong> | Top 38% | Kaggle Global Competition | September 2022</p>
+      <p class="achievement-desc"></p>
     </div>
   </div>
   
@@ -319,7 +316,7 @@ redirect_from:
     <div class="achievement-content">
       <h4><i class="fas fa-medal" style="font-size: 1.2em; color: #CD7F32; margin-right: 0.5em;"></i>18th Challenge Cup College Student Competition</h4>
       <p><strong>Bronze Medal</strong> | Zhejiang Province Level | May 2023</p>
-      <p class="achievement-desc">Developed and presented an innovative smoking behavior detection system based on computer vision and pose estimation, recognized for technical merit and practical application.</p>
+      <p class="achievement-desc"></p>
     </div>
   </div>
   
@@ -327,7 +324,7 @@ redirect_from:
     <div class="achievement-content">
       <h4><i class="fas fa-award" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>4th National "Chuanzhi Cup" IT Skills Competition</h4>
       <p><strong>Provincial Excellent Award</strong> | Zhejiang Province | December 2021</p>
-      <p class="achievement-desc">Recognized for demonstrating exceptional programming and algorithm development skills in a time-constrained competitive environment.</p>
+      <p class="achievement-desc"></p>
     </div>
   </div>
   
@@ -335,7 +332,7 @@ redirect_from:
     <div class="achievement-content">
       <h4><i class="fas fa-award" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>2023 Wenzhou Computer Society Student Member Innovation and Entrepreneurship Award</h4>
       <p><strong>3rd Prize</strong> | Wenzhou | April 2024</p>
-      <p class="achievement-desc">Honored for contributions to innovative applications of computer vision in public health monitoring systems.</p>
+      <p class="achievement-desc"></p>
     </div>
   </div>
 </div>
@@ -346,34 +343,19 @@ redirect_from:
 
 <div class="projects">
   <div class="project-entry">
-    <h3><i class="fas fa-project-diagram" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Enhanced YOLO with Attention Mechanism</h3>
-    <p><strong>Role:</strong> Lead Researcher | <strong>Duration:</strong> June 2022 - June 2023</p>
+    <h3><i class="fas fa-project-diagram" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>YOLOv11-LCDFS: Enhanced Object Detection for Low-light Conditions</h3>
+    <p><strong>Role:</strong> Lead Researcher | <strong>Duration:</strong> June 2023 - Present</p>
     <div class="project-details">
-      <p>Designed and implemented an improved YOLO architecture with self-attention modules for enhanced object detection while maintaining real-time performance capabilities.</p>
+      <p>Extension of smoking detection research focusing on improved object detection in challenging lighting conditions. Developing a novel YOLO-based architecture with specialized components addressing the unique challenges of low-light environments.</p>
       <ul>
-        <li>Integrated a lightweight attention mechanism compatible with YOLO's architecture, optimizing for inference speed</li>
-        <li>Achieved a 7% improvement in mean Average Precision (mAP) over baseline YOLO on standard datasets</li>
-        <li>Conducted extensive benchmarking on multiple hardware configurations to ensure real-time functionality</li>
-        <li>Optimized model for deployment on edge devices with limited computational resources</li>
+        <li>Designing custom loss functions specifically optimized for low-light object detection scenarios</li>
+        <li>Implementing attention mechanisms to focus on key visual features in varying illumination conditions</li>
+        <li>Optimizing upsampling techniques to preserve fine details in dark environments</li>
+        <li>Integrating lightweight low-light enhancement module directly into the detection pipeline</li>
+        <li>Preparing manuscript for submission to IEEE Transactions on Image Processing</li>
       </ul>
-      <p><strong>Technologies:</strong> PyTorch, YOLO, Computer Vision, CUDA, TensorRT</p>
-      <p><strong>Outcomes:</strong> Patent application, 2 software copyrights, technical documentation</p>
-    </div>
-  </div>
-
-  <div class="project-entry">
-    <h3><i class="fas fa-microscope" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Medical Image Preprocessing Pipeline</h3>
-    <p><strong>Role:</strong> Developer | <strong>Duration:</strong> September 2022 - December 2022</p>
-    <div class="project-details">
-      <p>Developed a comprehensive preprocessing pipeline for medical images to support clinical diagnostic applications at Wenzhou Medical University First Affiliated Hospital.</p>
-      <ul>
-        <li>Created standardization algorithms for handling images from multiple medical imaging devices (CT, MRI, ultrasound)</li>
-        <li>Implemented advanced noise reduction and artifact removal techniques specific to medical imaging challenges</li>
-        <li>Designed an intuitive interface for medical professionals with limited technical background</li>
-        <li>Integrated the software with existing hospital information systems for seamless workflow</li>
-      </ul>
-      <p><strong>Technologies:</strong> Python, OpenCV, PyDicom, NumPy, Qt for UI</p>
-      <p><strong>Outcomes:</strong> Software copyright registration, deployment in clinical setting, improved diagnostic workflow efficiency by approximately 40%</p>
+      <p><strong>Technologies:</strong> PyTorch, YOLO, Computer Vision, CUDA, Attention Mechanisms</p>
+      <p><strong>Related Publications:</strong> Manuscript in preparation (First author)</p>
     </div>
   </div>
   
@@ -381,15 +363,97 @@ redirect_from:
     <h3><i class="fas fa-smoking" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Smoking Behavior Detection System</h3>
     <p><strong>Role:</strong> Lead Developer | <strong>Duration:</strong> January 2022 - May 2023</p>
     <div class="project-details">
-      <p>Undergraduate thesis project focused on automatically detecting smoking behavior using pose estimation and deep learning techniques.</p>
+      <p>Undergraduate thesis project combining YOLO object detection with MediaPipe skeletal tracking to accurately identify and classify smoking gestures in video streams.</p>
       <ul>
-        <li>Developed a novel approach combining skeletal framework analysis with temporal modeling to identify characteristic smoking gestures</li>
+        <li>Utilized YOLO object detection to identify cigarettes and related objects in video footage</li>
+        <li>Implemented MediaPipe for real-time skeletal tracking and pose estimation</li>
+        <li>Designed algorithms to recognize characteristic smoking hand-to-mouth gesture patterns</li>
         <li>Created custom datasets with over 10,000 annotated frames for model training and validation</li>
-        <li>Implemented temporal sequence modeling to differentiate smoking from similar hand-to-mouth actions</li>
-        <li>Achieved 89% detection accuracy in controlled environments and 76% in uncontrolled real-world scenarios</li>
+        <li>Integrated temporal sequence modeling to differentiate smoking from similar hand-to-mouth actions</li>
       </ul>
-      <p><strong>Technologies:</strong> Deep Learning, Human Pose Estimation (OpenPose), Action Recognition, PyTorch, OpenCV</p>
-      <p><strong>Outcomes:</strong> Patent application, 2 software copyrights, thesis received distinguished evaluation</p>
+      <p><strong>Technologies:</strong> YOLO, MediaPipe, Pose Estimation, Action Recognition, PyTorch, OpenCV</p>
+      <p><strong>Outcomes:</strong> Patent application (202310277784.1), 2 software copyrights, thesis received distinguished evaluation</p>
+    </div>
+  </div>
+
+  <div class="project-entry">
+    <h3><i class="fas fa-microscope" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Multi-modal Medical Image Analysis for Cancer Research</h3>
+    <p><strong>Role:</strong> Developer | <strong>Duration:</strong> September 2022 - January 2023</p>
+    <div class="project-details">
+      <p>Developed medical image analysis systems for cancer research at Wenzhou Medical University First Affiliated Hospital, contributing to two published papers and multiple manuscripts under review.</p>
+      <ul>
+        <li>Created medical image segmentation algorithms for hepatocellular carcinoma and renal cell carcinoma</li>
+        <li>Designed methods for integrating clinical tabular data with imaging features for comprehensive analysis</li>
+        <li>Implemented multi-modal fusion techniques for combining different CT scan phases</li>
+        <li>Developed 3D volumetric segmentation approaches for comprehensive anatomical analysis</li>
+        <li>Contributed to machine learning algorithms for exosome feature analysis in cancer research</li>
+      </ul>
+      <p><strong>Technologies:</strong> Python, Deep Learning, 3D Segmentation, Multi-modal Fusion, PyDicom, NumPy</p>
+      <p><strong>Related Publications:</strong> Frontiers in Cell and Developmental Biology (2022), Molecular Therapy Nucleic Acids (2024)</p>
+    </div>
+  </div>
+  
+  <div class="project-entry">
+    <h3><i class="fas fa-disease" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Disease Detection Using Deep Learning</h3>
+    <p><strong>Role:</strong> Machine Learning Engineer | <strong>Duration:</strong> March 2022 - August 2022</p>
+    <div class="project-details">
+      <p>Developed deep learning models for automated disease detection and classification from medical imaging data.</p>
+      <ul>
+        <li>Implemented convolutional neural networks for lesion detection and classification</li>
+        <li>Applied transfer learning techniques using pre-trained models (ResNet, DenseNet) adapted to medical imaging</li>
+        <li>Utilized data augmentation strategies to address limited dataset size and improve model generalization</li>
+        <li>Implemented visualization techniques for model interpretability (Grad-CAM, attention maps)</li>
+        <li>Applied models to real-world clinical data with promising results in early disease detection</li>
+      </ul>
+      <p><strong>Technologies:</strong> TensorFlow, Keras, OpenCV, scikit-learn, Medical Imaging Libraries</p>
+      <p><strong>Outcomes:</strong> Improved diagnostic accuracy by 15% compared to baseline approaches</p>
+    </div>
+  </div>
+  
+  <div class="project-entry">
+    <h3><i class="fas fa-comment" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Twitter Sentiment Analysis</h3>
+    <p><strong>Role:</strong> NLP Developer | <strong>Duration:</strong> October 2021 - December 2021</p>
+    <div class="project-details">
+      <p>Built a sentiment analysis system for Twitter comments using natural language processing techniques.</p>
+      <ul>
+        <li>Implemented text preprocessing pipeline for Twitter-specific content (hashtags, mentions, emojis)</li>
+        <li>Explored and compared various feature extraction methods (TF-IDF, word embeddings)</li>
+        <li>Developed and evaluated multiple classification models (LSTM, BERT, traditional ML approaches)</li>
+        <li>Implemented a real-time analysis dashboard for monitoring sentiment trends</li>
+      </ul>
+      <p><strong>Technologies:</strong> Python, NLTK, spaCy, HuggingFace Transformers, Matplotlib</p>
+      <p><strong>Outcomes:</strong> Achieved 87% accuracy in sentiment classification on test dataset</p>
+    </div>
+  </div>
+  
+  <div class="project-entry">
+    <h3><i class="fas fa-envelope" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Spam Email Detection</h3>
+    <p><strong>Role:</strong> ML Developer | <strong>Duration:</strong> July 2021 - September 2021</p>
+    <div class="project-details">
+      <p>Developed a machine learning system to classify emails as spam or legitimate based on content analysis.</p>
+      <ul>
+        <li>Implemented text preprocessing and feature extraction techniques for email content</li>
+        <li>Trained and evaluated multiple classification models (Naive Bayes, SVM, Random Forest)</li>
+        <li>Conducted feature importance analysis to identify key indicators of spam emails</li>
+        <li>Developed a lightweight implementation suitable for real-time filtering</li>
+      </ul>
+      <p><strong>Technologies:</strong> Python, scikit-learn, Pandas, Natural Language Processing</p>
+      <p><strong>Outcomes:</strong> Achieved 95% precision and 92% recall on unseen test data</p>
+    </div>
+  </div>
+  
+  <div class="project-entry">
+    <h3><i class="fas fa-chart-line" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Kaggle Competition Projects</h3>
+    <p><strong>Role:</strong> Data Scientist | <strong>Duration:</strong> 2022 - Present</p>
+    <div class="project-details">
+      <p>Active participation in multiple global Kaggle competitions, achieving notable rankings in bioinformatics and machine learning challenges.</p>
+      <ul>
+        <li><strong>Stanford RNA 3D Folding Competition:</strong> Developed machine learning models to predict RNA molecule 3D structures from sequence data (Bronze Medal, Top 8% globally)</li>
+        <li><strong>Predict Podcast Listening Time Competition:</strong> Created recommendation algorithms to predict user engagement with podcast content (Top 6% globally)</li>
+        <li><strong>HuBMAP + HPA Competition:</strong> Implemented segmentation models for identifying functional tissue units in human kidney microscopy images</li>
+      </ul>
+      <p><strong>Technologies:</strong> Python, PyTorch, Pandas, XGBoost, LightGBM, Deep Learning</p>
+      <p><strong>Achievements:</strong> Bronze Medal (Stanford RNA), Ranked 154th/2565 (Podcast Prediction)</p>
     </div>
   </div>
 </div>
@@ -403,11 +467,11 @@ redirect_from:
     <h3><i class="fas fa-brain" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>Current Learning Focus</h3>
     <p>Self-directed study in embodied intelligence and robotics, focusing on the following areas:</p>
     <ul>
-      <li><strong>Foundations of Robotics:</strong> Learning about kinematics, dynamics, and control systems</li>
-      <li><strong>Reinforcement Learning:</strong> Studying policy optimization and multi-agent reinforcement learning approaches</li>
-      <li><strong>Embodied Cognition:</strong> Exploring how physical interaction shapes intelligence development</li>
-      <li><strong>Multi-Agent Systems:</strong> Understanding how simple individual rules can lead to complex collective behaviors</li>
-      <li><strong>Simulation Environments:</strong> Getting familiar with MuJoCo, Isaac Gym, and Habitat for embodied AI research</li>
+      <li><strong>Core Algorithms for Embodied AI:</strong> Studying reinforcement learning, imitation learning, model predictive control, and diffusion models for robotics</li>
+      <li><strong>Vision-Language-Action Models:</strong> Learning about foundation models that integrate perception, language understanding, and action generation for robotic control</li>
+      <li><strong>Robot Learning:</strong> Exploring techniques for manipulation and navigation in diverse environments with a focus on sim-to-real transfer</li>
+      <li><strong>Multi-Agent Systems:</strong> Investigating coordination mechanisms and emergent behaviors in multi-agent reinforcement learning scenarios</li>
+      <li><strong>Simulation Environments:</strong> Developing expertise with MuJoCo, Isaac Gym, and Habitat for embodied AI research and development</li>
     </ul>
   </div>
   
@@ -415,38 +479,40 @@ redirect_from:
     <h3><i class="fas fa-book" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>Key Learning Resources</h3>
     <ul>
       <li>
-        <strong>Technical Textbooks:</strong>
+        <strong>GitHub:</strong>
         <ul>
-          <li>"Modern Robotics: Mechanics, Planning, and Control" by Kevin Lynch and Frank Park</li>
-          <li>"Reinforcement Learning: An Introduction" by Richard S. Sutton and Andrew G. Barto</li>
-          <li>"Probabilistic Robotics" by Sebastian Thrun, Wolfram Burgard, and Dieter Fox</li>
-        </ul>
-      </li>
-      <li>
-        <strong>Online Courses:</strong>
-        <ul>
-          <li>Stanford CS231n: Convolutional Neural Networks for Visual Recognition</li>
-          <li>UC Berkeley CS285: Deep Reinforcement Learning</li>
-          <li>MIT 6.S094: Deep Learning for Self-Driving Cars</li>
+          <li><strong>Embodied-AI-Guide</strong> (github.com/tianxingchen/Embodied-AI-Guide): A comprehensive guide to embodied intelligence research with 4.6k+ stars. This repository covers:
+            <ul>
+              <li>Core algorithms including reinforcement learning, imitation learning, model predictive control, and diffusion models</li>
+              <li>Vision-Language-Action (VLA) models for robotic control</li>
+              <li>Hardware platforms and simulator environments like MuJoCo, Isaac Gym, and Habitat</li>
+              <li>Computer vision and 3D perception techniques for embodied agents</li>
+              <li>Robot learning approaches for manipulation and navigation tasks</li>
+            </ul>
+          </li>
+          <li><strong>Embodied-AI-Paper-List</strong> (github.com/Lumina-EAI/Embodied-AI-Paper-List): Curated collection of important research papers classified by topic</li>
+          <li><strong>Awesome-Embodied-AI-Job</strong> (github.com/StarCycle/Awesome-Embodied-AI-Job): Resource tracking research opportunities in embodied intelligence</li>
         </ul>
       </li>
       <li>
         <strong>Research Literature:</strong>
         <ul>
-          <li>Following recent papers from ICRA, CoRL, NeurIPS, CVPR, and ICLR conferences</li>
-          <li>Reading research from leading labs in embodied AI and multi-agent systems</li>
+          <li>Following recent papers from ICRA, CoRL, NeurIPS, CVPR, and ICLR conferences focused on embodied AI</li>
+          <li>Studying foundation models for robot learning, especially works on vision-language-action models</li>
+          <li>Tracking developments in LLM-based robotic planning and control</li>
+          <li>Exploring sim-to-real transfer techniques for robotic manipulation</li>
         </ul>
       </li>
     </ul>
   </div>
   
   <div class="future-directions">
-    <h3><i class="fas fa-compass" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>Questions I'm Exploring</h3>
+    <h3><i class="fas fa-compass" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>Research Questions I'm Interested In</h3>
     <ul>
-      <li>How can robots develop their own intelligence through sensorimotor experiences with the world?</li>
-      <li>How can multiple agents self-organize to adapt specialized roles and develop emergent collective intelligence?</li>
-      <li>What mechanisms would allow AI systems to automatically decompose tasks and utilize specialized tools collaboratively?</li>
-      <li>How might physical embodiment contribute to the development of more robust and generalizable AI?</li>
+      <li>How might robots develop intelligence through interaction with their environment?</li>
+      <li>What mechanisms enable multiple agents to self-organize and develop specialized roles?</li>
+      <li>How can AI systems automatically decompose complex tasks and utilize specialized tools?</li>
+      <li>What role does physical embodiment play in developing robust and generalizable intelligence?</li>
     </ul>
   </div>
 </div>

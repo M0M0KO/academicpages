@@ -46,7 +46,8 @@
         <div class="publication-meta" style="margin-bottom: 0.5em;">
           {% if post.collection == 'publications' %}
             <p style="margin-bottom: 0.5em;">
-              <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ post.date | default: "1900-01-01" | date: "%B %d, %Y" }}
+              {% assign date_format = "%B %d, %Y" %}
+              <i class="fa fa-fw fa-calendar" aria-hidden="true"></i> {{ post.date | date: date_format }}
               {% if post.venue %}
                  | <i class="fa fa-fw fa-book" aria-hidden="true"></i> <span class="venue">{{ post.venue }}</span>
               {% endif %}
@@ -95,8 +96,8 @@
                     {{ post.citation_apa }}
                   </div>
                   {% if post.bibtex %}
-                  <div class="tab-content" id="bibtex-content" style="display: none; padding: 0.5em; background-color: #f8f9fa; border-radius: 0 4px 4px 4px; white-space: pre-wrap; font-family: monospace;">
-                    {{ post.bibtex }}
+                  <div class="tab-content" id="bibtex-content" style="display: none; padding: 0.5em; background-color: #f8f9fa; border-radius: 0 4px 4px 4px;">
+                    <pre class="bibtex-content" style="white-space: pre-wrap; font-family: 'Courier New', Courier, monospace; margin: 0; font-size: 0.9em; background: transparent; border: none; line-height: 1.5; overflow-x: auto;">{{ post.bibtex }}</pre>
                   </div>
                   {% endif %}
                 </div>
@@ -180,6 +181,16 @@
     opacity: 1;
     background-color: #f8f9fa;
     border-bottom-color: #f8f9fa;
+  }
+  
+  .bibtex-content {
+    white-space: pre-wrap !important;
+    tab-size: 2;
+    -moz-tab-size: 2;
+    display: block;
+    unicode-bidi: embed;
+    font-family: 'Courier New', Courier, monospace !important;
+    line-height: 1.5 !important;
   }
 </style>
 

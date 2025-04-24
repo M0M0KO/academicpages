@@ -45,7 +45,7 @@ I am a postgraduate student with medical image analysis experience, interested i
   </div>
   <div>
     <i class="fas fa-eye" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
-    <strong>Computer Vision</strong>: Attention-based object detection, image segmentation, and human behavior recognition
+    <strong>Computer Vision</strong>: Attention-based object detection, image segmentation
   </div>
   <div>
     <i class="fas fa-project-diagram" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
@@ -101,9 +101,9 @@ I am a postgraduate student with medical image analysis experience, interested i
       <i class="fas fa-project-diagram" style="font-size: 1.5em; color: #4285F4;"></i>
     </div>
     <div class="project-details">
-      <h4>Enhanced YOLO with Attention Mechanism</h4>
-      <p>Improved object detection accuracy while maintaining real-time performance by incorporating self-attention modules into YOLO architecture</p>
-      <p class="tech-used">PyTorch | Computer Vision | YOLO</p>
+      <h4>YOLOv11-LCDFS: Enhanced Low-light Object Detection</h4>
+      <p>Developed a novel YOLO-based architecture exploring specialized loss functions, attention mechanisms, optimized upsampling techniques, and low-light enhancement for improved detection in challenging lighting conditions</p>
+      <p class="tech-used">PyTorch | Computer Vision | YOLO | Attention Mechanisms</p>
     </div>
   </div>
   
@@ -112,9 +112,9 @@ I am a postgraduate student with medical image analysis experience, interested i
       <i class="fas fa-microscope" style="font-size: 1.5em; color: #4285F4;"></i>
     </div>
     <div class="project-details">
-      <h4>Medical Image Preprocessing Pipeline</h4>
-      <p>Contributed to software development for standardizing medical images with noise reduction for clinical applications</p>
-      <p class="tech-used">Python | OpenCV | Medical Imaging</p>
+      <h4>Multi-modal Medical Image Analysis</h4>
+      <p>Experience with medical image segmentation, clinical tabular data integration, CT multi-modal processing, and 3D volumetric segmentation for improved diagnostic accuracy</p>
+      <p class="tech-used">Python | Deep Learning | 3D Segmentation | Multi-modal Fusion</p>
     </div>
   </div>
   
@@ -124,8 +124,8 @@ I am a postgraduate student with medical image analysis experience, interested i
     </div>
     <div class="project-details">
       <h4>Smoking Behavior Detection</h4>
-      <p>Undergraduate thesis project using pose estimation and temporal modeling to detect smoking gestures</p>
-      <p class="tech-used">Deep Learning | Pose Estimation | Action Recognition</p>
+      <p>Undergraduate thesis combining YOLO object detection with MediaPipe skeletal tracking to accurately identify and classify smoking gestures in video streams</p>
+      <p class="tech-used">YOLO | MediaPipe | Pose Estimation | Action Recognition</p>
     </div>
   </div>
 </div>
@@ -209,15 +209,15 @@ research</p>
 
 <div class="future-goals">
   <div class="goal-item">
-    <h4><i class="fas fa-lightbulb" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i><strong>Explore foundations</strong> of embodied cognition and how physical interaction shapes intelligence development</h4>
+    <h4><i class="fas fa-lightbulb" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Explore foundations of embodied cognition and how physical interaction shapes intelligence development</h4>
   </div>
   
   <div class="goal-item">
-    <h4><i class="fas fa-users" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i><strong>Study emergent behaviors</strong> in multi-agent systems and how simple individual rules can lead to complex collective intelligence</h4>
+    <h4><i class="fas fa-users" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Study emergent behaviors in multi-agent systems and how simple individual rules can lead to complex collective intelligence</h4>
   </div>
   
   <div class="goal-item">
-    <h4><i class="fas fa-robot" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i><strong>Learn to design</strong> systems where agents can autonomously discover effective division of labor and tool usage</h4>
+    <h4><i class="fas fa-robot" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Learn to design systems where agents can autonomously discover effective division of labor and tool usage</h4>
   </div>
 </div>
 
