@@ -123,7 +123,7 @@ I am a postgraduate student with medical image analysis experience, interested i
       <i class="fas fa-microscope" style="font-size: 1.5em; color: #4285F4;"></i>
     </div>
     <div class="project-details">
-      <h4>Smoking Behavior Detection</h4>
+      <h4>3D Medical segmentation</h4>
       <p>Experience with medical image segmentation and 3D volumetric segmentation</p>
       <p class="tech-used">PyTorch | Deep Learning | 3D Segmentation </p>
     </div>
