@@ -31,7 +31,7 @@ redirect_from:
     <ul>
       <li><strong>Research Focus:</strong> Embodied Intelligence, Robotics</li>
       <li><strong>Core Courses:</strong> Intelligence in Animals and Machines, Intelligent Systems Techniques, Image Processing, Machine Learning</li>
-      <li><strong>supervisor:</strong> Assistant Professor Peter Wijeratne (Sussex University) and Professor Xie Mande (Zhejiang Gongshang University)</li>
+      <li><strong>supervisor:</strong> Assistant Professor Peter Wijeratne (University of Sussex) and Professor Xie Mande (Zhejiang Gongshang University)</li>
       <li><strong>Expected Graduation:</strong> June 2027</li>
     </ul>
   </div>
