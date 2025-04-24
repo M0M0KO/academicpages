@@ -28,7 +28,7 @@ author_profile: false
 ### 2. 创建Markdown文件
 
 1. 在`_publications`文件夹中创建一个新的Markdown文件
-2. 文件命名格式：`YYYY-MM-DD-简短标识.md`
+2. 文件命名格式：`2024-01-01-简短标识.md`
    - 例如：`2024-06-deep-learning-cancer.md`
    - 日期应为发表日期（或预计发表日期）
    - 简短标识应简洁且能反映论文内容
@@ -41,16 +41,16 @@ author_profile: false
 ---
 title: "您的论文标题"
 collection: publications
-permalink: publications/YYYY-MM-DD-简短标识/
+permalink: publications/2024-01-01-简短标识/
 excerpt: '简短的论文摘要（1-2句话）'
-date: YYYY-MM-DD
+date: 2024-01-01
 venue: '期刊或会议名称（加上状态，如"已发表"、"修订中"、"审稿中"等）'
 paperurl: '论文PDF链接（如有）'
 codeurl: '代码仓库链接（如有）'
 slidesurl: '演示幻灯片链接（如有）'
 videourl: '演讲视频链接（如有）'
 bibtexurl: 'BibTeX引用文件链接（如有）'
-citation: '作者1, 作者2, 等. (年份). &quot;论文标题.&quot; <i>期刊名称</i>. 页码/DOI/状态.'
+citation: '作者1, 作者2, 等. (2024). &quot;论文标题.&quot; <i>期刊名称</i>. 页码/DOI/状态.'
 category: 'journals或conferences或manuscripts'
 authors: '完整作者列表'
 topics: '主题1, 主题2, 主题3'
@@ -125,61 +125,37 @@ header:
 
 ```yaml
 ---
-title: "Multi-omics and Machine Learning-driven CD8+ T Cell Heterogeneity Score for Prognosis"
+title: "论文标题"
 collection: publications
-permalink: publications/2024-12-multiomics-machine-learning/
-excerpt: '使用多组学和机器学习开发CD8+ T细胞异质性评分，用于改善头颈部鳞状细胞癌的预后。'
-date: 2024-12-01
-venue: 'Molecular Therapy Nucleic Acids'
-paperurl: 'https://doi.org/10.1016/j.omtn.2024.102413'
-codeurl: 'https://github.com/yourusername/CD8-score'
-citation: 'He D, Yang Z, Zhang T, Luo Y, Peng L, Yan J, et al. (2024). &quot;Multi-omics and Machine Learning-driven CD8+ T Cell Heterogeneity Score for Prognosis.&quot; <i>Molecular Therapy Nucleic Acids</i>. DOI: 10.1016/j.omtn.2024.102413'
-category: journals
-authors: 'Dongming He, Zhihong Yang, Tianyu Zhang, Yunling Luo, Lei Peng, Jiatao Yan, Tian Qiu, Jiayi Zhang, Li Qin, Zihao Liu, Xuanfang Zhang, Lixuan Lin, Miao Sun'
-topics: '多组学, 机器学习, 免疫治疗, 头颈部鳞状细胞癌, T细胞异质性'
-doi: '10.1016/j.omtn.2024.102413'
+permalink: publications/2024-01-01-论文标识/
+excerpt: '简短摘要（1-2句话）'
+date: 2024-01-01
+venue: '期刊名称 (状态)'
+paperurl: 'https://doi.org/...'
+codeurl: 'https://github.com/...'
+citation: '作者列表. (2024). &quot;论文标题.&quot; <i>期刊名称</i>.'
+category: journals  # 或 conferences 或 manuscripts
+authors: '完整作者列表'
+topics: '主题1, 主题2, 主题3'
+doi: '10.xxxx/xxxxx'
 header:
-  teaser: 'cd8-tcell-teaser.png'
+  teaser: '图片名称.png'
 ---
 ```
 
 ### 内容示例
 
 ```markdown
+
 ## 摘要
 
-头颈部鳞状细胞癌(HNSCC)的异质性对治疗构成重大挑战，突显了对更精确和个性化治疗方法的迫切需求。CD8+ T细胞作为肿瘤免疫微环境的重要组成部分，已成为免疫治疗的关键靶点。我们的研究建立了CD8+ T细胞评分降低与不良临床预后之间的相关性，凸显了这一生物标志物的预后价值。通过分析与CD8+ T细胞相关的基因表达，我们将HNSCC区分为冷肿瘤和热肿瘤亚型，揭示了临床预后和免疫治疗反应的差异。
+您的论文摘要...
 
 ## 我的贡献
 
-实现并优化了多种机器学习算法(LASSO, RF, GB, KNN, SVM, GBM, XGBoost, DT)，用于在HNSCC研究中识别关键基因。
-
-## 主要发现
-
-- CD8+ T细胞评分可作为HNSCC预后的独立预测因子
-- 通过多种机器学习方法识别了OLR1作为关键基因
-- 辛伐他汀和帕唑帕尼可能是OLR1的潜在抑制剂，为HNSCC个体提供创新治疗途径
+您对研究的贡献...
 ```
 
-## 常见问题解答
 
-1. **如何确定论文类别？**
-   - 已正式发表的论文 → journals
-   - 会议发表的论文 → conferences
-   - 待审查或预印本 → manuscripts
+- 
 
-2. **没有论文PDF怎么办？**
-   - 可以省略`paperurl`字段，或链接到期刊页面
-
-3. **如何处理论文摘要过长的情况？**
-   - `excerpt`保持简短（1-2句话）
-   - 完整摘要放在内容部分的"摘要"段落中
-
-4. **如何添加多个主题标签？**
-   - 在`topics`字段中用逗号分隔多个主题
-
-5. **如何更新已有的论文信息？**
-   - 直接编辑相应的Markdown文件
-   - 确保保留原始的`permalink`和`date`字段以维持链接一致性
-
-如需更多帮助，请参考[完整的网站维护文档](/maintenance-guide/)。 

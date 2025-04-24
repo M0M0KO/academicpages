@@ -4,20 +4,20 @@
 
 ### 方法一：手动创建（推荐用于单篇论文）
 
-1. 在`_publications`文件夹中创建新文件：`YYYY-MM-DD-论文标识.md`
+1. 在`_publications`文件夹中创建新文件：`2024-01-01-论文标识.md`（使用实际日期替换）
 2. 复制下面的模板并填写您的论文信息：
 
 ```yaml
 ---
 title: "论文标题"
 collection: publications
-permalink: publications/YYYY-MM-DD-论文标识/
+permalink: publications/2024-01-01-论文标识/
 excerpt: '简短摘要（1-2句话）'
-date: YYYY-MM-DD
+date: 2024-01-01
 venue: '期刊名称 (状态)'
 paperurl: 'https://doi.org/...'
 codeurl: 'https://github.com/...'
-citation: '作者列表. (年份). &quot;论文标题.&quot; <i>期刊名称</i>.'
+citation: '作者列表. (2024). &quot;论文标题.&quot; <i>期刊名称</i>.'
 category: journals  # 或 conferences 或 manuscripts
 authors: '完整作者列表'
 topics: '主题1, 主题2, 主题3'
@@ -41,7 +41,7 @@ header:
 
 1. 编辑`markdown_generator/publications.tsv`文件，添加新行
 2. 确保填写所有必要字段，尤其是：
-   - `pub_date`：发表日期（YYYY-MM-DD格式）
+   - `pub_date`：发表日期（2024-01-01格式，使用实际日期）
    - `title`：论文标题
    - `venue`：发表期刊/会议
    - `url_slug`：用于生成文件名和URL的简短标识
@@ -102,5 +102,6 @@ header:
 
 1. **论文不显示**：检查`category`字段是否匹配`_config.yml`中的定义
 2. **缩略图不显示**：确认图片路径正确，文件名与front matter中的名称一致
-3. **排序问题**：检查`date`字段格式是否为`YYYY-MM-DD`
-4. **过滤器不生效**：确保年份在年份过滤器选项中已列出 
+3. **排序问题**：检查`date`字段格式是否为正确的日期格式（如2024-01-01）
+4. **过滤器不生效**：确保年份在年份过滤器选项中已列出
+5. **构建错误**：避免在日期字段中使用不正确的占位符，应使用实际日期 

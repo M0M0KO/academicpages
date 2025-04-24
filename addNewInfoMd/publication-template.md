@@ -1,16 +1,16 @@
 ---
 title: "您的论文标题"
 collection: publications
-permalink: publications/YYYY-MM-DD-paper-slug/
+permalink: publications/2024-01-01-paper-slug/
 excerpt: '简短摘要，1-2句话描述论文内容'
-date: YYYY-MM-DD
+date: 2024-01-01
 venue: '期刊名称 (状态)'
 paperurl: 'https://doi.org/...'
 codeurl: 'https://github.com/yourusername/repo'
 slidesurl: 'https://slides.com/yourslides'
 videourl: 'https://youtube.com/watch?v=xxxx'
 bibtexurl: 'https://example.com/bibtex.bib'
-citation: '作者1, 作者2, 作者3. (年份). &quot;论文标题.&quot; <i>期刊名称</i>. 卷(期):页码.'
+citation: '作者1, 作者2, 作者3. (2024). &quot;论文标题.&quot; <i>期刊名称</i>. 卷(期):页码.'
 category: journals  # 可选值: journals, conferences, manuscripts
 authors: '作者1, 作者2, 作者3'
 topics: '主题1, 主题2, 主题3'
