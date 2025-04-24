@@ -7,7 +7,10 @@ author_profile: true
 
 {% include base_path %}
 
-<div class="publication-header" style="margin: 2em 0; padding: 1.5em; border: 1px solid #e0e0e0; border-radius: 5px; background-color: #f9f9f9;">
+<!-- Load custom CSS for publications -->
+<link rel="stylesheet" href="{{ base_path }}/assets/css/publications.css">
+
+<div class="publication-header">
   <h3 style="color: #494e52; margin-top: 0;"><i class="fas fa-file-alt" style="margin-right: 0.5em;"></i>Research Publications</h3>
   <p>Welcome to my publications page. Here you'll find my research work spanning medical image analysis, machine learning, and artificial intelligence applications in healthcare.</p>
   
@@ -21,38 +24,36 @@ author_profile: true
 </div>
 
 <!-- Publication filters -->
-<div class="publication-filters" style="margin: 2em 0; padding: 0 0 1em 0; border-bottom: 1px solid #eeeeee;">
-  <h4 style="display: inline-block; margin-right: 1em;">Filter by:</h4>
-  
-  <!-- Category filter -->
-  <div class="filter-group" style="display: inline-block; margin-right: 2em;">
-    <label for="category-filter" style="font-weight: bold; margin-right: 0.5em;">Category:</label>
-    <select id="category-filter" style="padding: 0.3em; border-radius: 3px; border: 1px solid #ddd;">
-      <option value="all">All Categories</option>
-      <option value="journals">Journal Articles</option>
-      <option value="conferences">Conference Papers</option>
-      <option value="manuscripts">Manuscripts Under Review</option>
-    </select>
-  </div>
-  
-  <!-- Year filter -->
-  <div class="filter-group" style="display: inline-block;">
-    <label for="year-filter" style="font-weight: bold; margin-right: 0.5em;">Year:</label>
-    <select id="year-filter" style="padding: 0.3em; border-radius: 3px; border: 1px solid #ddd;">
-      <option value="all">All Years</option>
-      <option value="2025">2025</option>
-      <option value="2024">2024</option>
-      <option value="2023">2023</option>
-      <option value="2022">2022</option>
-    </select>
+<div class="publication-filters">
+  <div>
+    <div>
+      <label for="category-filter">Category:</label>
+      <select id="category-filter">
+        <option value="all">All Categories</option>
+        <option value="journals">Journal Articles</option>
+        <option value="conferences">Conference Papers</option>
+        <option value="manuscripts">Manuscripts Under Review</option>
+      </select>
+    </div>
+    
+    <div>
+      <label for="year-filter">Year:</label>
+      <select id="year-filter">
+        <option value="all">All Years</option>
+        <option value="2025">2025</option>
+        <option value="2024">2024</option>
+        <option value="2023">2023</option>
+        <option value="2022">2022</option>
+      </select>
+    </div>
   </div>
 </div>
 
-<!-- New style rendering with publication categories -->
-<div id="publication-container">
+<!-- Publications container -->
+<div id="publication-container" class="publication-container">
   {% if site.publication_category %}
     {% for category in site.publication_category %}
-      <div class="publication-category" data-category="{{category[0]}}" style="margin-bottom: 2em;">
+      <div class="publication-category" data-category="{{category[0]}}">
         <h2 id="{{category[0]}}-heading">{{ category[1].title }}</h2>
         <hr style="margin-top: 0.5em; margin-bottom: 1.5em; border-top: 2px solid #eaeaea;" />
         
@@ -60,15 +61,15 @@ author_profile: true
           {% assign sorted_publications = site.publications | sort: 'date' | reverse %}
           {% for post in sorted_publications %}
             {% if post.category == category[0] %}
-              <div class="publication-item" data-year="{{post.date | date: '%Y'}}" style="margin-bottom: 1.5em; padding-bottom: 1.5em; border-bottom: 1px dashed #eaeaea;">
+              <div class="publication-item" data-year="{{post.date | date: '%Y'}}">
                 {% include archive-single.html %}
                 
                 <!-- Add topic badges if available -->
                 {% if post.topics %}
-                  <div class="publication-topics" style="margin-top: 0.5em;">
+                  <div class="publication-topics">
                     {% assign topics = post.topics | split: "," %}
                     {% for topic in topics %}
-                      <span class="publication-topic-badge" style="display: inline-block; background-color: #f0f7ff; color: #0366d6; padding: 0.2em 0.6em; border-radius: 3px; font-size: 0.8em; margin-right: 0.5em; margin-bottom: 0.5em;">{{ topic | strip }}</span>
+                      <span class="publication-topic-badge">{{ topic | strip }}</span>
                     {% endfor %}
                   </div>
                 {% endif %}
@@ -98,13 +99,20 @@ author_profile: true
     const categoryFilter = document.getElementById('category-filter');
     const yearFilter = document.getElementById('year-filter');
     
-    // Add event listeners
-    categoryFilter.addEventListener('change', filterPublications);
-    yearFilter.addEventListener('change', filterPublications);
+    if (categoryFilter && yearFilter) {
+      // Add event listeners
+      categoryFilter.addEventListener('change', filterPublications);
+      yearFilter.addEventListener('change', filterPublications);
+      
+      // Initial filtering (in case URL has parameters)
+      filterPublications();
+    }
     
     function filterPublications() {
       const selectedCategory = categoryFilter.value;
       const selectedYear = yearFilter.value;
+      
+      console.log("Filtering - Category:", selectedCategory, "Year:", selectedYear);
       
       // First handle category filtering
       const categoryContainers = document.querySelectorAll('.publication-category');
@@ -118,21 +126,32 @@ author_profile: true
       
       // Then handle year filtering
       const publicationItems = document.querySelectorAll('.publication-item');
+      let visibleCount = 0;
+      
       publicationItems.forEach(function(item) {
-        if (selectedYear === 'all' || item.dataset.year === selectedYear) {
+        const parentCategory = item.closest('.publication-category');
+        const isCategoryVisible = (parentCategory && window.getComputedStyle(parentCategory).display !== 'none');
+        
+        if (isCategoryVisible && (selectedYear === 'all' || item.dataset.year === selectedYear)) {
           item.style.display = 'block';
+          visibleCount++;
         } else {
           item.style.display = 'none';
         }
       });
       
-      // Check if any publications are visible within a visible category
+      // Check if any publications are visible within each visible category
       categoryContainers.forEach(function(container) {
         if (container.style.display === 'block') {
-          const visibleItems = container.querySelectorAll('.publication-item[style="display: block;"]');
+          const visibleItems = Array.from(container.querySelectorAll('.publication-item')).filter(
+            item => window.getComputedStyle(item).display !== 'none'
+          );
+          
+          // Find or create no results message
+          let noResultsMsg = container.querySelector('.no-results-message');
+          
           if (visibleItems.length === 0) {
             // No visible publications in this category
-            const noResultsMsg = container.querySelector('.no-results-message');
             if (!noResultsMsg) {
               const message = document.createElement('p');
               message.className = 'no-results-message';
@@ -141,18 +160,57 @@ author_profile: true
               message.textContent = 'No publications matching the selected filters.';
               container.querySelector('.publication-list').appendChild(message);
             }
-          } else {
-            // Remove any no results message
-            const noResultsMsg = container.querySelector('.no-results-message');
-            if (noResultsMsg) {
-              noResultsMsg.remove();
-            }
+          } else if (noResultsMsg) {
+            // Remove message if there are visible items
+            noResultsMsg.remove();
           }
         }
       });
+      
+      console.log("Filter complete. Visible items:", visibleCount);
     }
   });
 </script>
+
+<style>
+  /* Fix width issues */
+  .publication-grid {
+    display: grid;
+    grid-template-columns: 1fr !important;
+    gap: 20px;
+  }
+  
+  @media (min-width: 768px) {
+    .publication-grid {
+      grid-template-columns: 1fr 4fr !important;
+    }
+  }
+  
+  /* Make layout responsive */
+  .publication-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+  /* Fix filter layout on mobile */
+  @media (max-width: 767px) {
+    .publication-filters > div {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    
+    .publication-filters > div > div {
+      margin-bottom: 10px;
+      width: 100%;
+    }
+    
+    .publication-filters select {
+      width: 100%;
+    }
+  }
+</style>
 
 
 

@@ -1,0 +1,292 @@
+/* Custom styles for publications page */
+.publication-container {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.publication-header {
+  margin: 2em 0;
+  padding: 1.5em;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.publication-category {
+  margin-bottom: 2em;
+  width: 100%;
+}
+
+.publication-item {
+  margin-bottom: 1.5em;
+  padding-bottom: 1.5em;
+  border-bottom: 1px dashed #eaeaea;
+  width: 100%;
+}
+
+.publication-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  width: 100%;
+}
+
+.publication-content {
+  width: 100%;
+}
+
+.publication-meta {
+  margin-bottom: 15px;
+  color: #646769;
+}
+
+.publication-meta p {
+  margin: 0 0 5px 0;
+}
+
+.publication-meta i {
+  margin-right: 5px;
+}
+
+.archive__item-excerpt {
+  margin-bottom: 15px;
+}
+
+.archive__item-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.publication-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.publication-filters {
+  margin: 2em 0;
+  padding: 0 0 1em 0;
+  border-bottom: 1px solid #eee;
+  width: 100%;
+}
+
+.publication-filters > div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1em;
+}
+
+.publication-filters label {
+  font-weight: bold;
+  margin-right: 0.5em;
+}
+
+.publication-filters select {
+  padding: 0.3em;
+  border-radius: 3px;
+  border: 1px solid #ddd;
+}
+
+.publication-topic-badge {
+  display: inline-block;
+  background-color: #f0f7ff;
+  color: #0366d6;
+  padding: 0.2em 0.6em;
+  border-radius: 3px;
+  font-size: 0.8em;
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.archive__item {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.list__item, .archive__item-teaser {
+  width: 100%;
+  max-width: 100%;
+}
+
+.archive__item-teaser img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Button styles */
+.publication-links .btn {
+  padding: 6px 12px;
+  border-radius: 3px;
+  text-decoration: none;
+  font-size: 0.9em;
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.publication-links .btn i {
+  margin-right: 5px;
+}
+
+/* Specific button styles */
+.paper-btn {
+  background-color: #f1f8ff;
+  color: #0366d6;
+  border: 1px solid #c8e1ff;
+}
+
+.slides-btn {
+  background-color: #fff5f5;
+  color: #d73a49;
+  border: 1px solid #ffdce0;
+}
+
+.bibtex-btn {
+  background-color: #f6f8fa;
+  color: #24292e;
+  border: 1px solid #d1d5da;
+}
+
+.code-btn {
+  background-color: #f0fff4;
+  color: #22863a;
+  border: 1px solid #c2e0c6;
+}
+
+.poster-btn {
+  background-color: #f8f9fa;
+  color: #6c757d;
+  border: 1px solid #dee2e6;
+}
+
+.video-btn {
+  background-color: #fff0f7;
+  color: #ea4aaa;
+  border: 1px solid #fac2d5;
+}
+
+/* Citation block styling */
+.citation-block {
+  flex-basis: 100%;
+  margin-bottom: 10px;
+}
+
+.citation-block summary {
+  cursor: pointer;
+  color: #0366d6;
+  display: inline-block;
+  padding: 5px 0;
+}
+
+.citation-block details div {
+  padding: 10px;
+  margin-top: 5px;
+  background-color: #f6f8fa;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+/* Responsive styles */
+@media (min-width: 768px) {
+  .publication-grid {
+    grid-template-columns: 1fr 4fr;
+  }
+  
+  .archive__item-teaser {
+    max-width: 150px;
+  }
+}
+
+@media (max-width: 767px) {
+  .publication-filters > div {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .publication-filters > div > div {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  
+  .publication-filters select {
+    width: 100%;
+  }
+  
+  .archive__item-title {
+    font-size: 1.2em;
+    line-height: 1.3;
+  }
+  
+  .publication-meta p {
+    font-size: 0.9em;
+  }
+  
+  .publication-links {
+    justify-content: flex-start;
+  }
+  
+  .publication-links .btn {
+    padding: 5px 10px;
+    font-size: 0.8em;
+  }
+}
+
+/* Fix for larger screen layouts */
+@media (min-width: 1200px) {
+  .archive {
+    width: 100%;
+    padding-right: 0;
+  }
+  
+  .archive__item-title {
+    margin-top: 0;
+  }
+}
+
+/* Ensure consistent page layout */
+.layout--archive .page__content {
+  width: 100%;
+  float: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+/* Hover effects for buttons */
+.publication-links .btn:hover {
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+/* Better spacing for publication items */
+.publication-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+/* Fix for publication container width */
+@media (min-width: 80em) {
+  .archive__item-teaser {
+    max-width: 200px;
+  }
+  
+  .page__content .archive {
+    padding-right: 0;
+  }
+}
+
+/* Font awesome icon fix */
+.fa, .fas, .far, .fal, .fab {
+  display: inline-block;
+}
+
+/* Academicons fix */
+.ai {
+  display: inline-block;
+} 
