@@ -31,7 +31,7 @@ redirect_from:
     <ul>
       <li><strong>Research Focus:</strong> Embodied Intelligence, Robotics</li>
       <li><strong>Core Courses:</strong> Intelligence in Animals and Machines, Intelligent Systems Techniques, Image Processing, Machine Learning</li>
-      <li><strong>Academic Advisors:</strong> Assistant Professor Peter Wijeratne (Sussex University) and Professor Xie Mande (Zhejiang Gongshang University)</li>
+      <li><strong>supervisor:</strong> Assistant Professor Peter Wijeratne (Sussex University) and Professor Xie Mande (Zhejiang Gongshang University)</li>
       <li><strong>Expected Graduation:</strong> June 2027</li>
     </ul>
   </div>
@@ -62,7 +62,7 @@ redirect_from:
       <li>Assisted in developing medical image preprocessing software for clinical applications, resulting in software copyright registration (2022SR0252378)</li>
       <li>Contributed to deep learning models for leukemia diagnosis based on tongue image analysis</li>
       <li>Helped create machine learning algorithms for exosome feature analysis in hepatocellular carcinoma research, contributing to a paper published in Frontiers in Cell and Developmental Biology</li>
-      <li><strong>Technologies:</strong> PyTorch, TensorFlow, OpenCV, Medical Imaging Libraries</li>
+      <li><strong>Technologies:</strong> PyTorch, TensorFlow, OpenCV</li>
     </ul>
   </div>
 
@@ -72,11 +72,11 @@ redirect_from:
     June 2022 - June 2023</p>
     <ul>
       <li>Coordinated a team of 4 students in research on enhancing YOLO architecture with attention mechanisms for real-time object detection</li>
-      <li>Implemented and benchmarked self-attention module modifications, achieving a 7% improvement in detection accuracy while maintaining real-time performance</li>
-      <li>Conducted experimental validation on multiple datasets including COCO and custom domain-specific datasets</li>
+      <li>Implemented and benchmarked self-attention module modifications, achieving  improvement in detection accuracy while maintaining real-time performance</li>
+      <li>Conducted experimental validation on multiple datasets including public datasets and custom datasets</li>
       <li>Contributed to securing 2 software copyrights and 1 patent application based on project outcomes</li>
       <li>Managed project timeline, task distribution, and documentation, ensuring project milestones were met on schedule</li>
-      <li><strong>Technologies:</strong> PyTorch, YOLO, Computer Vision</li>
+      <li><strong>Technologies:</strong> PyTorch, YOLO, Computer Vision, OpenCV</li>
       <li><strong>Advisor:</strong> Prof. Siyang Zhang</li>
     </ul>
   </div>
@@ -196,7 +196,7 @@ redirect_from:
     <p><strong>Authors:</strong> Kai Zhu, Qiqi Tao, <strong>Jiatao Yan</strong>, Zhichao Lang, Xinmiao Li, Yifei Li, Congcong Fan, Zhengping Yu</p>
     <p><strong>DOI:</strong> <a href="https://doi.org/10.3389/fcell.2022.1020415" target="_blank">10.3389/fcell.2022.1020415</a></p>
     <p><strong>Impact Factor:</strong> 5.8</p>
-    <p class="contribution">Contribution: Developed and implemented machine learning algorithms for exosome feature analysis. Created feature extraction pipelines and classification models that identified key patterns associated with hepatocellular carcinoma development. Participated in experimental design and data analysis.</p>
+    <p class="contribution">Contribution: Assisted in developing machine learning algorithms for exosome feature analysis and classification in hepatocellular carcinoma research</p>
   </div>
   
   <div class="paper">
@@ -205,7 +205,7 @@ redirect_from:
     <p><strong>Authors:</strong> Di He, Zhan Yang, Tian Zhang, Yaxian Luo, Lianjie Peng, <strong>Jiatao Yan</strong>, Tao Qiu, Jingyu Zhang, Luying Qin, Zhichao Liu, Xiaoting Zhang, Lining Lin, Mouyuan Sun</p>
     <p><strong>DOI:</strong> <a href="https://doi.org/10.1016/j.omtn.2024.102413" target="_blank">10.1016/j.omtn.2024.102413</a></p>
     <p><strong>Impact Factor:</strong> 6.4</p>
-    <p class="contribution">Contribution: Implemented multiple machine learning algorithms for key gene identification in HNSCC research. Developed statistical methods for analyzing multi-omics data and contributed to computational pipeline for heterogeneity score calculation.</p>
+    <p class="contribution">Contribution: Helped implement various machine learning algorithms for key gene identification in HNSCC research.</p>
   </div>
 </div>
 
@@ -213,19 +213,11 @@ redirect_from:
   
 ## Manuscripts Under Review
 
-<div class="manuscripts">
-  <div class="paper">
-    <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>Deep Learning Model for Survival Prediction of Localized Upper Tract Urothelial Carcinoma Based on Multi-Phase CT Images and Clinical Data</h3>
-    <p><strong>Journal:</strong> <em>BMC Cancer</em> (Submitted: June 24, 2024 - Revision Required)</p>
-    <p><strong>Authors:</strong> Kai Zhu, Binwei Lin, <strong>Jiatao Yan</strong>, Honghui Zhu, Wei Chen, Xin Yao, Fengyan You, Yue Pan, Feng Wang, Peng Xia, Yeping Li, Lianguo Chen, Zhixian Yu, Shouliang Miao, Xiaomin Gao</p>
-    <p class="contribution">Contribution: Designed and implemented the deep learning architecture for analyzing multi-phase CT images. Developed methods for integrating imaging features with clinical data to create a comprehensive predictive model. Participated in model validation and performance optimization.</p>
-  </div>
-
   <div class="paper">
     <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>Using Multiomics and Machine Learning: Insights into Improving the Outcomes of Clear Cell Renal Cell Carcinoma via SRD5A3-AS1/hsa-let-7e-5p/RRM2 Axis</h3>
     <p><strong>Journal:</strong> <em>ACS Omega</em> (Submitted: February 12, 2025 - Under Review)</p>
     <p><strong>Authors:</strong> Mouyuan Sun, Zhan Yang, Yaxian Luo, Luying Qin, Lianjie Peng, Chaoran Pan, <strong>Jiatao Yan</strong>, Tao Qiu, Yan Zhang</p>
-    <p class="contribution">Contribution: Implemented machine learning algorithms for identifying regulatory components in the SRD5A3-AS1/hsa-let-7e-5p/RRM2 axis. Developed computational methods for multi-omics data integration and contributed to statistical analysis of results.</p>
+    <p class="contribution">Contribution: Implemented machine learning algorithms for identifying regulatory components in the SRD5A3-AS1/hsa-let-7e-5p/RRM2 axis.</p>
   </div>
 </div>
 
@@ -235,8 +227,16 @@ redirect_from:
 
 <div class="manuscripts">
   <div class="paper">
+    <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>Deep Learning Model for Survival Prediction of Localized Upper Tract Urothelial Carcinoma Based on Multi-Phase CT Images and Clinical Data</h3>
+    <p><strong>In Revision</strong></p>
+    <p><strong>Authors:</strong> Kai Zhu, Binwei Lin, <strong>Jiatao Yan</strong>, Honghui Zhu, Wei Chen, Xin Yao, Fengyan You, Yue Pan, Feng Wang, Peng Xia, Yeping Li, Lianguo Chen, Zhixian Yu, Shouliang Miao, Xiaomin Gao</p>
+    <p class="contribution">Contribution: Designed and implemented the deep learning architecture for analyzing multi-phase CT images. Developed methods for integrating imaging features with clinical data to create a comprehensive predictive model. Participated in model validation and performance optimization.</p>
+  </div>
+
+<div class="manuscripts">
+  <div class="paper">
     <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>YOLOv11-LCDFS: Enhanced Smoking Detection With Low-light Enhancement</h3>
-    <p><strong>Target Journal:</strong> <em>IEEE Transactions on Image Processing</em> (Expected Submission: Q3 2025)</p>
+    <p><strong>In Revision</strong></p>
     <p><strong>Authors:</strong> <strong>Jiatao Yan</strong>, Zhuzikai Zheng, Zhengtan Yang, Hao Jiang, Peichen Wang, Fangjun Kuang, Siyang Zhang</p>
     <p class="contribution">First author working on a YOLO-based architecture with integrated low-light enhancement capabilities, specialized loss functions, attention mechanisms, and optimized upsampling techniques for improved detection in challenging lighting conditions.</p>
   </div>
@@ -251,9 +251,9 @@ redirect_from:
     <h3><i class="fas fa-file-contract" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>Patent Application</h3>
     <p><strong>Title:</strong> Smoking Behavior Recognition Camera and Determination Method</p>
     <p><strong>Application Number:</strong> 202310277784.1</p>
-    <p><strong>Status:</strong> Pending (Filed March 2023)</p>
-    <p><strong>Inventors:</strong> Jiatao Yan, Zhuzikai Zheng, [Other names]</p>
-    <p><strong>Summary:</strong> A method combining pose estimation with temporal sequence analysis for real-time smoking behavior detection in public spaces.</p>
+    <p><strong>Status:</strong> Application withdrawn by patent office</p>
+    <p><strong>Inventors:</strong> Jiatao Yan, Siyang Zhang, Fangjun Kuang, Peicheng Wang, Zhuzikai Zheng, Hao Jiang, Zhengtan Yang, Hanwen Bao, Chunqiu Xia</p>
+    <p><strong>Summary:</strong> A method combining pose estimation for real-time smoking behavior detection in public spaces.</p>
   </div>
   
   <div class="software-copyrights">
@@ -291,7 +291,7 @@ redirect_from:
   <div class="achievement-item">
     <div class="achievement-content">
       <h4><i class="fas fa-trophy" style="font-size: 1.2em; color: #D4AF37; margin-right: 0.5em;"></i>Stanford RNA 3D Folding Competition</h4>
-      <p><strong>Bronze Medal</strong> | 87th/1093 Place (Top 8%) | Kaggle Global Competition | 2023-Ongoing</p>
+      <p><strong>Bronze Medal</strong> | 87th/1093 Place (Top 8%) | Kaggle Global Competition | Ongoing</p>
       <p class="achievement-desc"></p>
     </div>
   </div>
@@ -299,7 +299,7 @@ redirect_from:
   <div class="achievement-item">
     <div class="achievement-content">
       <h4><i class="fas fa-chart-line" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Predict Podcast Listening Time Competition</h4>
-      <p><strong>Ranked 154th/2565</strong> | Top 6% | Kaggle Global Competition | 2023-Ongoing</p>
+      <p><strong>Ranked 154th/2565</strong> | Top 6% | Kaggle Global Competition | Ongoing</p>
       <p class="achievement-desc"></p>
     </div>
   </div>
@@ -343,8 +343,7 @@ redirect_from:
 
 <div class="projects">
   <div class="project-entry">
-    <h3><i class="fas fa-project-diagram" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>YOLOv11-LCDFS: Enhanced Object Detection for Low-light Conditions</h3>
-    <p><strong>Role:</strong> Lead Researcher | <strong>Duration:</strong> June 2023 - Present</p>
+    <h3><i class="fas fa-project-diagram" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>YOLOv11-LCDFS: Enhanced Smoking Detection With Low-light Enhancement</h3>
     <div class="project-details">
       <p>Extension of smoking detection research focusing on improved object detection in challenging lighting conditions. Developing a novel YOLO-based architecture with specialized components addressing the unique challenges of low-light environments.</p>
       <ul>
@@ -358,10 +357,65 @@ redirect_from:
       <p><strong>Related Publications:</strong> Manuscript in preparation (First author)</p>
     </div>
   </div>
+
+  <div class="project-entry">
+    <h3><i class="fas fa-microscope" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Multi-modal Medical Image Analysis for Cancer Research</h3>
+    <div class="project-details">
+      <p>Developed medical image analysis systems for cancer research at Wenzhou Medical University First Affiliated Hospital.</p>
+      <ul>
+        <li>Designed medical image segmentation algorithms for hepatocellular carcinoma and renal cell carcinoma</li>
+        <li>Designed methods for integrating clinical tabular data with imaging features for comprehensive analysis</li>
+        <li>Implemented multi-modal fusion techniques for combining different CT scan phases</li>
+        <li>Developed 3D volumetric segmentation approaches for comprehensive anatomical analysis</li>
+      </ul>
+      <p><strong>Technologies:</strong> Python, Deep Learning, 3D Segmentation, Multi-modal Fusion, PyDicom, NumPy</p>
+      <p><strong>Related Publications:</strong> Frontiers in Cell and Developmental Biology (2022), Molecular Therapy Nucleic Acids (2024)</p>
+    </div>
+  </div>
   
   <div class="project-entry">
+    <h3><i class="fas fa-disease" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Disease Detection Using Deep Learning</h3>
+    <div class="project-details">
+      <p>Developed deep learning models for automated disease detection and classification from medical imaging data.</p>
+      <ul>
+        <li>Implemented convolutional neural networks for lesion detection and classification</li>
+        <li>Applied transfer learning techniques using pre-trained models (ResNet, DenseNet) adapted to medical imaging</li>
+        <li>Utilized data augmentation strategies to address limited dataset size and improve model generalization</li>
+        <li>Implemented visualization techniques for model interpretability (Grad-CAM, attention maps)</li>
+        <li>Applied models to real-world clinical data with promising results in early disease detection</li>
+      </ul>
+      <p><strong>Technologies:</strong> Pytorch, OpenCV, YOLO</p>
+    </div>
+  </div>
+  
+  <div class="project-entry">
+    <h3><i class="fas fa-comment" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Twitter Sentiment Analysis</h3>
+    <div class="project-details">
+      <p>Built a sentiment analysis system for Twitter comments using natural language processing techniques.</p>
+      <ul>
+        <li>Implemented text preprocessing pipeline for Twitter-specific content (hashtags, mentions, emojis)</li>
+        <li>Explored and compared various feature extraction methods</li>
+        <li>Developed and evaluated multiple classification models (LSTM, traditional ML approaches)</li>
+      </ul>
+      <p><strong>Technologies:</strong> Python, NLTK, spaCy, HuggingFace Transformers, Matplotlib</p>
+    </div>
+  </div>
+  
+  <div class="project-entry">
+    <h3><i class="fas fa-envelope" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Spam Email Detection</h3>
+    <div class="project-details">
+      <p>Developed a machine learning system to classify emails as spam or legitimate based on content analysis.</p>
+      <ul>
+        <li>Implemented text preprocessing and feature extraction techniques for email content</li>
+        <li>Trained and evaluated multiple classification models (Naive Bayes, SVM, Random Forest)</li>
+        <li>Conducted feature importance analysis to identify key indicators of spam emails</li>
+      </ul>
+      <p><strong>Technologies:</strong> Python, scikit-learn, Pandas, Natural Language Processing</p>
+    </div>
+  </div>
+
+  <div class="project-entry">
     <h3><i class="fas fa-smoking" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Smoking Behavior Detection System</h3>
-    <p><strong>Role:</strong> Lead Developer | <strong>Duration:</strong> January 2022 - May 2023</p>
     <div class="project-details">
       <p>Undergraduate thesis project combining YOLO object detection with MediaPipe skeletal tracking to accurately identify and classify smoking gestures in video streams.</p>
       <ul>
@@ -376,86 +430,6 @@ redirect_from:
     </div>
   </div>
 
-  <div class="project-entry">
-    <h3><i class="fas fa-microscope" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Multi-modal Medical Image Analysis for Cancer Research</h3>
-    <p><strong>Role:</strong> Developer | <strong>Duration:</strong> September 2022 - January 2023</p>
-    <div class="project-details">
-      <p>Developed medical image analysis systems for cancer research at Wenzhou Medical University First Affiliated Hospital, contributing to two published papers and multiple manuscripts under review.</p>
-      <ul>
-        <li>Created medical image segmentation algorithms for hepatocellular carcinoma and renal cell carcinoma</li>
-        <li>Designed methods for integrating clinical tabular data with imaging features for comprehensive analysis</li>
-        <li>Implemented multi-modal fusion techniques for combining different CT scan phases</li>
-        <li>Developed 3D volumetric segmentation approaches for comprehensive anatomical analysis</li>
-        <li>Contributed to machine learning algorithms for exosome feature analysis in cancer research</li>
-      </ul>
-      <p><strong>Technologies:</strong> Python, Deep Learning, 3D Segmentation, Multi-modal Fusion, PyDicom, NumPy</p>
-      <p><strong>Related Publications:</strong> Frontiers in Cell and Developmental Biology (2022), Molecular Therapy Nucleic Acids (2024)</p>
-    </div>
-  </div>
-  
-  <div class="project-entry">
-    <h3><i class="fas fa-disease" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Disease Detection Using Deep Learning</h3>
-    <p><strong>Role:</strong> Machine Learning Engineer | <strong>Duration:</strong> March 2022 - August 2022</p>
-    <div class="project-details">
-      <p>Developed deep learning models for automated disease detection and classification from medical imaging data.</p>
-      <ul>
-        <li>Implemented convolutional neural networks for lesion detection and classification</li>
-        <li>Applied transfer learning techniques using pre-trained models (ResNet, DenseNet) adapted to medical imaging</li>
-        <li>Utilized data augmentation strategies to address limited dataset size and improve model generalization</li>
-        <li>Implemented visualization techniques for model interpretability (Grad-CAM, attention maps)</li>
-        <li>Applied models to real-world clinical data with promising results in early disease detection</li>
-      </ul>
-      <p><strong>Technologies:</strong> TensorFlow, Keras, OpenCV, scikit-learn, Medical Imaging Libraries</p>
-      <p><strong>Outcomes:</strong> Improved diagnostic accuracy by 15% compared to baseline approaches</p>
-    </div>
-  </div>
-  
-  <div class="project-entry">
-    <h3><i class="fas fa-comment" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Twitter Sentiment Analysis</h3>
-    <p><strong>Role:</strong> NLP Developer | <strong>Duration:</strong> October 2021 - December 2021</p>
-    <div class="project-details">
-      <p>Built a sentiment analysis system for Twitter comments using natural language processing techniques.</p>
-      <ul>
-        <li>Implemented text preprocessing pipeline for Twitter-specific content (hashtags, mentions, emojis)</li>
-        <li>Explored and compared various feature extraction methods (TF-IDF, word embeddings)</li>
-        <li>Developed and evaluated multiple classification models (LSTM, BERT, traditional ML approaches)</li>
-        <li>Implemented a real-time analysis dashboard for monitoring sentiment trends</li>
-      </ul>
-      <p><strong>Technologies:</strong> Python, NLTK, spaCy, HuggingFace Transformers, Matplotlib</p>
-      <p><strong>Outcomes:</strong> Achieved 87% accuracy in sentiment classification on test dataset</p>
-    </div>
-  </div>
-  
-  <div class="project-entry">
-    <h3><i class="fas fa-envelope" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Spam Email Detection</h3>
-    <p><strong>Role:</strong> ML Developer | <strong>Duration:</strong> July 2021 - September 2021</p>
-    <div class="project-details">
-      <p>Developed a machine learning system to classify emails as spam or legitimate based on content analysis.</p>
-      <ul>
-        <li>Implemented text preprocessing and feature extraction techniques for email content</li>
-        <li>Trained and evaluated multiple classification models (Naive Bayes, SVM, Random Forest)</li>
-        <li>Conducted feature importance analysis to identify key indicators of spam emails</li>
-        <li>Developed a lightweight implementation suitable for real-time filtering</li>
-      </ul>
-      <p><strong>Technologies:</strong> Python, scikit-learn, Pandas, Natural Language Processing</p>
-      <p><strong>Outcomes:</strong> Achieved 95% precision and 92% recall on unseen test data</p>
-    </div>
-  </div>
-  
-  <div class="project-entry">
-    <h3><i class="fas fa-chart-line" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Kaggle Competition Projects</h3>
-    <p><strong>Role:</strong> Data Scientist | <strong>Duration:</strong> 2022 - Present</p>
-    <div class="project-details">
-      <p>Active participation in multiple global Kaggle competitions, achieving notable rankings in bioinformatics and machine learning challenges.</p>
-      <ul>
-        <li><strong>Stanford RNA 3D Folding Competition:</strong> Developed machine learning models to predict RNA molecule 3D structures from sequence data (Bronze Medal, Top 8% globally)</li>
-        <li><strong>Predict Podcast Listening Time Competition:</strong> Created recommendation algorithms to predict user engagement with podcast content (Top 6% globally)</li>
-        <li><strong>HuBMAP + HPA Competition:</strong> Implemented segmentation models for identifying functional tissue units in human kidney microscopy images</li>
-      </ul>
-      <p><strong>Technologies:</strong> Python, PyTorch, Pandas, XGBoost, LightGBM, Deep Learning</p>
-      <p><strong>Achievements:</strong> Bronze Medal (Stanford RNA), Ranked 154th/2565 (Podcast Prediction)</p>
-    </div>
-  </div>
 </div>
 
 ---
@@ -471,7 +445,7 @@ redirect_from:
       <li><strong>Vision-Language-Action Models:</strong> Learning about foundation models that integrate perception, language understanding, and action generation for robotic control</li>
       <li><strong>Robot Learning:</strong> Exploring techniques for manipulation and navigation in diverse environments with a focus on sim-to-real transfer</li>
       <li><strong>Multi-Agent Systems:</strong> Investigating coordination mechanisms and emergent behaviors in multi-agent reinforcement learning scenarios</li>
-      <li><strong>Simulation Environments:</strong> Developing expertise with MuJoCo, Isaac Gym, and Habitat for embodied AI research and development</li>
+      <li><strong>Simulation Environments:</strong> Developing expertise with MuJoCo, Isaac Gym, or Habitat for embodied AI research and development</li>
     </ul>
   </div>
   

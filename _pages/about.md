@@ -101,8 +101,8 @@ I am a postgraduate student with medical image analysis experience, interested i
       <i class="fas fa-project-diagram" style="font-size: 1.5em; color: #4285F4;"></i>
     </div>
     <div class="project-details">
-      <h4>YOLOv11-LCDFS: Enhanced Low-light Object Detection</h4>
-      <p>Developed a novel YOLO-based architecture exploring specialized loss functions, attention mechanisms, optimized upsampling techniques, and low-light enhancement for improved detection in challenging lighting conditions</p>
+      <h4>YOLOv11-LCDFS: Enhanced Smoking Detection With Low-light Enhancement</h4>
+      <p>Developed a YOLO-based architecture exploring specialized loss functions, attention mechanisms, optimized upsampling techniques, and low-light enhancement for improved detection in challenging lighting conditions</p>
       <p class="tech-used">PyTorch | Computer Vision | YOLO | Attention Mechanisms</p>
     </div>
   </div>
@@ -113,8 +113,8 @@ I am a postgraduate student with medical image analysis experience, interested i
     </div>
     <div class="project-details">
       <h4>Multi-modal Medical Image Analysis</h4>
-      <p>Experience with medical image segmentation, clinical tabular data integration, CT multi-modal processing, and 3D volumetric segmentation for improved diagnostic accuracy</p>
-      <p class="tech-used">Python | Deep Learning | 3D Segmentation | Multi-modal Fusion</p>
+      <p>Experience with clinical tabular data integration and CT multi-modal processing for improved diagnostic accuracy</p>
+      <p class="tech-used">PyTorch | Deep Learning | Multi-modal Fusion</p>
     </div>
   </div>
   
@@ -124,8 +124,8 @@ I am a postgraduate student with medical image analysis experience, interested i
     </div>
     <div class="project-details">
       <h4>Smoking Behavior Detection</h4>
-      <p>Undergraduate thesis combining YOLO object detection with MediaPipe skeletal tracking to accurately identify and classify smoking gestures in video streams</p>
-      <p class="tech-used">YOLO | MediaPipe | Pose Estimation | Action Recognition</p>
+      <p>Experience with medical image segmentation and 3D volumetric segmentation</p>
+      <p class="tech-used">PyTorch | Deep Learning | 3D Segmentation </p>
     </div>
   </div>
 </div>
