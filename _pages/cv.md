@@ -10,7 +10,7 @@ redirect_from:
 {% include base_path %}
 
 <div style="text-align: center; margin-bottom: 1.5em;">
-  <p style="font-size: 1.1em; color: #494e52; font-style: italic; max-width: 800px; margin: 0 auto;">
+  <p style="font-size: 1.1em; color: var(--global-text-color); font-style: italic; max-width: 800px; margin: 0 auto;">
     Computer Vision and Medical AI Postgraduate Student | Exploring Embodied Intelligence
   </p>
   
@@ -25,7 +25,7 @@ redirect_from:
 
 <div class="education">
   <div class="education-entry">
-    <h3><i class="fas fa-graduation-cap" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>M.S. in Artificial Intelligence and Adaptive System</h3>
+    <h3><i class="fas fa-graduation-cap" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>M.S. in Artificial Intelligence and Adaptive System</h3>
     <p><em>Sussex Artificial Intelligence Institute, Zhejiang Gongshang University</em><br>
     Hangzhou, China | 2024-Present</p>
     <ul>
@@ -37,7 +37,7 @@ redirect_from:
   </div>
 
   <div class="education-entry">
-    <h3><i class="fas fa-graduation-cap" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>B.S. in Computer Science and Technology</h3>
+    <h3><i class="fas fa-graduation-cap" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>B.S. in Computer Science and Technology</h3>
     <p><em>Wenzhou Business College</em><br>
     Wenzhou, China | 2019-2023</p>
     <ul>
@@ -55,7 +55,7 @@ redirect_from:
 
 <div class="experience">
   <div class="experience-entry">
-    <h3><i class="fas fa-flask" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>Research Intern</h3>
+    <h3><i class="fas fa-flask" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>Research Intern</h3>
     <p><em>Wenzhou Medical University First Affiliated Hospital - Hepato-Pancreato-biliary Surgery Laboratory</em><br>
     Wenzhou, China | Sept 2022 - Jan 2023</p>
     <ul>
@@ -67,7 +67,7 @@ redirect_from:
   </div>
 
   <div class="experience-entry">
-    <h3><i class="fas fa-users" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>Student Team Leader, National Innovation Training Project</h3>
+    <h3><i class="fas fa-users" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>Student Team Leader, National Innovation Training Project</h3>
     <p><em>Wenzhou Business College</em><br>
     June 2022 - June 2023</p>
     <ul>
@@ -88,7 +88,7 @@ redirect_from:
 
 <div class="research-interests">
   <div class="interest-area">
-    <h3><i class="fas fa-brain" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>Medical Artificial Intelligence</h3>
+    <h3><i class="fas fa-brain" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>Medical Artificial Intelligence</h3>
     <ul>
       <li>Learning about deep learning for medical image analysis and disease diagnosis</li>
       <li>Understanding multi-modal clinical data integration and feature extraction</li>
@@ -97,7 +97,7 @@ redirect_from:
   </div>
   
   <div class="interest-area">
-    <h3><i class="fas fa-robot" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>Embodied Intelligence</h3>
+    <h3><i class="fas fa-robot" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>Embodied Intelligence</h3>
     <ul>
       <li>Studying how robots develop intelligence through physical interaction with the world</li>
       <li>Exploring the connection between perception and action in embodied agents</li>
@@ -106,7 +106,7 @@ redirect_from:
   </div>
   
   <div class="interest-area">
-    <h3><i class="fas fa-eye" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>Computer Vision</h3>
+    <h3><i class="fas fa-eye" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>Computer Vision</h3>
     <ul>
       <li>Attention-based object detection architectures</li>
       <li>Human pose estimation and behavior recognition</li>
@@ -115,7 +115,7 @@ redirect_from:
   </div>
   
   <div class="interest-area">
-    <h3><i class="fas fa-users" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>Multi-Agent Systems</h3>
+    <h3><i class="fas fa-users" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>Multi-Agent Systems</h3>
     <ul>
       <li>Understanding how multiple agents can self-organize to adapt specialized roles</li>
       <li>Studying emergent behaviors and collective intelligence in agent communities</li>
@@ -131,7 +131,7 @@ redirect_from:
 <div class="skills-section">
   <div class="skills-grid">
     <div class="skill-category">
-      <h3><i class="fas fa-code" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>Programming Languages</h3>
+      <h3><i class="fas fa-code" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>Programming Languages</h3>
       <ul>
         <li>Python</li>
         <li>C, Java, SQL</li>
@@ -140,7 +140,7 @@ redirect_from:
     </div>
     
     <div class="skill-category">
-      <h3><i class="fas fa-brain" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>AI & Machine Learning</h3>
+      <h3><i class="fas fa-brain" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>AI & Machine Learning</h3>
       <ul>
         <li><strong>Frameworks:</strong> PyTorch, TensorFlow</li>
         <li><strong>Areas:</strong> Computer Vision, Deep Learning, Reinforcement Learning</li>
@@ -149,7 +149,7 @@ redirect_from:
     </div>
     
     <div class="skill-category">
-      <h3><i class="fas fa-tools" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>Development Tools</h3>
+      <h3><i class="fas fa-tools" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>Development Tools</h3>
       <ul>
         <li><strong>Version Control:</strong> Git, GitHub</li>
         <li><strong>Documentation:</strong> LaTeX, Markdown</li>
@@ -158,7 +158,7 @@ redirect_from:
     </div>
     
     <div class="skill-category">
-      <h3><i class="fas fa-chart-bar" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>Data Analysis</h3>
+      <h3><i class="fas fa-chart-bar" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>Data Analysis</h3>
       <ul>
         <li><strong>Libraries:</strong> NumPy, Pandas, SciPy</li>
         <li><strong>Visualization:</strong> Matplotlib, Seaborn, Plotly</li>
@@ -166,7 +166,7 @@ redirect_from:
     </div>
     
     <div class="skill-category">
-      <h3><i class="fas fa-language" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>Languages</h3>
+      <h3><i class="fas fa-language" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>Languages</h3>
       <ul>
         <li><strong>Chinese:</strong> Native</li>
         <li><strong>English:</strong> Professional (IELTS 6.0: L:6.5, R:6.5, W:5.5, S:6.0)</li>
@@ -175,7 +175,7 @@ redirect_from:
     </div>
     
     <div class="skill-category">
-      <h3><i class="fas fa-certificate" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>Certifications</h3>
+      <h3><i class="fas fa-certificate" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>Certifications</h3>
       <ul>
         <li>DevCloud Summer Training Camp (Huawei)</li>
         <li>Python for AI Development (Shandong University)</li>
@@ -191,7 +191,7 @@ redirect_from:
 
 <div class="publications">
   <div class="paper">
-    <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>Machine Learning Identifies Exosome Features Related to Hepatocellular Carcinoma</h3>
+    <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>Machine Learning Identifies Exosome Features Related to Hepatocellular Carcinoma</h3>
     <p><strong>Journal:</strong> <em>Frontiers in Cell and Developmental Biology</em> (September 2022)</p>
     <p><strong>Authors:</strong> Kai Zhu, Qiqi Tao, <strong>Jiatao Yan</strong>, Zhichao Lang, Xinmiao Li, Yifei Li, Congcong Fan, Zhengping Yu</p>
     <p><strong>DOI:</strong> <a href="https://doi.org/10.3389/fcell.2022.1020415" target="_blank">10.3389/fcell.2022.1020415</a></p>
@@ -200,7 +200,7 @@ redirect_from:
   </div>
   
   <div class="paper">
-    <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>Multi-omics and Machine Learning-driven CD8+ T Cell Heterogeneity Score for Prognosis</h3>
+    <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>Multi-omics and Machine Learning-driven CD8+ T Cell Heterogeneity Score for Prognosis</h3>
     <p><strong>Journal:</strong> <em>Molecular Therapy Nucleic Acids</em> (December 2024)</p>
     <p><strong>Authors:</strong> Di He, Zhan Yang, Tian Zhang, Yaxian Luo, Lianjie Peng, <strong>Jiatao Yan</strong>, Tao Qiu, Jingyu Zhang, Luying Qin, Zhichao Liu, Xiaoting Zhang, Lining Lin, Mouyuan Sun</p>
     <p><strong>DOI:</strong> <a href="https://doi.org/10.1016/j.omtn.2024.102413" target="_blank">10.1016/j.omtn.2024.102413</a></p>
@@ -215,7 +215,7 @@ redirect_from:
 
 <div class="manuscripts">
   <div class="paper">
-    <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>Using Multiomics and Machine Learning: Insights into Improving the Outcomes of Clear Cell Renal Cell Carcinoma via SRD5A3-AS1/hsa-let-7e-5p/RRM2 Axis</h3>
+    <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>Using Multiomics and Machine Learning: Insights into Improving the Outcomes of Clear Cell Renal Cell Carcinoma via SRD5A3-AS1/hsa-let-7e-5p/RRM2 Axis</h3>
     <p><strong>Journal:</strong> <em>ACS Omega</em> (Submitted: February 12, 2025 - Under Review)</p>
     <p><strong>Authors:</strong> Mouyuan Sun, Zhan Yang, Yaxian Luo, Luying Qin, Lianjie Peng, Chaoran Pan, <strong>Jiatao Yan</strong>, Tao Qiu, Yan Zhang</p>
     <p class="contribution">Contribution: Implemented machine learning algorithms for identifying regulatory components in the SRD5A3-AS1/hsa-let-7e-5p/RRM2 axis.</p>
@@ -228,14 +228,14 @@ redirect_from:
 
 <div class="manuscripts">
   <div class="paper">
-    <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>Deep Learning Model for Survival Prediction of Localized Upper Tract Urothelial Carcinoma Based on Multi-Phase CT Images and Clinical Data</h3>
+    <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>Deep Learning Model for Survival Prediction of Localized Upper Tract Urothelial Carcinoma Based on Multi-Phase CT Images and Clinical Data</h3>
     <p><strong>In Revision</strong></p>
     <p><strong>Authors:</strong> Kai Zhu, Binwei Lin, <strong>Jiatao Yan</strong>, Honghui Zhu, Wei Chen, Xin Yao, Fengyan You, Yue Pan, Feng Wang, Peng Xia, Yeping Li, Lianguo Chen, Zhixian Yu, Shouliang Miao, Xiaomin Gao</p>
     <p class="contribution">Contribution: Designed and implemented the deep learning architecture for analyzing multi-phase CT images. Developed methods for integrating imaging features with clinical data to create a comprehensive predictive model. Participated in model validation and performance optimization.</p>
   </div>
 
   <div class="paper">
-    <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>YOLOv11-LCDFS: Enhanced Smoking Detection With Low-light Enhancement</h3>
+    <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>YOLOv11-LCDFS: Enhanced Smoking Detection With Low-light Enhancement</h3>
     <p><strong>In Revision</strong></p>
     <p><strong>Authors:</strong> <strong>Jiatao Yan</strong>, Zhuzikai Zheng, Zhengtan Yang, Hao Jiang, Peichen Wang, Fangjun Kuang, Siyang Zhang</p>
     <p class="contribution">First author working on a YOLO-based architecture with integrated low-light enhancement capabilities, specialized loss functions, attention mechanisms, and optimized upsampling techniques for improved detection in challenging lighting conditions.</p>
@@ -248,7 +248,7 @@ redirect_from:
 
 <div class="patents">
   <div class="patent-item">
-    <h3><i class="fas fa-file-contract" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>Patent Application</h3>
+    <h3><i class="fas fa-file-contract" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>Patent Application</h3>
     <p><strong>Title:</strong> Smoking Behavior Recognition Camera and Determination Method</p>
     <p><strong>Application Number:</strong> 202310277784.1</p>
     <p><strong>Status:</strong> Application withdrawn by patent office</p>
@@ -257,7 +257,7 @@ redirect_from:
   </div>
   
   <div class="software-copyrights">
-    <h3><i class="fas fa-file-code" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>Software Copyrights</h3>
+    <h3><i class="fas fa-file-code" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>Software Copyrights</h3>
     <ul>
       <li>
         <strong>Medical Image Computing Software</strong> (2022SR0252378)<br>
@@ -290,7 +290,7 @@ redirect_from:
 <div class="achievements">
   <div class="achievement-item">
     <div class="achievement-content">
-      <h4><i class="fas fa-trophy" style="font-size: 1.2em; color: #D4AF37; margin-right: 0.5em;"></i>Stanford RNA 3D Folding Competition</h4>
+      <h4><i class="fas fa-trophy" style="font-size: 1.2em; color:rgb(184, 115, 51); margin-right: 0.5em;"></i>Stanford RNA 3D Folding Competition</h4>
       <p><strong>Bronze Medal</strong> | 87th/1093 Place (Top 8%) | Kaggle Global Competition | Ongoing</p>
       <p class="achievement-desc"></p>
     </div>
@@ -306,7 +306,7 @@ redirect_from:
   
   <div class="achievement-item">
     <div class="achievement-content">
-      <h4><i class="fas fa-trophy" style="font-size: 1.2em; color: #C0C0C0; margin-right: 0.5em;"></i>HuBMAP + HPA Competition</h4>
+      <h4><i class="fas fa-chart-line" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>HuBMAP + HPA Competition</h4>
       <p><strong>442nd Place</strong> | Top 38% | Kaggle Global Competition | September 2022</p>
       <p class="achievement-desc"></p>
     </div>
@@ -343,7 +343,7 @@ redirect_from:
 
 <div class="projects">
   <div class="project-entry">
-    <h3><i class="fas fa-project-diagram" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>YOLOv11-LCDFS: Enhanced Smoking Detection With Low-light Enhancement</h3>
+    <h3><i class="fas fa-project-diagram" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>YOLOv11-LCDFS: Enhanced Smoking Detection With Low-light Enhancement</h3>
     <div class="project-details">
       <p>Extension of smoking detection research focusing on improved object detection in challenging lighting conditions. Developing a novel YOLO-based architecture with specialized components addressing the unique challenges of low-light environments.</p>
       <ul>
@@ -359,7 +359,7 @@ redirect_from:
   </div>
 
   <div class="project-entry">
-    <h3><i class="fas fa-microscope" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Multi-modal Medical Image Analysis for Cancer Research</h3>
+    <h3><i class="fas fa-microscope" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Multi-modal Medical Image Analysis for Cancer Research</h3>
     <div class="project-details">
       <p>Developed medical image analysis systems for cancer research at Wenzhou Medical University First Affiliated Hospital.</p>
       <ul>
@@ -374,7 +374,7 @@ redirect_from:
   </div>
   
   <div class="project-entry">
-    <h3><i class="fas fa-disease" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Disease Detection Using Deep Learning</h3>
+    <h3><i class="fas fa-disease" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Disease Detection Using Deep Learning</h3>
     <div class="project-details">
       <p>Developed deep learning models for automated disease detection and classification from medical imaging data, with a focus on diabetic foot ulcer detection.</p>
       <ul>
@@ -390,7 +390,7 @@ redirect_from:
   </div>
   
   <div class="project-entry">
-    <h3><i class="fas fa-comment" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Twitter Sentiment Analysis</h3>
+    <h3><i class="fas fa-comment" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Twitter Sentiment Analysis</h3>
     <div class="project-details">
       <p>Built a sentiment analysis system for Twitter comments using natural language processing techniques.</p>
       <ul>
@@ -403,7 +403,7 @@ redirect_from:
   </div>
   
   <div class="project-entry">
-    <h3><i class="fas fa-envelope" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Spam Email Detection</h3>
+    <h3><i class="fas fa-envelope" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Spam Email Detection</h3>
     <div class="project-details">
       <p>Developed a machine learning system to classify emails as spam or legitimate based on content analysis.</p>
       <ul>
@@ -416,7 +416,7 @@ redirect_from:
   </div>
 
   <div class="project-entry">
-    <h3><i class="fas fa-smoking" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Smoking Behavior Detection System</h3>
+    <h3><i class="fas fa-smoking" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Smoking Behavior Detection System</h3>
     <div class="project-details">
       <p>Undergraduate thesis project combining YOLO object detection with MediaPipe skeletal tracking to accurately identify and classify smoking gestures in video streams.</p>
       <ul>
@@ -439,7 +439,7 @@ redirect_from:
 
 <div class="professional-development">
   <div class="current-learning">
-    <h3><i class="fas fa-brain" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>Current Learning Focus</h3>
+    <h3><i class="fas fa-brain" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>Current Learning Focus</h3>
     <p>Self-directed study in embodied intelligence and robotics, focusing on the following areas:</p>
     <ul>
       <li><strong>Core Algorithms for Embodied AI:</strong> Studying reinforcement learning, imitation learning, model predictive control, and diffusion models for robotics</li>
@@ -451,7 +451,7 @@ redirect_from:
   </div>
   
   <div class="key-resources">
-    <h3><i class="fas fa-book" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>Key Learning Resources</h3>
+    <h3><i class="fas fa-book" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>Key Learning Resources</h3>
     <ul>
       <li>
         <strong>GitHub:</strong>
@@ -482,7 +482,7 @@ redirect_from:
   </div>
   
   <div class="future-directions">
-    <h3><i class="fas fa-compass" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>Research Questions I'm Interested In</h3>
+    <h3><i class="fas fa-compass" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>Research Questions I'm Interested In</h3>
     <ul>
       <li>How might robots develop intelligence through interaction with their environment?</li>
       <li>What mechanisms enable multiple agents to self-organize and develop specialized roles?</li>

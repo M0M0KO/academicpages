@@ -6,20 +6,20 @@ author_profile: true
 ---
 
 {% if site.author.googlescholar %}
-  <div class="wordwrap"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Find my articles on <a href="{{site.author.googlescholar}}" target="_blank">Google Scholar</a>{% if site.author.orcid %} or <a href="{{site.author.orcid}}" target="_blank">ORCID</a>{% endif %}.</div>
+  <div class="wordwrap"><i class="fas fa-graduation-cap" style="color: #4285F4;" aria-hidden="true"></i> Find my articles on <a href="{{site.author.googlescholar}}" target="_blank">Google Scholar</a>{% if site.author.orcid %} or <a href="{{site.author.orcid}}" target="_blank">ORCID</a>{% endif %}.</div>
 {% endif %}
 
 {% include base_path %}
 
 <div style="margin: 2em 0; padding: 1.5em; border: 1px solid var(--global-border-color); border-radius: 5px; background-color: var(--global-bg-color); box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
-  <h3 style="color: var(--global-text-color); margin-top: 0;"><i class="fas fa-file-alt" style="margin-right: 0.5em;"></i>Research Focus</h3>
+  <h3 style="color: var(--global-text-color); margin-top: 0;"><i class="fas fa-file-alt" style="margin-right: 0.5em; color: #4285F4;"></i>Research Focus</h3>
   <p>My research focuses on applying machine learning and deep learning techniques to medical image analysis and embodied intelligence. I work on developing innovative algorithms for medical diagnosis, treatment planning, and prognosis prediction.</p>
   <p>If you're interested in collaborating on research projects, please feel free to <a href="mailto:{{site.author.email}}">contact me</a>.</p>
 </div>
 
 <!-- Publication Filters -->
 <div class="publication-filters" style="margin: 2em 0;">
-  <h3 style="margin-bottom: 0.5em; color: var(--global-text-color);">Filter Publications:</h3>
+  <h3 style="margin-bottom: 0.5em; color: var(--global-text-color);"><i class="fas fa-filter" style="margin-right: 0.5em; color: #4285F4;"></i>Filter Publications:</h3>
   <div style="display: flex; flex-wrap: wrap; gap: 10px;">
     <button id="filter-all" class="filter-btn active" style="padding: 8px 15px; background-color: var(--global-bg-color); border: 1px solid var(--global-border-color); border-radius: 4px; cursor: pointer; font-size: 0.9em; font-weight: 500; transition: all 0.2s ease; color: var(--global-text-color);">All</button>
     {% for category in site.publication_category %}
@@ -120,9 +120,9 @@ author_profile: true
     background-color: var(--global-border-color) !important;
   }
   .filter-btn.active {
-    background-color: #0366d6 !important;
+    background-color: #4285F4 !important;
     color: white !important;
-    border-color: #0366d6 !important;
+    border-color: #4285F4 !important;
   }
   .publication-category {
     margin-bottom: 2em;

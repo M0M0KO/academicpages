@@ -11,7 +11,7 @@ citation_apa: 'He, D., Yang, Z., Zhang, T., Luo, Y., Peng, L., Yan, J., Qiu, T.,
 category: journals
 header:
   teaser: 'publications/tcell_heterogeneity.jpg'
-topic: 'Multi-omics'
+topic: 'Machine Learning'
 doi: '10.1016/j.omtn.2024.102413'
 bibtex: |
   @article{he2025multi,

@@ -36,23 +36,23 @@ I am a postgraduate student with medical image analysis experience, interested i
 
 <div class="research-interests">
   <div>
-    <i class="fas fa-brain" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>
+    <i class="fas fa-brain" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
     <strong>Medical AI</strong>: Learning about deep learning for medical image analysis, disease prediction and diagnosis, multi-modal clinical data integration
   </div>
   <div>
-    <i class="fas fa-robot" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>
+    <i class="fas fa-robot" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
     <strong>Embodied Intelligence</strong>: Exploring physical AI systems, robot learning, and developing an understanding of sensorimotor control
   </div>
   <div>
-    <i class="fas fa-eye" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>
+    <i class="fas fa-eye" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
     <strong>Computer Vision</strong>: Attention-based object detection, image segmentation
   </div>
   <div>
-    <i class="fas fa-project-diagram" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>
+    <i class="fas fa-project-diagram" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
     <strong>Multi-modal Learning</strong>: Exploring Vision-Language-Action(VLA) models for embodied AI systems
   </div>
   <div>
-    <i class="fas fa-users" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>
+    <i class="fas fa-users" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
     <strong>Multi-Agent Systems</strong>: Beginning to study collaborative AI systems
   </div>
 </div>
@@ -66,7 +66,7 @@ I am a postgraduate student with medical image analysis experience, interested i
   
   <div class="focus-grid">
     <div class="focus-item">
-      <i class="fas fa-book-open" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>
+      <i class="fas fa-book-open" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
       <div>
         <h4>Building Foundations</h4>
         <p>Studying core concepts in robotics, reinforcement learning, and computational perception</p>
@@ -74,7 +74,7 @@ I am a postgraduate student with medical image analysis experience, interested i
     </div>
     
     <div class="focus-item">
-      <i class="fas fa-laptop-code" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>
+      <i class="fas fa-laptop-code" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
       <div>
         <h4>Practical Skills</h4>
         <p>Learning to work with simulation environments and developing small projects to apply theoretical knowledge</p>
@@ -82,7 +82,7 @@ I am a postgraduate student with medical image analysis experience, interested i
     </div>
     
     <div class="focus-item">
-      <i class="fas fa-users" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>
+      <i class="fas fa-users" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
       <div>
         <h4>Multi-Agent Learning</h4>
         <p>Beginning to explore how multiple AI agents can interact, communicate, and solve problems collaboratively</p>
@@ -191,15 +191,15 @@ research</p>
 
 <div class="curious-about">
   <div class="question-item">
-    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>How can robots develop their own intelligence through sensorimotor experiences with the world?</h4>
+    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>How can robots develop their own intelligence through sensorimotor experiences with the world?</h4>
   </div>
   
   <div class="question-item">
-    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>How can multiple agents self-organize to adapt specialized roles and develop emergent collective intelligence?</h4>
+    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>How can multiple agents self-organize to adapt specialized roles and develop emergent collective intelligence?</h4>
   </div>
   
   <div class="question-item">
-    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>What mechanisms would allow large language models to automatically decompose tasks and utilize specialized tools collaboratively?</h4>
+    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>What mechanisms would allow large language models to automatically decompose tasks and utilize specialized tools collaboratively?</h4>
   </div>
 </div>
 
@@ -209,15 +209,15 @@ research</p>
 
 <div class="future-goals">
   <div class="goal-item">
-    <h4><i class="fas fa-lightbulb" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>Explore foundations of embodied cognition and how physical interaction shapes intelligence development</h4>
+    <h4><i class="fas fa-lightbulb" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Explore foundations of embodied cognition and how physical interaction shapes intelligence development</h4>
   </div>
   
   <div class="goal-item">
-    <h4><i class="fas fa-users" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>Study emergent behaviors in multi-agent systems and how simple individual rules can lead to complex collective intelligence</h4>
+    <h4><i class="fas fa-users" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Study emergent behaviors in multi-agent systems and how simple individual rules can lead to complex collective intelligence</h4>
   </div>
   
   <div class="goal-item">
-    <h4><i class="fas fa-robot" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>Learn to design systems where agents can autonomously discover effective division of labor and tool usage</h4>
+    <h4><i class="fas fa-robot" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Learn to design systems where agents can autonomously discover effective division of labor and tool usage</h4>
   </div>
 </div>
 

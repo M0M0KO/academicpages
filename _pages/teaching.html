@@ -5,16 +5,16 @@ permalink: /teaching/
 author_profile: true
 ---
 
-{% include base_path %}
-
-<div style="text-align: center; margin: 3em 0; padding: 2em; border: 1px solid #e0e0e0; border-radius: 5px; background-color: #f9f9f9;">
-  <h2 style="color: #494e52;"><i class="fas fa-chalkboard-teacher" style="margin-right: 0.5em;"></i>Content Coming Soon</h2>
+<div style="text-align: center; margin: 3em 0; padding: 2em; border: 1px solid var(--global-border-color); border-radius: 5px; background-color: var(--global-bg-color);">
+  <h2 style="color: var(--global-text-color);"><i class="fas fa-chalkboard-teacher" style="margin-right: 0.5em; color: var(--global-theme-color);"></i>Content Coming Soon</h2>
   <p>My teaching section is currently under development.</p>
-  <p>I'm preparing to share information about courses, workshops, and tutorials I've been involved with.</p>
+  <p>I'm working on adding details about courses I've taught, teaching philosophy, and educational resources.</p>
   <p>Please check back later for updates!</p>
 </div>
 
 {% comment %}
+{% include base_path %}
+
 {% for post in site.teaching reversed %}
   {% include archive-single.html %}
 {% endfor %}

@@ -11,7 +11,7 @@ paperurl:
 category: manuscripts
 header:
   teaser: 'publications/multiomics_rcc.jpg'
-topic: 'Multi-omics'
+topic: 'Machine Learning'
 # codeurl: 'https://github.com/M0M0KO/multiomics-rcc'
 # preprinturl: ''
 # bibtexurl: ''
