@@ -234,39 +234,46 @@ redirect_from:
 <div class="achievements">
   <div class="achievement-item">
     <div class="achievement-content">
-      <h4><i class="fas fa-trophy" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Kaggle HuBMAP + HPA Competition</h4>
+      <h4><i class="fas fa-trophy" style="font-size: 1.2em; color: #D4AF37; margin-right: 0.5em;"></i>Stanford RNA 3D Folding Competition</h4>
+      <p>Bronze Medal (87th/1093 Place) | Kaggle Global Competition | Ongoing</p>
+    </div>
+  </div>
+
+  <div class="achievement-item">
+    <div class="achievement-content">
+      <h4><i class="fas fa-chart-line" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Predict Podcast Listening Time Competition</h4>
+      <p>Current Rank: 154th/2565 | Kaggle Global Competition | Ongoing</p>
+    </div>
+  </div>
+  
+  <div class="achievement-item">
+    <div class="achievement-content">
+      <h4><i class="fas fa-trophy" style="font-size: 1.2em; color: #C0C0C0; margin-right: 0.5em;"></i>Kaggle HuBMAP + HPA Competition</h4>
       <p>Participant, Top 38% (442nd Place) | Global Competition | Sept 2022</p>
     </div>
   </div>
   
   <div class="achievement-item">
     <div class="achievement-content">
-      <h4><i class="fas fa-medal" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>18th Challenge Cup College Student Competition</h4>
+      <h4><i class="fas fa-medal" style="font-size: 1.2em; color: #CD7F32; margin-right: 0.5em;"></i>18th Challenge Cup College Student Competition</h4>
       <p>Bronze Medal Recipient | Zhejiang Province | May 2023</p>
     </div>
   </div>
   
   <div class="achievement-item">
     <div class="achievement-content">
-      <h4><i class="fas fa-award" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>4th National "Chuanzhi Cup" IT Skills Competition</h4>
+      <h4><i class="fas fa-award" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>4th National "Chuanzhi Cup" IT Skills Competition</h4>
       <p>Provincial Excellent Award | Zhejiang Province | Dec 2021</p>
     </div>
   </div>
   
   <div class="achievement-item">
     <div class="achievement-content">
-      <h4><i class="fas fa-award" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>2023 Wenzhou Computer Society Student Member Innovation and Entrepreneurship Award</h4>
+      <h4><i class="fas fa-award" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>2023 Wenzhou Computer Society Student Member Innovation and Entrepreneurship Award</h4>
       <p>3rd Prize Recipient | Wenzhou | April 2024</p>
     </div>
   </div>
   
-  <div class="achievement-item">
-    <div class="achievement-content">
-      <h4><i class="fas fa-trophy" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Internet+ School-level Competition</h4>
-      <p>1st Place Team Member | Wenzhou Business College | May 2022</p>
-    </div>
-  </div>
-</div>
 
 ---
 
@@ -317,6 +324,11 @@ redirect_from:
   /* Icons consistency */
   .fa, .fas, .far, .fab {
     color: #494e52;
+  }
+  
+  /* Achievement icons special styling - override the general style */
+  .achievement-content .fas {
+    color: inherit; /* This will use the color defined inline */
   }
   
   section-icon {
@@ -426,6 +438,12 @@ redirect_from:
     overflow: hidden;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     padding: 1em;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .achievement-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
   }
   
   .achievement-content h4 {

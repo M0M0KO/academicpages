@@ -265,6 +265,37 @@ I am a postgraduate student with background experience in medical image analysis
 
 ---
 
+## Academic Achievements
+
+<div class="achievements">
+  <div class="achievement-item">
+    <h4><i class="fas fa-trophy" style="font-size: 1.2em; color: #D4AF37; margin-right: 0.5em;"></i>Stanford RNA 3D Folding Competition</h4>
+    <p>Bronze Medal (87th/1093 Place) | Kaggle Global Competition | Ongoing</p>
+  </div>
+
+  <div class="achievement-item">
+    <h4><i class="fas fa-chart-line" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Predict Podcast Listening Time Competition</h4>
+    <p>Current Rank: 154th/2565 | Kaggle Global Competition | Ongoing</p>
+  </div>
+  
+  <div class="achievement-item">
+    <h4><i class="fas fa-trophy" style="font-size: 1.2em; color: #C0C0C0; margin-right: 0.5em;"></i>Kaggle HuBMAP + HPA Competition</h4>
+    <p>Participant, Top 38% (442nd Place) | Global Competition | Sept 2022</p>
+  </div>
+  
+  <div class="achievement-item">
+    <h4><i class="fas fa-medal" style="font-size: 1.2em; color: #CD7F32; margin-right: 0.5em;"></i>18th Challenge Cup College Student Competition</h4>
+    <p>Bronze Medal Recipient | Zhejiang Province | May 2023</p>
+  </div>
+  
+  <div class="achievement-item">
+    <h4><i class="fas fa-trophy" style="font-size: 1.2em; color: #FFD700; margin-right: 0.5em;"></i>Internet+ School-level Competition</h4>
+    <p>1st Place Team Member | Wenzhou Business College | May 2022</p>
+  </div>
+</div>
+
+---
+
 ## Questions I'm Exploring
 
 <div class="questions-exploring">
@@ -324,7 +355,8 @@ I am a postgraduate student with background experience in medical image analysis
   .question-item,
   .goal-item,
   .journey-point,
-  .resource-category {
+  .resource-category,
+  .achievement-item {
     margin-bottom: 1.5em;
   }
   
@@ -348,6 +380,11 @@ I am a postgraduate student with background experience in medical image analysis
     color: #494e52;
   }
   
+  /* 成就图标特殊样式 - 覆盖全局样式 */
+  .achievement-item .fas {
+    color: inherit; /* 使用内联定义的颜色 */
+  }
+  
   .section-icon {
     font-size: 1.2em;
     margin-right: 0.5em;
@@ -357,7 +394,8 @@ I am a postgraduate student with background experience in medical image analysis
   /* 学习旅程和问题探索 */
   .journey-point,
   .question-item,
-  .goal-item {
+  .goal-item,
+  .achievement-item {
     background-color: #f8f9fa;
     border-radius: 8px;
     overflow: hidden;
@@ -365,9 +403,20 @@ I am a postgraduate student with background experience in medical image analysis
     padding: 1em;
   }
   
+  /* 成就项悬停效果 */
+  .achievement-item {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .achievement-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
   .journey-point h4,
   .question-item h4,
-  .goal-item h4 {
+  .goal-item h4,
+  .achievement-item h4 {
     margin: 0 0 0.5em 0;
     color: #494e52;
     display: flex;
