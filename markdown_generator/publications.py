@@ -22,6 +22,11 @@
 # - `bibtexurl`: URL to a BibTeX file
 # - `slidesurl`: URL to presentation slides
 # - `doi`: Digital Object Identifier (DOI) for the publication
+# - `preprinturl`: URL to a preprint version
+# - `dataseturl`: URL to the dataset
+# - `demourl`: URL to a demo
+# - `videourl`: URL to a video presentation
+# - `projecturl`: URL to the project page
 
 
 # ## Import pandas
@@ -122,6 +127,26 @@ for row, item in publications.iterrows():
     # Add DOI if available
     if hasattr(item, 'doi') and len(str(item.doi)) > 5:
         md += "\ndoi: '" + str(item.doi) + "'"
+        
+    # Add preprint URL if available
+    if hasattr(item, 'preprinturl') and len(str(item.preprinturl)) > 5:
+        md += "\npreprinturl: '" + str(item.preprinturl) + "'"
+        
+    # Add dataset URL if available
+    if hasattr(item, 'dataseturl') and len(str(item.dataseturl)) > 5:
+        md += "\ndataseturl: '" + str(item.dataseturl) + "'"
+        
+    # Add demo URL if available
+    if hasattr(item, 'demourl') and len(str(item.demourl)) > 5:
+        md += "\ndemourl: '" + str(item.demourl) + "'"
+        
+    # Add video URL if available
+    if hasattr(item, 'videourl') and len(str(item.videourl)) > 5:
+        md += "\nvideourl: '" + str(item.videourl) + "'"
+        
+    # Add project URL if available
+    if hasattr(item, 'projecturl') and len(str(item.projecturl)) > 5:
+        md += "\nprojecturl: '" + str(item.projecturl) + "'"
     
     md += "\n---"
     

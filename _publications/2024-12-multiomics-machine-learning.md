@@ -12,6 +12,14 @@ header:
   teaser: 'publications/tcell_heterogeneity.jpg'
 topic: 'Multi-omics'
 doi: '10.1016/j.omtn.2024.102413'
+bibtexurl: '/files/bibtex/he2025multi.bib'
+# codeurl: ''
+# preprinturl: ''
+# dataseturl: ''
+# demourl: ''
+# videourl: ''
+# projecturl: ''
+# slidesurl: ''
 ---
 
 ## Abstract

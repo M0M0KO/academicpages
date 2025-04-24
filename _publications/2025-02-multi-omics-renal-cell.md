@@ -11,7 +11,15 @@ category: manuscripts
 header:
   teaser: 'publications/multiomics_rcc.jpg'
 topic: 'Multi-omics'
-codeurl: 'https://github.com/M0M0KO/multiomics-rcc'
+# codeurl: 'https://github.com/M0M0KO/multiomics-rcc'
+# preprinturl: ''
+# bibtexurl: ''
+# dataseturl: ''
+# demourl: ''
+# videourl: ''
+# projecturl: ''
+# slidesurl: ''
+# doi: ''
 ---
 
 ## Abstract

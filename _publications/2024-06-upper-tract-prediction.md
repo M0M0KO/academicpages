@@ -11,8 +11,15 @@ category: manuscripts
 header:
   teaser: 'publications/utuc_prediction.jpg'
 topic: 'Medical Imaging'
-codeurl: 'https://github.com/M0M0KO/utuc-survival-prediction'
-doi: '10.1101/2024.06.24.123456'
+# codeurl: 'https://github.com/M0M0KO/utuc-survival-prediction'
+# doi: '10.1101/2024.06.24.123456'
+# preprinturl: ''
+# bibtexurl: ''
+# dataseturl: ''
+# demourl: ''
+# videourl: ''
+# projecturl: ''
+# slidesurl: ''
 ---
 
 ## Abstract

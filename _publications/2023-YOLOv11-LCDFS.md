@@ -11,7 +11,15 @@ category: manuscripts
 header:
   teaser: 'publications/yolov11_teaser.jpg'
 topic: 'Object Detection'
-codeurl: 'https://github.com/M0M0KO/yolov11-lcdfs'
+# codeurl: 'https://github.com/M0M0KO/yolov11-lcdfs'
+# preprinturl: ''
+# bibtexurl: ''
+# dataseturl: ''
+# demourl: ''
+# videourl: ''
+# projecturl: ''
+# slidesurl: ''
+# doi: ''
 ---
 
 ## Abstract

@@ -12,6 +12,14 @@ header:
   teaser: 'publications/hcc_exosome.jpg'
 topic: 'Machine Learning'
 doi: '10.3389/fcell.2022.1020415'
+bibtexurl: '/files/bibtex/zhu2022machine.bib'
+# codeurl: ''
+# preprinturl: ''
+# dataseturl: ''
+# demourl: ''
+# videourl: ''
+# projecturl: ''
+# slidesurl: ''
 ---
 
 ## Abstract
