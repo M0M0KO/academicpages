@@ -11,19 +11,19 @@ author_profile: true
 
 {% include base_path %}
 
-<div style="margin: 2em 0; padding: 1.5em; border: 1px solid #e0e0e0; border-radius: 5px; background-color: #f9f9f9; box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
-  <h3 style="color: #494e52; margin-top: 0;"><i class="fas fa-file-alt" style="margin-right: 0.5em;"></i>Research Focus</h3>
+<div style="margin: 2em 0; padding: 1.5em; border: 1px solid var(--global-border-color); border-radius: 5px; background-color: var(--global-bg-color); box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+  <h3 style="color: var(--global-text-color); margin-top: 0;"><i class="fas fa-file-alt" style="margin-right: 0.5em;"></i>Research Focus</h3>
   <p>My research focuses on applying machine learning and deep learning techniques to medical image analysis and embodied intelligence. I work on developing innovative algorithms for medical diagnosis, treatment planning, and prognosis prediction.</p>
   <p>If you're interested in collaborating on research projects, please feel free to <a href="mailto:{{site.author.email}}">contact me</a>.</p>
 </div>
 
 <!-- Publication Filters -->
 <div class="publication-filters" style="margin: 2em 0;">
-  <h3 style="margin-bottom: 0.5em; color: #494e52;">Filter Publications:</h3>
+  <h3 style="margin-bottom: 0.5em; color: var(--global-text-color);">Filter Publications:</h3>
   <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-    <button id="filter-all" class="filter-btn active" style="padding: 8px 15px; background-color: #f8f9fa; border: 1px solid #ddd; border-radius: 4px; cursor: pointer; font-size: 0.9em; font-weight: 500; transition: all 0.2s ease;">All</button>
+    <button id="filter-all" class="filter-btn active" style="padding: 8px 15px; background-color: var(--global-bg-color); border: 1px solid var(--global-border-color); border-radius: 4px; cursor: pointer; font-size: 0.9em; font-weight: 500; transition: all 0.2s ease; color: var(--global-text-color);">All</button>
     {% for category in site.publication_category %}
-      <button id="filter-{{ category[0] }}" class="filter-btn" style="padding: 8px 15px; background-color: #f8f9fa; border: 1px solid #ddd; border-radius: 4px; cursor: pointer; font-size: 0.9em; font-weight: 500; transition: all 0.2s ease;">{{ category[1].title }}</button>
+      <button id="filter-{{ category[0] }}" class="filter-btn" style="padding: 8px 15px; background-color: var(--global-bg-color); border: 1px solid var(--global-border-color); border-radius: 4px; cursor: pointer; font-size: 0.9em; font-weight: 500; transition: all 0.2s ease; color: var(--global-text-color);">{{ category[1].title }}</button>
     {% endfor %}
   </div>
 </div>
@@ -111,14 +111,13 @@ author_profile: true
 
 <style>
   .filter-btn {
-    background-color: #f0f0f0 !important;
-    color: #333 !important;
-    border-color: #ccc !important;
+    background-color: var(--global-bg-color) !important;
+    color: var(--global-text-color) !important;
+    border-color: var(--global-border-color) !important;
     transition: all 0.2s ease;
   }
   .filter-btn:hover {
-    background-color: #e0e0e0 !important;
-    border-color: #aaa !important;
+    background-color: var(--global-border-color) !important;
   }
   .filter-btn.active {
     background-color: #0366d6 !important;
@@ -130,6 +129,7 @@ author_profile: true
   }
   .category-title {
     margin-top: 1em;
+    color: var(--global-text-color);
   }
   @media (max-width: 767px) {
     .publication-filters {

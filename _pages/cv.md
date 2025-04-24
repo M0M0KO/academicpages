@@ -15,7 +15,7 @@ redirect_from:
   </p>
   
   <div class="download-button">
-    <a href="#" class="btn btn-primary"><i class="fas fa-download"></i> Download Full CV (PDF)</a>
+    <a href="{{ base_path }}/files/CV.pdf" class="btn btn-primary"><i class="fas fa-download"></i> Download Full CV (PDF)</a>
   </div>
 </div>
 
@@ -506,8 +506,8 @@ redirect_from:
     margin-top: 2em;
     margin-bottom: 1em;
     padding-bottom: 0.5em;
-    border-bottom: 2px solid #f0f0f0;
-    color: #333;
+    border-bottom: 2px solid var(--global-border-color);
+    color: var(--global-text-color);
     font-weight: 600;
   }
   
@@ -546,7 +546,8 @@ redirect_from:
   .paper {
     margin-bottom: 2em;
     padding: 1.5em;
-    background-color: #f8f9fa;
+    background-color: var(--global-bg-color);
+    border: 1px solid var(--global-border-color);
     border-radius: 8px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     transition: all 0.2s ease-in-out;
@@ -566,9 +567,9 @@ redirect_from:
   .paper h3,
   .interest-area h3 {
     margin-bottom: 0.8em;
-    color: #494e52;
+    color: var(--global-text-color);
     font-weight: 600;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid var(--global-border-color);
     padding-bottom: 0.5em;
   }
   
@@ -578,6 +579,7 @@ redirect_from:
   .paper p {
     margin: 0.5em 0;
     line-height: 1.5;
+    color: var(--global-text-color);
   }
   
   .education-entry ul,
@@ -588,6 +590,7 @@ redirect_from:
   .key-resources ul,
   .software-copyrights ul {
     padding-left: 1.5em;
+    color: var(--global-text-color);
   }
   
   .education-entry li,
@@ -608,11 +611,11 @@ redirect_from:
   /* Publication Styles */
   .contribution {
     font-style: italic;
-    color: #666;
-    border-left: 3px solid #ddd;
+    color: var(--global-text-color-light);
+    border-left: 3px solid var(--global-border-color);
     padding-left: 10px;
     margin-top: 0.8em;
-    background-color: #f9f9f9;
+    background-color: var(--global-bg-color);
     padding: 0.5em 1em;
     border-radius: 0 4px 4px 0;
   }
@@ -626,7 +629,8 @@ redirect_from:
   
   .interest-area {
     padding: 1.5em;
-    background-color: #f8f9fa;
+    background-color: var(--global-bg-color);
+    border: 1px solid var(--global-border-color);
     border-radius: 8px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     transition: all 0.2s ease-in-out;
@@ -645,7 +649,8 @@ redirect_from:
   }
   
   .skill-category {
-    background-color: #f8f9fa;
+    background-color: var(--global-bg-color);
+    border: 1px solid var(--global-border-color);
     padding: 1.5em;
     border-radius: 8px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
@@ -660,9 +665,9 @@ redirect_from:
   .skill-category h3 {
     margin-top: 0;
     margin-bottom: 0.8em;
-    color: #494e52;
+    color: var(--global-text-color);
     font-weight: 600;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid var(--global-border-color);
     padding-bottom: 0.5em;
   }
   
@@ -674,7 +679,8 @@ redirect_from:
   }
   
   .achievement-item {
-    background-color: #f8f9fa;
+    background-color: var(--global-bg-color);
+    border: 1px solid var(--global-border-color);
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
@@ -689,7 +695,7 @@ redirect_from:
   
   .achievement-content h4 {
     margin: 0 0 0.5em 0;
-    color: #494e52;
+    color: var(--global-text-color);
     display: flex;
     align-items: center;
     font-weight: 600;
@@ -699,12 +705,12 @@ redirect_from:
     margin: 0.5em 0;
     font-size: 0.95em;
     line-height: 1.5;
-    color: #333;
+    color: var(--global-text-color);
   }
   
   .achievement-desc {
     font-size: 0.9em !important;
-    color: #666 !important;
+    color: var(--global-text-color-light) !important;
     margin-top: 0.5em !important;
   }
   
@@ -716,7 +722,8 @@ redirect_from:
   .patent-item {
     padding: 1.5em;
     border-radius: 8px;
-    background-color: #f8f9fa;
+    background-color: var(--global-bg-color);
+    border: 1px solid var(--global-border-color);
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     transition: all 0.2s ease-in-out;
     margin-bottom: 1.5em;
@@ -730,41 +737,45 @@ redirect_from:
   .patent-item h3 {
     margin-top: 0;
     margin-bottom: 0.8em;
-    color: #494e52;
+    color: var(--global-text-color);
     font-weight: 600;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid var(--global-border-color);
     padding-bottom: 0.5em;
   }
   
   .patent-item p {
     margin: 0.3em 0;
     line-height: 1.4;
+    color: var(--global-text-color);
   }
   
   .software-copyrights {
     padding: 1.5em;
     border-radius: 8px;
-    background-color: #f8f9fa;
+    background-color: var(--global-bg-color);
+    border: 1px solid var(--global-border-color);
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
   }
   
   .software-copyrights h3 {
     margin-top: 0;
     margin-bottom: 0.8em;
-    color: #494e52;
+    color: var(--global-text-color);
     font-weight: 600;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid var(--global-border-color);
     padding-bottom: 0.5em;
   }
   
   .software-copyrights li {
     margin-bottom: 1em;
+    color: var(--global-text-color);
   }
   
   /* Professional Development */
   .professional-development > div {
     padding: 1.5em;
-    background-color: #f8f9fa;
+    background-color: var(--global-bg-color);
+    border: 1px solid var(--global-border-color);
     border-radius: 8px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     margin-bottom: 1.5em;
@@ -779,24 +790,26 @@ redirect_from:
   .professional-development h3 {
     margin-top: 0;
     margin-bottom: 0.8em;
-    color: #494e52;
+    color: var(--global-text-color);
     font-weight: 600;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid var(--global-border-color);
     padding-bottom: 0.5em;
   }
   
   /* References */
   .references {
     padding: 1.5em;
-    background-color: #f8f9fa;
+    background-color: var(--global-bg-color);
+    border: 1px solid var(--global-border-color);
     border-radius: 8px;
     text-align: center;
     font-style: italic;
+    color: var(--global-text-color);
   }
   
   /* Icons */
   .fa, .fas, .far, .fab {
-    color: #494e52;
+    color: var(--global-text-color);
   }
   
   .achievement-content .fas {

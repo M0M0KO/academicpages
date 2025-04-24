@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 <div style="text-align: center; margin-bottom: 2em;">
-  <h1 style="font-size: 2.5em; color: #494e52;">About Me</h1>
+  <h1 style="font-size: 2.5em; color: var(--global-text-color);">About Me</h1>
 </div>
 
 ## At a Glance
@@ -36,23 +36,23 @@ I am a postgraduate student with medical image analysis experience, interested i
 
 <div class="research-interests">
   <div>
-    <i class="fas fa-brain" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
+    <i class="fas fa-brain" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>
     <strong>Medical AI</strong>: Learning about deep learning for medical image analysis, disease prediction and diagnosis, multi-modal clinical data integration
   </div>
   <div>
-    <i class="fas fa-robot" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
+    <i class="fas fa-robot" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>
     <strong>Embodied Intelligence</strong>: Exploring physical AI systems, robot learning, and developing an understanding of sensorimotor control
   </div>
   <div>
-    <i class="fas fa-eye" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
+    <i class="fas fa-eye" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>
     <strong>Computer Vision</strong>: Attention-based object detection, image segmentation
   </div>
   <div>
-    <i class="fas fa-project-diagram" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
+    <i class="fas fa-project-diagram" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>
     <strong>Multi-modal Learning</strong>: Exploring Vision-Language-Action(VLA) models for embodied AI systems
   </div>
   <div>
-    <i class="fas fa-users" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
+    <i class="fas fa-users" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>
     <strong>Multi-Agent Systems</strong>: Beginning to study collaborative AI systems
   </div>
 </div>
@@ -66,7 +66,7 @@ I am a postgraduate student with medical image analysis experience, interested i
   
   <div class="focus-grid">
     <div class="focus-item">
-      <i class="fas fa-book-open" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
+      <i class="fas fa-book-open" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>
       <div>
         <h4>Building Foundations</h4>
         <p>Studying core concepts in robotics, reinforcement learning, and computational perception</p>
@@ -74,7 +74,7 @@ I am a postgraduate student with medical image analysis experience, interested i
     </div>
     
     <div class="focus-item">
-      <i class="fas fa-laptop-code" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
+      <i class="fas fa-laptop-code" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>
       <div>
         <h4>Practical Skills</h4>
         <p>Learning to work with simulation environments and developing small projects to apply theoretical knowledge</p>
@@ -82,7 +82,7 @@ I am a postgraduate student with medical image analysis experience, interested i
     </div>
     
     <div class="focus-item">
-      <i class="fas fa-users" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
+      <i class="fas fa-users" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>
       <div>
         <h4>Multi-Agent Learning</h4>
         <p>Beginning to explore how multiple AI agents can interact, communicate, and solve problems collaboratively</p>
@@ -166,7 +166,7 @@ I am a postgraduate student with medical image analysis experience, interested i
 
 <div class="publication-preview">
   <div class="publication-card">
-    <i class="fas fa-file-alt" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
+    <i class="fas fa-file-alt" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>
     <div>
       <h4>Machine Learning Identifies Exosome Features Related to Hepatocellular Carcinoma</h4>
       <p><em>Frontiers in Cell and Developmental Biology</em> (2022)</p>
@@ -176,7 +176,7 @@ research</p>
   </div>
   
   <div class="publication-card">
-    <i class="fas fa-file-alt" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>
+    <i class="fas fa-file-alt" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>
     <div>
       <h4>Multi-omics and Machine Learning-driven CD8+ T Cell Heterogeneity Score for Prognosis</h4>
       <p><em>Molecular Therapy Nucleic Acids</em> (2024)</p>
@@ -191,15 +191,15 @@ research</p>
 
 <div class="curious-about">
   <div class="question-item">
-    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>How can robots develop their own intelligence through sensorimotor experiences with the world?</h4>
+    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>How can robots develop their own intelligence through sensorimotor experiences with the world?</h4>
   </div>
   
   <div class="question-item">
-    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>How can multiple agents self-organize to adapt specialized roles and develop emergent collective intelligence?</h4>
+    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>How can multiple agents self-organize to adapt specialized roles and develop emergent collective intelligence?</h4>
   </div>
   
   <div class="question-item">
-    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>What mechanisms would allow large language models to automatically decompose tasks and utilize specialized tools collaboratively?</h4>
+    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>What mechanisms would allow large language models to automatically decompose tasks and utilize specialized tools collaboratively?</h4>
   </div>
 </div>
 
@@ -209,15 +209,15 @@ research</p>
 
 <div class="future-goals">
   <div class="goal-item">
-    <h4><i class="fas fa-lightbulb" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Explore foundations of embodied cognition and how physical interaction shapes intelligence development</h4>
+    <h4><i class="fas fa-lightbulb" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>Explore foundations of embodied cognition and how physical interaction shapes intelligence development</h4>
   </div>
   
   <div class="goal-item">
-    <h4><i class="fas fa-users" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Study emergent behaviors in multi-agent systems and how simple individual rules can lead to complex collective intelligence</h4>
+    <h4><i class="fas fa-users" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>Study emergent behaviors in multi-agent systems and how simple individual rules can lead to complex collective intelligence</h4>
   </div>
   
   <div class="goal-item">
-    <h4><i class="fas fa-robot" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Learn to design systems where agents can autonomously discover effective division of labor and tool usage</h4>
+    <h4><i class="fas fa-robot" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>Learn to design systems where agents can autonomously discover effective division of labor and tool usage</h4>
   </div>
 </div>
 
@@ -227,8 +227,8 @@ research</p>
     margin-top: 2em;
     margin-bottom: 1em;
     padding-bottom: 0.5em;
-    border-bottom: 2px solid #f0f0f0;
-    color: #333;
+    border-bottom: 2px solid var(--global-border-color);
+    color: var(--global-text-color);
     font-weight: 600;
   }
   
@@ -255,7 +255,8 @@ research</p>
     align-items: flex-start;
     gap: 0.5em;
     padding: 1em;
-    background-color: #f8f9fa;
+    background-color: var(--global-bg-color);
+    border: 1px solid var(--global-border-color);
     border-radius: 8px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
   }
@@ -269,10 +270,12 @@ research</p>
   
   .research-interests div {
     padding: 1em;
-    background-color: #f8f9fa;
+    background-color: var(--global-bg-color);
+    border: 1px solid var(--global-border-color);
     border-radius: 8px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     transition: all 0.2s ease-in-out;
+    color: var(--global-text-color);
   }
   
   .research-interests div:hover {
@@ -291,11 +294,13 @@ research</p>
   .focus-item {
     display: flex;
     align-items: flex-start;
-    background-color: #f8f9fa;
+    background-color: var(--global-bg-color);
+    border: 1px solid var(--global-border-color);
     padding: 1em;
     border-radius: 8px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     transition: all 0.2s ease-in-out;
+    color: var(--global-text-color);
   }
   
   .focus-item:hover {
@@ -305,31 +310,31 @@ research</p>
   
   .focus-item h4 {
     margin: 0 0 0.5em 0;
-    color: #494e52;
+    color: var(--global-text-color);
   }
   
   .focus-item p {
     margin: 0;
     font-size: 0.9em;
-    color: #666;
+    color: var(--global-text-color-light);
   }
   
   /* Projects preview */
   .projects-preview {
     display: grid;
     grid-template-columns: 1fr;
-    gap: a1.5em;
+    gap: 1.5em;
   }
   
   .project-card {
     display: flex;
     align-items: flex-start;
     gap: 1em;
-    padding: 1.2em;
-    background-color: #f8f9fa;
+    padding: 1em;
+    background-color: var(--global-bg-color);
+    border: 1px solid var(--global-border-color);
     border-radius: 8px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
-    margin-bottom: 1.5em;
     transition: all 0.2s ease-in-out;
   }
   
@@ -349,18 +354,18 @@ research</p>
   
   .project-details h4 {
     margin: 0 0 0.5em 0;
-    color: #494e52;
+    color: var(--global-text-color);
   }
   
   .project-details p {
     margin: 0 0 0.5em 0;
-    font-size: 0.95em;
-    color: #333;
+    font-size: 0.9em;
+    color: var(--global-text-color);
   }
   
   .tech-used {
-    font-size: 0.85em !important;
-    color: #666 !important;
+    font-size: 0.8em !important;
+    color: var(--global-text-color-light) !important;
     font-style: italic;
   }
   
@@ -374,8 +379,10 @@ research</p>
   .achievement-card {
     display: flex;
     align-items: flex-start;
-    background-color: #f8f9fa;
+    gap: 1em;
     padding: 1em;
+    background-color: var(--global-bg-color);
+    border: 1px solid var(--global-border-color);
     border-radius: 8px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     transition: all 0.2s ease-in-out;
@@ -387,28 +394,30 @@ research</p>
   }
   
   .achievement-card h4 {
-    margin: 0 0 0.3em 0;
-    color: #494e52;
+    margin: 0 0 0.5em 0;
+    color: var(--global-text-color);
   }
   
   .achievement-card p {
     margin: 0;
     font-size: 0.9em;
-    color: #666;
+    color: var(--global-text-color);
   }
   
   /* Publications preview */
   .publication-preview {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 1em;
+    gap: 1.5em;
   }
   
   .publication-card {
     display: flex;
     align-items: flex-start;
-    background-color: #f8f9fa;
+    gap: 1em;
     padding: 1em;
+    background-color: var(--global-bg-color);
+    border: 1px solid var(--global-border-color);
     border-radius: 8px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     transition: all 0.2s ease-in-out;
@@ -420,26 +429,28 @@ research</p>
   }
   
   .publication-card h4 {
-    margin: 0 0 0.3em 0;
-    color: #494e52;
+    margin: 0 0 0.5em 0;
+    color: var(--global-text-color);
   }
   
   .publication-card p {
     margin: 0 0 0.3em 0;
     font-size: 0.9em;
-    color: #666;
+    color: var(--global-text-color-light);
   }
   
   /* Questions and goals */
   .question-item,
   .goal-item {
-    background-color: #f8f9fa;
+    background-color: var(--global-bg-color);
+    border: 1px solid var(--global-border-color);
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 1px 3px rgba(0,0,0,0.1);
     padding: 1em;
     margin-bottom: 1em;
     transition: all 0.2s ease-in-out;
+    color: var(--global-text-color);
   }
   
   .question-item:hover,
@@ -451,7 +462,7 @@ research</p>
   .question-item h4,
   .goal-item h4 {
     margin: 0;
-    color: #494e52;
+    color: var(--global-text-color);
     display: flex;
     align-items: center;
   }
