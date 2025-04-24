@@ -2,12 +2,16 @@
 title: "Multi-omics and Machine Learning-driven CD8+ T Cell Heterogeneity Score for Prognosis"
 collection: publications
 permalink: publications/2024-12-multiomics-machine-learning/
-excerpt: ''
+excerpt: 'This study develops a machine learning approach to quantify CD8+ T cell heterogeneity in head and neck squamous cell carcinoma, identifying novel biomarkers and potential therapeutic targets.'
 date: 2024-12-01
 venue: 'Molecular Therapy Nucleic Acids'
 paperurl: 'https://doi.org/10.1016/j.omtn.2024.102413'
 citation: 'He D, Yang Z, Zhang T, Luo Y, Peng L, Yan J, Qiu T, Zhang J, Qin L, Liu Z, Zhang X, Lin L, Sun M. (2024). &quot;Multi-omics and Machine Learning-driven CD8+ T Cell Heterogeneity Score for Prognosis.&quot; <i>Molecular Therapy Nucleic Acids</i>. DOI: 10.1016/j.omtn.2024.102413'
 category: journals
+header:
+  teaser: 'publications/tcell_heterogeneity.jpg'
+topic: 'Multi-omics'
+doi: '10.1016/j.omtn.2024.102413'
 ---
 
 ## Abstract

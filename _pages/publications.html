@@ -19,9 +19,9 @@ author_profile: true
 
 <!-- Publication Filters -->
 <div class="publication-filters" style="margin: 2em 0; display: flex; flex-wrap: wrap; gap: 10px;">
-  <button id="filter-all" class="filter-btn active" style="padding: 6px 12px; background-color: #f8f9fa; border: 1px solid #ddd; border-radius: 4px; cursor: pointer; font-size: 0.9em;">All</button>
+  <button id="filter-all" class="filter-btn active" style="padding: 6px 12px; background-color: #f8f9fa; border: 1px solid #ddd; border-radius: 4px; cursor: pointer; font-size: 0.9em; font-weight: 500;">All</button>
   {% for category in site.publication_category %}
-    <button id="filter-{{ category[0] }}" class="filter-btn" style="padding: 6px 12px; background-color: #f8f9fa; border: 1px solid #ddd; border-radius: 4px; cursor: pointer; font-size: 0.9em;">{{ category[1].title }}</button>
+    <button id="filter-{{ category[0] }}" class="filter-btn" style="padding: 6px 12px; background-color: #f8f9fa; border: 1px solid #ddd; border-radius: 4px; cursor: pointer; font-size: 0.9em; font-weight: 500;">{{ category[1].title }}</button>
   {% endfor %}
 </div>
 
@@ -31,16 +31,21 @@ author_profile: true
     {% for category in site.publication_category %}
       <div id="category-{{ category[0] }}" class="publication-category">
         {% assign title_shown = false %}
+        {% assign has_publications = false %}
         {% for post in site.publications reversed %}
-          {% if post.category != category[0] %}
-            {% continue %}
+          {% if post.category == category[0] %}
+            {% assign has_publications = true %}
+            {% unless title_shown %}
+              <h2 class="category-title">{{ category[1].title }}</h2><hr />
+              {% assign title_shown = true %}
+            {% endunless %}
+            {% include archive-single.html %}
           {% endif %}
-          {% unless title_shown %}
-            <h2 class="category-title">{{ category[1].title }}</h2><hr />
-            {% assign title_shown = true %}
-          {% endunless %}
-          {% include archive-single.html %}
         {% endfor %}
+        {% unless has_publications %}
+          <!-- Empty div needed for the filter to work properly -->
+          <div style="display: none;"></div>
+        {% endunless %}
       </div>
     {% endfor %}
   {% else %}
@@ -80,7 +85,10 @@ author_profile: true
           
           // Show only selected category
           const categoryId = filterId.replace('filter-', 'category-');
-          document.getElementById(categoryId).style.display = 'block';
+          const categoryElement = document.getElementById(categoryId);
+          if (categoryElement) {
+            categoryElement.style.display = 'block';
+          }
         }
       });
     });
@@ -88,10 +96,20 @@ author_profile: true
 </script>
 
 <style>
+  .filter-btn {
+    background-color: #f0f0f0 !important;
+    color: #333 !important;
+    border-color: #ccc !important;
+    transition: all 0.2s ease;
+  }
+  .filter-btn:hover {
+    background-color: #e0e0e0 !important;
+    border-color: #aaa !important;
+  }
   .filter-btn.active {
-    background-color: #007bff !important;
-    color: white;
-    border-color: #007bff !important;
+    background-color: #0366d6 !important;
+    color: white !important;
+    border-color: #0366d6 !important;
   }
   .publication-category {
     margin-bottom: 2em;

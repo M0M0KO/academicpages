@@ -9,8 +9,8 @@ paperurl:
 citation: 'Yan J, Zheng Z, Yang Z, Jiang H, Wang P, Kuang F, Zhang S. (2023). &quot;YOLOv11-LCDFS: Enhanced Smoking Detection With Low-light Enhancement.&quot; <i></i> (Revision Required).'
 category: manuscripts
 header:
-  teaser: 'yolov11_teaser.jpg'
-topic: 'Computer Vision'
+  teaser: 'publications/yolov11_teaser.jpg'
+topic: 'Object Detection'
 codeurl: 'https://github.com/M0M0KO/yolov11-lcdfs'
 ---
 

@@ -21,6 +21,6 @@ Temporarily unavailable
 
 ## My Contribution
 
-Assisted in developing the deep learning architecture for multi-phase CT image analysis and integrating it with clinical data for a comprehensive prediction model.
+Temporarily unavailable
 
 [Manuscript revision in progress] 

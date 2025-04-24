@@ -74,7 +74,7 @@
           {% if post.citation %}
             <div class="citation-block" style="margin-bottom: 0.5em;">
               <details>
-                <summary style="cursor: pointer; color: #595959; font-size: 0.9em;">
+                <summary style="cursor: pointer; color: #444; font-size: 0.9em; font-weight: 500;">
                   <i class="fas fa-quote-left" aria-hidden="true"></i> Show citation
                 </summary>
                 <div class="citation-content" style="margin-top: 0.5em; font-size: 0.9em; padding: 0.5em; background-color: #f8f9fa; border-radius: 4px;">
@@ -86,31 +86,31 @@
           
           <div class="download-links" style="margin-top: 0.5em;">
             {% if post.paperurl %}
-              <a href="{{ post.paperurl }}" class="btn btn-sm" style="display: inline-block; padding: 2px 8px; background-color: #f8f9fa; border: 1px solid #ddd; border-radius: 3px; font-size: 0.8em; margin-right: 0.5em; text-decoration: none; color: #494e52;">
+              <a href="{{ post.paperurl }}" class="btn-pub" style="display: inline-block; padding: 4px 10px; background-color: #e8f0fe; border: 1px solid #d0e3ff; border-radius: 3px; font-size: 0.85em; margin-right: 0.5em; text-decoration: none; color: #0366d6; font-weight: 500; transition: all 0.2s ease;">
                 <i class="fas fa-file-pdf" aria-hidden="true"></i> Paper
               </a>
             {% endif %}
             
             {% if post.slidesurl %}
-              <a href="{{ post.slidesurl }}" class="btn btn-sm" style="display: inline-block; padding: 2px 8px; background-color: #f8f9fa; border: 1px solid #ddd; border-radius: 3px; font-size: 0.8em; margin-right: 0.5em; text-decoration: none; color: #494e52;">
+              <a href="{{ post.slidesurl }}" class="btn-pub" style="display: inline-block; padding: 4px 10px; background-color: #e8f0fe; border: 1px solid #d0e3ff; border-radius: 3px; font-size: 0.85em; margin-right: 0.5em; text-decoration: none; color: #0366d6; font-weight: 500; transition: all 0.2s ease;">
                 <i class="fas fa-desktop" aria-hidden="true"></i> Slides
               </a>
             {% endif %}
             
             {% if post.bibtexurl %}
-              <a href="{{ post.bibtexurl }}" class="btn btn-sm" style="display: inline-block; padding: 2px 8px; background-color: #f8f9fa; border: 1px solid #ddd; border-radius: 3px; font-size: 0.8em; margin-right: 0.5em; text-decoration: none; color: #494e52;">
+              <a href="{{ post.bibtexurl }}" class="btn-pub" style="display: inline-block; padding: 4px 10px; background-color: #e8f0fe; border: 1px solid #d0e3ff; border-radius: 3px; font-size: 0.85em; margin-right: 0.5em; text-decoration: none; color: #0366d6; font-weight: 500; transition: all 0.2s ease;">
                 <i class="fas fa-quote-right" aria-hidden="true"></i> BibTeX
               </a>
             {% endif %}
             
             {% if post.codeurl %}
-              <a href="{{ post.codeurl }}" class="btn btn-sm" style="display: inline-block; padding: 2px 8px; background-color: #f8f9fa; border: 1px solid #ddd; border-radius: 3px; font-size: 0.8em; margin-right: 0.5em; text-decoration: none; color: #494e52;">
+              <a href="{{ post.codeurl }}" class="btn-pub" style="display: inline-block; padding: 4px 10px; background-color: #e8f0fe; border: 1px solid #d0e3ff; border-radius: 3px; font-size: 0.85em; margin-right: 0.5em; text-decoration: none; color: #0366d6; font-weight: 500; transition: all 0.2s ease;">
                 <i class="fas fa-code" aria-hidden="true"></i> Code
               </a>
             {% endif %}
             
             {% if post.doi %}
-              <a href="https://doi.org/{{ post.doi }}" class="btn btn-sm" style="display: inline-block; padding: 2px 8px; background-color: #f8f9fa; border: 1px solid #ddd; border-radius: 3px; font-size: 0.8em; text-decoration: none; color: #494e52;">
+              <a href="https://doi.org/{{ post.doi }}" class="btn-pub" style="display: inline-block; padding: 4px 10px; background-color: #e8f0fe; border: 1px solid #d0e3ff; border-radius: 3px; font-size: 0.85em; margin-right: 0.5em; text-decoration: none; color: #0366d6; font-weight: 500; transition: all 0.2s ease;">
                 <i class="fas fa-external-link-alt" aria-hidden="true"></i> DOI
               </a>
             {% endif %}
@@ -120,3 +120,11 @@
     </div>
   </article>
 </div>
+
+<style>
+  .btn-pub:hover {
+    background-color: #c5d9f8 !important;
+    border-color: #a8c6f2 !important;
+    color: #0550ae !important;
+  }
+</style>

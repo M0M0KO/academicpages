@@ -2,12 +2,16 @@
 title: "Machine Learning Identifies Exosome Features Related to Hepatocellular Carcinoma"
 collection: publications
 permalink: publications/2022-09-machine-learning-exosome/
-excerpt: ''
+excerpt: 'This study employs machine learning to identify exosome-related genes as prognostic biomarkers for hepatocellular carcinoma, constructing a novel random forest signature with excellent predictive performance.'
 date: 2022-09-01
 venue: 'Frontiers in Cell and Developmental Biology'
 paperurl: 'https://doi.org/10.3389/fcell.2022.1020415'
 citation: 'Zhu K, Tao Q, Yan J, Lang Z, Li X, Li Y, Fan C, Yu Z. (2022). &quot;Machine Learning Identifies Exosome Features Related to Hepatocellular Carcinoma.&quot; <i>Frontiers in Cell and Developmental Biology</i>. DOI: 10.3389/fcell.2022.1020415'
 category: journals
+header:
+  teaser: 'publications/hcc_exosome.jpg'
+topic: 'Machine Learning'
+doi: '10.3389/fcell.2022.1020415'
 ---
 
 ## Abstract
