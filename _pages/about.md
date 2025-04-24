@@ -120,7 +120,7 @@ I am a postgraduate student with medical image analysis experience, interested i
   
   <div class="project-card">
     <div class="project-icon">
-      <i class="fas fa-smoking" style="font-size: 1.5em; color: #4285F4;"></i>
+      <i class="fas fa-microscope" style="font-size: 1.5em; color: #4285F4;"></i>
     </div>
     <div class="project-details">
       <h4>Smoking Behavior Detection</h4>
