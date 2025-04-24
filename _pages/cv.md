@@ -376,15 +376,16 @@ redirect_from:
   <div class="project-entry">
     <h3><i class="fas fa-disease" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>Disease Detection Using Deep Learning</h3>
     <div class="project-details">
-      <p>Developed deep learning models for automated disease detection and classification from medical imaging data.</p>
+      <p>Developed deep learning models for automated disease detection and classification from medical imaging data, with a focus on diabetic foot ulcer detection.</p>
       <ul>
-        <li>Implemented convolutional neural networks for lesion detection and classification</li>
+        <li>Implemented YOLO-based object detection models for precise localization of diabetic foot ulcers in clinical images</li>
+        <li>Worked with multiple diabetic foot datasets to train and validate the model across diverse patient populations</li>
         <li>Applied transfer learning techniques using pre-trained models (ResNet, DenseNet) adapted to medical imaging</li>
         <li>Utilized data augmentation strategies to address limited dataset size and improve model generalization</li>
-        <li>Implemented visualization techniques for model interpretability (Grad-CAM, attention maps)</li>
-        <li>Applied models to real-world clinical data with promising results in early disease detection</li>
+        <li>Implemented visualization techniques for model interpretability (Grad-CAM, attention maps) to assist clinicians</li>
+        <li>Achieved accurate detection of ulcers at various stages of development, aiding in early intervention</li>
       </ul>
-      <p><strong>Technologies:</strong> Pytorch, OpenCV, YOLO</p>
+      <p><strong>Technologies:</strong> PyTorch, YOLO, OpenCV, Transfer Learning</p>
     </div>
   </div>
   
