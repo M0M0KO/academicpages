@@ -6,13 +6,24 @@ excerpt: 'This study develops a machine learning approach to quantify CD8+ T cel
 date: 2024-12-01
 venue: 'Molecular Therapy Nucleic Acids'
 paperurl: 'https://doi.org/10.1016/j.omtn.2024.102413'
-citation: 'He, D., Yang, Z., Zhang, T., Luo, Y., Peng, L., Yan, J., Qiu, T., Zhang, J., Qin, L., Liu, Z., Zhang, X., Lin, L., & Sun, M. (2025). Multi-omics and machine learning-driven CD8+ T cell heterogeneity score for head and neck squamous cell carcinoma. Molecular Therapy Nucleic Acids, 36(1), 102413.'
+citation: 'He D, Yang Z, Zhang T, Luo Y, Peng L, Yan J, Qiu T, Zhang J, Qin L, Liu Z, Zhang X, Lin L, Sun M. Multi-omics and machine learning-driven CD8+ T cell heterogeneity score for head and neck squamous cell carcinoma. Molecular Therapy Nucleic Acids. 2025;36(1):102413.'
+citation_apa: 'He, D., Yang, Z., Zhang, T., Luo, Y., Peng, L., Yan, J., Qiu, T., Zhang, J., Qin, L., Liu, Z., Zhang, X., Lin, L., & Sun, M. (2025). Multi-omics and machine learning-driven CD8+ T cell heterogeneity score for head and neck squamous cell carcinoma. Molecular Therapy Nucleic Acids, 36(1), 102413. https://doi.org/10.1016/j.omtn.2024.102413'
 category: journals
 header:
   teaser: 'publications/tcell_heterogeneity.jpg'
 topic: 'Multi-omics'
 doi: '10.1016/j.omtn.2024.102413'
-bibtexurl: '/files/bibtex/he2025multi.bib'
+bibtex: |
+  @article{he2025multi,
+    title={Multi-omics and machine learning-driven CD8+ T cell heterogeneity score for head and neck squamous cell carcinoma},
+    author={He, Di and Yang, Zhan and Zhang, Tian and Luo, Yaxian and Peng, Lianjie and Yan, Jiatao and Qiu, Tao and Zhang, Jingyu and Qin, Luying and Liu, Zhichao and others},
+    journal={Molecular Therapy Nucleic Acids},
+    volume={36},
+    number={1},
+    year={2025},
+    publisher={Elsevier},
+    doi={10.1016/j.omtn.2024.102413}
+  } 
 # codeurl: ''
 # preprinturl: ''
 # dataseturl: ''

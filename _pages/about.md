@@ -191,15 +191,15 @@ research</p>
 
 <div class="curious-about">
   <div class="question-item">
-    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>How can computer vision systems be integrated with physical robot actions?</h4>
+    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>How can robots develop their own intelligence through sensorimotor experiences with the world?</h4>
   </div>
   
   <div class="question-item">
-    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>What approaches enable multi-agent systems to collaborate effectively?</h4>
+    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>How can multiple agents self-organize to adapt specialized roles and develop emergent collective intelligence?</h4>
   </div>
   
   <div class="question-item">
-    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>How might medical imaging techniques inform better perception systems for embodied AI?</h4>
+    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i>What mechanisms would allow large language models to automatically decompose tasks and utilize specialized tools collaboratively?</h4>
   </div>
 </div>
 
@@ -209,15 +209,15 @@ research</p>
 
 <div class="future-goals">
   <div class="goal-item">
-    <h4><i class="fas fa-lightbulb" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i><strong>Develop understanding</strong> of the intersection between computer vision, robotics, and multi-agent systems</h4>
+    <h4><i class="fas fa-lightbulb" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i><strong>Explore foundations</strong> of embodied cognition and how physical interaction shapes intelligence development</h4>
   </div>
   
   <div class="goal-item">
-    <h4><i class="fas fa-university" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i><strong>Continue academic growth</strong> toward research in embodied intelligence and healthcare applications</h4>
+    <h4><i class="fas fa-users" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i><strong>Study emergent behaviors</strong> in multi-agent systems and how simple individual rules can lead to complex collective intelligence</h4>
   </div>
   
   <div class="goal-item">
-    <h4><i class="fas fa-hands-helping" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i><strong>Learn to create</strong> AI solutions that could address real-world challenges through collaborative intelligence</h4>
+    <h4><i class="fas fa-robot" style="font-size: 1.2em; color: #494e52; margin-right: 0.5em;"></i><strong>Learn to design</strong> systems where agents can autonomously discover effective division of labor and tool usage</h4>
   </div>
 </div>
 

@@ -92,18 +92,18 @@ redirect_from:
   <div class="interest-area">
     <h3><i class="fas fa-brain" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>Medical Artificial Intelligence</h3>
     <ul>
-      <li>Deep learning for medical image analysis and disease diagnosis</li>
-      <li>Multi-modal clinical data integration and feature extraction</li>
-      <li>Computer-aided diagnosis systems for clinical applications</li>
+      <li>Learning about deep learning for medical image analysis and disease diagnosis</li>
+      <li>Understanding multi-modal clinical data integration and feature extraction</li>
+      <li>Exploring computer-aided diagnosis systems for clinical applications</li>
     </ul>
   </div>
   
   <div class="interest-area">
     <h3><i class="fas fa-robot" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>Embodied Intelligence</h3>
     <ul>
-      <li>Robot learning and sensorimotor control</li>
-      <li>Visual perception for physical interaction</li>
-      <li>Reinforcement learning in robotic applications</li>
+      <li>Studying how robots develop intelligence through physical interaction with the world</li>
+      <li>Exploring the connection between perception and action in embodied agents</li>
+      <li>Learning about reinforcement learning in robotic applications</li>
     </ul>
   </div>
   
@@ -112,16 +112,16 @@ redirect_from:
     <ul>
       <li>Attention-based object detection architectures</li>
       <li>Human pose estimation and behavior recognition</li>
-      <li>Visual feature extraction and representation learning</li>
+      <li>Visual feature extraction for real-world applications</li>
     </ul>
   </div>
   
   <div class="interest-area">
-    <h3><i class="fas fa-project-diagram" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>Multi-modal Learning</h3>
+    <h3><i class="fas fa-users" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>Multi-Agent Systems</h3>
     <ul>
-      <li>Vision-Language-Action (VLA) models</li>
-      <li>Fusion of heterogeneous data sources</li>
-      <li>Temporal sequence modeling for behavior analysis</li>
+      <li>Understanding how multiple agents can self-organize to adapt specialized roles</li>
+      <li>Studying emergent behaviors and collective intelligence in agent communities</li>
+      <li>Exploring approaches for effective division of labor in collaborative AI systems</li>
     </ul>
   </div>
 </div>
@@ -400,19 +400,19 @@ redirect_from:
 
 <div class="professional-development">
   <div class="current-learning">
-    <h3><i class="fas fa-brain" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>Current Research Focus</h3>
-    <p>Self-directed advanced study in embodied intelligence and robotics, focusing on the following areas:</p>
+    <h3><i class="fas fa-brain" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>Current Learning Focus</h3>
+    <p>Self-directed study in embodied intelligence and robotics, focusing on the following areas:</p>
     <ul>
-      <li><strong>Foundations of Robotics:</strong> Kinematics, dynamics, motion planning, and control systems</li>
-      <li><strong>Reinforcement Learning:</strong> Policy optimization, multi-agent RL, and sim-to-real transfer</li>
-      <li><strong>Vision-Language-Action Models:</strong> Multimodal foundation models for robotic control</li>
-      <li><strong>Sensorimotor Learning:</strong> Integrating perception and action in embodied agents</li>
-      <li><strong>Simulation Environments:</strong> MuJoCo, Isaac Gym, and Habitat for embodied AI research</li>
+      <li><strong>Foundations of Robotics:</strong> Learning about kinematics, dynamics, and control systems</li>
+      <li><strong>Reinforcement Learning:</strong> Studying policy optimization and multi-agent reinforcement learning approaches</li>
+      <li><strong>Embodied Cognition:</strong> Exploring how physical interaction shapes intelligence development</li>
+      <li><strong>Multi-Agent Systems:</strong> Understanding how simple individual rules can lead to complex collective behaviors</li>
+      <li><strong>Simulation Environments:</strong> Getting familiar with MuJoCo, Isaac Gym, and Habitat for embodied AI research</li>
     </ul>
   </div>
   
   <div class="key-resources">
-    <h3><i class="fas fa-book" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>Advanced Study Resources</h3>
+    <h3><i class="fas fa-book" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>Key Learning Resources</h3>
     <ul>
       <li>
         <strong>Technical Textbooks:</strong>
@@ -423,7 +423,7 @@ redirect_from:
         </ul>
       </li>
       <li>
-        <strong>Graduate-Level Courses:</strong>
+        <strong>Online Courses:</strong>
         <ul>
           <li>Stanford CS231n: Convolutional Neural Networks for Visual Recognition</li>
           <li>UC Berkeley CS285: Deep Reinforcement Learning</li>
@@ -433,10 +433,20 @@ redirect_from:
       <li>
         <strong>Research Literature:</strong>
         <ul>
-          <li>Regular review of recent papers from ICRA, CoRL, NeurIPS, CVPR, and ICLR conferences</li>
-          <li>Following research from leading labs: Berkeley AI Research, Stanford AI Lab, FAIR, Google DeepMind</li>
+          <li>Following recent papers from ICRA, CoRL, NeurIPS, CVPR, and ICLR conferences</li>
+          <li>Reading research from leading labs in embodied AI and multi-agent systems</li>
         </ul>
       </li>
+    </ul>
+  </div>
+  
+  <div class="future-directions">
+    <h3><i class="fas fa-compass" style="font-size: 1.2em; margin-right: 0.5em; color: #494e52;"></i>Questions I'm Exploring</h3>
+    <ul>
+      <li>How can robots develop their own intelligence through sensorimotor experiences with the world?</li>
+      <li>How can multiple agents self-organize to adapt specialized roles and develop emergent collective intelligence?</li>
+      <li>What mechanisms would allow AI systems to automatically decompose tasks and utilize specialized tools collaboratively?</li>
+      <li>How might physical embodiment contribute to the development of more robust and generalizable AI?</li>
     </ul>
   </div>
 </div>
