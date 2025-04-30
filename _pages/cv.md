@@ -291,7 +291,7 @@ redirect_from:
   <div class="achievement-item">
     <div class="achievement-content">
       <h4><i class="fas fa-trophy" style="font-size: 1.2em; color:rgb(184, 115, 51); margin-right: 0.5em;"></i>Stanford RNA 3D Folding Competition</h4>
-      <p><strong>Ranked 113th/1152</strong> | Top 10% | Kaggle Global Competition | Ongoing (1 month remaining)</p>
+      <p><strong>Bronze Medal Ranked 113th/1152</strong> | Top 10% | Kaggle Global Competition | Ongoing (1 month remaining)</p>
       <p class="achievement-desc"></p>
     </div>
   </div>
