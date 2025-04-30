@@ -251,7 +251,7 @@ redirect_from:
     <h3><i class="fas fa-file-contract" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>Patent Application</h3>
     <p><strong>Title:</strong> Smoking Behavior Recognition Camera and Determination Method</p>
     <p><strong>Application Number:</strong> 202310277784.1</p>
-    <p><strong>Status:</strong> Application withdrawn by patent office</p>
+    <p><strong>Status:</strong> Application process concluded - withdrawn due to academic credential requirements rather than technical merit</p>
     <p><strong>Inventors:</strong> Jiatao Yan, Siyang Zhang, Fangjun Kuang, Peicheng Wang, Zhuzikai Zheng, Hao Jiang, Zhengtan Yang, Hanwen Bao, Chunqiu Xia</p>
     <p><strong>Summary:</strong> A method combining pose estimation for real-time smoking behavior detection in public spaces.</p>
   </div>
