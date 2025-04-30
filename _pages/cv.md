@@ -387,7 +387,7 @@ redirect_from:
       </ul>
       <p><strong>Technologies:</strong> Python, Deep Learning, 3D Segmentation, Multi-modal Fusion, PyDicom, NumPy</p>
       <p><strong>Status:</strong> Ongoing (April 2025)</p>
-      <p><strong>Related Publications:</strong> Frontiers in Cell and Developmental Biology (2022), Molecular Therapy Nucleic Acids (2024)</p>
+      <p><strong>Related Publications:</strong> Manuscript in preparation</p>
     </div>
   </div>
 
