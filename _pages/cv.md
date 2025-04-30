@@ -291,7 +291,7 @@ redirect_from:
   <div class="achievement-item">
     <div class="achievement-content">
       <h4><i class="fas fa-trophy" style="font-size: 1.2em; color:rgb(184, 115, 51); margin-right: 0.5em;"></i>Stanford RNA 3D Folding Competition</h4>
-      <p><strong>Bronze Medal</strong> | 87th/1093 Place (Top 8%) | Kaggle Global Competition | Ongoing</p>
+      <p><strong>Ranked 113th/1152</strong> | Top 10% | Kaggle Global Competition | Ongoing (1 month remaining)</p>
       <p class="achievement-desc"></p>
     </div>
   </div>
@@ -299,7 +299,23 @@ redirect_from:
   <div class="achievement-item">
     <div class="achievement-content">
       <h4><i class="fas fa-chart-line" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Predict Podcast Listening Time Competition</h4>
-      <p><strong>Ranked 154th/2565</strong> | Top 6% | Kaggle Global Competition | Ongoing</p>
+      <p><strong>Ranked 48th/3146</strong> | Top 2% | Kaggle Global Competition | April 2025</p>
+      <p class="achievement-desc"></p>
+    </div>
+  </div>
+  
+  <div class="achievement-item">
+    <div class="achievement-content">
+      <h4><i class="fas fa-microscope" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>BYU - Locating Bacterial Flagellar Motors 2025</h4>
+      <p><strong>Ranked 255th/845</strong> | Top 30% | Kaggle Global Competition | Ongoing (1 month remaining)</p>
+      <p class="achievement-desc"></p>
+    </div>
+  </div>
+  
+  <div class="achievement-item">
+    <div class="achievement-content">
+      <h4><i class="fas fa-wave-square" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Yale/UNC-CH - Geophysical Waveform Inversion</h4>
+      <p><strong>Ranked 128th/394</strong> | Top 33% | Kaggle Global Competition | Ongoing (2 months remaining)</p>
       <p class="achievement-desc"></p>
     </div>
   </div>
@@ -307,7 +323,7 @@ redirect_from:
   <div class="achievement-item">
     <div class="achievement-content">
       <h4><i class="fas fa-chart-line" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>HuBMAP + HPA Competition</h4>
-      <p><strong>442nd Place</strong> | Top 38% | Kaggle Global Competition | September 2022</p>
+      <p><strong>Ranked 442nd/1174</strong> | Top 38% | Kaggle Global Competition | September 2022</p>
       <p class="achievement-desc"></p>
     </div>
   </div>
@@ -316,7 +332,7 @@ redirect_from:
     <div class="achievement-content">
       <h4><i class="fas fa-medal" style="font-size: 1.2em; color: #CD7F32; margin-right: 0.5em;"></i>18th Challenge Cup College Student Competition</h4>
       <p><strong>Bronze Medal</strong> | Zhejiang Province Level | May 2023</p>
-      <p class="achievement-desc"></p>
+      <p class="achievement-desc">Recognized for innovative work on smoking behavior detection system combining computer vision and pose estimation techniques.</p>
     </div>
   </div>
   
@@ -324,7 +340,7 @@ redirect_from:
     <div class="achievement-content">
       <h4><i class="fas fa-award" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>4th National "Chuanzhi Cup" IT Skills Competition</h4>
       <p><strong>Provincial Excellent Award</strong> | Zhejiang Province | December 2021</p>
-      <p class="achievement-desc"></p>
+      <p class="achievement-desc">Demonstrated advanced programming and problem-solving skills in algorithm design and implementation.</p>
     </div>
   </div>
   
@@ -332,7 +348,7 @@ redirect_from:
     <div class="achievement-content">
       <h4><i class="fas fa-award" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>2023 Wenzhou Computer Society Student Member Innovation and Entrepreneurship Award</h4>
       <p><strong>3rd Prize</strong> | Wenzhou | April 2024</p>
-      <p class="achievement-desc"></p>
+      <p class="achievement-desc">Recognized for innovative contributions to computer vision applications in healthcare and public safety.</p>
     </div>
   </div>
 </div>
