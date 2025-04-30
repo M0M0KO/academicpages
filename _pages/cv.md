@@ -31,8 +31,8 @@ redirect_from:
     <ul>
       <li><strong>Research Focus:</strong> Embodied Intelligence, Robotics</li>
       <li><strong>Core Courses:</strong> Intelligence in Animals and Machines, Intelligent Systems Techniques, Image Processing, Machine Learning</li>
-      <li><strong>supervisor:</strong> Assistant Professor Peter Wijeratne (University of Sussex) and Professor Xie Mande (Zhejiang Gongshang University)</li>
-      <li><strong>Expected Graduation:</strong> June 2027</li>
+      <li><strong>Supervisor:</strong> Assistant Professor Peter Wijeratne (University of Sussex) and Professor Xie Mande (Zhejiang Gongshang University)</li>
+      <li><strong>Expected Graduation:</strong> March 2026</li>
     </ul>
   </div>
 
@@ -291,7 +291,7 @@ redirect_from:
   <div class="achievement-item">
     <div class="achievement-content">
       <h4><i class="fas fa-trophy" style="font-size: 1.2em; color:rgb(184, 115, 51); margin-right: 0.5em;"></i>Stanford RNA 3D Folding Competition</h4>
-      <p><strong>Bronze Medal Ranked 113th/1152</strong> | Top 10% | Kaggle Global Competition | Ongoing (1 month remaining)</p>
+      <p><strong>Bronze Medal</strong> | <strong>Ranked 113th/1152</strong> | Top 10% | Kaggle Global Competition | Ongoing (1 month remaining)</p>
       <p class="achievement-desc"></p>
     </div>
   </div>
@@ -516,7 +516,7 @@ redirect_from:
       <li>
         <strong>GitHub:</strong>
         <ul>
-          <li><strong>Embodied-AI-Guide</strong> (github.com/tianxingchen/Embodied-AI-Guide): A comprehensive guide to embodied intelligence research with 4.6k+ stars. This repository covers:
+          <li><strong>Embodied-AI-Guide</strong> (<a href="https://github.com/tianxingchen/Embodied-AI-Guide" target="_blank">github.com/tianxingchen/Embodied-AI-Guide</a>): A comprehensive guide to embodied intelligence research with 4.6k+ stars. This repository covers:
             <ul>
               <li>Core algorithms including reinforcement learning, imitation learning, model predictive control, and diffusion models</li>
               <li>Vision-Language-Action (VLA) models for robotic control</li>
@@ -525,8 +525,8 @@ redirect_from:
               <li>Robot learning approaches for manipulation and navigation tasks</li>
             </ul>
           </li>
-          <li><strong>Embodied-AI-Paper-List</strong> (github.com/Lumina-EAI/Embodied-AI-Paper-List): Curated collection of important research papers classified by topic</li>
-          <li><strong>Awesome-Embodied-AI-Job</strong> (github.com/StarCycle/Awesome-Embodied-AI-Job): Resource tracking research opportunities in embodied intelligence</li>
+          <li><strong>Embodied-AI-Paper-List</strong> (<a href="https://github.com/Lumina-EAI/Embodied-AI-Paper-List" target="_blank">github.com/Lumina-EAI/Embodied-AI-Paper-List</a>): Curated collection of important research papers classified by topic</li>
+          <li><strong>Awesome-Embodied-AI-Job</strong> (<a href="https://github.com/StarCycle/Awesome-Embodied-AI-Job" target="_blank">github.com/StarCycle/Awesome-Embodied-AI-Job</a>): Resource tracking research opportunities in embodied intelligence</li>
         </ul>
       </li>
       <li>
