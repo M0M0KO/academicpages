@@ -345,7 +345,7 @@ redirect_from:
   <div class="project-entry">
     <h3><i class="fas fa-project-diagram" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>YOLOv11-LCDFS: Enhanced Smoking Detection With Low-light Enhancement</h3>
     <div class="project-details">
-      <p>Extension of smoking detection research focusing on improved object detection in challenging lighting conditions. Developing a novel YOLO-based architecture with specialized components addressing the unique challenges of low-light environments.</p>
+      <p>Extension of smoking detection research focusing on improved object detection in challenging lighting conditions. Developing a novel YOLO-based architecture with specialized components addressing the unique challenges of low-light environments. <a href="https://github.com/username/YOLOv11-LCDFS" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
       <ul>
         <li>Designing custom loss functions specifically optimized for low-light object detection scenarios</li>
         <li>Implementing attention mechanisms to focus on key visual features in varying illumination conditions</li>
@@ -354,6 +354,7 @@ redirect_from:
         <li>Preparing manuscript for submission to IEEE Transactions on Image Processing</li>
       </ul>
       <p><strong>Technologies:</strong> PyTorch, YOLO, Computer Vision, CUDA, Attention Mechanisms</p>
+      <p><strong>Status:</strong> Ongoing (April 2025)</p>
       <p><strong>Related Publications:</strong> Manuscript in preparation (First author)</p>
     </div>
   </div>
@@ -361,64 +362,91 @@ redirect_from:
   <div class="project-entry">
     <h3><i class="fas fa-microscope" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Multi-modal Medical Image Analysis for Cancer Research</h3>
     <div class="project-details">
-      <p>Developed medical image analysis systems for cancer research at Wenzhou Medical University First Affiliated Hospital.</p>
+      <p>Developing medical image analysis systems for cancer research at Wenzhou Medical University First Affiliated Hospital. <a href="https://github.com/username/multi-modal-medical" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
       <ul>
-        <li>Designed medical image segmentation algorithms for hepatocellular carcinoma and renal cell carcinoma</li>
-        <li>Designed methods for integrating clinical tabular data with imaging features for comprehensive analysis</li>
-        <li>Implemented multi-modal fusion techniques for combining different CT scan phases</li>
-        <li>Developed 3D volumetric segmentation approaches for comprehensive anatomical analysis</li>
+        <li>Designing medical image segmentation algorithms for hepatocellular carcinoma and renal cell carcinoma</li>
+        <li>Designing methods for integrating clinical tabular data with imaging features for comprehensive analysis</li>
+        <li>Implementing multi-modal fusion techniques for combining different CT scan phases</li>
+        <li>Developing 3D volumetric segmentation approaches for comprehensive anatomical analysis</li>
       </ul>
       <p><strong>Technologies:</strong> Python, Deep Learning, 3D Segmentation, Multi-modal Fusion, PyDicom, NumPy</p>
+      <p><strong>Status:</strong> Ongoing (April 2025)</p>
       <p><strong>Related Publications:</strong> Frontiers in Cell and Developmental Biology (2022), Molecular Therapy Nucleic Acids (2024)</p>
     </div>
   </div>
-  
+
   <div class="project-entry">
     <h3><i class="fas fa-disease" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Disease Detection Using Deep Learning</h3>
     <div class="project-details">
-      <p>Developed deep learning models for automated disease detection and classification from medical imaging data, with a focus on diabetic foot ulcer detection.</p>
+      <p>Developed deep learning models for automated disease detection and classification from medical imaging data, with a focus on diabetic foot ulcer detection. <a href="https://github.com/yanjiatao/diabetic-wound-detection" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
       <ul>
-        <li>Implemented YOLO-based object detection models for precise localization of diabetic foot ulcers in clinical images</li>
-        <li>Worked with multiple diabetic foot datasets to train and validate the model across diverse patient populations</li>
-        <li>Applied transfer learning techniques using pre-trained models (ResNet, DenseNet) adapted to medical imaging</li>
-        <li>Utilized data augmentation strategies to address limited dataset size and improve model generalization</li>
-        <li>Implemented visualization techniques for model interpretability (Grad-CAM, attention maps) to assist clinicians</li>
-        <li>Achieved accurate detection of ulcers at various stages of development, aiding in early intervention</li>
+        <li>Implemented and compared multiple YOLOv8 architecture variants enhanced with advanced attention mechanisms (GAM, CBAM, ECA, CoordAtt) for precise localization of diabetic wounds in clinical images</li>
+        <li>Designed and evaluated custom YOLOv8 architectures integrating novel upsampling techniques including CARAFE and DySample for improved feature map resolution</li>
+        <li>Developed innovative triplet-based loss functions and Inner-CIoU mechanisms to enhance detection accuracy for wounds of varying sizes and appearances</li>
+        <li>Employed dynamic convolution techniques to adaptively capture wound features across diverse clinical settings and lighting conditions</li>
+        <li>Constructed and curated specialized datasets of diabetic foot ulcers for training and comprehensive validation</li>
+        <li>Achieved significant improvements in both detection accuracy and inference speed compared to baseline models, with particular gains for small and atypical lesions</li>
+        <li>Implemented model explainability techniques to visualize feature importance and attention maps for clinical interpretation</li>
       </ul>
-      <p><strong>Technologies:</strong> PyTorch, YOLO, OpenCV, Transfer Learning</p>
+      <p><strong>Technologies:</strong> PyTorch, YOLO, Attention Mechanisms (GAM/CBAM/ECA), Custom Loss Functions, Feature Upsampling Techniques, Dynamic Convolutions</p>
+      <p><strong>Date:</strong> August 2024</p>
+    </div>
+  </div>
+
+  <div class="project-entry">
+    <h3><i class="fas fa-shield-alt" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Twitter Quality and Spam Detection System</h3>
+    <div class="project-details">
+      <p>Developed an advanced machine learning system for Twitter content quality assessment and spam detection, achieving over 88% accuracy in distinguishing between legitimate tweets and spam content. <a href="https://github.com/username/twitter-spam-detection" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <ul>
+        <li>Implemented comprehensive data preprocessing techniques for Twitter data, including text normalization, feature extraction, and handling of missing values</li>
+        <li>Engineered complex features by combining user metrics (follower count, following count) and behavioral patterns to enhance classification performance</li>
+        <li>Applied sentiment analysis and content analysis techniques to identify quality patterns in tweets</li>
+        <li>Developed and compared multiple machine learning models to optimize classification accuracy</li>
+        <li>Created data visualizations to communicate findings and identify key patterns in Twitter content quality assessment</li>
+      </ul>
+      <p><strong>Technologies:</strong> Python, NLTK, scikit-learn, Pandas, Matplotlib, Seaborn</p>
+      <p><strong>Date:</strong> August 2024</p>
+    </div>
+  </div>
+
+  <div class="project-entry">
+    <h3><i class="fas fa-home" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Airbnb Price Analysis and Prediction System</h3>
+    <div class="project-details">
+      <p>Developed a comprehensive data analysis and machine learning system to predict Airbnb listing prices in New York City based on various property features and location data. <a href="https://github.com/username/airbnb-price-prediction" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <ul>
+        <li>Performed extensive exploratory data analysis on NYC Airbnb dataset with over 48,000 listings, creating visualizations to reveal pricing patterns across neighborhoods</li>
+        <li>Implemented geospatial analysis to visualize property distribution and identify high-value areas using Python GIS libraries</li>
+        <li>Engineered relevant features by transforming categorical variables and creating new metrics to better capture pricing factors</li>
+        <li>Developed a RandomForest regression model to predict continuous listing prices with optimized hyperparameters</li>
+        <li>Created a classification model to categorize listings into price brackets, achieving high accuracy through model tuning with RandomizedSearchCV</li>
+        <li>Built interactive visualizations to help hosts and travelers understand pricing determinants in the NYC short-term rental market</li>
+      </ul>
+      <p><strong>Technologies:</strong> Python, Pandas, Scikit-learn, GeoPandas, Matplotlib, Seaborn, RandomForest</p>
+      <p><strong>Date:</strong> January 2024</p>
     </div>
   </div>
   
   <div class="project-entry">
-    <h3><i class="fas fa-comment" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Twitter Sentiment Analysis</h3>
+    <h3><i class="fas fa-comment" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Airline Sentiment Analysis System</h3>
     <div class="project-details">
-      <p>Built a sentiment analysis system for Twitter comments using natural language processing techniques.</p>
+      <p>Developed a specialized sentiment analysis system for airline-related tweets to classify customer feedback as positive, negative, or neutral. <a href="https://github.com/username/airline-sentiment" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
       <ul>
-        <li>Implemented text preprocessing pipeline for Twitter-specific content (hashtags, mentions, emojis)</li>
-        <li>Explored and compared various feature extraction methods</li>
-        <li>Developed and evaluated multiple classification models (LSTM, traditional ML approaches)</li>
+        <li>Created a comprehensive text preprocessing pipeline specifically designed for Twitter data (handling hashtags, mentions, emojis, URLs)</li>
+        <li>Implemented multiple feature extraction techniques including TF-IDF, word embeddings, and contextual embeddings</li>
+        <li>Developed and compared various classification models including LSTM networks, transformer-based approaches, and traditional machine learning algorithms</li>
+        <li>Conducted extensive error analysis to identify patterns in misclassified tweets and improved model performance</li>
+        <li>Built visualizations to analyze sentiment trends across different airlines and common customer complaint themes</li>
+        <li>Implemented a robust evaluation framework with stratified cross-validation to ensure model reliability</li>
       </ul>
-      <p><strong>Technologies:</strong> Python, NLTK, spaCy, HuggingFace Transformers, Matplotlib</p>
-    </div>
-  </div>
-  
-  <div class="project-entry">
-    <h3><i class="fas fa-envelope" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Spam Email Detection</h3>
-    <div class="project-details">
-      <p>Developed a machine learning system to classify emails as spam or legitimate based on content analysis.</p>
-      <ul>
-        <li>Implemented text preprocessing and feature extraction techniques for email content</li>
-        <li>Trained and evaluated multiple classification models (Naive Bayes, SVM, Random Forest)</li>
-        <li>Conducted feature importance analysis to identify key indicators of spam emails</li>
-      </ul>
-      <p><strong>Technologies:</strong> Python, scikit-learn, Pandas, Natural Language Processing</p>
+      <p><strong>Technologies:</strong> Python, NLTK, spaCy, HuggingFace Transformers, Scikit-learn, Pandas, Matplotlib</p>
+      <p><strong>Date:</strong> December 2023</p>
     </div>
   </div>
 
   <div class="project-entry">
     <h3><i class="fas fa-smoking" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Smoking Behavior Detection System</h3>
     <div class="project-details">
-      <p>Undergraduate thesis project combining YOLO object detection with MediaPipe skeletal tracking to accurately identify and classify smoking gestures in video streams.</p>
+      <p>Undergraduate thesis project combining YOLO object detection with MediaPipe skeletal tracking to accurately identify and classify smoking gestures in video streams. <a href="https://github.com/username/smoking-detection" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
       <ul>
         <li>Utilized YOLO object detection to identify cigarettes and related objects in video footage</li>
         <li>Implemented MediaPipe for real-time skeletal tracking and pose estimation</li>
@@ -427,7 +455,24 @@ redirect_from:
         <li>Integrated temporal sequence modeling to differentiate smoking from similar hand-to-mouth actions</li>
       </ul>
       <p><strong>Technologies:</strong> YOLO, MediaPipe, Pose Estimation, Action Recognition, PyTorch, OpenCV</p>
+      <p><strong>Date:</strong> April 2023</p>
       <p><strong>Outcomes:</strong> Patent application (202310277784.1), 2 software copyrights, thesis received distinguished evaluation</p>
+    </div>
+  </div>
+
+  <div class="project-entry">
+    <h3><i class="fas fa-heartbeat" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Heart Disease Prediction System</h3>
+    <div class="project-details">
+      <p>Developed a comprehensive machine learning system to predict the likelihood of heart disease based on patient data and health indicators. <a href="https://github.com/username/heart-disease-prediction" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <ul>
+        <li>Conducted exploratory data analysis on a dataset containing various health metrics and demographic information</li>
+        <li>Performed feature selection and engineering to identify key predictors of heart disease</li>
+        <li>Implemented and compared multiple classification algorithms including K-Nearest Neighbors, Support Vector Machine, Random Forest, and Naive Bayes</li>
+        <li>Optimized model parameters using cross-validation techniques to improve predictive performance</li>
+        <li>Created visualizations to present findings and relationships between health factors and heart disease risk</li>
+      </ul>
+      <p><strong>Technologies:</strong> Python, scikit-learn, Pandas, NumPy, Matplotlib, Seaborn</p>
+      <p><strong>Date:</strong> May 2022</p>
     </div>
   </div>
 
