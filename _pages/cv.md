@@ -332,7 +332,7 @@ redirect_from:
     <div class="achievement-content">
       <h4><i class="fas fa-medal" style="font-size: 1.2em; color: #CD7F32; margin-right: 0.5em;"></i>18th Challenge Cup College Student Competition</h4>
       <p><strong>Bronze Medal</strong> | Zhejiang Province Level | May 2023</p>
-      <p class="achievement-desc">Recognized for innovative work on smoking behavior detection system combining computer vision and pose estimation techniques.</p>
+      <p class="achievement-desc"></p>
     </div>
   </div>
   
@@ -340,7 +340,7 @@ redirect_from:
     <div class="achievement-content">
       <h4><i class="fas fa-award" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>4th National "Chuanzhi Cup" IT Skills Competition</h4>
       <p><strong>Provincial Excellent Award</strong> | Zhejiang Province | December 2021</p>
-      <p class="achievement-desc">Demonstrated advanced programming and problem-solving skills in algorithm design and implementation.</p>
+      <p class="achievement-desc"></p>
     </div>
   </div>
   
@@ -348,7 +348,7 @@ redirect_from:
     <div class="achievement-content">
       <h4><i class="fas fa-award" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>2023 Wenzhou Computer Society Student Member Innovation and Entrepreneurship Award</h4>
       <p><strong>3rd Prize</strong> | Wenzhou | April 2024</p>
-      <p class="achievement-desc">Recognized for innovative contributions to computer vision applications in healthcare and public safety.</p>
+      <p class="achievement-desc"></p>
     </div>
   </div>
 </div>
@@ -367,7 +367,6 @@ redirect_from:
         <li>Implementing attention mechanisms to focus on key visual features in varying illumination conditions</li>
         <li>Optimizing upsampling techniques to preserve fine details in dark environments</li>
         <li>Integrating lightweight low-light enhancement module directly into the detection pipeline</li>
-        <li>Preparing manuscript for submission to IEEE Transactions on Image Processing</li>
       </ul>
       <p><strong>Technologies:</strong> PyTorch, YOLO, Computer Vision, CUDA, Attention Mechanisms</p>
       <p><strong>Status:</strong> Ongoing (April 2025)</p>
