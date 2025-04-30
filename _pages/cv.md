@@ -466,8 +466,6 @@ redirect_from:
         <li>Utilized YOLO object detection to identify cigarettes and related objects in video footage</li>
         <li>Implemented MediaPipe for real-time skeletal tracking and pose estimation</li>
         <li>Designed algorithms to recognize characteristic smoking hand-to-mouth gesture patterns</li>
-        <li>Created custom datasets with over 10,000 annotated frames for model training and validation</li>
-        <li>Integrated temporal sequence modeling to differentiate smoking from similar hand-to-mouth actions</li>
       </ul>
       <p><strong>Technologies:</strong> YOLO, MediaPipe, Pose Estimation, Action Recognition, PyTorch, OpenCV</p>
       <p><strong>Date:</strong> April 2023</p>
