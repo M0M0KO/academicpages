@@ -74,7 +74,7 @@ redirect_from:
       <li>尝试实现并测试自注意力模块修改方案，探索提高检测准确性的方法</li>
       <li>在团队合作下获得了3项软件著作权和递交1项发明专利申请</li>
       <li><strong>技术：</strong> PyTorch, YOLO, 计算机视觉, OpenCV</li>
-      <li><strong>指导教师：</strong> 张思阳教授</li>
+      <li><strong>指导教师：</strong> 张思扬教授</li>
     </ul>
   </div>
 </div>
@@ -249,7 +249,7 @@ redirect_from:
     <p><strong>名称：</strong> 吸烟行为识别摄像头及判定方法</p>
     <p><strong>申请号：</strong> 202310277784.1</p>
     <p><strong>状态：</strong> 申请流程已完成 - 因学历要求而非技术原因撤回</p>
-    <p><strong>发明人：</strong> 严佳涛, 张思阳, 匡芳君, 王培臣, 郑朱子恺, 蒋昊, 杨政潭, 包翰文, 夏春秋</p>
+    <p><strong>发明人：</strong> 严佳涛, 张思扬, 匡芳君, 王培臣, 郑朱子恺, 蒋昊, 杨政潭, 包瀚文, 夏春秋</p>
     <p><strong>简介：</strong> 结合姿态估计的公共场所吸烟行为实时检测方法。</p>
   </div>
   
