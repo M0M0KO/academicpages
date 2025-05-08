@@ -11,11 +11,11 @@ redirect_from:
 
 <div style="text-align: center; margin-bottom: 1.5em;">
   <p style="font-size: 1.1em; color: var(--global-text-color); font-style: italic; max-width: 800px; margin: 0 auto;">
-    Computer Vision and Medical AI Postgraduate Student | Exploring Embodied Intelligence
+    Postgraduate Student with Computer Vision and Medical AI Experience | Learning Embodied Intelligence
   </p>
   
   <div class="download-button">
-    <a href="{{ base_path }}/files/CV.pdf" class="btn btn-primary"><i class="fas fa-download"></i> Download Full CV (PDF)</a>
+    <a href="{{ base_path }}/files/CV.pdf" class="btn btn-primary"><i class="fas fa-download"></i> Download CV (PDF)</a>
   </div>
 </div>
 
@@ -29,8 +29,7 @@ redirect_from:
     <p><em>Sussex Artificial Intelligence Institute, Zhejiang Gongshang University</em><br>
     Hangzhou, China | 2024-Present</p>
     <ul>
-      <li><strong>Research Focus:</strong> Embodied Intelligence, Robotics</li>
-      <li><strong>Core Courses:</strong> Intelligence in Animals and Machines, Intelligent Systems Techniques, Image Processing, Machine Learning</li>
+      <li><strong>Core Courses:</strong> Intelligence in Animals and Machines, Intelligent Systems Techniques, Image Processing, Natural Language Processing, Machine Learning</li>
       <li><strong>Supervisor:</strong> Assistant Professor Peter Wijeratne (University of Sussex) and Professor Xie Mande (Zhejiang Gongshang University)</li>
       <li><strong>Expected Graduation:</strong> March 2026</li>
     </ul>
@@ -43,7 +42,7 @@ redirect_from:
     <ul>
       <li><strong>GPA:</strong> 3.41/5.0 (84.7/100)</li>
       <li><strong>Thesis:</strong> "Smoking behavior detection based on deep learning and skeletal framework"</li>
-      <li><strong>Relevant Coursework:</strong> Data Structures and Algorithms, Python Programming, Artificial Intelligence, Computer Vision, Data Analysis, Machine Learning</li>
+      <li><strong>Relevant Coursework:</strong> Data Structures and Algorithms, Python Programming, Data Analysis, Machine Learning</li>
       <li><strong>Thesis Advisor:</strong> Prof. Fangjun Kuang</li>
     </ul>
   </div>
@@ -51,7 +50,7 @@ redirect_from:
 
 ---
 
-## Research Experience
+## Projects & Internship Experience
 
 <div class="experience">
   <div class="experience-entry">
@@ -71,11 +70,9 @@ redirect_from:
     <p><em>Wenzhou Business College</em><br>
     June 2022 - June 2023</p>
     <ul>
-      <li>Coordinated a team of 4 students in research on enhancing YOLO architecture with attention mechanisms for real-time object detection</li>
-      <li>Implemented and benchmarked self-attention module modifications, achieving  improvement in detection accuracy while maintaining real-time performance</li>
-      <li>Conducted experimental validation on multiple datasets including public datasets and custom datasets</li>
-      <li>Contributed to securing 2 software copyrights and 1 patent application based on project outcomes</li>
-      <li>Managed project timeline, task distribution, and documentation, ensuring project milestones were met on schedule</li>
+      <li>Led a team of 4 students in exploring attention mechanisms for enhancing YOLO models</li>
+      <li>Implemented and tested self-attention module modifications, exploring methods to improve detection accuracy</li>
+      <li>Contributed to securing 3 software copyrights and 1 patent application based on project outcomes</li>
       <li><strong>Technologies:</strong> PyTorch, YOLO, Computer Vision, OpenCV</li>
       <li><strong>Advisor:</strong> Prof. Siyang Zhang</li>
     </ul>
@@ -117,9 +114,9 @@ redirect_from:
   <div class="interest-area">
     <h3><i class="fas fa-users" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>Multi-Agent Systems</h3>
     <ul>
-      <li>Understanding how multiple agents can self-organize to adapt specialized roles</li>
-      <li>Studying emergent behaviors and collective intelligence in agent communities</li>
-      <li>Exploring approaches for effective division of labor in collaborative AI systems</li>
+      <li>Understanding how multiple agents can work together</li>
+      <li>Curious about emergent behaviors and collective intelligence in agent communities</li>
+      <li>Wanting to learn the fundamentals of multi-agent AI systems</li>
     </ul>
   </div>
 </div>
@@ -169,7 +166,7 @@ redirect_from:
       <h3><i class="fas fa-language" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>Languages</h3>
       <ul>
         <li><strong>Chinese:</strong> Native</li>
-        <li><strong>English:</strong> IELTS 6.0: L:6.5, R:6.5, W:5.5, S:6.0</li>
+        <li><strong>English:</strong> IELTS 6.0: Listening:6.5, Reading:6.5, Writing:5.5, Speaking:6.0</li>
         <li><strong>Certification:</strong> CET-6 467</li>
       </ul>
     </div>
@@ -218,7 +215,7 @@ redirect_from:
     <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>Using Multiomics and Machine Learning: Insights into Improving the Outcomes of Clear Cell Renal Cell Carcinoma via SRD5A3-AS1/hsa-let-7e-5p/RRM2 Axis</h3>
     <p><strong>Journal:</strong> <em>ACS Omega</em> (Submitted: February 12, 2025 - Under Review)</p>
     <p><strong>Authors:</strong> Mouyuan Sun, Zhan Yang, Yaxian Luo, Luying Qin, Lianjie Peng, Chaoran Pan, <strong>Jiatao Yan</strong>, Tao Qiu, Yan Zhang</p>
-    <p class="contribution">Contribution: Implemented machine learning algorithms for identifying regulatory components in the SRD5A3-AS1/hsa-let-7e-5p/RRM2 axis.</p>
+    <p class="contribution">Contribution: Implemented machine learning algorithms for identifying SRD5A3-AS1/hsa-let-7e-5p/RRM2 important features.</p>
   </div>
 </div>
 
@@ -244,7 +241,7 @@ redirect_from:
 
 ---
 
-## Intellectual Property
+## Software Copyrights & Patent Application
 
 <div class="patents">
   <div class="patent-item">
@@ -252,7 +249,7 @@ redirect_from:
     <p><strong>Title:</strong> Smoking Behavior Recognition Camera and Determination Method</p>
     <p><strong>Application Number:</strong> 202310277784.1</p>
     <p><strong>Status:</strong> Application process concluded - withdrawn due to academic credential requirements rather than technical merit</p>
-    <p><strong>Inventors:</strong> Jiatao Yan, Siyang Zhang, Fangjun Kuang, Peicheng Wang, Zhuzikai Zheng, Hao Jiang, Zhengtan Yang, Hanwen Bao, Chunqiu Xia</p>
+    <p><strong>Inventors:</strong> Jiatao Yan, Siyang Zhang, Fangjun Kuang, Peichen Wang, Zhuzikai Zheng, Hao Jiang, Zhengtan Yang, Hanwen Bao, Chunqiu Xia</p>
     <p><strong>Summary:</strong> A method combining pose estimation for real-time smoking behavior detection in public spaces.</p>
   </div>
   
@@ -262,22 +259,18 @@ redirect_from:
       <li>
         <strong>Medical Image Computing Software</strong> (2022SR0252378)<br>
         <em>Registered: April 2022</em><br>
-        A comprehensive tool for medical image preprocessing, including format standardization, noise reduction, and feature extraction.
       </li>
       <li>
         <strong>Human Skeleton Recognition Software</strong> (2022SR1258998)<br>
         <em>Registered: October 2022</em><br>
-        Software for real-time human pose estimation and skeletal framework extraction from video streams.
       </li>
       <li>
         <strong>Cigarette Recognition Software</strong> (2022SR1277520)<br>
         <em>Registered: October 2022</em><br>
-        Object detection system specialized for cigarette recognition in varied environments and lighting conditions.
       </li>
       <li>
         <strong>Smoking Behavior Detection Software</strong> (2022SR1277521)<br>
         <em>Registered: October 2022</em><br>
-        Integrated system combining pose estimation and object detection for accurate smoking behavior identification.
       </li>
     </ul>
   </div>
@@ -292,7 +285,6 @@ redirect_from:
     <div class="achievement-content">
       <h4><i class="fas fa-trophy" style="font-size: 1.2em; color:rgb(184, 115, 51); margin-right: 0.5em;"></i>Stanford RNA 3D Folding Competition</h4>
       <p><strong>Bronze Medal</strong> | <strong>Ranked 101st/1251</strong> | Top 8% | Kaggle Global Competition | Ongoing (1 month remaining)</p>
-      <p class="achievement-desc"></p>
     </div>
   </div>
 
@@ -300,15 +292,13 @@ redirect_from:
     <div class="achievement-content">
       <h4><i class="fas fa-chart-line" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Predict Podcast Listening Time Competition</h4>
       <p><strong>Ranked 116th/3310</strong> | Top 4% | Kaggle Global Competition | May 2025</p>
-      <p class="achievement-desc"></p>
     </div>
   </div>
   
   <div class="achievement-item">
     <div class="achievement-content">
       <h4><i class="fas fa-microscope" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>BYU - Locating Bacterial Flagellar Motors 2025</h4>
-      <p><strong>Ranked 283th/904</strong> | Top 31% | Kaggle Global Competition | Ongoing (1 month remaining)</p>
-      <p class="achievement-desc"></p>
+      <p><strong>Ranked 283rd/904</strong> | Top 31% | Kaggle Global Competition | Ongoing (1 month remaining)</p>
     </div>
   </div>
   
@@ -316,7 +306,6 @@ redirect_from:
     <div class="achievement-content">
       <h4><i class="fas fa-wave-square" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Yale/UNC-CH - Geophysical Waveform Inversion</h4>
       <p><strong>Ranked 150th/480</strong> | Top 31% | Kaggle Global Competition | Ongoing (2 months remaining)</p>
-      <p class="achievement-desc"></p>
     </div>
   </div>
   
@@ -324,7 +313,6 @@ redirect_from:
     <div class="achievement-content">
       <h4><i class="fas fa-chart-line" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>HuBMAP + HPA Competition</h4>
       <p><strong>Ranked 442nd/1174</strong> | Top 38% | Kaggle Global Competition | September 2022</p>
-      <p class="achievement-desc"></p>
     </div>
   </div>
   
@@ -332,7 +320,6 @@ redirect_from:
     <div class="achievement-content">
       <h4><i class="fas fa-medal" style="font-size: 1.2em; color: #CD7F32; margin-right: 0.5em;"></i>18th Challenge Cup College Student Competition</h4>
       <p><strong>Bronze Medal</strong> | Zhejiang Province Level | May 2023</p>
-      <p class="achievement-desc"></p>
     </div>
   </div>
   
@@ -340,7 +327,6 @@ redirect_from:
     <div class="achievement-content">
       <h4><i class="fas fa-award" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>4th National "Chuanzhi Cup" IT Skills Competition</h4>
       <p><strong>Provincial Excellent Award</strong> | Zhejiang Province | December 2021</p>
-      <p class="achievement-desc"></p>
     </div>
   </div>
   
@@ -348,7 +334,6 @@ redirect_from:
     <div class="achievement-content">
       <h4><i class="fas fa-award" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>2023 Wenzhou Computer Society Student Member Innovation and Entrepreneurship Award</h4>
       <p><strong>3rd Prize</strong> | Wenzhou | April 2024</p>
-      <p class="achievement-desc"></p>
     </div>
   </div>
 </div>
@@ -469,7 +454,7 @@ redirect_from:
       </ul>
       <p><strong>Technologies:</strong> YOLO, MediaPipe, Pose Estimation, Action Recognition, PyTorch, OpenCV</p>
       <p><strong>Date:</strong> April 2023</p>
-      <p><strong>Outcomes:</strong> Patent application (202310277784.1), 2 software copyrights, thesis received distinguished evaluation</p>
+      <p><strong>Outcomes:</strong> Patent application (202310277784.1), 3 software copyrights, thesis received good evaluation</p>
     </div>
   </div>
 
@@ -493,7 +478,7 @@ redirect_from:
 
 ---
 
-## Professional Development
+## Professional Development & Learning Direction
 
 <div class="professional-development">
   <div class="current-learning">
