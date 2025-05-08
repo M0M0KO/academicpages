@@ -15,55 +15,54 @@ const pageMappings = {
 
 // Function to get the corresponding page in the other language
 function getCorrespondingPage(currentPath) {
-  // Get base path from meta tag or extract from window.location
-  let basePath = document.querySelector('meta[name="base_path"]')?.getAttribute('content');
+  // Extract baseurl from window.location
+  const fullPath = window.location.pathname;
+  let basePath = '';
+  let cleanPath = '';
   
-  // If meta tag not found (fallback), get base path from pathname
-  if (!basePath) {
-    // Extract baseurl from the pathname (e.g., "/academicpages")
-    const pathParts = window.location.pathname.split('/');
-    if (pathParts.length > 1) {
-      // Check if we have a subdirectory in the URL
-      const possibleBaseUrl = '/' + pathParts[1];
-      // If it's likely a baseurl (not a language code or page path)
-      if (possibleBaseUrl !== '/cn' && !possibleBaseUrl.includes('.')) {
-        basePath = possibleBaseUrl;
-      } else {
-        basePath = '';
-      }
-    } else {
-      basePath = '';
+  // Check if we're on GitHub Pages with a repo name as baseurl (e.g., /academicpages/)
+  const pathSegments = fullPath.split('/').filter(segment => segment.length > 0);
+  
+  // Special case for GitHub Pages with repository name
+  if (pathSegments.length > 0 && pathSegments[0] === 'academicpages') {
+    basePath = '/academicpages';
+    
+    // Remove basePath from the current path to get a clean path
+    cleanPath = fullPath.replace(basePath, '');
+    
+    // Handle the case where there might be a duplicate basePath
+    if (cleanPath.includes('/academicpages')) {
+      cleanPath = cleanPath.replace('/academicpages', '');
     }
+  } else {
+    // For cases when not using a subdirectory or using a different one
+    cleanPath = fullPath;
   }
   
-  // If trailing slash in basePath, remove it
-  if (basePath && basePath.endsWith('/')) {
-    basePath = basePath.slice(0, -1);
+  // Ensure cleanPath starts with /
+  if (!cleanPath || cleanPath === '') {
+    cleanPath = '/';
+  } else if (!cleanPath.startsWith('/')) {
+    cleanPath = '/' + cleanPath;
   }
   
-  // Remove basePath from current path to get the route path
-  let path = currentPath;
-  if (basePath && path.startsWith(basePath)) {
-    path = path.replace(basePath, '');
+  // Remove trailing slash if not the root path
+  if (cleanPath.length > 1 && cleanPath.endsWith('/')) {
+    cleanPath = cleanPath.slice(0, -1);
   }
   
-  // Ensure path starts with /
-  if (!path.startsWith('/')) {
-    path = '/' + path;
-  }
-  
-  // Check if the current path has a mapping
-  if (pageMappings[path]) {
-    return basePath + pageMappings[path];
+  // Check if the clean path has a mapping
+  if (pageMappings[cleanPath]) {
+    return basePath + pageMappings[cleanPath];
   }
   
   // If no direct mapping exists, try to determine based on path pattern
-  if (path.startsWith('/cn/')) {
+  if (cleanPath.startsWith('/cn/')) {
     // Chinese page without direct mapping, try to get English equivalent
-    return basePath + path.replace('/cn/', '/');
+    return basePath + cleanPath.replace('/cn/', '/');
   } else {
     // English page without direct mapping, try to get Chinese equivalent
-    return basePath + '/cn' + path;
+    return basePath + '/cn' + cleanPath;
   }
 }
 
@@ -74,8 +73,11 @@ document.addEventListener('DOMContentLoaded', function() {
   languageSwitchButtons.forEach(button => {
     button.addEventListener('click', function(e) {
       e.preventDefault();
-      const currentPath = window.location.pathname;
-      const correspondingPage = getCorrespondingPage(currentPath);
+      const correspondingPage = getCorrespondingPage(window.location.pathname);
+      
+      // Log the generated URL for debugging (can be removed in production)
+      console.log('Switching to:', correspondingPage);
+      
       window.location.href = correspondingPage;
     });
   });
