@@ -32,12 +32,10 @@ main:
   # - title: "Guide"
   #   url: /markdown/
   
-  - title: "Language"
-    children:
-      - title: "English"
-        url: /
-      - title: "中文"
-        url: /cn/
+  - title: "中文"
+    url: /cn/
+    class: "language-switch"
+    lang: "zh"
 
 # Chinese navigation
 zh-main:
@@ -50,9 +48,7 @@ zh-main:
   - title: "简历"
     url: /cn/cv/
   
-  - title: "语言"
-    children:
-      - title: "English"
-        url: /
-      - title: "中文"
-        url: /cn/
+  - title: "English"
+    url: /
+    class: "language-switch"
+    lang: "en"

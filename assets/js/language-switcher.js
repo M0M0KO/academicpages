@@ -4,11 +4,13 @@ const pageMappings = {
   '/': '/cn/',
   '/publications/': '/cn/publications/',
   '/cv/': '/cn/cv/',
+  '/year-archive/': '/cn/year-archive/',
   
   // Chinese to English
   '/cn/': '/',
   '/cn/publications/': '/publications/',
-  '/cn/cv/': '/cv/'
+  '/cn/cv/': '/cv/',
+  '/cn/year-archive/': '/year-archive/'
 };
 
 // Function to get the corresponding page in the other language
@@ -35,22 +37,16 @@ function getCorrespondingPage(currentPath) {
   }
 }
 
-// Add event listeners to language links
+// Add event listeners to language switcher buttons
 document.addEventListener('DOMContentLoaded', function() {
-  const languageLinks = document.querySelectorAll('.dropdown-menu a');
+  const languageSwitchButtons = document.querySelectorAll('.language-switch');
   
-  languageLinks.forEach(link => {
-    link.addEventListener('click', function(e) {
-      const targetLang = this.getAttribute('data-lang');
+  languageSwitchButtons.forEach(button => {
+    button.addEventListener('click', function(e) {
+      e.preventDefault();
       const currentPath = window.location.pathname;
-      
-      // Only intercept if we're switching languages
-      if ((targetLang === 'en' && currentPath.includes('/cn/')) || 
-          (targetLang === 'zh' && !currentPath.includes('/cn/'))) {
-        e.preventDefault();
-        const correspondingPage = getCorrespondingPage(currentPath);
-        window.location.href = correspondingPage;
-      }
+      const correspondingPage = getCorrespondingPage(currentPath);
+      window.location.href = correspondingPage;
     });
   });
 }); 

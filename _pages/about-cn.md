@@ -14,12 +14,12 @@ redirect_from:
 
 ## 简介
 
-我是一名具有医学图像分析经验的研究生，对具身人工智能充满兴趣。我的学术旅程始于本科期间的计算机视觉和目标检测研究，现在我热切地探索着具身人工智能这一激动人心的领域。目前，我正在学习能够与物理世界进行有意义交互的系统，同时继续丰富我的经验。
+我是一名正在攻读人工智能与自适应系统硕士学位的学生，对医学图像分析有一些初步经验，想学习具身智能。我的学习之旅始于本科时期对计算机视觉和目标检测的探索，如今很幸运能够继续在人工智能领域深造。我现在希望能够学习探索现在前沿的具身智能，多智能体，脑机接口等技术。
 
 <div class="highlight-box">
   <div class="highlight-item">
     <i class="fas fa-graduation-cap" style="font-size: 1.2em; color: #4285F4;"></i>
-    <p><strong>教育背景：</strong> 人工智能与自适应系统硕士（在读），计算机科学学士</p>
+    <p><strong>教育背景：</strong> 人工智能与自适应系统硕士（在读），计算机科学与技术学士</p>
   </div>
   <div class="highlight-item">
     <i class="fas fa-flask" style="font-size: 1.2em; color: #4285F4;"></i>
@@ -27,7 +27,7 @@ redirect_from:
   </div>
   <div class="highlight-item">
     <i class="fas fa-trophy" style="font-size: 1.2em; color: #4285F4;"></i>
-    <p><strong>荣誉：</strong> 竞赛奖项、研究论文贡献、专利参与</p>
+    <p><strong>荣誉：</strong> 竞赛经历、参与研究项目、软著与发明专利申请</p>
   </div>
 </div>
 
@@ -50,35 +50,35 @@ redirect_from:
   </div>
   <div>
     <i class="fas fa-project-diagram" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
-    <strong>多模态学习</strong>：探索视觉-语言-行动(VLA)模型在具身人工智能系统中的应用
+    <strong>多模态学习</strong>：探索视觉-语言-动作(VLA)模型在具身人工智能中的应用
   </div>
   <div>
     <i class="fas fa-users" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
-    <strong>多智能体系统</strong>：开始研究协作型人工智能系统
+    <strong>多智能体系统</strong>：初步接触协作型人工智能系统的基本概念
   </div>
 </div>
 
 ---
 
-## 当前关注点
+## 当前学习重点
 
 <div class="current-focus">
-  <p>作为一名学生，我目前专注于在以下领域构建知识：</p>
+  <p>我目前正在努力在以下领域建立基础知识：</p>
   
   <div class="focus-grid">
     <div class="focus-item">
       <i class="fas fa-book-open" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
       <div>
-        <h4>构建基础</h4>
-        <p>学习机器人技术、强化学习和计算感知的核心概念</p>
+        <h4>打好基础</h4>
+        <p>学习机器人技术、强化学习和计算感知的基本概念</p>
       </div>
     </div>
     
     <div class="focus-item">
       <i class="fas fa-laptop-code" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
       <div>
-        <h4>实践技能</h4>
-        <p>学习使用模拟环境并开发小型项目来应用理论知识</p>
+        <h4>提升实践能力</h4>
+        <p>尝试使用模拟环境并参与小型项目来应用所学知识</p>
       </div>
     </div>
     
@@ -86,7 +86,7 @@ redirect_from:
       <i class="fas fa-users" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
       <div>
         <h4>多智能体学习</h4>
-        <p>开始探索多个人工智能智能体如何交互、沟通并协作解决问题</p>
+        <p>初步了解多个人工智能智能体如何交互、沟通并协作解决问题</p>
       </div>
     </div>
   </div>
@@ -94,7 +94,7 @@ redirect_from:
 
 ---
 
-## 主要项目
+## 部分项目经历
 
 <div class="projects-preview">
   <div class="project-card">
@@ -103,7 +103,7 @@ redirect_from:
     </div>
     <div class="project-details">
       <h4>YOLOv11-LCDFS：结合低光照增强的强化吸烟检测</h4>
-      <p>开发了基于YOLO的架构，探索专门的损失函数、注意力机制、优化的上采样技术以及低光照增强，以提高在挑战性光照条件下的检测能力</p>
+      <p>开发基于YOLO的架构，探索专门的损失函数、注意力机制、优化的上采样技术以及低光照增强，以提高在挑战性光照条件下的检测能力</p>
       <p class="tech-used">PyTorch | 计算机视觉 | YOLO | 注意力机制</p>
     </div>
   </div>
@@ -133,7 +133,7 @@ redirect_from:
 
 ---
 
-## 精选成就
+## 参与活动与获得经验
 
 <div class="achievements-preview">
   <div class="achievement-card">
@@ -163,13 +163,13 @@ redirect_from:
 
 ---
 
-## 论文贡献
+## 科研学习与参与
 
 <div class="publication-preview">
   <div class="publication-card">
     <i class="fas fa-file-alt" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>
     <div>
-      <h4>机器学习识别与肝细胞癌相关的外泌体特征</h4>
+      <h4>Machine Learning Identifies Exosome Features Related to Hepatocellular Carcinoma</h4>
       <p><em>Frontiers in Cell and Developmental Biology</em> (2022)</p>
       <p>协助开发机器学习算法，用于肝细胞癌研究中的外泌体特征分析和分类</p>
     </div>
@@ -178,7 +178,7 @@ redirect_from:
   <div class="publication-card">
     <i class="fas fa-file-alt" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>
     <div>
-      <h4>多组学和机器学习驱动的CD8+ T细胞异质性评分用于预后</h4>
+      <h4>Multi-omics and Machine Learning-driven CD8+ T Cell Heterogeneity Score for Prognosis</h4>
       <p><em>Molecular Therapy Nucleic Acids</em> (2024)</p>
       <p>帮助在HNSCC研究中实施各种机器学习算法用于关键基因识别</p>
     </div>
@@ -191,21 +191,21 @@ redirect_from:
 
 <div class="curious-about">
   <div class="question-item">
-    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>机器人如何通过与世界的感觉运动体验发展自己的智能？</h4>
+    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>机器人如何通过与世界的交互产生自己的智能？</h4>
   </div>
   
   <div class="question-item">
-    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>多个智能体如何自组织以适应专门角色并发展出涌现的集体智能？</h4>
+    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>多个智能体如何自组织以适应专门角色并涌现集体智能？</h4>
   </div>
   
   <div class="question-item">
-    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>什么机制能让大型语言模型自动分解任务并协作使用专门工具？</h4>
+    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>大型语言模型如何能够更好地理解任务并有效使用工具？</h4>
   </div>
 </div>
 
 ---
 
-## 学习目标
+## 学习愿望
 
 <div class="future-goals">
   <div class="goal-item">
@@ -217,7 +217,7 @@ redirect_from:
   </div>
   
   <div class="goal-item">
-    <h4><i class="fas fa-robot" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>学习设计系统，让智能体能够自主发现有效的劳动分工和工具使用</h4>
+    <h4><i class="fas fa-robot" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>学习设计系统，让智能体能够自主发现有效的分工和工具使用</h4>
   </div>
 </div>
 

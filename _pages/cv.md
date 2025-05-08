@@ -169,7 +169,7 @@ redirect_from:
       <h3><i class="fas fa-language" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>Languages</h3>
       <ul>
         <li><strong>Chinese:</strong> Native</li>
-        <li><strong>English:</strong> Professional (IELTS 6.0: L:6.5, R:6.5, W:5.5, S:6.0)</li>
+        <li><strong>English:</strong> IELTS 6.0: L:6.5, R:6.5, W:5.5, S:6.0</li>
         <li><strong>Certification:</strong> CET-6 467</li>
       </ul>
     </div>

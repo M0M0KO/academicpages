@@ -13,7 +13,7 @@ redirect_from:
 
 ## At a Glance
 
-I am a postgraduate student with medical image analysis experience, interested in embodied AI. My academic journey began with computer vision and object detection during my undergraduate studies, and I am now eager to explore the exciting field of embodied AI. I'm currently learning about systems that can interact meaningfully with the physical world while continuing to build on my experience.
+I am a postgraduate student with some initial experience in medical image analysis, interested in embodied AI. My academic journey began with computer vision and object detection during my undergraduate studies, and I am fortunate to continue my studies in the field of artificial intelligence. I am now eager to explore cutting-edge technologies like embodied intelligence, multi-agent systems, and brain-computer interfaces.
 
 <div class="highlight-box">
   <div class="highlight-item">
@@ -26,7 +26,7 @@ I am a postgraduate student with medical image analysis experience, interested i
   </div>
   <div class="highlight-item">
     <i class="fas fa-trophy" style="font-size: 1.2em; color: #4285F4;"></i>
-    <p><strong>Recognition:</strong> Competition awards, contributions to research publications, involvement in patents</p>
+    <p><strong>Recognition:</strong> Competition awards, contributions to research publications, software copyrights and patent applications</p>
   </div>
 </div>
 
@@ -93,7 +93,7 @@ I am a postgraduate student with medical image analysis experience, interested i
 
 ---
 
-## Notable Projects
+## Selected Project Experience
 
 <div class="projects-preview">
   <div class="project-card">
@@ -132,14 +132,14 @@ I am a postgraduate student with medical image analysis experience, interested i
 
 ---
 
-## Selected Achievements
+## Activities and Experience
 
 <div class="achievements-preview">
   <div class="achievement-card">
     <i class="fas fa-trophy" style="font-size: 1.2em; color: #D4AF37; margin-right: 0.5em;"></i>
     <div>
       <h4>Stanford RNA 3D Folding Competition</h4>
-      <p>Bronze Medal (101st/1251 Place) | on going Kaggle Global Competition</p>
+      <p>Bronze Medal (101st/1251 Place) | Ongoing Kaggle Global Competition</p>
     </div>
   </div>
 
@@ -162,7 +162,7 @@ I am a postgraduate student with medical image analysis experience, interested i
 
 ---
 
-## Publications Contributions
+## Research Learning and Participation
 
 <div class="publication-preview">
   <div class="publication-card">
@@ -199,13 +199,13 @@ research</p>
   </div>
   
   <div class="question-item">
-    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>What mechanisms would allow large language models to automatically decompose tasks and utilize specialized tools collaboratively?</h4>
+    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>How can large language models better understand tasks and effectively use tools?</h4>
   </div>
 </div>
 
 ---
 
-## Learning Goals
+## Learning Aspirations
 
 <div class="future-goals">
   <div class="goal-item">

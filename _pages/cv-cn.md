@@ -11,11 +11,11 @@ redirect_from:
 
 <div style="text-align: center; margin-bottom: 1.5em;">
   <p style="font-size: 1.1em; color: var(--global-text-color); font-style: italic; max-width: 800px; margin: 0 auto;">
-    计算机视觉与医学人工智能研究生 | 探索具身智能
+    有计算机视觉与医学人工智能基础的研究生 | 学习具身智能
   </p>
   
   <div class="download-button">
-    <a href="{{ base_path }}/files/CV.pdf" class="btn btn-primary"><i class="fas fa-download"></i> 下载完整简历 (PDF)</a>
+    <a href="{{ base_path }}/files/CV.pdf" class="btn btn-primary"><i class="fas fa-download"></i> 下载简历 (PDF)</a>
   </div>
 </div>
 
@@ -26,11 +26,10 @@ redirect_from:
 <div class="education">
   <div class="education-entry">
     <h3><i class="fas fa-graduation-cap" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>人工智能与自适应系统硕士</h3>
-    <p><em>萨塞克斯人工智能研究所，浙江工商大学</em><br>
+    <p><em>萨塞克斯人工智能学院，浙江工商大学</em><br>
     中国杭州 | 2024-至今</p>
     <ul>
-      <li><strong>研究方向：</strong>具身智能，机器人学</li>
-      <li><strong>核心课程：</strong>动物与机器中的智能，智能系统技术，图像处理，机器学习</li>
+      <li><strong>核心课程：</strong>动物与机器中的智能，智能系统技术，图像处理，自然语言处理，机器学习</li>
       <li><strong>导师：</strong>Peter Wijeratne助理教授（萨塞克斯大学）和谢满德教授（浙江工商大学）</li>
       <li><strong>预计毕业时间：</strong>2026年3月</li>
     </ul>
@@ -43,25 +42,25 @@ redirect_from:
     <ul>
       <li><strong>GPA：</strong> 3.41/5.0 (84.7/100)</li>
       <li><strong>毕业论文：</strong> "基于深度学习和骨架框架的吸烟行为检测"</li>
-      <li><strong>相关课程：</strong> 数据结构与算法，Python编程，人工智能，计算机视觉，数据分析，机器学习</li>
-      <li><strong>论文指导教师：</strong> 匡方俊教授</li>
+      <li><strong>相关课程：</strong> 数据结构与算法，Python编程，数据分析，机器学习</li>
+      <li><strong>论文指导教师：</strong> 匡芳君教授</li>
     </ul>
   </div>
 </div>
 
 ---
 
-## 研究经历
+## 项目与实习经历
 
 <div class="experience">
   <div class="experience-entry">
-    <h3><i class="fas fa-flask" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>研究实习生</h3>
+    <h3><i class="fas fa-flask" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>实习学生</h3>
     <p><em>温州医科大学附属第一医院 - 肝胆胰外科实验室</em><br>
     中国温州 | 2022年9月 - 2023年1月</p>
     <ul>
       <li>协助开发临床应用的医学图像预处理软件，获得软件著作权登记（2022SR0252378）</li>
       <li>参与基于舌象分析的白血病诊断深度学习模型开发</li>
-      <li>协助创建肝细胞癌研究中的外泌体特征分析机器学习算法，为发表在《Frontiers in Cell and Developmental Biology》的论文做出贡献</li>
+      <li>协助创建肝细胞癌研究中的外泌体特征分析机器学习算法</li>
       <li><strong>技术：</strong> PyTorch, TensorFlow, OpenCV</li>
     </ul>
   </div>
@@ -71,11 +70,9 @@ redirect_from:
     <p><em>温州商学院</em><br>
     2022年6月 - 2023年6月</p>
     <ul>
-      <li>协调4名学生组成的团队，研究使用注意力机制增强YOLO架构以实现实时目标检测</li>
-      <li>实现并评估自注意力模块修改，在保持实时性能的同时提高检测准确性</li>
-      <li>在公共数据集和自定义数据集上进行实验验证</li>
-      <li>基于项目成果贡献获得2项软件著作权和1项专利申请</li>
-      <li>管理项目时间线、任务分配和文档，确保按计划完成项目里程碑</li>
+      <li>作为团队负责人与其他4名同学合作，探索使用注意力机制增强YOLO模型</li>
+      <li>尝试实现并测试自注意力模块修改方案，探索提高检测准确性的方法</li>
+      <li>在团队合作下获得了3项软件著作权和递交1项发明专利申请</li>
       <li><strong>技术：</strong> PyTorch, YOLO, 计算机视觉, OpenCV</li>
       <li><strong>指导教师：</strong> 张思阳教授</li>
     </ul>
@@ -91,7 +88,7 @@ redirect_from:
     <h3><i class="fas fa-brain" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>医学人工智能</h3>
     <ul>
       <li>学习用于医学图像分析和疾病诊断的深度学习</li>
-      <li>理解多模态临床数据整合和特征提取</li>
+      <li>多模态临床数据整合和特征提取</li>
       <li>探索临床应用的计算机辅助诊断系统</li>
     </ul>
   </div>
@@ -99,7 +96,7 @@ redirect_from:
   <div class="interest-area">
     <h3><i class="fas fa-robot" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>具身智能</h3>
     <ul>
-      <li>研究机器人如何通过与世界的物理交互发展智能</li>
+      <li>研究机器人如何通过与世界的物理交互产生智能</li>
       <li>探索具身智能体中感知与行动的联系</li>
       <li>学习机器人应用中的强化学习</li>
     </ul>
@@ -117,9 +114,9 @@ redirect_from:
   <div class="interest-area">
     <h3><i class="fas fa-users" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>多智能体系统</h3>
     <ul>
-      <li>理解多个智能体如何自组织以适应专门角色</li>
-      <li>研究智能体社区中的涌现行为和集体智能</li>
-      <li>探索协作型人工智能系统中有效劳动分工的方法</li>
+      <li>理解多个智能体如何协同工作</li>
+      <li>对智能体群体中的涌现行为和集体智能好奇</li>
+      <li>想要学习多智能体人工智能系统的基础知识</li>
     </ul>
   </div>
 </div>
@@ -169,16 +166,16 @@ redirect_from:
       <h3><i class="fas fa-language" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>语言</h3>
       <ul>
         <li><strong>中文：</strong> 母语</li>
-        <li><strong>英语：</strong> 专业水平 (雅思6.0: 听力:6.5, 阅读:6.5, 写作:5.5, 口语:6.0)</li>
-        <li><strong>证书：</strong> 大学英语六级 467分</li>
+        <li><strong>英语：</strong> 雅思6.0: 听力:6.5, 阅读:6.5, 写作:5.5, 口语:6.0</li>
+        <li><strong>证书：</strong> CET 467分</li>
       </ul>
     </div>
     
     <div class="skill-category">
-      <h3><i class="fas fa-certificate" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>认证</h3>
+      <h3><i class="fas fa-certificate" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>证书</h3>
       <ul>
         <li>DevCloud夏令营培训（华为）</li>
-        <li>人工智能开发Python（山东大学）</li>
+        <li>人工智能基础Python（山东大学）</li>
         <li>深度学习基础（山东大学）</li>
       </ul>
     </div>
@@ -191,18 +188,18 @@ redirect_from:
 
 <div class="publications">
   <div class="paper">
-    <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>机器学习识别与肝细胞癌相关的外泌体特征</h3>
+    <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>Machine Learning Identifies Exosome Features Related to Hepatocellular Carcinoma</h3>
     <p><strong>期刊：</strong> <em>Frontiers in Cell and Developmental Biology</em> (2022年9月)</p>
-    <p><strong>作者：</strong> 朱凯, 陶琦琦, <strong>闫家涛</strong>, 郎志超, 李新淼, 李一飞, 范聪聪, 俞正平</p>
+    <p><strong>作者：</strong>  Kai Zhu, Qiqi Tao, <strong>Jiatao Yan</strong>, Zhichao Lang, Xinmiao Li, Yifei Li, Congcong Fan, Zhengping Yu</p>
     <p><strong>DOI：</strong> <a href="https://doi.org/10.3389/fcell.2022.1020415" target="_blank">10.3389/fcell.2022.1020415</a></p>
     <p><strong>影响因子：</strong> 5.8</p>
-    <p class="contribution">贡献：协助开发机器学习算法，用于肝细胞癌研究中的外泌体特征分析和分类</p>
+    <p class="contribution">贡献：协助应用机器学习算法，用于肝细胞癌研究中的外泌体特征分析和分类</p>
   </div>
   
   <div class="paper">
-    <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>多组学和机器学习驱动的CD8+ T细胞异质性评分用于预后</h3>
+    <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>Multi-omics and Machine Learning-driven CD8+ T Cell Heterogeneity Score for Prognosis</h3>
     <p><strong>期刊：</strong> <em>Molecular Therapy Nucleic Acids</em> (2024年12月)</p>
-    <p><strong>作者：</strong> 何迪, 杨展, 张田, 罗亚仙, 彭连杰, <strong>闫家涛</strong>, 邱涛, 张静宇, 秦露莹, 刘志超, 张晓婷, 林立宁, 孙谋远</p>
+    <p><strong>作者：</strong> Di He, Zhan Yang, Tian Zhang, Yaxian Luo, Lianjie Peng, <strong>Jiatao Yan</strong>, Tao Qiu, Jingyu Zhang, Luying Qin, Zhichao Liu, Xiaoting Zhang, Lining Lin, Mouyuan Sun</p>
     <p><strong>DOI：</strong> <a href="https://doi.org/10.1016/j.omtn.2024.102413" target="_blank">10.1016/j.omtn.2024.102413</a></p>
     <p><strong>影响因子：</strong> 6.4</p>
     <p class="contribution">贡献：帮助在HNSCC研究中实施各种机器学习算法用于关键基因识别。</p>
@@ -215,10 +212,10 @@ redirect_from:
 
 <div class="manuscripts">
   <div class="paper">
-    <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>利用多组学和机器学习：通过SRD5A3-AS1/hsa-let-7e-5p/RRM2轴改善透明细胞肾细胞癌预后的见解</h3>
+    <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>Multi-omics and Machine Learning-driven CD8+ T Cell Heterogeneity Score for Prognosis</h3>
     <p><strong>期刊：</strong> <em>ACS Omega</em> (提交时间: 2025年2月12日 - 审稿中)</p>
-    <p><strong>作者：</strong> 孙谋远, 杨展, 罗亚仙, 秦露莹, 彭连杰, 潘超然, <strong>闫家涛</strong>, 邱涛, 张岩</p>
-    <p class="contribution">贡献：实现用于识别SRD5A3-AS1/hsa-let-7e-5p/RRM2轴中监管组件的机器学习算法。</p>
+    <p><strong>作者：</strong>  Mouyuan Sun, Zhan Yang, Yaxian Luo, Luying Qin, Lianjie Peng, Chaoran Pan, <strong>Jiatao Yan</strong>, Tao Qiu, Yan Zhang</p>
+    <p class="contribution">贡献：实现用于识别SRD5A3-AS1/hsa-let-7e-5p/RRM2重要特征的有关机器学习算法。</p>
   </div>
 </div>
 
@@ -228,20 +225,635 @@ redirect_from:
 
 <div class="manuscripts">
   <div class="paper">
-    <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>基于多相位CT图像和临床数据的局部上尿路上皮癌生存预测深度学习模型</h3>
+    <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>Deep Learning Model for Survival Prediction of Localized Upper Tract Urothelial Carcinoma Based on Multi-Phase CT Images and Clinical Data</h3>
     <p><strong>修订中</strong></p>
-    <p><strong>作者：</strong> 朱凯, 林斌伟, <strong>闫家涛</strong>, 朱洪辉, 陈伟, 姚欣, 游凤燕, 潘悦, 王峰, 夏鹏, 李叶平, 陈联国, 余志贤, 缪守良, 高晓敏</p>
+    <p><strong>作者：</strong>  Kai Zhu, Binwei Lin, <strong>Jiatao Yan</strong>, Honghui Zhu, Wei Chen, Xin Yao, Fengyan You, Yue Pan, Feng Wang, Peng Xia, Yeping Li, Lianguo Chen, Zhixian Yu, Shouliang Miao, Xiaomin Gao</p>
     <p class="contribution">贡献：设计并实现用于分析多相位CT图像的深度学习架构。开发将影像特征与临床数据整合以创建综合预测模型的方法。参与模型验证和性能优化。</p>
   </div>
 
   <div class="paper">
-    <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>YOLOv11-LCDFS：结合低光照增强的强化吸烟检测</h3>
+    <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>YOLOv11-LCDFS: Enhanced Smoking Detection With Low-light Enhancement</h3>
     <p><strong>修订中</strong></p>
-    <p><strong>作者：</strong> <strong>闫家涛</strong>, 朱梓凯, 杨政坦, 江浩, 王培宸, 匡方俊, 张思阳</p>
-    <p class="contribution">第一作者，致力于开发一种基于YOLO的架构，集成低光照增强功能、专门的损失函数、注意力机制和优化的上采样技术，以提高在挑战性光照条件下的检测能力。</p>
+    <p><strong>作者：</strong> <strong>Jiatao Yan</strong>, Zhuzikai Zheng, Zhengtan Yang, Hao Jiang, Peichen Wang, Fangjun Kuang, Siyang Zhang</p>
+    <p class="contribution">第一作者，开发一种基于YOLO的架构，集成低光照增强功能、损失函数、注意力机制和优化的上采样技术，来提高在不同光照条件下的检测能力。</p>
   </div>
 </div>
 
 ---
 
-## 知识产权 
+## 软件著作权与发明专利
+
+<div class="patents">
+  <div class="patent-item">
+    <h3><i class="fas fa-file-contract" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>专利申请</h3>
+    <p><strong>名称：</strong> 吸烟行为识别摄像头及判定方法</p>
+    <p><strong>申请号：</strong> 202310277784.1</p>
+    <p><strong>状态：</strong> 申请流程已完成 - 因学历要求而非技术原因撤回</p>
+    <p><strong>发明人：</strong> 严佳涛, 张思阳, 匡芳君, 王培臣, 郑朱子恺, 蒋昊, 杨政潭, 包翰文, 夏春秋</p>
+    <p><strong>简介：</strong> 结合姿态估计的公共场所吸烟行为实时检测方法。</p>
+  </div>
+  
+  <div class="software-copyrights">
+    <h3><i class="fas fa-file-code" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>软件著作权</h3>
+    <ul>
+      <li>
+        <strong>医学图像计算软件</strong> (2022SR0252378)<br>
+        <em>授权时间: 2022年4月</em><br>
+      </li>
+      <li>
+        <strong>人体骨架识别软件</strong> (2022SR1258998)<br>
+        <em>授权时间: 2022年10月</em><br>
+      </li>
+      <li>
+        <strong>香烟识别软件</strong> (2022SR1277520)<br>
+        <em>授权时间: 2022年10月</em><br>
+      </li>
+      <li>
+        <strong>吸烟行为检测软件</strong> (2022SR1277521)<br>
+        <em>授权时间: 2022年10月</em><br>
+      </li>
+    </ul>
+  </div>
+</div>
+
+---
+
+## 学术成果与奖项
+
+<div class="achievements">
+  <div class="achievement-item">
+    <div class="achievement-content">
+      <h4><i class="fas fa-trophy" style="font-size: 1.2em; color:rgb(184, 115, 51); margin-right: 0.5em;"></i>斯坦福RNA 3D折叠竞赛</h4>
+      <p><strong>铜牌</strong> | <strong>排名 101/1251</strong> | 前8% | Kaggle全球竞赛 | 进行中（剩余1个月）</p>
+    </div>
+  </div>
+
+  <div class="achievement-item">
+    <div class="achievement-content">
+      <h4><i class="fas fa-chart-line" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>播客收听时间预测竞赛</h4>
+      <p><strong>排名 116/3310</strong> | 前4% | Kaggle全球竞赛 | 2025年5月</p>
+    </div>
+  </div>
+  
+  <div class="achievement-item">
+    <div class="achievement-content">
+      <h4><i class="fas fa-microscope" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>BYU - 细菌鞭毛马达定位 2025</h4>
+      <p><strong>排名 283/904</strong> | 前31% | Kaggle全球竞赛 | 进行中（剩余1个月）</p>
+    </div>
+  </div>
+  
+  <div class="achievement-item">
+    <div class="achievement-content">
+      <h4><i class="fas fa-wave-square" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>耶鲁/北卡罗来纳州大学教堂山分校 - 地球物理波形反演</h4>
+      <p><strong>排名 150/480</strong> | 前31% | Kaggle全球竞赛 | 进行中（剩余2个月）</p>
+    </div>
+  </div>
+  
+  <div class="achievement-item">
+    <div class="achievement-content">
+      <h4><i class="fas fa-chart-line" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>HuBMAP + HPA 竞赛</h4>
+      <p><strong>排名 442/1174</strong> | 前38% | Kaggle全球竞赛 | 2022年9月</p>
+    </div>
+  </div>
+  
+  <div class="achievement-item">
+    <div class="achievement-content">
+      <h4><i class="fas fa-medal" style="font-size: 1.2em; color: #CD7F32; margin-right: 0.5em;"></i>第18届"挑战杯"大学生竞赛</h4>
+      <p><strong>铜牌</strong> | 浙江省级 | 2023年5月</p>
+    </div>
+  </div>
+  
+  <div class="achievement-item">
+    <div class="achievement-content">
+      <h4><i class="fas fa-award" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>第4届全国"传智杯"IT技能竞赛</h4>
+      <p><strong>省级优秀奖</strong> | 浙江省 | 2021年12月</p>
+    </div>
+  </div>
+  
+  <div class="achievement-item">
+    <div class="achievement-content">
+      <h4><i class="fas fa-award" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>2023年温州计算机学会学生会员创新创业奖</h4>
+      <p><strong>三等奖</strong> | 温州 | 2024年4月</p>
+    </div>
+  </div>
+</div>
+
+---
+
+## 项目经历
+
+<div class="projects">
+  <div class="project-entry">
+    <h3><i class="fas fa-project-diagram" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>YOLOv11-LCDFS：结合低光照增强的吸烟检测探索</h3>
+    <div class="project-details">
+      <p>在本科吸烟检测研究基础上，学习如何提高在复杂光照条件下的目标检测能力。尝试探索基于YOLO架构的改进方法，学习针对低光照环境的特殊处理技术。<a href="https://github.com/username/YOLOv11-LCDFS" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <ul>
+        <li>探索针对低光照目标检测场景的改进损失函数</li>
+        <li>学习在不同光照条件下关注关键视觉特征的注意力机制实现方法</li>
+        <li>尝试优化上采样技术以在黑暗环境中保留细节信息</li>
+        <li>探索将轻量级低光照增强模块直接集成到检测流程中的方法</li>
+      </ul>
+      <p><strong>使用的技术：</strong> PyTorch, YOLO, 计算机视觉, CUDA, 注意力机制</p>
+      <p><strong>状态：</strong> 进行中（2025年4月）</p>
+      <p><strong>相关成果：</strong> 正在准备的论文（作为参与者）</p>
+    </div>
+  </div>
+
+  <div class="project-entry">
+    <h3><i class="fas fa-microscope" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>癌症研究多模态医学图像分析学习</h3>
+    <div class="project-details">
+      <p>在温州医科大学第一附属医院参与学习医学图像分析系统知识，了解肿瘤检测相关技术。<a href="https://github.com/username/multi-modal-medical" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <ul>
+        <li>学习肝细胞癌和肾细胞癌的医学图像分割算法原理</li>
+        <li>了解如何整合临床表格数据与影像特征进行综合分析的方法</li>
+        <li>接触多模态融合技术，用于结合不同CT扫描相位</li>
+        <li>初步学习3D体积分割方法，用于全面解剖分析</li>
+      </ul>
+      <p><strong>接触的技术：</strong> Python, 深度学习, 3D分割, 多模态融合, PyDicom, NumPy</p>
+      <p><strong>状态：</strong> 进行中（2025年4月）</p>
+      <p><strong>相关成果：</strong> 参与论文准备工作</p>
+    </div>
+  </div>
+
+  <div class="project-entry">
+    <h3><i class="fas fa-disease" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>基于深度学习的疾病检测学习</h3>
+    <div class="project-details">
+      <p>学习使用深度学习模型从医学影像数据中自动检测和分类疾病，重点关注糖尿病足溃疡检测。<a href="https://github.com/yanjiatao/diabetic-wound-detection" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <ul>
+        <li>学习实现和比较多种增强型YOLOv8架构变体，探索不同注意力机制(GAM, CBAM, ECA, CoordAtt)在临床图像中精确定位糖尿病伤口的应用</li>
+        <li>尝试设计和评估集成新型上采样技术的YOLOv8架构，包括CARAFE和DySample，用于提高特征图分辨率</li>
+        <li>在指导下学习基于三元组的损失函数和Inner-CIoU机制，以提高对不同大小和外观伤口的检测准确性</li>
+        <li>了解如何动态卷积技术适应性地捕捉不同临床设置和光照条件下的伤口特征</li>
+      </ul>
+      <p><strong>接触的技术：</strong> PyTorch, YOLO, 注意力机制(GAM/CBAM/ECA), 自定义损失函数, 特征上采样技术, 动态卷积</p>
+      <p><strong>时间：</strong> 2024年8月</p>
+    </div>
+  </div>
+
+  <div class="project-entry">
+    <h3><i class="fas fa-shield-alt" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Twitter质量与垃圾信息检测系统学习</h3>
+    <div class="project-details">
+      <p>学习如何开发机器学习系统用于Twitter内容质量评估和垃圾信息检测，了解文本处理和分类技术。<a href="https://github.com/username/twitter-spam-detection" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <ul>
+        <li>学习Twitter数据的文本预处理技术，包括文本规范化、特征提取和缺失值处理</li>
+        <li>尝试通过结合用户指标（关注者数量、关注数量）和行为模式创建复合特征来提高分类性能</li>
+        <li>了解情感分析和内容分析技术，用于识别推文中的质量模式</li>
+        <li>比较多种机器学习模型以了解分类准确性的优化方法</li>
+      </ul>
+      <p><strong>接触的技术：</strong> Python, NLTK, scikit-learn, Pandas, Matplotlib, Seaborn</p>
+      <p><strong>时间：</strong> 2024年8月</p>
+    </div>
+  </div>
+
+  <div class="project-entry">
+    <h3><i class="fas fa-home" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Airbnb价格分析与预测系统学习项目</h3>
+    <div class="project-details">
+      <p>学习如何基于各种物业特征和位置数据预测纽约市Airbnb房源价格，探索数据分析和机器学习的应用。<a href="https://github.com/username/airbnb-price-prediction" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <ul>
+        <li>进行包含48,000多个房源的纽约市Airbnb数据集探索性分析，尝试创建可视化图表揭示不同社区的价格模式</li>
+        <li>学习使用Python GIS库进行地理空间分析，以可视化属性分布并识别高价值区域</li>
+        <li>通过转换分类变量和创建新指标来增强相关特征，以更好地捕捉影响价格的因素</li>
+        <li>尝试实现RandomForest回归模型来预测连续的房源价格，学习超参数优化技术</li>
+      </ul>
+      <p><strong>接触的技术：</strong> Python, Pandas, Scikit-learn, GeoPandas, Matplotlib, Seaborn, RandomForest</p>
+      <p><strong>时间：</strong> 2024年1月</p>
+    </div>
+  </div>
+  
+  <div class="project-entry">
+    <h3><i class="fas fa-comment" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>航空公司情感分析系统学习</h3>
+    <div class="project-details">
+      <p>学习为航空相关推文开发情感分析系统，将客户反馈分类为积极、消极或中性，了解自然语言处理技术。<a href="https://github.com/username/airline-sentiment" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <ul>
+        <li>学习专门为Twitter数据设计的文本预处理流程（处理标签、提及、表情符号、URL）</li>
+        <li>尝试多种特征提取技术，包括TF-IDF、词嵌入和上下文嵌入</li>
+        <li>了解并比较各种分类模型，包括LSTM网络、基于transformer的方法和传统机器学习算法</li>
+        <li>学习如何分析误分类推文以识别模式并改进模型性能</li>
+      </ul>
+      <p><strong>接触的技术：</strong> Python, NLTK, spaCy, HuggingFace Transformers, Scikit-learn, Pandas, Matplotlib</p>
+      <p><strong>时间：</strong> 2023年12月</p>
+    </div>
+  </div>
+
+  <div class="project-entry">
+    <h3><i class="fas fa-smoking" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>吸烟行为检测系统</h3>
+    <div class="project-details">
+      <p>本科毕业论文项目，在导师指导下学习结合YOLO目标检测与MediaPipe骨架跟踪技术，识别视频流中的吸烟动作。<a href="https://github.com/username/smoking-detection" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <ul>
+        <li>学习使用YOLO目标检测技术在视频中识别香烟和相关物体</li>
+        <li>尝试使用MediaPipe进行实时骨架跟踪和姿态估计</li>
+        <li>在指导下设计算法识别特征吸烟手到嘴动作模式</li>
+      </ul>
+      <p><strong>接触的技术：</strong> YOLO, MediaPipe, 姿态估计, 动作识别, PyTorch, OpenCV</p>
+      <p><strong>时间：</strong> 2023年4月</p>
+      <p><strong>成果：</strong> 专利申请(202310277784.1)，2项软件著作权，论文获得良好评价</p>
+    </div>
+  </div>
+
+  <div class="project-entry">
+    <h3><i class="fas fa-heartbeat" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>心脏病预测系统学习项目</h3>
+    <div class="project-details">
+      <p>学习如何基于患者数据和健康指标预测心脏病的可能性，了解健康数据分析和机器学习应用。<a href="https://github.com/username/heart-disease-prediction" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <ul>
+        <li>尝试对包含各种健康指标和人口统计信息的数据集进行探索性分析</li>
+        <li>学习特征选择和工程方法，以识别心脏病的关键预测因素</li>
+        <li>实现和比较多种分类算法，包括K-近邻、支持向量机、随机森林和朴素贝叶斯</li>
+        <li>了解如何使用交叉验证技术优化模型参数以提高预测性能</li>
+      </ul>
+      <p><strong>接触的技术：</strong> Python, scikit-learn, Pandas, NumPy, Matplotlib, Seaborn</p>
+      <p><strong>时间：</strong> 2022年5月</p>
+    </div>
+  </div>
+</div>
+
+---
+
+## 专业发展与学习方向
+
+<div class="professional-development">
+  <div class="current-learning">
+    <h3><i class="fas fa-brain" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>当前学习重点</h3>
+    <p>具身智能和机器人学方向的自主学习，关注以下领域：</p>
+    <ul>
+      <li><strong>具身人工智能核心算法：</strong> 学习强化学习、模仿学习、模型预测控制和适用于机器人的扩散模型等基础知识</li>
+      <li><strong>视觉-语言-动作模型：</strong> 了解将感知、语言理解和动作生成集成用于机器人控制的基础模型</li>
+      <li><strong>机器人学习：</strong> 探索各种环境中的操作和导航技术，关注仿真到现实的迁移学习</li>
+      <li><strong>多智能体系统：</strong> 初步接触多智能体强化学习场景中的协调机制和涌现行为</li>
+      <li><strong>仿真环境：</strong> 开始学习MuJoCo、Isaac Gym或Habitat等具身人工智能研究和开发环境</li>
+    </ul>
+  </div>
+  
+  <div class="key-resources">
+    <h3><i class="fas fa-book" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>关键学习资源</h3>
+    <ul>
+      <li>
+        <strong>GitHub资源：</strong>
+        <ul>
+          <li><strong>Embodied-AI-Guide</strong> (<a href="https://github.com/tianxingchen/Embodied-AI-Guide" target="_blank">github.com/tianxingchen/Embodied-AI-Guide</a>)：具身智能研究综合指南（4.6k+星），这个仓库涵盖：
+            <ul>
+              <li>核心算法，包括强化学习、模仿学习、模型预测控制和扩散模型</li>
+              <li>用于机器人控制的视觉-语言-动作(VLA)模型</li>
+              <li>硬件平台和模拟器环境，如MuJoCo、Isaac Gym和Habitat</li>
+              <li>适用于具身智能体的计算机视觉和3D感知技术</li>
+              <li>用于操作和导航任务的机器人学习方法</li>
+            </ul>
+          </li>
+          <li><strong>Embodied-AI-Paper-List</strong> (<a href="https://github.com/Lumina-EAI/Embodied-AI-Paper-List" target="_blank">github.com/Lumina-EAI/Embodied-AI-Paper-List</a>)：按主题分类的重要研究论文精选集</li>
+          <li><strong>Awesome-Embodied-AI-Job</strong> (<a href="https://github.com/StarCycle/Awesome-Embodied-AI-Job" target="_blank">github.com/StarCycle/Awesome-Embodied-AI-Job</a>)：跟踪具身智能研究机会的资源</li>
+        </ul>
+      </li>
+      <li>
+        <strong>研究文献：</strong>
+        <ul>
+          <li>关注来自ICRA、CoRL、NeurIPS、CVPR和ICLR会议聚焦于具身人工智能的最新论文</li>
+          <li>学习机器人学习的基础模型，特别是视觉-语言-动作模型的研究</li>
+          <li>跟踪基于大语言模型的机器人规划和控制发展</li>
+          <li>探索机器人操作的仿真到现实迁移技术</li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+  
+  <div class="future-directions">
+    <h3><i class="fas fa-compass" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>我感兴趣的研究问题</h3>
+    <ul>
+      <li>机器人如何通过与环境互动发展智能？</li>
+      <li>什么机制能让多个智能体自组织并发展专门角色？</li>
+      <li>人工智能系统如何自动分解复杂任务并协作使用专门工具？</li>
+      <li>物理具身在发展稳健和可泛化智能中扮演什么角色？</li>
+    </ul>
+  </div>
+</div>
+
+---
+
+## 参考信息
+
+<div class="references">
+  <p>可根据需要提供专业和学术参考信息。</p>
+</div>
+
+<style>
+  /* Global Styles */
+  h2 {
+    margin-top: 2em;
+    margin-bottom: 1em;
+    padding-bottom: 0.5em;
+    border-bottom: 2px solid var(--global-border-color);
+    color: var(--global-text-color);
+    font-weight: 600;
+  }
+  
+  hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0));
+    margin: 2em 0;
+  }
+  
+  .download-button {
+    text-align: center;
+    margin: 1.5em 0;
+  }
+  
+  .btn-primary {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: #2a76dd;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #1a66cd;
+    text-decoration: none;
+  }
+
+  /* Section Styles */
+  .education-entry,
+  .experience-entry,
+  .project-entry,
+  .paper {
+    margin-bottom: 2em;
+    padding: 1.5em;
+    background-color: var(--global-bg-color);
+    border: 1px solid var(--global-border-color);
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .education-entry:hover,
+  .experience-entry:hover,
+  .project-entry:hover,
+  .paper:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .education-entry h3,
+  .experience-entry h3,
+  .project-entry h3,
+  .paper h3,
+  .interest-area h3 {
+    margin-bottom: 0.8em;
+    color: var(--global-text-color);
+    font-weight: 600;
+    border-bottom: 1px solid var(--global-border-color);
+    padding-bottom: 0.5em;
+  }
+  
+  .education-entry p,
+  .experience-entry p,
+  .project-entry p,
+  .paper p {
+    margin: 0.5em 0;
+    line-height: 1.5;
+    color: var(--global-text-color);
+  }
+  
+  .education-entry ul,
+  .experience-entry ul,
+  .project-details ul,
+  .interest-area ul,
+  .current-learning ul,
+  .key-resources ul,
+  .software-copyrights ul {
+    padding-left: 1.5em;
+    color: var(--global-text-color);
+  }
+  
+  .education-entry li,
+  .experience-entry li,
+  .project-details li,
+  .interest-area li,
+  .current-learning li,
+  .key-resources li,
+  .software-copyrights li {
+    margin-bottom: 0.5em;
+    line-height: 1.4;
+  }
+  
+  .project-details {
+    margin-top: 1em;
+  }
+  
+  /* Publication Styles */
+  .contribution {
+    font-style: italic;
+    color: var(--global-text-color-light);
+    border-left: 3px solid var(--global-border-color);
+    padding-left: 10px;
+    margin-top: 0.8em;
+    background-color: var(--global-bg-color);
+    padding: 0.5em 1em;
+    border-radius: 0 4px 4px 0;
+  }
+  
+  /* Research Interests */
+  .research-interests {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-gap: 1.5em;
+  }
+  
+  .interest-area {
+    padding: 1.5em;
+    background-color: var(--global-bg-color);
+    border: 1px solid var(--global-border-color);
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .interest-area:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  /* Skills Grid */
+  .skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1.5em;
+  }
+  
+  .skill-category {
+    background-color: var(--global-bg-color);
+    border: 1px solid var(--global-border-color);
+    padding: 1.5em;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .skill-category:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .skill-category h3 {
+    margin-top: 0;
+    margin-bottom: 0.8em;
+    color: var(--global-text-color);
+    font-weight: 600;
+    border-bottom: 1px solid var(--global-border-color);
+    padding-bottom: 0.5em;
+  }
+  
+  /* Achievements */
+  .achievements {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1.5em;
+  }
+  
+  .achievement-item {
+    background-color: var(--global-bg-color);
+    border: 1px solid var(--global-border-color);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    padding: 1.5em;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .achievement-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .achievement-content h4 {
+    margin: 0 0 0.5em 0;
+    color: var(--global-text-color);
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+  }
+  
+  .achievement-content p {
+    margin: 0.5em 0;
+    font-size: 0.95em;
+    line-height: 1.5;
+    color: var(--global-text-color);
+  }
+  
+  .achievement-desc {
+    font-size: 0.9em !important;
+    color: var(--global-text-color-light) !important;
+    margin-top: 0.5em !important;
+  }
+  
+  /* Patents and Software */
+  .patents {
+    margin-bottom: 2em;
+  }
+  
+  .patent-item {
+    padding: 1.5em;
+    border-radius: 8px;
+    background-color: var(--global-bg-color);
+    border: 1px solid var(--global-border-color);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    transition: all 0.2s ease-in-out;
+    margin-bottom: 1.5em;
+  }
+  
+  .patent-item:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .patent-item h3 {
+    margin-top: 0;
+    margin-bottom: 0.8em;
+    color: var(--global-text-color);
+    font-weight: 600;
+    border-bottom: 1px solid var(--global-border-color);
+    padding-bottom: 0.5em;
+  }
+  
+  .patent-item p {
+    margin: 0.3em 0;
+    line-height: 1.4;
+    color: var(--global-text-color);
+  }
+  
+  .software-copyrights {
+    padding: 1.5em;
+    border-radius: 8px;
+    background-color: var(--global-bg-color);
+    border: 1px solid var(--global-border-color);
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+  }
+  
+  .software-copyrights h3 {
+    margin-top: 0;
+    margin-bottom: 0.8em;
+    color: var(--global-text-color);
+    font-weight: 600;
+    border-bottom: 1px solid var(--global-border-color);
+    padding-bottom: 0.5em;
+  }
+  
+  .software-copyrights li {
+    margin-bottom: 1em;
+    color: var(--global-text-color);
+  }
+  
+  /* Professional Development */
+  .professional-development > div {
+    padding: 1.5em;
+    background-color: var(--global-bg-color);
+    border: 1px solid var(--global-border-color);
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    margin-bottom: 1.5em;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .professional-development > div:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .professional-development h3 {
+    margin-top: 0;
+    margin-bottom: 0.8em;
+    color: var(--global-text-color);
+    font-weight: 600;
+    border-bottom: 1px solid var(--global-border-color);
+    padding-bottom: 0.5em;
+  }
+  
+  /* References */
+  .references {
+    padding: 1.5em;
+    background-color: var(--global-bg-color);
+    border: 1px solid var(--global-border-color);
+    border-radius: 8px;
+    text-align: center;
+    font-style: italic;
+    color: var(--global-text-color);
+  }
+  
+  /* Icons */
+  .fa, .fas, .far, .fab {
+    color: var(--global-text-color);
+  }
+  
+  .achievement-content .fas {
+    color: inherit;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 768px) {
+    .research-interests,
+    .skills-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>
