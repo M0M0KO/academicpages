@@ -1,0 +1,164 @@
+---
+layout: archive-cn
+title: "发表作品"
+permalink: /cn/publications/
+author_profile: true
+---
+
+{% if site.author.googlescholar %}
+  <div class="wordwrap"><i class="fas fa-graduation-cap" style="color: #4285F4;" aria-hidden="true"></i> 在 <a href="{{site.author.googlescholar}}" target="_blank">Google Scholar</a>{% if site.author.orcid %} 或 <a href="{{site.author.orcid}}" target="_blank">ORCID</a>{% endif %} 上查看我的文章。</div>
+{% endif %}
+
+{% include base_path %}
+
+<div style="margin: 2em 0; padding: 1.5em; border: 1px solid var(--global-border-color); border-radius: 5px; background-color: var(--global-bg-color); box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+  <h3 style="color: var(--global-text-color); margin-top: 0;"><i class="fas fa-file-alt" style="margin-right: 0.5em; color: #4285F4;"></i>研究重点</h3>
+  <p>我的研究专注于将机器学习和深度学习技术应用于医学图像分析和具身智能。</p>
+  <p>如果您有兴趣在研究项目上合作，请随时<a href="mailto:{{site.author.email}}">联系我</a>。</p>
+</div>
+
+<!-- Publication Filters -->
+<div class="publication-filters" style="margin: 2em 0;">
+  <h3 style="margin-bottom: 0.5em; color: var(--global-text-color);"><i class="fas fa-filter" style="margin-right: 0.5em; color: #4285F4;"></i>筛选出版物：</h3>
+  <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <button id="filter-all" class="filter-btn active" style="padding: 8px 15px; background-color: var(--global-bg-color); border: 1px solid var(--global-border-color); border-radius: 4px; cursor: pointer; font-size: 0.9em; font-weight: 500; transition: all 0.2s ease; color: var(--global-text-color);">全部</button>
+    {% for category in site.publication_category %}
+      <button id="filter-{{ category[0] }}" class="filter-btn" style="padding: 8px 15px; background-color: var(--global-bg-color); border: 1px solid var(--global-border-color); border-radius: 4px; cursor: pointer; font-size: 0.9em; font-weight: 500; transition: all 0.2s ease; color: var(--global-text-color);">
+        {% if category[0] == 'journals' %}
+          期刊论文
+        {% elsif category[0] == 'conferences' %}
+          会议论文
+        {% elsif category[0] == 'manuscripts' %}
+          审稿中的论文
+        {% else %}
+          {{ category[1].title }}
+        {% endif %}
+      </button>
+    {% endfor %}
+  </div>
+</div>
+
+<!-- All Publications Section -->
+<div id="all-publications">
+  {% if site.publication_category %}
+    {% for category in site.publication_category %}
+      <div id="category-{{ category[0] }}" class="publication-category">
+        {% assign title_shown = false %}
+        {% assign has_publications = false %}
+        {% for post in site.publications reversed %}
+          {% if post.category == category[0] %}
+            {% assign has_publications = true %}
+            {% unless title_shown %}
+              <h2 class="category-title">
+                {% if category[0] == 'journals' %}
+                  期刊论文
+                {% elsif category[0] == 'conferences' %}
+                  会议论文
+                {% elsif category[0] == 'manuscripts' %}
+                  审稿中的论文
+                {% else %}
+                  {{ category[1].title }}
+                {% endif %}
+              </h2><hr />
+              {% assign title_shown = true %}
+            {% endunless %}
+            {% include archive-single.html %}
+          {% endif %}
+        {% endfor %}
+        {% unless has_publications %}
+          <!-- Empty div needed for the filter to work properly -->
+          <div style="display: none;"></div>
+        {% endunless %}
+      </div>
+    {% endfor %}
+  {% else %}
+    {% for post in site.publications reversed %}
+      {% include archive-single.html %}
+    {% endfor %}
+  {% endif %}
+</div>
+
+<!-- Simple JavaScript for filtering -->
+<script>
+// 立即执行函数，确保代码无论何时加载都会运行
+(function() {
+  function initFilters() {
+    // Get all filter buttons
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const categories = document.querySelectorAll('.publication-category');
+    
+    // Add click event to each button
+    filterButtons.forEach(button => {
+      button.addEventListener('click', function() {
+        // Remove active class from all buttons
+        filterButtons.forEach(btn => btn.classList.remove('active'));
+        // Add active class to clicked button
+        this.classList.add('active');
+        
+        const filterId = this.id;
+        
+        if (filterId === 'filter-all') {
+          // Show all categories
+          categories.forEach(category => {
+            category.style.display = 'block';
+          });
+        } else {
+          // Hide all categories first
+          categories.forEach(category => {
+            category.style.display = 'none';
+          });
+          
+          // Show only selected category
+          const categoryId = filterId.replace('filter-', 'category-');
+          const categoryElement = document.getElementById(categoryId);
+          if (categoryElement) {
+            categoryElement.style.display = 'block';
+          }
+        }
+      });
+    });
+  }
+
+  // 在DOM完全加载后执行初始化
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initFilters);
+  } else {
+    // 如果DOM已经加载完毕，直接执行
+    initFilters();
+  }
+})();
+</script>
+
+<style>
+  .filter-btn {
+    background-color: var(--global-bg-color) !important;
+    color: var(--global-text-color) !important;
+    border-color: var(--global-border-color) !important;
+    transition: all 0.2s ease;
+  }
+  .filter-btn:hover {
+    background-color: var(--global-border-color) !important;
+  }
+  .filter-btn.active {
+    background-color: #4285F4 !important;
+    color: var(--global-border-color) !important;
+    border-color: #4285F4 !important;
+  }
+  .publication-category {
+    margin-bottom: 2em;
+  }
+  .category-title {
+    margin-top: 1em;
+    color: var(--global-text-color);
+  }
+  @media (max-width: 767px) {
+    .publication-filters {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .filter-btn {
+      width: 100%;
+      text-align: left;
+    }
+  }
+</style> 

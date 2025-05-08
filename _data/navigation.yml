@@ -31,3 +31,28 @@ main:
   
   # - title: "Guide"
   #   url: /markdown/
+  
+  - title: "Language"
+    children:
+      - title: "English"
+        url: /
+      - title: "中文"
+        url: /cn/
+
+# Chinese navigation
+zh-main:
+  - title: "发表作品"
+    url: /cn/publications/
+        
+  - title: "博客文章"
+    url: /year-archive/
+    
+  - title: "简历"
+    url: /cn/cv/
+  
+  - title: "语言"
+    children:
+      - title: "English"
+        url: /
+      - title: "中文"
+        url: /cn/
