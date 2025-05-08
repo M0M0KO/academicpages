@@ -11,19 +11,11 @@ locale                   : "en-US"
 site_theme               : "default"
 title                    : "Jiatao Yan / Personal Website"
 title_separator          : "-"
-<<<<<<< HEAD
 name                     : &name "Jiatao Yan"
 description              : &description "Postgraduate Student"
 url                      : https://M0M0KO.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "/academicpages" # the subpath of your site, e.g. "/blog"
 repository               : "M0M0KO/academicpages.github.io"
-=======
-name                     : &name "Your Name"
-description              : &description "personal description"
-url                      : https://academicpages.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io" or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
-baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
->>>>>>> bd1b35dec371bcee588ee8e2b892259782b7a8c7
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -40,7 +32,6 @@ author:
   email            : "momokoyjt@outlook.com" 
 
   # Academic websites
-  academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=Z0_RjPsAAAAJ&hl=zh-CN"
   impactstory      : # URL
