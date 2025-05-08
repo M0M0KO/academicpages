@@ -15,11 +15,41 @@ const pageMappings = {
 
 // Function to get the corresponding page in the other language
 function getCorrespondingPage(currentPath) {
-  // Remove base path if it exists
+  // Get base path from meta tag or extract from window.location
+  let basePath = document.querySelector('meta[name="base_path"]')?.getAttribute('content');
+  
+  // If meta tag not found (fallback), get base path from pathname
+  if (!basePath) {
+    // Extract baseurl from the pathname (e.g., "/academicpages")
+    const pathParts = window.location.pathname.split('/');
+    if (pathParts.length > 1) {
+      // Check if we have a subdirectory in the URL
+      const possibleBaseUrl = '/' + pathParts[1];
+      // If it's likely a baseurl (not a language code or page path)
+      if (possibleBaseUrl !== '/cn' && !possibleBaseUrl.includes('.')) {
+        basePath = possibleBaseUrl;
+      } else {
+        basePath = '';
+      }
+    } else {
+      basePath = '';
+    }
+  }
+  
+  // If trailing slash in basePath, remove it
+  if (basePath && basePath.endsWith('/')) {
+    basePath = basePath.slice(0, -1);
+  }
+  
+  // Remove basePath from current path to get the route path
   let path = currentPath;
-  const basePath = document.querySelector('meta[name="base_path"]')?.getAttribute('content') || '';
   if (basePath && path.startsWith(basePath)) {
     path = path.replace(basePath, '');
+  }
+  
+  // Ensure path starts with /
+  if (!path.startsWith('/')) {
+    path = '/' + path;
   }
   
   // Check if the current path has a mapping
