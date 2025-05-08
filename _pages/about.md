@@ -139,7 +139,7 @@ I am a postgraduate student with medical image analysis experience, interested i
     <i class="fas fa-trophy" style="font-size: 1.2em; color: #D4AF37; margin-right: 0.5em;"></i>
     <div>
       <h4>Stanford RNA 3D Folding Competition</h4>
-      <p>Bronze Medal (87th/1093 Place) | Kaggle Global Competition</p>
+      <p>Bronze Medal (101st/1251 Place) | on going Kaggle Global Competition</p>
     </div>
   </div>
 

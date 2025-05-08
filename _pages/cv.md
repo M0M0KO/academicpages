@@ -291,7 +291,7 @@ redirect_from:
   <div class="achievement-item">
     <div class="achievement-content">
       <h4><i class="fas fa-trophy" style="font-size: 1.2em; color:rgb(184, 115, 51); margin-right: 0.5em;"></i>Stanford RNA 3D Folding Competition</h4>
-      <p><strong>Bronze Medal</strong> | <strong>Ranked 113th/1152</strong> | Top 10% | Kaggle Global Competition | Ongoing (1 month remaining)</p>
+      <p><strong>Bronze Medal</strong> | <strong>Ranked 101st/1251</strong> | Top 8% | Kaggle Global Competition | Ongoing (1 month remaining)</p>
       <p class="achievement-desc"></p>
     </div>
   </div>
@@ -299,7 +299,7 @@ redirect_from:
   <div class="achievement-item">
     <div class="achievement-content">
       <h4><i class="fas fa-chart-line" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Predict Podcast Listening Time Competition</h4>
-      <p><strong>Ranked 48th/3146</strong> | Top 2% | Kaggle Global Competition | April 2025</p>
+      <p><strong>Ranked 116th/3310</strong> | Top 4% | Kaggle Global Competition | May 2025</p>
       <p class="achievement-desc"></p>
     </div>
   </div>
@@ -307,7 +307,7 @@ redirect_from:
   <div class="achievement-item">
     <div class="achievement-content">
       <h4><i class="fas fa-microscope" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>BYU - Locating Bacterial Flagellar Motors 2025</h4>
-      <p><strong>Ranked 255th/845</strong> | Top 30% | Kaggle Global Competition | Ongoing (1 month remaining)</p>
+      <p><strong>Ranked 283th/904</strong> | Top 31% | Kaggle Global Competition | Ongoing (1 month remaining)</p>
       <p class="achievement-desc"></p>
     </div>
   </div>
@@ -315,7 +315,7 @@ redirect_from:
   <div class="achievement-item">
     <div class="achievement-content">
       <h4><i class="fas fa-wave-square" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Yale/UNC-CH - Geophysical Waveform Inversion</h4>
-      <p><strong>Ranked 128th/394</strong> | Top 33% | Kaggle Global Competition | Ongoing (2 months remaining)</p>
+      <p><strong>Ranked 150th/480</strong> | Top 31% | Kaggle Global Competition | Ongoing (2 months remaining)</p>
       <p class="achievement-desc"></p>
     </div>
   </div>
