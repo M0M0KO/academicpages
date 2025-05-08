@@ -30,14 +30,23 @@ function getCorrespondingPage(currentPath) {
     // Remove basePath from the current path to get a clean path
     cleanPath = fullPath.replace(basePath, '');
     
-    // Handle the case where there might be a duplicate basePath
-    if (cleanPath.includes('/academicpages')) {
-      cleanPath = cleanPath.replace('/academicpages', '');
+    // Handle the case where there might be a duplicate cn path (e.g., /cn/cn/)
+    if (cleanPath.includes('/cn/cn/')) {
+      cleanPath = cleanPath.replace('/cn/cn/', '/cn/');
     }
   } else {
     // For cases when not using a subdirectory or using a different one
     cleanPath = fullPath;
+    
+    // Handle the case where there might be a duplicate cn path (e.g., /cn/cn/)
+    if (cleanPath.includes('/cn/cn/')) {
+      cleanPath = cleanPath.replace('/cn/cn/', '/cn/');
+    }
   }
+  
+  // Clean up any remaining path issues
+  // Normalize paths with multiple consecutive slashes
+  cleanPath = cleanPath.replace(/\/+/g, '/');
   
   // Ensure cleanPath starts with /
   if (!cleanPath || cleanPath === '') {
@@ -49,6 +58,11 @@ function getCorrespondingPage(currentPath) {
   // Remove trailing slash if not the root path
   if (cleanPath.length > 1 && cleanPath.endsWith('/')) {
     cleanPath = cleanPath.slice(0, -1);
+  }
+  
+  // For direct language toggle between English/Chinese root
+  if (cleanPath === '/cn' || cleanPath === '/cn/') {
+    return basePath + '/';
   }
   
   // Check if the clean path has a mapping

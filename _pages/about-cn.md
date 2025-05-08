@@ -2,7 +2,7 @@
 permalink: /cn/
 title: ""
 author_profile: true
-layout: default-cn
+layout: single-cn
 redirect_from: 
   - /cn/about/
   - /cn/about.html

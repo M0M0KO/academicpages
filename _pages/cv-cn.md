@@ -1,5 +1,5 @@
 ---
-layout: archive-cn
+layout: single-cn
 title: "个人简历"
 permalink: /cn/cv/
 author_profile: true
