@@ -87,36 +87,36 @@ redirect_from:
   <div class="interest-area">
     <h3><i class="fas fa-brain" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>Medical Artificial Intelligence</h3>
     <ul>
-      <li>Learning about deep learning for medical image analysis and disease diagnosis</li>
-      <li>Understanding multi-modal clinical data integration and feature extraction</li>
-      <li>Exploring computer-aided diagnosis systems for clinical applications</li>
+      <li>Studying deep learning applications in medical image analysis and disease diagnosis</li>
+      <li>Learning about ways to integrate multi-modal clinical data</li>
+      <li>Interested in computer-aided diagnosis systems for clinical applications</li>
     </ul>
   </div>
   
   <div class="interest-area">
     <h3><i class="fas fa-robot" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>Embodied Intelligence</h3>
     <ul>
-      <li>Studying how robots develop intelligence through physical interaction with the world</li>
-      <li>Exploring the connection between perception and action in embodied agents</li>
-      <li>Learning about reinforcement learning in robotic applications</li>
+      <li>Beginning to learn about how robots might develop intelligence through physical interaction</li>
+      <li>Interested in understanding the relationship between perception and action in embodied agents</li>
+      <li>Looking forward to studying reinforcement learning in robotic applications</li>
     </ul>
   </div>
   
   <div class="interest-area">
     <h3><i class="fas fa-eye" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>Computer Vision</h3>
     <ul>
-      <li>Attention-based object detection architectures</li>
-      <li>Human pose estimation and behavior recognition</li>
-      <li>Visual feature extraction for real-world applications</li>
+      <li>Learning about attention-based architectures for object detection</li>
+      <li>Studying approaches to human pose estimation and behavior recognition</li>
+      <li>Interested in visual feature extraction methods for real-world applications</li>
     </ul>
   </div>
   
   <div class="interest-area">
     <h3><i class="fas fa-users" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>Multi-Agent Systems</h3>
     <ul>
-      <li>Understanding how multiple agents can work together</li>
-      <li>Curious about emergent behaviors and collective intelligence in agent communities</li>
-      <li>Wanting to learn the fundamentals of multi-agent AI systems</li>
+      <li>Starting to learn about how multiple agents might work together</li>
+      <li>Interested in understanding group behaviors in agent communities</li>
+      <li>Looking forward to studying the basics of multi-agent AI systems</li>
     </ul>
   </div>
 </div>
@@ -165,9 +165,10 @@ redirect_from:
     <div class="skill-category">
       <h3><i class="fas fa-language" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>Languages</h3>
       <ul>
-        <li><strong>Chinese:</strong> Native</li>
-        <li><strong>English:</strong> IELTS 6.0: Listening:6.5, Reading:6.5, Writing:5.5, Speaking:6.0</li>
-        <li><strong>Certification:</strong> CET-6 467</li>
+        <li><strong>Chinese:</strong> Native speaker</li>
+        <li><strong>English:</strong> 
+          - IELTS: Overall 6.0 (Listening: 6.5, Reading: 6.5, Writing: 5.5, Speaking: 6.0)
+          - CET-6: Score 467 (College English Test - Band 6)</li>
       </ul>
     </div>
     
@@ -346,7 +347,7 @@ redirect_from:
   <div class="project-entry">
     <h3><i class="fas fa-project-diagram" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>YOLOv11-LCDFS: Enhanced Smoking Detection With Low-light Enhancement</h3>
     <div class="project-details">
-      <p>Extension of smoking detection research focusing on improved object detection in challenging lighting conditions. Developing a novel YOLO-based architecture with specialized components addressing the unique challenges of low-light environments. <a href="https://github.com/username/YOLOv11-LCDFS" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <p>Extension of smoking detection research focusing on improved object detection in challenging lighting conditions. Developing a novel YOLO-based architecture with specialized components addressing the unique challenges of low-light environments. <a href="https://github.com/M0M0KO/YOLOv11-LCDFS" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
       <ul>
         <li>Designing custom loss functions specifically optimized for low-light object detection scenarios</li>
         <li>Implementing attention mechanisms to focus on key visual features in varying illumination conditions</li>
@@ -362,7 +363,7 @@ redirect_from:
   <div class="project-entry">
     <h3><i class="fas fa-microscope" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Multi-modal Medical Image Analysis for Cancer Research</h3>
     <div class="project-details">
-      <p>Developing medical image analysis systems for cancer research at Wenzhou Medical University First Affiliated Hospital. <a href="https://github.com/username/multi-modal-medical" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <p>Developing medical image analysis systems for cancer research at Wenzhou Medical University First Affiliated Hospital. <a href="https://github.com/M0M0KO/multi-modal-medical" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
       <ul>
         <li>Designing medical image segmentation algorithms for hepatocellular carcinoma and renal cell carcinoma</li>
         <li>Designing methods for integrating clinical tabular data with imaging features for comprehensive analysis</li>
@@ -396,7 +397,7 @@ redirect_from:
   <div class="project-entry">
     <h3><i class="fas fa-shield-alt" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Twitter Quality and Spam Detection System</h3>
     <div class="project-details">
-      <p>Developed an advanced machine learning system for Twitter content quality assessment and spam detection, achieving over 88% accuracy in distinguishing between legitimate tweets and spam content. <a href="https://github.com/username/twitter-spam-detection" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <p>Developed an advanced machine learning system for Twitter content quality assessment and spam detection, achieving over 88% accuracy in distinguishing between legitimate tweets and spam content. <a href="https://github.com/M0M0KO/twitter-spam-detection" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
       <ul>
         <li>Implemented comprehensive data preprocessing techniques for Twitter data, including text normalization, feature extraction, and handling of missing values</li>
         <li>Engineered complex features by combining user metrics (follower count, following count) and behavioral patterns to enhance classification performance</li>
@@ -412,7 +413,7 @@ redirect_from:
   <div class="project-entry">
     <h3><i class="fas fa-home" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Airbnb Price Analysis and Prediction System</h3>
     <div class="project-details">
-      <p>Developed a comprehensive data analysis and machine learning system to predict Airbnb listing prices in New York City based on various property features and location data. <a href="https://github.com/username/airbnb-price-prediction" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <p>Developed a comprehensive data analysis and machine learning system to predict Airbnb listing prices in New York City based on various property features and location data. <a href="https://github.com/M0M0KO/airbnb-price-prediction" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
       <ul>
         <li>Performed extensive exploratory data analysis on NYC Airbnb dataset with over 48,000 listings, creating visualizations to reveal pricing patterns across neighborhoods</li>
         <li>Implemented geospatial analysis to visualize property distribution and identify high-value areas using Python GIS libraries</li>
@@ -429,16 +430,15 @@ redirect_from:
   <div class="project-entry">
     <h3><i class="fas fa-comment" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Airline Sentiment Analysis System</h3>
     <div class="project-details">
-      <p>Developed a specialized sentiment analysis system for airline-related tweets to classify customer feedback as positive, negative, or neutral. <a href="https://github.com/username/airline-sentiment" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <p>Learning to analyze airline customer sentiment from Twitter data using natural language processing techniques. <a href="https://github.com/M0M0KO/airline-sentiment" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
       <ul>
-        <li>Created a comprehensive text preprocessing pipeline specifically designed for Twitter data (handling hashtags, mentions, emojis, URLs)</li>
-        <li>Implemented multiple feature extraction techniques including TF-IDF, word embeddings, and contextual embeddings</li>
-        <li>Developed and compared various classification models including LSTM networks, transformer-based approaches, and traditional machine learning algorithms</li>
-        <li>Conducted extensive error analysis to identify patterns in misclassified tweets and improved model performance</li>
-        <li>Built visualizations to analyze sentiment trends across different airlines and common customer complaint themes</li>
-        <li>Implemented a robust evaluation framework with stratified cross-validation to ensure model reliability</li>
+        <li>Studying text preprocessing methods for social media data (handling hashtags, mentions, emojis, URLs)</li>
+        <li>Learning about different feature extraction approaches including TF-IDF vectorization and N-gram analysis</li>
+        <li>Working with various classification models and comparing their performance</li>
+        <li>Practicing error analysis to understand patterns in misclassified tweets</li>
+        <li>Creating visualizations using Matplotlib, Seaborn, and Plotly to understand sentiment trends</li>
       </ul>
-      <p><strong>Technologies:</strong> Python, NLTK, spaCy, HuggingFace Transformers, Scikit-learn, Pandas, Matplotlib</p>
+      <p><strong>Technologies:</strong> Python, NLTK, spaCy, scikit-learn, Pandas, Matplotlib, Seaborn, Plotly, WordCloud</p>
       <p><strong>Date:</strong> December 2023</p>
     </div>
   </div>
@@ -446,7 +446,7 @@ redirect_from:
   <div class="project-entry">
     <h3><i class="fas fa-smoking" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Smoking Behavior Detection System</h3>
     <div class="project-details">
-      <p>Undergraduate thesis project combining YOLO object detection with MediaPipe skeletal tracking to accurately identify and classify smoking gestures in video streams. <a href="https://github.com/username/smoking-detection" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <p>Undergraduate thesis project combining YOLO object detection with MediaPipe skeletal tracking to accurately identify and classify smoking gestures in video streams. <a href="https://github.com/M0M0KO/smoking-detection" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
       <ul>
         <li>Utilized YOLO object detection to identify cigarettes and related objects in video footage</li>
         <li>Implemented MediaPipe for real-time skeletal tracking and pose estimation</li>
@@ -461,15 +461,15 @@ redirect_from:
   <div class="project-entry">
     <h3><i class="fas fa-heartbeat" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Heart Disease Prediction System</h3>
     <div class="project-details">
-      <p>Developed a comprehensive machine learning system to predict the likelihood of heart disease based on patient data and health indicators. <a href="https://github.com/username/heart-disease-prediction" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <p>Learning to analyze health indicators for heart disease prediction using machine learning approaches. <a href="https://github.com/M0M0KO/heart-disease-prediction" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
       <ul>
-        <li>Conducted exploratory data analysis on a dataset containing various health metrics and demographic information</li>
-        <li>Performed feature selection and engineering to identify key predictors of heart disease</li>
-        <li>Implemented and compared multiple classification algorithms including K-Nearest Neighbors, Support Vector Machine, Random Forest, and Naive Bayes</li>
-        <li>Optimized model parameters using cross-validation techniques to improve predictive performance</li>
-        <li>Created visualizations to present findings and relationships between health factors and heart disease risk</li>
+        <li>Working with health metrics from the CDC's BRFSS survey dataset</li>
+        <li>Learning about feature selection and preprocessing for health indicators</li>
+        <li>Studying both traditional machine learning models and deep learning approaches</li>
+        <li>Practicing model evaluation using cross-validation and performance metrics</li>
+        <li>Creating visualizations to understand relationships between health factors</li>
       </ul>
-      <p><strong>Technologies:</strong> Python, scikit-learn, Pandas, NumPy, Matplotlib, Seaborn</p>
+      <p><strong>Technologies:</strong> Python, TensorFlow 2.11.0, scikit-learn, Pandas, NumPy, Matplotlib, Seaborn</p>
       <p><strong>Date:</strong> May 2022</p>
     </div>
   </div>
@@ -478,59 +478,59 @@ redirect_from:
 
 ---
 
-## Professional Development & Learning Direction
+## Learning Journey & Future Interests
 
 <div class="professional-development">
   <div class="current-learning">
     <h3><i class="fas fa-brain" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>Current Learning Focus</h3>
-    <p>Self-directed study in embodied intelligence and robotics, focusing on the following areas:</p>
+    <p>Beginning to explore embodied intelligence and robotics through self-study:</p>
     <ul>
-      <li><strong>Core Algorithms for Embodied AI:</strong> Studying reinforcement learning, imitation learning, model predictive control, and diffusion models for robotics</li>
-      <li><strong>Vision-Language-Action Models:</strong> Learning about foundation models that integrate perception, language understanding, and action generation for robotic control</li>
-      <li><strong>Robot Learning:</strong> Exploring techniques for manipulation and navigation in diverse environments with a focus on sim-to-real transfer</li>
-      <li><strong>Multi-Agent Systems:</strong> Investigating coordination mechanisms and emergent behaviors in multi-agent reinforcement learning scenarios</li>
-      <li><strong>Simulation Environments:</strong> Developing expertise with MuJoCo, Isaac Gym, or Habitat for embodied AI research and development</li>
+      <li><strong>Basic Algorithms:</strong> Starting to learn about reinforcement learning, imitation learning, and control methods for robotics</li>
+      <li><strong>Vision-Language-Action Models:</strong> Beginning to understand how perception, language, and action might work together in robots</li>
+      <li><strong>Robot Learning:</strong> Starting to learn about robot manipulation and navigation</li>
+      <li><strong>Multi-Agent Systems:</strong> Beginning to explore how multiple agents might work together</li>
+      <li><strong>Simulation Tools:</strong> Learning to use basic simulation environments like MuJoCo or Isaac Gym</li>
     </ul>
   </div>
   
   <div class="key-resources">
-    <h3><i class="fas fa-book" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>Key Learning Resources</h3>
+    <h3><i class="fas fa-book" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>Learning Resources</h3>
     <ul>
       <li>
-        <strong>GitHub:</strong>
+        <strong>GitHub Resources:</strong>
         <ul>
-          <li><strong>Embodied-AI-Guide</strong> (<a href="https://github.com/tianxingchen/Embodied-AI-Guide" target="_blank">github.com/tianxingchen/Embodied-AI-Guide</a>): A comprehensive guide to embodied intelligence research with 4.6k+ stars. This repository covers:
+          <li><strong>Embodied-AI-Guide</strong> (<a href="https://github.com/tianxingchen/Embodied-AI-Guide" target="_blank">github.com/tianxingchen/Embodied-AI-Guide</a>): A helpful guide for learning about:
             <ul>
-              <li>Core algorithms including reinforcement learning, imitation learning, model predictive control, and diffusion models</li>
-              <li>Vision-Language-Action (VLA) models for robotic control</li>
-              <li>Hardware platforms and simulator environments like MuJoCo, Isaac Gym, and Habitat</li>
-              <li>Computer vision and 3D perception techniques for embodied agents</li>
-              <li>Robot learning approaches for manipulation and navigation tasks</li>
+              <li>Basic algorithms in robotics and AI</li>
+              <li>Vision-Language-Action models</li>
+              <li>Common simulation environments</li>
+              <li>Computer vision basics</li>
+              <li>Introduction to robot learning</li>
             </ul>
           </li>
-          <li><strong>Embodied-AI-Paper-List</strong> (<a href="https://github.com/Lumina-EAI/Embodied-AI-Paper-List" target="_blank">github.com/Lumina-EAI/Embodied-AI-Paper-List</a>): Curated collection of important research papers classified by topic</li>
-          <li><strong>Awesome-Embodied-AI-Job</strong> (<a href="https://github.com/StarCycle/Awesome-Embodied-AI-Job" target="_blank">github.com/StarCycle/Awesome-Embodied-AI-Job</a>): Resource tracking research opportunities in embodied intelligence</li>
+          <li><strong>Embodied-AI-Paper-List</strong> (<a href="https://github.com/Lumina-EAI/Embodied-AI-Paper-List" target="_blank">github.com/Lumina-EAI/Embodied-AI-Paper-List</a>): Collection of papers to learn from</li>
+          <li><strong>Awesome-Embodied-AI-Job</strong> (<a href="https://github.com/StarCycle/Awesome-Embodied-AI-Job" target="_blank">github.com/StarCycle/Awesome-Embodied-AI-Job</a>): Resource for learning about opportunities in the field</li>
         </ul>
       </li>
       <li>
-        <strong>Research Literature:</strong>
+        <strong>Reading Materials:</strong>
         <ul>
-          <li>Following recent papers from ICRA, CoRL, NeurIPS, CVPR, and ICLR conferences focused on embodied AI</li>
-          <li>Studying foundation models for robot learning, especially works on vision-language-action models</li>
-          <li>Tracking developments in LLM-based robotic planning and control</li>
-          <li>Exploring sim-to-real transfer techniques for robotic manipulation</li>
+          <li>Learning from papers at ICRA, CoRL, NeurIPS, CVPR, and ICLR conferences</li>
+          <li>Studying foundation models in robot learning</li>
+          <li>Reading about LLM applications in robotics</li>
+          <li>Learning about sim-to-real transfer methods</li>
         </ul>
       </li>
     </ul>
   </div>
   
   <div class="future-directions">
-    <h3><i class="fas fa-compass" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>Research Questions I'm Interested In</h3>
+    <h3><i class="fas fa-compass" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>Questions I'm Curious About</h3>
     <ul>
-      <li>How might robots develop intelligence through interaction with their environment?</li>
-      <li>What mechanisms enable multiple agents to self-organize and develop specialized roles?</li>
-      <li>How can AI systems automatically decompose complex tasks and utilize specialized tools?</li>
-      <li>What role does physical embodiment play in developing robust and generalizable intelligence?</li>
+      <li>How might robots learn from interacting with their environment?</li>
+      <li>What might help multiple agents work together effectively?</li>
+      <li>How might AI systems learn to break down complex tasks?</li>
+      <li>What role might physical interaction play in developing AI systems?</li>
     </ul>
   </div>
 </div>

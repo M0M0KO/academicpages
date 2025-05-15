@@ -168,6 +168,9 @@ redirect_from:
         <li><strong>中文：</strong> 母语</li>
         <li><strong>英语：</strong> 雅思6.0: 听力:6.5, 阅读:6.5, 写作:5.5, 口语:6.0</li>
         <li><strong>证书：</strong> CET 467分</li>
+        <li><strong>英语：:</strong> 
+          - 雅思: 总分 6.0 (听力: 6.5, 阅读: 6.5, 写作: 5.5, 口语: 6.0)
+          - CET-6: 总分 467</li>
       </ul>
     </div>
     
@@ -346,7 +349,7 @@ redirect_from:
   <div class="project-entry">
     <h3><i class="fas fa-project-diagram" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>YOLOv11-LCDFS：结合低光照增强的吸烟检测探索</h3>
     <div class="project-details">
-      <p>在本科吸烟检测研究基础上，学习如何提高在复杂光照条件下的目标检测能力。尝试探索基于YOLO架构的改进方法，学习针对低光照环境的特殊处理技术。<a href="https://github.com/username/YOLOv11-LCDFS" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <p>在本科吸烟检测研究基础上，学习如何提高在复杂光照条件下的目标检测能力。尝试探索基于YOLO架构的改进方法，学习针对低光照环境的特殊处理技术。<a href="https://github.com/M0M0KO/YOLOv11-LCDFS" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
       <ul>
         <li>探索针对低光照目标检测场景的改进损失函数</li>
         <li>学习在不同光照条件下关注关键视觉特征的注意力机制实现方法</li>
@@ -362,7 +365,7 @@ redirect_from:
   <div class="project-entry">
     <h3><i class="fas fa-microscope" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>癌症研究多模态医学图像分析学习</h3>
     <div class="project-details">
-      <p>在温州医科大学第一附属医院参与学习医学图像分析系统知识，了解肿瘤检测相关技术。<a href="https://github.com/username/multi-modal-medical" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <p>在温州医科大学第一附属医院参与学习医学图像分析系统知识，了解肿瘤检测相关技术。<a href="https://github.com/M0M0KO/multi-modal-medical" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
       <ul>
         <li>学习肝细胞癌和肾细胞癌的医学图像分割算法原理</li>
         <li>了解如何整合临床表格数据与影像特征进行综合分析的方法</li>
@@ -393,7 +396,7 @@ redirect_from:
   <div class="project-entry">
     <h3><i class="fas fa-shield-alt" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Twitter质量与垃圾信息检测系统学习</h3>
     <div class="project-details">
-      <p>学习如何开发机器学习系统用于Twitter内容质量评估和垃圾信息检测，了解文本处理和分类技术。<a href="https://github.com/username/twitter-spam-detection" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <p>学习如何开发机器学习系统用于Twitter内容质量评估和垃圾信息检测，了解文本处理和分类技术。<a href="https://github.com/M0M0KO/twitter-spam-detection" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
       <ul>
         <li>学习Twitter数据的文本预处理技术，包括文本规范化、特征提取和缺失值处理</li>
         <li>尝试通过结合用户指标（关注者数量、关注数量）和行为模式创建复合特征来提高分类性能</li>
@@ -408,7 +411,7 @@ redirect_from:
   <div class="project-entry">
     <h3><i class="fas fa-home" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Airbnb价格分析与预测系统学习项目</h3>
     <div class="project-details">
-      <p>学习如何基于各种物业特征和位置数据预测纽约市Airbnb房源价格，探索数据分析和机器学习的应用。<a href="https://github.com/username/airbnb-price-prediction" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <p>学习如何基于各种物业特征和位置数据预测纽约市Airbnb房源价格，探索数据分析和机器学习的应用。<a href="https://github.com/M0M0KO/airbnb-price-prediction" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
       <ul>
         <li>进行包含48,000多个房源的纽约市Airbnb数据集探索性分析，尝试创建可视化图表揭示不同社区的价格模式</li>
         <li>学习使用Python GIS库进行地理空间分析，以可视化属性分布并识别高价值区域</li>
@@ -423,14 +426,15 @@ redirect_from:
   <div class="project-entry">
     <h3><i class="fas fa-comment" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>航空公司情感分析系统学习</h3>
     <div class="project-details">
-      <p>学习为航空相关推文开发情感分析系统，将客户反馈分类为积极、消极或中性，了解自然语言处理技术。<a href="https://github.com/username/airline-sentiment" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <p>学习为航空相关推文开发情感分析系统，将客户反馈分类为积极、消极或中性，了解自然语言处理技术。<a href="https://github.com/M0M0KO/airline-sentiment" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
       <ul>
         <li>学习专门为Twitter数据设计的文本预处理流程（处理标签、提及、表情符号、URL）</li>
         <li>尝试多种特征提取技术，包括TF-IDF、词嵌入和上下文嵌入</li>
         <li>了解并比较各种分类模型，包括LSTM网络、基于transformer的方法和传统机器学习算法</li>
         <li>学习如何分析误分类推文以识别模式并改进模型性能</li>
+        <li>使用Matplotlib、Seaborn和Plotly创建可视化来理解情感趋势</li>
       </ul>
-      <p><strong>接触的技术：</strong> Python, NLTK, spaCy, HuggingFace Transformers, Scikit-learn, Pandas, Matplotlib</p>
+      <p><strong>接触的技术：</strong> Python, NLTK, spaCy, scikit-learn, Pandas, Matplotlib, Seaborn, Plotly, WordCloud</p>
       <p><strong>时间：</strong> 2023年12月</p>
     </div>
   </div>
@@ -438,7 +442,7 @@ redirect_from:
   <div class="project-entry">
     <h3><i class="fas fa-smoking" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>吸烟行为检测系统</h3>
     <div class="project-details">
-      <p>本科毕业论文项目，在导师指导下学习结合YOLO目标检测与MediaPipe骨架跟踪技术，识别视频流中的吸烟动作。<a href="https://github.com/username/smoking-detection" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <p>本科毕业论文项目，在导师指导下学习结合YOLO目标检测与MediaPipe骨架跟踪技术，识别视频流中的吸烟动作。<a href="https://github.com/M0M0KO/smoking-detection" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
       <ul>
         <li>学习使用YOLO目标检测技术在视频中识别香烟和相关物体</li>
         <li>尝试使用MediaPipe进行实时骨架跟踪和姿态估计</li>
@@ -453,14 +457,15 @@ redirect_from:
   <div class="project-entry">
     <h3><i class="fas fa-heartbeat" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>心脏病预测系统学习项目</h3>
     <div class="project-details">
-      <p>学习如何基于患者数据和健康指标预测心脏病的可能性，了解健康数据分析和机器学习应用。<a href="https://github.com/username/heart-disease-prediction" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <p>学习如何基于患者数据和健康指标预测心脏病的可能性，了解健康数据分析和机器学习应用。<a href="https://github.com/M0M0KO/heart-disease-prediction" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
       <ul>
         <li>尝试对包含各种健康指标和人口统计信息的数据集进行探索性分析</li>
         <li>学习特征选择和工程方法，以识别心脏病的关键预测因素</li>
         <li>实现和比较多种分类算法，包括K-近邻、支持向量机、随机森林和朴素贝叶斯</li>
         <li>了解如何使用交叉验证技术优化模型参数以提高预测性能</li>
+        <li>创建可视化来理解健康因素之间的关系</li>
       </ul>
-      <p><strong>接触的技术：</strong> Python, scikit-learn, Pandas, NumPy, Matplotlib, Seaborn</p>
+      <p><strong>接触的技术：</strong> Python, TensorFlow 2.11.0, scikit-learn, Pandas, NumPy, Matplotlib, Seaborn</p>
       <p><strong>时间：</strong> 2022年5月</p>
     </div>
   </div>

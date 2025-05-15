@@ -26,7 +26,7 @@ I am a postgraduate student with some initial experience in medical image analys
   </div>
   <div class="highlight-item">
     <i class="fas fa-trophy" style="font-size: 1.2em; color: #4285F4;"></i>
-    <p><strong>Recognition:</strong> Competition awards, contributions to research publications, software copyrights and patent applications</p>
+    <p><strong>Experience:</strong> Participated in competitions, contributed to research projects, and involved in software copyright and patent applications</p>
   </div>
 </div>
 
@@ -37,23 +37,23 @@ I am a postgraduate student with some initial experience in medical image analys
 <div class="research-interests">
   <div>
     <i class="fas fa-brain" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
-    <strong>Medical AI</strong>: Learning about deep learning for medical image analysis, disease prediction and diagnosis, multi-modal clinical data integration
+    <strong>Medical AI</strong>: Learning about deep learning applications in medical image analysis, disease prediction, and multi-modal clinical data integration
   </div>
   <div>
     <i class="fas fa-robot" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
-    <strong>Embodied Intelligence</strong>: Exploring physical AI systems, robot learning, and developing an understanding of sensorimotor control
+    <strong>Embodied Intelligence</strong>: Learning about physical AI systems, studying robot learning, and trying to understand sensorimotor control
   </div>
   <div>
     <i class="fas fa-eye" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
-    <strong>Computer Vision</strong>: Attention-based object detection, image segmentation
+    <strong>Computer Vision</strong>: Studying attention-based object detection and image segmentation
   </div>
   <div>
     <i class="fas fa-project-diagram" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
-    <strong>Multi-modal Learning</strong>: Exploring Vision-Language-Action(VLA) models for embodied AI systems
+    <strong>Multi-modal Learning</strong>: Starting to learn about Vision-Language-Action(VLA) models in embodied AI systems
   </div>
   <div>
     <i class="fas fa-users" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
-    <strong>Multi-Agent Systems</strong>: Beginning to study collaborative AI systems
+    <strong>Multi-Agent Systems</strong>: Taking first steps in understanding collaborative AI systems
   </div>
 </div>
 
@@ -102,7 +102,7 @@ I am a postgraduate student with some initial experience in medical image analys
     </div>
     <div class="project-details">
       <h4>YOLOv11-LCDFS: Enhanced Smoking Detection With Low-light Enhancement</h4>
-      <p>Developed a YOLO-based architecture exploring specialized loss functions, attention mechanisms, optimized upsampling techniques, and low-light enhancement for improved detection in challenging lighting conditions</p>
+      <p>Worked on a YOLO-based architecture, studying specialized loss functions, attention mechanisms, upsampling techniques, and low-light enhancement for detection in challenging lighting conditions</p>
       <p class="tech-used">PyTorch | Computer Vision | YOLO | Attention Mechanisms</p>
     </div>
   </div>
@@ -113,7 +113,7 @@ I am a postgraduate student with some initial experience in medical image analys
     </div>
     <div class="project-details">
       <h4>Multi-modal Medical Image Analysis</h4>
-      <p>Experience with clinical tabular data integration and CT multi-modal processing for improved diagnostic accuracy</p>
+      <p>Learning about clinical tabular data integration and CT multi-modal processing to support diagnostic accuracy</p>
       <p class="tech-used">PyTorch | Deep Learning | Multi-modal Fusion</p>
     </div>
   </div>
@@ -123,9 +123,9 @@ I am a postgraduate student with some initial experience in medical image analys
       <i class="fas fa-microscope" style="font-size: 1.5em; color: #4285F4;"></i>
     </div>
     <div class="project-details">
-      <h4>3D Medical segmentation</h4>
-      <p>Experience with medical image segmentation and 3D volumetric segmentation</p>
-      <p class="tech-used">PyTorch | Deep Learning | 3D Segmentation </p>
+      <h4>3D Medical Segmentation</h4>
+      <p>Learning about medical image segmentation and 3D volumetric segmentation techniques</p>
+      <p class="tech-used">PyTorch | Deep Learning | 3D Segmentation</p>
     </div>
   </div>
 </div>
@@ -170,8 +170,7 @@ I am a postgraduate student with some initial experience in medical image analys
     <div>
       <h4>Machine Learning Identifies Exosome Features Related to Hepatocellular Carcinoma</h4>
       <p><em>Frontiers in Cell and Developmental Biology</em> (2022)</p>
-      <p>Assisted in developing machine learning algorithms for exosome feature analysis and classification in hepatocellular carcinoma
-research</p>
+      <p>Contributed to the implementation of machine learning algorithms for analyzing exosome features in hepatocellular carcinoma research</p>
     </div>
   </div>
   
@@ -180,7 +179,7 @@ research</p>
     <div>
       <h4>Multi-omics and Machine Learning-driven CD8+ T Cell Heterogeneity Score for Prognosis</h4>
       <p><em>Molecular Therapy Nucleic Acids</em> (2024)</p>
-      <p>Helped implement various machine learning algorithms for key gene identification in HNSCC research</p>
+      <p>Participated in implementing machine learning algorithms for key gene identification in HNSCC research</p>
     </div>
   </div>
 </div>
@@ -191,15 +190,15 @@ research</p>
 
 <div class="curious-about">
   <div class="question-item">
-    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>How can robots develop their own intelligence through sensorimotor experiences with the world?</h4>
+    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Trying to understand how robots might learn through their interactions with the physical world</h4>
   </div>
   
   <div class="question-item">
-    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>How can multiple agents self-organize to adapt specialized roles and develop emergent collective intelligence?</h4>
+    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Interested in learning how multiple agents might work together and develop group behaviors</h4>
   </div>
   
   <div class="question-item">
-    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>How can large language models better understand tasks and effectively use tools?</h4>
+    <h4><i class="fas fa-question-circle" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Wondering about ways to help language models better understand and use tools</h4>
   </div>
 </div>
 
@@ -209,15 +208,15 @@ research</p>
 
 <div class="future-goals">
   <div class="goal-item">
-    <h4><i class="fas fa-lightbulb" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Explore foundations of embodied cognition and how physical interaction shapes intelligence development</h4>
+    <h4><i class="fas fa-lightbulb" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Hope to learn more about embodied cognition and physical interaction in learning</h4>
   </div>
   
   <div class="goal-item">
-    <h4><i class="fas fa-users" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Study emergent behaviors in multi-agent systems and how simple individual rules can lead to complex collective intelligence</h4>
+    <h4><i class="fas fa-users" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Interested in studying how simple rules might lead to group intelligence in multi-agent systems</h4>
   </div>
   
   <div class="goal-item">
-    <h4><i class="fas fa-robot" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Learn to design systems where agents can autonomously discover effective division of labor and tool usage</h4>
+    <h4><i class="fas fa-robot" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Looking forward to learning about how agents might discover ways to work together and use tools</h4>
   </div>
 </div>
 
