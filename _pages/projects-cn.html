@@ -1,0 +1,188 @@
+---
+layout: single-cn
+title: "项目经历"
+permalink: /cn/projects/
+author_profile: true
+---
+
+{% include base_path %}
+
+<div style="margin: 2em 0; padding: 1.5em; border: 1px solid var(--global-border-color); border-radius: 5px; background-color: var(--global-bg-color); box-shadow: 0 1px 3px rgba(0,0,0,0.05);">
+  <h3 style="color: var(--global-text-color); margin-top: 0;"><i class="fas fa-project-diagram" style="margin-right: 0.5em; color: #4285F4;"></i>项目作品集</h3>
+  <p>本页面展示了我在医学人工智能、计算机视觉、数据分析和具身智能学习等不同领域的技术项目。</p>
+  <p>每个项目包括问题描述、使用的方法、关键技术和成果。更多详情请查看我的 <a href="https://github.com/M0M0KO" target="_blank">GitHub 仓库</a>。</p>
+</div>
+
+<!-- Project Filters -->
+<div class="project-filters" style="margin: 2em 0;">
+  <h3 style="margin-bottom: 0.5em; color: var(--global-text-color);"><i class="fas fa-filter" style="margin-right: 0.5em; color: #4285F4;"></i>筛选项目：</h3>
+  <div style="display: flex; flex-wrap: wrap; gap: 10px;">
+    <button id="filter-all" class="filter-btn active" style="padding: 8px 15px; background-color: var(--global-bg-color); border: 1px solid var(--global-border-color); border-radius: 4px; cursor: pointer; font-size: 0.9em; font-weight: 500; transition: all 0.2s ease; color: var(--global-text-color);">全部</button>
+    {% for category in site.project_category %}
+      <button id="filter-{{ category[0] }}" class="filter-btn" style="padding: 8px 15px; background-color: var(--global-bg-color); border: 1px solid var(--global-border-color); border-radius: 4px; cursor: pointer; font-size: 0.9em; font-weight: 500; transition: all 0.2s ease; color: var(--global-text-color);">
+        {% if category[0] == 'medical' %}
+          医学人工智能项目
+        {% elsif category[0] == 'vision' %}
+          计算机视觉项目
+        {% elsif category[0] == 'data' %}
+          数据分析项目
+        {% elsif category[0] == 'embodied' %}
+          具身智能学习项目
+        {% else %}
+          {{ category[1].title }}
+        {% endif %}
+      </button>
+    {% endfor %}
+  </div>
+</div>
+
+<!-- All Projects Section -->
+<div id="all-projects">
+  {% if site.project_category %}
+    {% for category in site.project_category %}
+      <div id="category-{{ category[0] }}" class="project-category">
+        {% assign title_shown = false %}
+        {% assign has_projects = false %}
+        {% for post in site.projects reversed %}
+          {% if post.category == category[0] %}
+            {% assign has_projects = true %}
+            {% unless title_shown %}
+              <h2 class="category-title">
+                {% if category[0] == 'medical' %}
+                  医学人工智能项目
+                {% elsif category[0] == 'vision' %}
+                  计算机视觉项目
+                {% elsif category[0] == 'data' %}
+                  数据分析项目
+                {% elsif category[0] == 'embodied' %}
+                  具身智能学习项目
+                {% else %}
+                  {{ category[1].title }}
+                {% endif %}
+              </h2><hr />
+              {% assign title_shown = true %}
+            {% endunless %}
+            {% include archive-single.html %}
+          {% endif %}
+        {% endfor %}
+        {% unless has_projects %}
+          <!-- Empty div needed for the filter to work properly -->
+          <div style="display: none;"></div>
+        {% endunless %}
+      </div>
+    {% endfor %}
+  {% else %}
+    {% for post in site.projects reversed %}
+      {% include archive-single.html %}
+    {% endfor %}
+  {% endif %}
+</div>
+
+<!-- Simple JavaScript for filtering -->
+<script>
+(function() {
+  function initFilters() {
+    // Get all filter buttons
+    const filterButtons = document.querySelectorAll('.filter-btn');
+    const categories = document.querySelectorAll('.project-category');
+    
+    // Add click event to each button
+    filterButtons.forEach(button => {
+      button.addEventListener('click', function() {
+        // Remove active class from all buttons
+        filterButtons.forEach(btn => btn.classList.remove('active'));
+        // Add active class to clicked button
+        this.classList.add('active');
+        
+        const filterId = this.id;
+        
+        if (filterId === 'filter-all') {
+          // Show all categories
+          categories.forEach(category => {
+            category.style.display = 'block';
+          });
+        } else {
+          // Hide all categories first
+          categories.forEach(category => {
+            category.style.display = 'none';
+          });
+          
+          // Show only selected category
+          const categoryId = filterId.replace('filter-', 'category-');
+          const categoryElement = document.getElementById(categoryId);
+          if (categoryElement) {
+            categoryElement.style.display = 'block';
+          }
+        }
+      });
+    });
+  }
+
+  // 在DOM完全加载后执行初始化
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initFilters);
+  } else {
+    // 如果DOM已经加载完毕，直接执行
+    initFilters();
+  }
+})();
+</script>
+
+<style>
+  .filter-btn {
+    background-color: var(--global-bg-color) !important;
+    color: var(--global-text-color) !important;
+    border-color: var(--global-border-color) !important;
+    transition: all 0.2s ease;
+  }
+  .filter-btn:hover {
+    background-color: var(--global-border-color) !important;
+  }
+  .filter-btn.active {
+    background-color: #4285F4 !important;
+    color: var(--global-border-color) !important;
+    border-color: #4285F4 !important;
+  }
+  .project-category {
+    margin-bottom: 2em;
+  }
+  .category-title {
+    margin-top: 1em;
+    color: var(--global-text-color);
+  }
+  .project-card {
+    border: 1px solid var(--global-border-color);
+    border-radius: 8px;
+    padding: 1.5em;
+    margin-bottom: 1em;
+    background-color: var(--global-bg-color);
+    transition: all 0.3s ease;
+  }
+  .project-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  .tech-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    margin-top: 0.5em;
+  }
+  .tech-tag {
+    padding: 3px 8px;
+    background-color: rgba(66, 133, 244, 0.1);
+    border-radius: 4px;
+    font-size: 0.8em;
+    color: #4285F4;
+  }
+  @media (max-width: 767px) {
+    .project-filters {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .filter-btn {
+      width: 100%;
+      text-align: left;
+    }
+  }
+</style> 

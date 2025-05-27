@@ -84,6 +84,17 @@ publication_category:
   manuscripts:
     title: 'Manuscripts Under Review'
 
+# Project Category - The list of project categories and their headings
+project_category:
+  medical:
+    title: 'Medical AI Projects'
+  vision:
+    title: 'Computer Vision Projects'
+  data:
+    title: 'Data Analysis Projects'
+  embodied:
+    title: 'Embodied AI Learning Projects'
+
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
@@ -219,6 +230,9 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+  projects:
+    output: true
+    permalink: /:collection/:path/
   portfolio:
     output: true
     permalink: /:collection/:path/
@@ -260,6 +274,15 @@ defaults:
   - scope:
       path: ""
       type: publications
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _projects
+  - scope:
+      path: ""
+      type: projects
     values:
       layout: single
       author_profile: true

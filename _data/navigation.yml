@@ -11,6 +11,9 @@ main:
   - title: "Publications"
     url: /publications/
 
+  - title: "Projects"
+    url: /projects/
+
   # - title: "Talks"
   #   url: /talks/    
 
@@ -41,6 +44,9 @@ main:
 zh-main:
   - title: "发表作品"
     url: /cn/publications/
+
+  - title: "项目经历"
+    url: /cn/projects/
         
   - title: "博客文章"
     url: /cn/year-archive/
