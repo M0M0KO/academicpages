@@ -139,10 +139,18 @@ I am a postgraduate student with some initial experience in medical image analys
     <i class="fas fa-trophy" style="font-size: 1.2em; color: #D4AF37; margin-right: 0.5em;"></i>
     <div>
       <h4>Stanford RNA 3D Folding Competition</h4>
-      <p>Bronze Medal (101st/1251 Place) | Ongoing Kaggle Global Competition</p>
+      <p>Bronze Medal (123rd/1463 Place) | Ongoing Kaggle Global Competition (3 days remaining)</p>
     </div>
   </div>
 
+  <div class="achievement-card">
+    <i class="fas fa-chart-line" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
+    <div>
+      <h4>Predict Calorie Expenditure Competition</h4>
+      <p>Ranked 188th/3683 (Top 6%) | Ongoing Kaggle Global Competition (5 days remaining)</p>
+    </div>
+  </div>
+  
   <div class="achievement-card">
     <i class="fas fa-medal" style="font-size: 1.2em; color: #CD7F32; margin-right: 0.5em;"></i>
     <div>
@@ -170,7 +178,8 @@ I am a postgraduate student with some initial experience in medical image analys
     <div>
       <h4>Machine Learning Identifies Exosome Features Related to Hepatocellular Carcinoma</h4>
       <p><em>Frontiers in Cell and Developmental Biology</em> (2022)</p>
-      <p>Contributed to the implementation of machine learning algorithms for analyzing exosome features in hepatocellular carcinoma research</p>
+      <p><strong>Co-first author (third position)</strong>: Developed machine learning algorithms for exosome feature analysis and classification in hepatocellular carcinoma research</p>
+
     </div>
   </div>
   

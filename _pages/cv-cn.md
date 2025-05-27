@@ -166,11 +166,9 @@ redirect_from:
       <h3><i class="fas fa-language" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>语言</h3>
       <ul>
         <li><strong>中文：</strong> 母语</li>
-        <li><strong>英语：</strong> 雅思6.0: 听力:6.5, 阅读:6.5, 写作:5.5, 口语:6.0</li>
-        <li><strong>证书：</strong> CET 467分</li>
-        <li><strong>英语：:</strong> 
-          - 雅思: 总分 6.0 (听力: 6.5, 阅读: 6.5, 写作: 5.5, 口语: 6.0)
-          - CET-6: 总分 467</li>
+        <li><strong>英语：</strong> </li>
+        <li>  - 雅思: 总分 6.0 (听力: 6.5, 阅读: 6.5, 写作: 5.5, 口语: 6.0)</li>
+        <li> - CET-6: 总分 467</li>
       </ul>
     </div>
     
@@ -196,7 +194,7 @@ redirect_from:
     <p><strong>作者：</strong>  Kai Zhu, Qiqi Tao, <strong>Jiatao Yan</strong>, Zhichao Lang, Xinmiao Li, Yifei Li, Congcong Fan, Zhengping Yu</p>
     <p><strong>DOI：</strong> <a href="https://doi.org/10.3389/fcell.2022.1020415" target="_blank">10.3389/fcell.2022.1020415</a></p>
     <p><strong>影响因子：</strong> 5.8</p>
-    <p class="contribution">贡献：协助应用机器学习算法，用于肝细胞癌研究中的外泌体特征分析和分类</p>
+    <p class="contribution"><strong>共同第一作者（位次第三）</strong>：负责开发机器学习算法，用于肝细胞癌研究中的外泌体特征分析和分类。参与随机森林算法的设计和实现，用于预后特征开发。</p>
   </div>
   
   <div class="paper">
@@ -231,7 +229,7 @@ redirect_from:
     <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>Deep Learning Model for Survival Prediction of Localized Upper Tract Urothelial Carcinoma Based on Multi-Phase CT Images and Clinical Data</h3>
     <p><strong>修订中</strong></p>
     <p><strong>作者：</strong>  Kai Zhu, Binwei Lin, <strong>Jiatao Yan</strong>, Honghui Zhu, Wei Chen, Xin Yao, Fengyan You, Yue Pan, Feng Wang, Peng Xia, Yeping Li, Lianguo Chen, Zhixian Yu, Shouliang Miao, Xiaomin Gao</p>
-    <p class="contribution">贡献：设计并实现用于分析多相位CT图像的深度学习架构。开发将影像特征与临床数据整合以创建综合预测模型的方法。参与模型验证和性能优化。</p>
+    <p class="contribution"><strong>共同第一作者（位次第三）</strong>：设计并实现用于分析多相位CT图像的深度学习架构。开发将影像特征与临床数据整合以创建综合预测模型的方法，用于上尿路上皮癌的生存预测。参与模型验证和性能优化。</p>
   </div>
 
   <div class="paper">
@@ -287,28 +285,28 @@ redirect_from:
   <div class="achievement-item">
     <div class="achievement-content">
       <h4><i class="fas fa-trophy" style="font-size: 1.2em; color:rgb(184, 115, 51); margin-right: 0.5em;"></i>斯坦福RNA 3D折叠竞赛</h4>
-      <p><strong>铜牌</strong> | <strong>排名 101/1251</strong> | 前8% | Kaggle全球竞赛 | 进行中（剩余1个月）</p>
+      <p><strong>铜牌</strong> | <strong>排名 123/1463</strong> | 前9% | Kaggle全球竞赛 | 进行中（剩余3天）</p>
     </div>
   </div>
 
   <div class="achievement-item">
     <div class="achievement-content">
-      <h4><i class="fas fa-chart-line" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>播客收听时间预测竞赛</h4>
-      <p><strong>排名 116/3310</strong> | 前4% | Kaggle全球竞赛 | 2025年5月</p>
+      <h4><i class="fas fa-chart-line" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>预测卡路里消耗竞赛</h4>
+      <p><strong>排名 188/3683</strong> | 前6% | Kaggle全球竞赛 | 进行中（剩余5天）</p>
     </div>
   </div>
   
   <div class="achievement-item">
     <div class="achievement-content">
       <h4><i class="fas fa-microscope" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>BYU - 细菌鞭毛马达定位 2025</h4>
-      <p><strong>排名 283/904</strong> | 前31% | Kaggle全球竞赛 | 进行中（剩余1个月）</p>
+      <p><strong>排名 320/1077</strong> | 前30% | Kaggle全球竞赛 | 进行中（剩余9天）</p>
     </div>
   </div>
   
   <div class="achievement-item">
     <div class="achievement-content">
       <h4><i class="fas fa-wave-square" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>耶鲁/北卡罗来纳州大学教堂山分校 - 地球物理波形反演</h4>
-      <p><strong>排名 150/480</strong> | 前31% | Kaggle全球竞赛 | 进行中（剩余2个月）</p>
+      <p><strong>排名 187/727</strong> | 前26% | Kaggle全球竞赛 | 进行中（剩余1个月）</p>
     </div>
   </div>
   

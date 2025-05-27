@@ -29,6 +29,6 @@ Temporarily unavailable
 
 ## My Contribution
 
-Temporarily unavailable
+**Co-first author (third position)**: Designed and implemented the deep learning architecture for analyzing multi-phase CT images. Developed methods for integrating imaging features with clinical data to create a comprehensive survival prediction model for upper tract urothelial carcinoma. Participated in model validation and performance optimization.
 
 [Manuscript revision in progress] 

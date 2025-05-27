@@ -140,7 +140,15 @@ redirect_from:
     <i class="fas fa-trophy" style="font-size: 1.2em; color: #D4AF37; margin-right: 0.5em;"></i>
     <div>
       <h4>斯坦福RNA 3D折叠竞赛</h4>
-      <p>铜牌（1251名中第101名）| 正在进行的Kaggle全球竞赛</p>
+      <p>铜牌（1463名中第123名）| 正在进行的Kaggle全球竞赛（剩余3天）</p>
+    </div>
+  </div>
+
+  <div class="achievement-card">
+    <i class="fas fa-chart-line" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
+    <div>
+      <h4>预测卡路里消耗竞赛</h4>
+      <p>排名 188/3683（前6%） | 正在进行的Kaggle全球竞赛（剩余5天）</p>
     </div>
   </div>
 
@@ -171,7 +179,8 @@ redirect_from:
     <div>
       <h4>Machine Learning Identifies Exosome Features Related to Hepatocellular Carcinoma</h4>
       <p><em>Frontiers in Cell and Developmental Biology</em> (2022)</p>
-      <p>协助开发机器学习算法，用于肝细胞癌研究中的外泌体特征分析和分类</p>
+      <p><strong>共同第一作者（位次第三）</strong>：负责开发机器学习算法，用于肝细胞癌研究中的外泌体特征分析和分类</p>
+
     </div>
   </div>
   

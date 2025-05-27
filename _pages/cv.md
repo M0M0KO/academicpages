@@ -166,9 +166,9 @@ redirect_from:
       <h3><i class="fas fa-language" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>Languages</h3>
       <ul>
         <li><strong>Chinese:</strong> Native speaker</li>
-        <li><strong>English:</strong> 
-          - IELTS: Overall 6.0 (Listening: 6.5, Reading: 6.5, Writing: 5.5, Speaking: 6.0)
-          - CET-6: Score 467 (College English Test - Band 6)</li>
+        <li><strong>English:</strong> </li>
+        <li>  - IELTS: Overall 6.0 (Listening: 6.5, Reading: 6.5, Writing: 5.5, Speaking: 6.0)</li>
+        <li>  - CET-6: Score 467 (College English Test - Band 6)</li>
       </ul>
     </div>
     
@@ -194,7 +194,7 @@ redirect_from:
     <p><strong>Authors:</strong> Kai Zhu, Qiqi Tao, <strong>Jiatao Yan</strong>, Zhichao Lang, Xinmiao Li, Yifei Li, Congcong Fan, Zhengping Yu</p>
     <p><strong>DOI:</strong> <a href="https://doi.org/10.3389/fcell.2022.1020415" target="_blank">10.3389/fcell.2022.1020415</a></p>
     <p><strong>Impact Factor:</strong> 5.8</p>
-    <p class="contribution">Contribution: Assisted in developing machine learning algorithms for exosome feature analysis and classification in hepatocellular carcinoma research</p>
+    <p class="contribution"><strong>Co-first author (third position)</strong>: Developed machine learning algorithms for exosome feature analysis and classification in hepatocellular carcinoma research. Contributed to the design and implementation of the random forest algorithm for prognostic signature development.</p>
   </div>
   
   <div class="paper">
@@ -229,7 +229,7 @@ redirect_from:
     <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>Deep Learning Model for Survival Prediction of Localized Upper Tract Urothelial Carcinoma Based on Multi-Phase CT Images and Clinical Data</h3>
     <p><strong>In Revision</strong></p>
     <p><strong>Authors:</strong> Kai Zhu, Binwei Lin, <strong>Jiatao Yan</strong>, Honghui Zhu, Wei Chen, Xin Yao, Fengyan You, Yue Pan, Feng Wang, Peng Xia, Yeping Li, Lianguo Chen, Zhixian Yu, Shouliang Miao, Xiaomin Gao</p>
-    <p class="contribution">Contribution: Designed and implemented the deep learning architecture for analyzing multi-phase CT images. Developed methods for integrating imaging features with clinical data to create a comprehensive predictive model. Participated in model validation and performance optimization.</p>
+    <p class="contribution"><strong>Co-first author (third position)</strong>: Designed and implemented the deep learning architecture for analyzing multi-phase CT images. Developed methods for integrating imaging features with clinical data to create a comprehensive predictive model for upper tract urothelial carcinoma survival. Participated in model validation and performance optimization.</p>
   </div>
 
   <div class="paper">
@@ -285,28 +285,28 @@ redirect_from:
   <div class="achievement-item">
     <div class="achievement-content">
       <h4><i class="fas fa-trophy" style="font-size: 1.2em; color:rgb(184, 115, 51); margin-right: 0.5em;"></i>Stanford RNA 3D Folding Competition</h4>
-      <p><strong>Bronze Medal</strong> | <strong>Ranked 101st/1251</strong> | Top 8% | Kaggle Global Competition | Ongoing (1 month remaining)</p>
+      <p><strong>Bronze Medal</strong> | <strong>Ranked 123rd/1463</strong> | Top 9% | Kaggle Global Competition | Ongoing (3 days remaining)</p>
     </div>
   </div>
 
   <div class="achievement-item">
     <div class="achievement-content">
-      <h4><i class="fas fa-chart-line" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Predict Podcast Listening Time Competition</h4>
-      <p><strong>Ranked 116th/3310</strong> | Top 4% | Kaggle Global Competition | May 2025</p>
+      <h4><i class="fas fa-chart-line" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Predict Calorie Expenditure Competition</h4>
+      <p><strong>Ranked 188th/3683</strong> | Top 6% | Kaggle Global Competition | Ongoing (5 days remaining)</p>
     </div>
   </div>
   
   <div class="achievement-item">
     <div class="achievement-content">
       <h4><i class="fas fa-microscope" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>BYU - Locating Bacterial Flagellar Motors 2025</h4>
-      <p><strong>Ranked 283rd/904</strong> | Top 31% | Kaggle Global Competition | Ongoing (1 month remaining)</p>
+      <p><strong>Ranked 320th/1077</strong> | Top 30% | Kaggle Global Competition | Ongoing (9 days remaining)</p>
     </div>
   </div>
   
   <div class="achievement-item">
     <div class="achievement-content">
       <h4><i class="fas fa-wave-square" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Yale/UNC-CH - Geophysical Waveform Inversion</h4>
-      <p><strong>Ranked 150th/480</strong> | Top 31% | Kaggle Global Competition | Ongoing (2 months remaining)</p>
+      <p><strong>Ranked 187th/727</strong> | Top 26% | Kaggle Global Competition | Ongoing (1 month remaining)</p>
     </div>
   </div>
   
