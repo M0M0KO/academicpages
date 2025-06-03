@@ -308,7 +308,7 @@ redirect_from:
   <div class="achievement-item">
     <div class="achievement-content">
       <h4><i class="fas fa-trophy" style="font-size: 1.2em; color:rgb(184, 115, 51); margin-right: 0.5em;"></i>斯坦福RNA 3D折叠竞赛</h4>
-      <p><strong>铜牌</strong> | <strong>排名 143/1516/strong> | 前10% | Kaggle全球竞赛 | 截止时间2025.5.23</p>
+      <p><strong>铜牌</strong> | <strong>排名 143/1516</strong> | 前10% | Kaggle全球竞赛 | 截止时间2025.5.23</p>
     </div>
   </div>
 
