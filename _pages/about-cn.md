@@ -69,7 +69,7 @@ redirect_from:
     <div class="focus-item">
       <i class="fas fa-book-open" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
       <div>
-        <h4>打好基础</h4>
+        <h4>打基础</h4>
         <p>学习机器人技术、强化学习和计算感知的基本概念</p>
       </div>
     </div>
@@ -133,14 +133,14 @@ redirect_from:
 
 ---
 
-## 参与活动与获得经验
+## 部分竞赛与获奖
 
 <div class="achievements-preview">
   <div class="achievement-card">
     <i class="fas fa-trophy" style="font-size: 1.2em; color: #D4AF37; margin-right: 0.5em;"></i>
     <div>
       <h4>斯坦福RNA 3D折叠竞赛</h4>
-      <p>铜牌（1463名中第123名）| 正在进行的Kaggle全球竞赛（剩余3天）</p>
+      <p>铜牌 143/1516 | Kaggle全球竞赛（截止时间2025.5.23）</p>
     </div>
   </div>
 
@@ -148,7 +148,15 @@ redirect_from:
     <i class="fas fa-chart-line" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
     <div>
       <h4>预测卡路里消耗竞赛</h4>
-      <p>排名 188/3683（前6%） | 正在进行的Kaggle全球竞赛（剩余5天）</p>
+      <p>排名 178/4316（前5%） | Kaggle全球竞赛（2025.06.01）</p>
+    </div>
+  </div>
+
+  <div class="achievement-card">
+    <i class="fas fa-chart-line" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
+    <div>
+      <h4>预测播客收听时间竞赛</h4>
+      <p>排名 116/3310（前4%） | Kaggle全球竞赛（2025.05.01）</p>
     </div>
   </div>
 
@@ -156,7 +164,7 @@ redirect_from:
     <i class="fas fa-medal" style="font-size: 1.2em; color: #CD7F32; margin-right: 0.5em;"></i>
     <div>
       <h4>第18届"挑战杯"大学生竞赛</h4>
-      <p>铜牌获得者 | 浙江省</p>
+      <p>铜牌 | 浙江省</p>
     </div>
   </div>
   
@@ -164,7 +172,7 @@ redirect_from:
     <i class="fas fa-award" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
     <div>
       <h4>第4届全国"传智杯"IT技能竞赛</h4>
-      <p>省级优秀奖 | 浙江省</p>
+      <p>省赛优秀奖 | 浙江省</p>
     </div>
   </div>
 </div>
@@ -196,7 +204,7 @@ redirect_from:
 
 ---
 
-## 我感兴趣的话题
+## 感兴趣话题
 
 <div class="curious-about">
   <div class="question-item">

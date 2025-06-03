@@ -31,6 +31,7 @@ redirect_from:
     <ul>
       <li><strong>Core Courses:</strong> Intelligence in Animals and Machines, Intelligent Systems Techniques, Image Processing, Natural Language Processing, Machine Learning</li>
       <li><strong>Supervisor:</strong> Assistant Professor Peter Wijeratne (University of Sussex) and Professor Xie Mande (Zhejiang Gongshang University)</li>
+      <li><strong>Research Direction:</strong>Integrating physics models into a VAE framework, mainly to enhance the interpretability of the latent space.</li>
       <li><strong>Expected Graduation:</strong> March 2026</li>
     </ul>
   </div>
@@ -282,17 +283,11 @@ redirect_from:
 ## Academic Achievements & Awards
 
 <div class="achievements">
-  <div class="achievement-item">
-    <div class="achievement-content">
-      <h4><i class="fas fa-trophy" style="font-size: 1.2em; color:rgb(184, 115, 51); margin-right: 0.5em;"></i>Stanford RNA 3D Folding Competition</h4>
-      <p><strong>Bronze Medal</strong> | <strong>Ranked 123rd/1463</strong> | Top 9% | Kaggle Global Competition | Ongoing (3 days remaining)</p>
-    </div>
-  </div>
 
   <div class="achievement-item">
     <div class="achievement-content">
-      <h4><i class="fas fa-chart-line" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Predict Calorie Expenditure Competition</h4>
-      <p><strong>Ranked 188th/3683</strong> | Top 6% | Kaggle Global Competition | Ongoing (5 days remaining)</p>
+      <h4><i class="fas fa-wave-square" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Yale/UNC-CH - Geophysical Waveform Inversion</h4>
+      <p><strong>Ranked 187th/727</strong> | Top 26% | Kaggle Global Competition | Ongoing (1 month remaining)</p>
     </div>
   </div>
   
@@ -301,12 +296,26 @@ redirect_from:
       <h4><i class="fas fa-microscope" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>BYU - Locating Bacterial Flagellar Motors 2025</h4>
       <p><strong>Ranked 320th/1077</strong> | Top 30% | Kaggle Global Competition | Ongoing (9 days remaining)</p>
     </div>
-  </div>
-  
+  </div>】
+
   <div class="achievement-item">
     <div class="achievement-content">
-      <h4><i class="fas fa-wave-square" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Yale/UNC-CH - Geophysical Waveform Inversion</h4>
-      <p><strong>Ranked 187th/727</strong> | Top 26% | Kaggle Global Competition | Ongoing (1 month remaining)</p>
+      <h4><i class="fas fa-chart-line" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Predict Calorie Expenditure Competition</h4>
+      <p><strong>Ranked 178/4316</strong> | Top 5% | Kaggle Global Competition | June 1, 2025</p>
+    </div>
+  </div>
+
+  <div class="achievement-item">
+    <div class="achievement-content">
+      <h4><i class="fas fa-trophy" style="font-size: 1.2em; color:rgb(184, 115, 51); margin-right: 0.5em;"></i>Stanford RNA 3D Folding Competition</h4>
+      <p><strong>Bronze Medal</strong> | <strong>Ranked 143rd/1516</strong> | Top 10% | Kaggle Global Competition | Deadline: May 23, 2025</p>
+    </div>
+  </div>
+
+  <div class="achievement-item">
+    <div class="achievement-content">
+      <h4><i class="fas fa-chart-line" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Predict Podcast Listening Time Competition</h4>
+      <p><strong>Ranked 188th/3683</strong> | Top 4% | Kaggle Global Competition | May 1, 2025</p>
     </div>
   </div>
   
@@ -347,12 +356,12 @@ redirect_from:
   <div class="project-entry">
     <h3><i class="fas fa-project-diagram" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>YOLOv11-LCDFS: Enhanced Smoking Detection With Low-light Enhancement</h3>
     <div class="project-details">
-      <p>Extension of smoking detection research focusing on improved object detection in challenging lighting conditions. Developing a novel YOLO-based architecture with specialized components addressing the unique challenges of low-light environments. <a href="https://github.com/M0M0KO/YOLOv11-LCDFS" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <p>Extension of smoking detection research focusing on improved object detection in challenging lighting conditions. Developing a YOLO-based architecture with specialized components addressing the unique challenges of low-light environments. <a href="https://github.com/M0M0KO/YOLOv11-LCDFS" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
       <ul>
         <li>Designing custom loss functions specifically optimized for low-light object detection scenarios</li>
         <li>Implementing attention mechanisms to focus on key visual features in varying illumination conditions</li>
         <li>Optimizing upsampling techniques to preserve fine details in dark environments</li>
-        <li>Integrating lightweight low-light enhancement module directly into the detection pipeline</li>
+        <li>Integrating lightweight low-light enhancement module into the detection pipeline</li>
       </ul>
       <p><strong>Technologies:</strong> PyTorch, YOLO, Computer Vision, CUDA, Attention Mechanisms</p>
       <p><strong>Status:</strong> Ongoing (April 2025)</p>
@@ -363,7 +372,7 @@ redirect_from:
   <div class="project-entry">
     <h3><i class="fas fa-microscope" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Multi-modal Medical Image Analysis for Cancer Research</h3>
     <div class="project-details">
-      <p>Developing medical image analysis systems for cancer research at Wenzhou Medical University First Affiliated Hospital. <a href="https://github.com/M0M0KO/multi-modal-medical" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <p>Developing medical image analysis systems for cancer research. <a href="https://github.com/M0M0KO/multi-modal-medical" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
       <ul>
         <li>Designing medical image segmentation algorithms for hepatocellular carcinoma and renal cell carcinoma</li>
         <li>Designing methods for integrating clinical tabular data with imaging features for comprehensive analysis</li>

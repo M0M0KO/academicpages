@@ -93,7 +93,7 @@ I am a postgraduate student with some initial experience in medical image analys
 
 ---
 
-## Selected Project Experience
+## Partial Project Experience
 
 <div class="projects-preview">
   <div class="project-card">
@@ -132,14 +132,22 @@ I am a postgraduate student with some initial experience in medical image analys
 
 ---
 
-## Activities and Experience
+## Partial Competitions and Awards
 
 <div class="achievements-preview">
   <div class="achievement-card">
     <i class="fas fa-trophy" style="font-size: 1.2em; color: #D4AF37; margin-right: 0.5em;"></i>
     <div>
       <h4>Stanford RNA 3D Folding Competition</h4>
-      <p>Bronze Medal (123rd/1463 Place) | Ongoing Kaggle Global Competition (3 days remaining)</p>
+      <p>Bronze Medal 143rd/1516 | Kaggle Global Competition (Deadline: May 23, 2025)</p>
+    </div>
+  </div>
+
+  <div class="achievement-card">
+    <i class="fas fa-chart-line" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
+    <div>
+      <h4>Predict Podcast Listening Time Competition</h4>
+      <p>Ranked 116/3310 (Top 4%) | Kaggle Global Competition (June 1, 2025)</p>
     </div>
   </div>
 
@@ -147,10 +155,10 @@ I am a postgraduate student with some initial experience in medical image analys
     <i class="fas fa-chart-line" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
     <div>
       <h4>Predict Calorie Expenditure Competition</h4>
-      <p>Ranked 188th/3683 (Top 6%) | Ongoing Kaggle Global Competition (5 days remaining)</p>
+      <p>Ranked 178/4316 (Top 5%) | Kaggle Global Competition (May 1, 2025)</p>
     </div>
   </div>
-  
+
   <div class="achievement-card">
     <i class="fas fa-medal" style="font-size: 1.2em; color: #CD7F32; margin-right: 0.5em;"></i>
     <div>
@@ -195,7 +203,7 @@ I am a postgraduate student with some initial experience in medical image analys
 
 ---
 
-## Topics I'm Curious About
+## Topics Curious About
 
 <div class="curious-about">
   <div class="question-item">

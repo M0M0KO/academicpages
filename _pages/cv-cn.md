@@ -31,6 +31,7 @@ redirect_from:
     <ul>
       <li><strong>核心课程：</strong>动物与机器中的智能，智能系统技术，图像处理，自然语言处理，机器学习</li>
       <li><strong>导师：</strong>Peter Wijeratne助理教授（萨塞克斯大学）和谢满德教授（浙江工商大学）</li>
+      <li><strong>研究方向：</strong>将物理模型整合到VAE框架中，提高潜在空间的可解释性。</li>
       <li><strong>预计毕业时间：</strong>2026年3月</li>
     </ul>
   </div>
@@ -185,7 +186,7 @@ redirect_from:
 
 ---
 
-## 发表论文
+## 已发表论文
 
 <div class="publications">
   <div class="paper">
@@ -282,20 +283,14 @@ redirect_from:
 ## 学术成果与奖项
 
 <div class="achievements">
-  <div class="achievement-item">
-    <div class="achievement-content">
-      <h4><i class="fas fa-trophy" style="font-size: 1.2em; color:rgb(184, 115, 51); margin-right: 0.5em;"></i>斯坦福RNA 3D折叠竞赛</h4>
-      <p><strong>铜牌</strong> | <strong>排名 123/1463</strong> | 前9% | Kaggle全球竞赛 | 进行中（剩余3天）</p>
-    </div>
-  </div>
 
   <div class="achievement-item">
     <div class="achievement-content">
-      <h4><i class="fas fa-chart-line" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>预测卡路里消耗竞赛</h4>
-      <p><strong>排名 188/3683</strong> | 前6% | Kaggle全球竞赛 | 进行中（剩余5天）</p>
+      <h4><i class="fas fa-wave-square" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>耶鲁/北卡罗来纳州大学教堂山分校 - 地球物理波形反演</h4>
+      <p><strong>排名 187/727</strong> | 前26% | Kaggle全球竞赛 | 进行中（剩余1个月）</p>
     </div>
   </div>
-  
+
   <div class="achievement-item">
     <div class="achievement-content">
       <h4><i class="fas fa-microscope" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>BYU - 细菌鞭毛马达定位 2025</h4>
@@ -305,8 +300,22 @@ redirect_from:
   
   <div class="achievement-item">
     <div class="achievement-content">
-      <h4><i class="fas fa-wave-square" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>耶鲁/北卡罗来纳州大学教堂山分校 - 地球物理波形反演</h4>
-      <p><strong>排名 187/727</strong> | 前26% | Kaggle全球竞赛 | 进行中（剩余1个月）</p>
+      <h4><i class="fas fa-chart-line" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>预测卡路里消耗竞赛</h4>
+      <p><strong>排名 178/4316</strong> | 前5% | Kaggle全球竞赛 | 2025.06.01</p>
+    </div>
+  </div>
+
+  <div class="achievement-item">
+    <div class="achievement-content">
+      <h4><i class="fas fa-trophy" style="font-size: 1.2em; color:rgb(184, 115, 51); margin-right: 0.5em;"></i>斯坦福RNA 3D折叠竞赛</h4>
+      <p><strong>铜牌</strong> | <strong>排名 143/1516/strong> | 前10% | Kaggle全球竞赛 | 截止时间2025.5.23</p>
+    </div>
+  </div>
+
+  <div class="achievement-item">
+    <div class="achievement-content">
+      <h4><i class="fas fa-chart-line" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>预测播客收听时间竞赛</h4>
+      <p><strong>排名 116/3310</strong> | 前4% | Kaggle全球竞赛 | 2025.05.01</p>
     </div>
   </div>
   
@@ -352,7 +361,7 @@ redirect_from:
         <li>探索针对低光照目标检测场景的改进损失函数</li>
         <li>学习在不同光照条件下关注关键视觉特征的注意力机制实现方法</li>
         <li>尝试优化上采样技术以在黑暗环境中保留细节信息</li>
-        <li>探索将轻量级低光照增强模块直接集成到检测流程中的方法</li>
+        <li>探索将轻量级低光照增强模块集成到检测流程中的方法</li>
       </ul>
       <p><strong>使用的技术：</strong> PyTorch, YOLO, 计算机视觉, CUDA, 注意力机制</p>
       <p><strong>状态：</strong> 进行中（2025年4月）</p>
@@ -363,7 +372,7 @@ redirect_from:
   <div class="project-entry">
     <h3><i class="fas fa-microscope" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>癌症研究多模态医学图像分析学习</h3>
     <div class="project-details">
-      <p>在温州医科大学第一附属医院参与学习医学图像分析系统知识，了解肿瘤检测相关技术。<a href="https://github.com/M0M0KO/multi-modal-medical" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <p>学习医学图像分析系统知识，了解肿瘤检测相关技术。<a href="https://github.com/M0M0KO/multi-modal-medical" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
       <ul>
         <li>学习肝细胞癌和肾细胞癌的医学图像分割算法原理</li>
         <li>了解如何整合临床表格数据与影像特征进行综合分析的方法</li>
