@@ -15,7 +15,7 @@ redirect_from:
   </p>
   
   <div class="download-button">
-    <a href="{{ base_path }}/files/CV.pdf" class="btn btn-primary"><i class="fas fa-download"></i> 下载简历 (PDF)</a>
+    <a href="{{ base_path }}/files/CV-cn.pdf" class="btn btn-primary"><i class="fas fa-download"></i> 下载简历 (PDF)</a>
   </div>
 </div>
 
@@ -287,14 +287,14 @@ redirect_from:
   <div class="achievement-item">
     <div class="achievement-content">
       <h4><i class="fas fa-wave-square" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>耶鲁/北卡罗来纳州大学教堂山分校 - 地球物理波形反演</h4>
-      <p><strong>排名 187/727</strong> | 前26% | Kaggle全球竞赛 | 进行中（剩余1个月）</p>
+      <p><strong>排名 161/890</strong> | 前19% | Kaggle全球竞赛 | 进行中（剩余1个月）</p>
     </div>
   </div>
 
   <div class="achievement-item">
     <div class="achievement-content">
       <h4><i class="fas fa-microscope" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>BYU - 细菌鞭毛马达定位 2025</h4>
-      <p><strong>排名 320/1077</strong> | 前30% | Kaggle全球竞赛 | 进行中（剩余9天）</p>
+      <p><strong>排名 413/1160</strong> | 前36% | Kaggle全球竞赛 | 进行中（剩余1天）</p>
     </div>
   </div>
   
