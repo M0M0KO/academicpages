@@ -294,7 +294,7 @@ redirect_from:
   <div class="achievement-item">
     <div class="achievement-content">
       <h4><i class="fas fa-microscope" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>BYU - 细菌鞭毛马达定位 2025</h4>
-      <p><strong>排名 413/1160</strong> | 前36% | Kaggle全球竞赛 | 进行中（剩余1天）</p>
+      <p><strong>排名 335/1175</strong> | 前29% | Kaggle全球竞赛 | 2025.06.05</p>
     </div>
   </div>
   

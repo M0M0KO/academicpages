@@ -294,7 +294,7 @@ redirect_from:
   <div class="achievement-item">
     <div class="achievement-content">
       <h4><i class="fas fa-microscope" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>BYU - Locating Bacterial Flagellar Motors 2025</h4>
-      <p><strong>Ranked 413rd/1160</strong> | Top 36% | Kaggle Global Competition | Ongoing (1 days remaining)</p>
+      <p><strong>Ranked 335rd/1175</strong> | Top 29% | Kaggle Global Competition | June 5, 2025</p>
     </div>
   </div>
 
