@@ -5,7 +5,7 @@ permalink: publications/2025-02-multi-omics-renal-cell/
 excerpt: ''
 date: 2025-06-05
 venue: 'ACS Omega'
-paperurl: 'https://doi.org/10.1021/acsomega.5c01337'
+paperurl: 'https://pubs.acs.org/doi/epdf/10.1021/acsomega.5c01337?ref=article_openPDF'
 # citation: ''
 # citation_apa: ''
 category: journals

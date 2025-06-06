@@ -5,7 +5,7 @@ permalink: publications/2024-12-multiomics-machine-learning/
 excerpt: 'This study develops a machine learning approach to quantify CD8+ T cell heterogeneity in head and neck squamous cell carcinoma, identifying novel biomarkers and potential therapeutic targets.'
 date: 2024-12-01
 venue: 'Molecular Therapy Nucleic Acids'
-paperurl: 'https://doi.org/10.1016/j.omtn.2024.102413'
+paperurl: 'https://www.cell.com/action/showPdf?pii=S2162-2531%2824%2900300-7'
 citation: 'He D, Yang Z, Zhang T, Luo Y, Peng L, Yan J, Qiu T, Zhang J, Qin L, Liu Z, Zhang X, Lin L, Sun M. Multi-omics and machine learning-driven CD8+ T cell heterogeneity score for head and neck squamous cell carcinoma. Molecular Therapy Nucleic Acids. 2025;36(1):102413.'
 citation_apa: 'He, D., Yang, Z., Zhang, T., Luo, Y., Peng, L., Yan, J., Qiu, T., Zhang, J., Qin, L., Liu, Z., Zhang, X., Lin, L., & Sun, M. (2025). Multi-omics and machine learning-driven CD8+ T cell heterogeneity score for head and neck squamous cell carcinoma. Molecular Therapy Nucleic Acids, 36(1), 102413. https://doi.org/10.1016/j.omtn.2024.102413'
 category: journals
