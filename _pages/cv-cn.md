@@ -206,6 +206,16 @@ redirect_from:
     <p><strong>影响因子：</strong> 6.4</p>
     <p class="contribution">贡献：帮助在HNSCC研究中实施各种机器学习算法用于关键基因识别。</p>
   </div>
+
+  <div class="paper">
+    <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>Using Multiomics and Machine Learning: Insights into Improving the Outcomes of Clear Cell Renal Cell Carcinoma via the SRD5A3- AS1/hsa-let-7e-5p/RRM2 Axis</h3>
+    <p><strong>期刊：</strong> <em>ACS Omega</em> (2025年6月)</p>
+    <p><strong>作者：</strong> Mouyuan Sun, Zhan Yang, Yaxian Luo, Luying Qin, Lianjie Peng, Chaoran Pan, <strong>Jiatao Yan</strong>, Tao Qiu, Yan Zhang</p>
+    <p><strong>DOI：</strong> <a href="https://doi.org/10.1021/acsomega.5c01337" target="_blank">10.1021/acsomega.5c01337</a></p>
+    <p><strong>影响因子：</strong> 3.7</p>
+    <p class="contribution">贡献：实现用于识别SRD5A3-AS1/hsa-let-7e-5p/RRM2重要特征的有关机器学习算法。</p>
+  </div>
+  
 </div>
 
 ---
@@ -213,12 +223,14 @@ redirect_from:
 ## 审稿中的论文
 
 <div class="manuscripts">
-  <div class="paper">
+
+  <!-- <div class="paper">
     <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>Using Multiomics and Machine Learning: Insights into Improving the Outcomes of Clear Cell Renal Cell Carcinoma via SRD5A3-AS1/hsa-let-7e-5p/RRM2 Axis</h3>
     <p><strong>期刊：</strong> <em>ACS Omega</em> (提交时间: 2025年2月12日 - 审稿中)</p>
     <p><strong>作者：</strong>  Mouyuan Sun, Zhan Yang, Yaxian Luo, Luying Qin, Lianjie Peng, Chaoran Pan, <strong>Jiatao Yan</strong>, Tao Qiu, Yan Zhang</p>
     <p class="contribution">贡献：实现用于识别SRD5A3-AS1/hsa-let-7e-5p/RRM2重要特征的有关机器学习算法。</p>
-  </div>
+  </div> -->
+  
 </div>
 
 ---
