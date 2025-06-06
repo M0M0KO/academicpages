@@ -365,7 +365,7 @@ redirect_from:
       </ul>
       <p><strong>接触的技术：</strong> YOLO, MediaPipe, 姿态估计, 动作识别, PyTorch, OpenCV</p>
       <p><strong>时间：</strong> 2023年4月</p>
-      <p><strong>成果：</strong> 专利申请(202310277784.1)，2项软件著作权，论文获得良好评价</p>
+      <p><strong>成果：</strong> 专利申请(202310277784.1)，3项软件著作权，论文获得优秀毕业论文</p>
     </div>
   </div>
 

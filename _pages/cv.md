@@ -372,7 +372,7 @@ redirect_from:
       </ul>
       <p><strong>Technologies:</strong> YOLO, MediaPipe, Pose Estimation, Action Recognition, PyTorch, OpenCV</p>
       <p><strong>Date:</strong> April 2023</p>
-      <p><strong>Outcomes:</strong> Patent application (202310277784.1), 3 software copyrights, thesis received good evaluation</p>
+      <p><strong>Outcomes:</strong> Patent application (202310277784.1), 3 software copyrights, thesis received outstanding evaluation</p>
     </div>
   </div>
 
