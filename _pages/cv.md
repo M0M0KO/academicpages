@@ -209,7 +209,7 @@ redirect_from:
   </div>
 
   <div class="paper">
-    <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>Using Multiomics and Machine Learning: Insights into Improving the Outcomes of Clear Cell Renal Cell Carcinoma via the SRD5A3- AS1/hsa-let-7e-5p/RRM2 Axis</h3>
+    <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>Using Multiomics and Machine Learning: Insights into Improving the Outcomes of Clear Cell Renal Cell Carcinoma via the SRD5A3-AS1/hsa-let-7e-5p/RRM2 Axis</h3>
     <p><strong>Journal:</strong> <em>ACS Omega</em> (June 2025)</p>
     <p><strong>Authors:</strong> Mouyuan Sun, Zhan Yang, Yaxian Luo, Luying Qin, Lianjie Peng, Chaoran Pan, <strong>Jiatao Yan</strong>, Tao Qiu, Yan Zhang</p>
     <p><strong>DOI：</strong> <a href="https://doi.org/10.1021/acsomega.5c01337" target="_blank">10.1021/acsomega.5c01337</a></p>
