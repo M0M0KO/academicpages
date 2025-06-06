@@ -82,110 +82,6 @@ redirect_from:
 
 ---
 
-## Research Interests
-
-<div class="research-interests">
-  <div class="interest-area">
-    <h3><i class="fas fa-brain" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>Medical Artificial Intelligence</h3>
-    <ul>
-      <li>Studying deep learning applications in medical image analysis and disease diagnosis</li>
-      <li>Learning about ways to integrate multi-modal clinical data</li>
-      <li>Interested in computer-aided diagnosis systems for clinical applications</li>
-    </ul>
-  </div>
-  
-  <div class="interest-area">
-    <h3><i class="fas fa-robot" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>Embodied Intelligence</h3>
-    <ul>
-      <li>Beginning to learn about how robots might develop intelligence through physical interaction</li>
-      <li>Interested in understanding the relationship between perception and action in embodied agents</li>
-      <li>Looking forward to studying reinforcement learning in robotic applications</li>
-    </ul>
-  </div>
-  
-  <div class="interest-area">
-    <h3><i class="fas fa-eye" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>Computer Vision</h3>
-    <ul>
-      <li>Learning about attention-based architectures for object detection</li>
-      <li>Studying approaches to human pose estimation and behavior recognition</li>
-      <li>Interested in visual feature extraction methods for real-world applications</li>
-    </ul>
-  </div>
-  
-  <div class="interest-area">
-    <h3><i class="fas fa-users" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>Multi-Agent Systems</h3>
-    <ul>
-      <li>Starting to learn about how multiple agents might work together</li>
-      <li>Interested in understanding group behaviors in agent communities</li>
-      <li>Looking forward to studying the basics of multi-agent AI systems</li>
-    </ul>
-  </div>
-</div>
-
----
-
-## Technical Skills
-
-<div class="skills-section">
-  <div class="skills-grid">
-    <div class="skill-category">
-      <h3><i class="fas fa-code" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>Programming Languages</h3>
-      <ul>
-        <li>Python</li>
-        <li>C, Java, SQL</li>
-        <li>C#, JavaScript, Vue</li>
-      </ul>
-    </div>
-    
-    <div class="skill-category">
-      <h3><i class="fas fa-brain" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>AI & Machine Learning</h3>
-      <ul>
-        <li><strong>Frameworks:</strong> PyTorch, TensorFlow</li>
-        <li><strong>Areas:</strong> Computer Vision, Deep Learning, Reinforcement Learning</li>
-        <li><strong>Techniques:</strong> CNNs, Attention Mechanisms, Transfer Learning</li>
-      </ul>
-    </div>
-    
-    <div class="skill-category">
-      <h3><i class="fas fa-tools" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>Development Tools</h3>
-      <ul>
-        <li><strong>Version Control:</strong> Git, GitHub</li>
-        <li><strong>Documentation:</strong> LaTeX, Markdown</li>
-        <li><strong>Environment:</strong> Linux, Jupyter, Docker</li>
-      </ul>
-    </div>
-    
-    <div class="skill-category">
-      <h3><i class="fas fa-chart-bar" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>Data Analysis</h3>
-      <ul>
-        <li><strong>Libraries:</strong> NumPy, Pandas, SciPy</li>
-        <li><strong>Visualization:</strong> Matplotlib, Seaborn, Plotly</li>
-      </ul>
-    </div>
-    
-    <div class="skill-category">
-      <h3><i class="fas fa-language" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>Languages</h3>
-      <ul>
-        <li><strong>Chinese:</strong> Native speaker</li>
-        <li><strong>English:</strong> </li>
-        <li>  - IELTS: Overall 6.0 (Listening: 6.5, Reading: 6.5, Writing: 5.5, Speaking: 6.0)</li>
-        <li>  - CET-6: Score 467 (College English Test - Band 6)</li>
-      </ul>
-    </div>
-    
-    <div class="skill-category">
-      <h3><i class="fas fa-certificate" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>Certifications</h3>
-      <ul>
-        <li>DevCloud Summer Training Camp (Huawei)</li>
-        <li>Python for AI Development (Shandong University)</li>
-        <li>Deep Learning Fundamentals (Shandong University)</li>
-      </ul>
-    </div>
-  </div>
-</div>
-
----
-
 ## Publications
 
 <div class="publications">
@@ -496,6 +392,110 @@ redirect_from:
     </div>
   </div>
 
+</div>
+
+---
+
+## Research Interests
+
+<div class="research-interests">
+  <div class="interest-area">
+    <h3><i class="fas fa-brain" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>Medical Artificial Intelligence</h3>
+    <ul>
+      <li>Studying deep learning applications in medical image analysis and disease diagnosis</li>
+      <li>Learning about ways to integrate multi-modal clinical data</li>
+      <li>Interested in computer-aided diagnosis systems for clinical applications</li>
+    </ul>
+  </div>
+  
+  <div class="interest-area">
+    <h3><i class="fas fa-robot" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>Embodied Intelligence</h3>
+    <ul>
+      <li>Beginning to learn about how robots might develop intelligence through physical interaction</li>
+      <li>Interested in understanding the relationship between perception and action in embodied agents</li>
+      <li>Looking forward to studying reinforcement learning in robotic applications</li>
+    </ul>
+  </div>
+  
+  <div class="interest-area">
+    <h3><i class="fas fa-eye" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>Computer Vision</h3>
+    <ul>
+      <li>Learning about attention-based architectures for object detection</li>
+      <li>Studying approaches to human pose estimation and behavior recognition</li>
+      <li>Interested in visual feature extraction methods for real-world applications</li>
+    </ul>
+  </div>
+  
+  <div class="interest-area">
+    <h3><i class="fas fa-users" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>Multi-Agent Systems</h3>
+    <ul>
+      <li>Starting to learn about how multiple agents might work together</li>
+      <li>Interested in understanding group behaviors in agent communities</li>
+      <li>Looking forward to studying the basics of multi-agent AI systems</li>
+    </ul>
+  </div>
+</div>
+
+---
+
+## Technical Skills
+
+<div class="skills-section">
+  <div class="skills-grid">
+    <div class="skill-category">
+      <h3><i class="fas fa-code" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>Programming Languages</h3>
+      <ul>
+        <li>Python</li>
+        <li>C, Java, SQL</li>
+        <li>C#, JavaScript, Vue</li>
+      </ul>
+    </div>
+    
+    <div class="skill-category">
+      <h3><i class="fas fa-brain" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>AI & Machine Learning</h3>
+      <ul>
+        <li><strong>Frameworks:</strong> PyTorch, TensorFlow</li>
+        <li><strong>Areas:</strong> Computer Vision, Deep Learning, Reinforcement Learning</li>
+        <li><strong>Techniques:</strong> CNNs, Attention Mechanisms, Transfer Learning</li>
+      </ul>
+    </div>
+    
+    <div class="skill-category">
+      <h3><i class="fas fa-tools" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>Development Tools</h3>
+      <ul>
+        <li><strong>Version Control:</strong> Git, GitHub</li>
+        <li><strong>Documentation:</strong> LaTeX, Markdown</li>
+        <li><strong>Environment:</strong> Linux, Jupyter, Docker</li>
+      </ul>
+    </div>
+    
+    <div class="skill-category">
+      <h3><i class="fas fa-chart-bar" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>Data Analysis</h3>
+      <ul>
+        <li><strong>Libraries:</strong> NumPy, Pandas, SciPy</li>
+        <li><strong>Visualization:</strong> Matplotlib, Seaborn, Plotly</li>
+      </ul>
+    </div>
+    
+    <div class="skill-category">
+      <h3><i class="fas fa-language" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>Languages</h3>
+      <ul>
+        <li><strong>Chinese:</strong> Native speaker</li>
+        <li><strong>English:</strong> </li>
+        <li>  - IELTS: Overall 6.0 (Listening: 6.5, Reading: 6.5, Writing: 5.5, Speaking: 6.0)</li>
+        <li>  - CET-6: Score 467 (College English Test - Band 6)</li>
+      </ul>
+    </div>
+    
+    <div class="skill-category">
+      <h3><i class="fas fa-certificate" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>Certifications</h3>
+      <ul>
+        <li>DevCloud Summer Training Camp (Huawei)</li>
+        <li>Python for AI Development (Shandong University)</li>
+        <li>Deep Learning Fundamentals (Shandong University)</li>
+      </ul>
+    </div>
+  </div>
 </div>
 
 ---
