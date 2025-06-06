@@ -219,20 +219,20 @@ redirect_from:
   
 </div>
 
----
+<!-- ---
 
 ## Manuscripts Under Review
 
 <div class="manuscripts">
 
-  <!-- <div class="paper">
+  <div class="paper">
     <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>Using Multiomics and Machine Learning: Insights into Improving the Outcomes of Clear Cell Renal Cell Carcinoma via SRD5A3-AS1/hsa-let-7e-5p/RRM2 Axis</h3>
     <p><strong>Journal:</strong> <em>ACS Omega</em> (Submitted: February 12, 2025 - Under Review)</p>
     <p><strong>Authors:</strong> Mouyuan Sun, Zhan Yang, Yaxian Luo, Luying Qin, Lianjie Peng, Chaoran Pan, <strong>Jiatao Yan</strong>, Tao Qiu, Yan Zhang</p>
     <p class="contribution">Contribution: Implemented machine learning algorithms for identifying SRD5A3-AS1/hsa-let-7e-5p/RRM2 important features.</p>
-  </div> -->
+  </div>
 
-</div>
+</div> -->
 
 ---
 

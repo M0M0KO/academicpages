@@ -218,20 +218,20 @@ redirect_from:
   
 </div>
 
----
+<!-- ---
 
 ## 审稿中的论文
 
 <div class="manuscripts">
 
-  <!-- <div class="paper">
+  <div class="paper">
     <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>Using Multiomics and Machine Learning: Insights into Improving the Outcomes of Clear Cell Renal Cell Carcinoma via SRD5A3-AS1/hsa-let-7e-5p/RRM2 Axis</h3>
     <p><strong>期刊：</strong> <em>ACS Omega</em> (提交时间: 2025年2月12日 - 审稿中)</p>
     <p><strong>作者：</strong>  Mouyuan Sun, Zhan Yang, Yaxian Luo, Luying Qin, Lianjie Peng, Chaoran Pan, <strong>Jiatao Yan</strong>, Tao Qiu, Yan Zhang</p>
     <p class="contribution">贡献：实现用于识别SRD5A3-AS1/hsa-let-7e-5p/RRM2重要特征的有关机器学习算法。</p>
-  </div> -->
+  </div>
   
-</div>
+</div> -->
 
 ---
 

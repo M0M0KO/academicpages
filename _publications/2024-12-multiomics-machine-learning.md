@@ -2,7 +2,7 @@
 title: "Multi-omics and Machine Learning-driven CD8+ T Cell Heterogeneity Score for Prognosis"
 collection: publications
 permalink: publications/2024-12-multiomics-machine-learning/
-excerpt: 'This study develops a machine learning approach to quantify CD8+ T cell heterogeneity in head and neck squamous cell carcinoma, identifying novel biomarkers and potential therapeutic targets.'
+excerpt: ''
 date: 2024-12-01
 venue: 'Molecular Therapy Nucleic Acids'
 paperurl: 'https://www.cell.com/action/showPdf?pii=S2162-2531%2824%2900300-7'
@@ -39,6 +39,6 @@ The heterogeneity of head and neck squamous cell carcinoma (HNSCC) poses a signi
 
 ## My Contribution
 
-Implemented and optimized multiple machine learning algorithms (LASSO, RF, GB, KNN, SVM, GBM, XGBoost, DT) for key gene identification in HNSCC research.
+Implemented multiple machine learning algorithms (LASSO, RF, GB, KNN, SVM, GBM, XGBoost, DT) for key gene identification in HNSCC research.
 
 [Access paper here](https://doi.org/10.1016/j.omtn.2024.102413) 
