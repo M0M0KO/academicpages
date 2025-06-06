@@ -82,110 +82,6 @@ redirect_from:
 
 ---
 
-## 研究兴趣
-
-<div class="research-interests">
-  <div class="interest-area">
-    <h3><i class="fas fa-brain" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>医学人工智能</h3>
-    <ul>
-      <li>学习用于医学图像分析和疾病诊断的深度学习</li>
-      <li>多模态临床数据整合和特征提取</li>
-      <li>探索临床应用的计算机辅助诊断系统</li>
-    </ul>
-  </div>
-  
-  <div class="interest-area">
-    <h3><i class="fas fa-robot" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>具身智能</h3>
-    <ul>
-      <li>研究机器人如何通过与世界的物理交互产生智能</li>
-      <li>探索具身智能体中感知与行动的联系</li>
-      <li>学习机器人应用中的强化学习</li>
-    </ul>
-  </div>
-  
-  <div class="interest-area">
-    <h3><i class="fas fa-eye" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>计算机视觉</h3>
-    <ul>
-      <li>基于注意力的目标检测架构</li>
-      <li>人体姿态估计和行为识别</li>
-      <li>实际应用的视觉特征提取</li>
-    </ul>
-  </div>
-  
-  <div class="interest-area">
-    <h3><i class="fas fa-users" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>多智能体系统</h3>
-    <ul>
-      <li>理解多个智能体如何协同工作</li>
-      <li>对智能体群体中的涌现行为和集体智能好奇</li>
-      <li>想要学习多智能体人工智能系统的基础知识</li>
-    </ul>
-  </div>
-</div>
-
----
-
-## 技术技能
-
-<div class="skills-section">
-  <div class="skills-grid">
-    <div class="skill-category">
-      <h3><i class="fas fa-code" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>编程语言</h3>
-      <ul>
-        <li>Python</li>
-        <li>C, Java, SQL</li>
-        <li>C#, JavaScript, Vue</li>
-      </ul>
-    </div>
-    
-    <div class="skill-category">
-      <h3><i class="fas fa-brain" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>人工智能与机器学习</h3>
-      <ul>
-        <li><strong>框架：</strong> PyTorch, TensorFlow</li>
-        <li><strong>领域：</strong> 计算机视觉, 深度学习, 强化学习</li>
-        <li><strong>技术：</strong> CNN, 注意力机制, 迁移学习</li>
-      </ul>
-    </div>
-    
-    <div class="skill-category">
-      <h3><i class="fas fa-tools" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>开发工具</h3>
-      <ul>
-        <li><strong>版本控制：</strong> Git, GitHub</li>
-        <li><strong>文档：</strong> LaTeX, Markdown</li>
-        <li><strong>环境：</strong> Linux, Jupyter, Docker</li>
-      </ul>
-    </div>
-    
-    <div class="skill-category">
-      <h3><i class="fas fa-chart-bar" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>数据分析</h3>
-      <ul>
-        <li><strong>库：</strong> NumPy, Pandas, SciPy</li>
-        <li><strong>可视化：</strong> Matplotlib, Seaborn, Plotly</li>
-      </ul>
-    </div>
-    
-    <div class="skill-category">
-      <h3><i class="fas fa-language" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>语言</h3>
-      <ul>
-        <li><strong>中文：</strong> 母语</li>
-        <li><strong>英语：</strong> </li>
-        <li>  - 雅思: 总分 6.0 (听力: 6.5, 阅读: 6.5, 写作: 5.5, 口语: 6.0)</li>
-        <li> - CET-6: 总分 467</li>
-      </ul>
-    </div>
-    
-    <div class="skill-category">
-      <h3><i class="fas fa-certificate" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>证书</h3>
-      <ul>
-        <li>DevCloud夏令营培训（华为）</li>
-        <li>人工智能基础Python（山东大学）</li>
-        <li>深度学习基础（山东大学）</li>
-      </ul>
-    </div>
-  </div>
-</div>
-
----
-
 ## 已发表论文
 
 <div class="publications">
@@ -249,7 +145,7 @@ redirect_from:
     <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>YOLOv11-LCDFS: Enhanced Smoking Detection With Low-light Enhancement</h3>
     <p><strong>修订中</strong></p>
     <p><strong>作者：</strong> <strong>Jiatao Yan</strong>, Zhuzikai Zheng, Zhengtan Yang, Hao Jiang, Peichen Wang, Fangjun Kuang, Siyang Zhang</p>
-    <p class="contribution">第一作者，开发一种基于YOLO的架构，集成低光照增强功能、损失函数、注意力机制和优化的上采样技术，来提高在不同光照条件下的检测能力。</p>
+    <p class="contribution"><strong>第一作者</strong>：开发一种基于YOLO的架构，集成低光照增强功能、损失函数、注意力机制和优化的上采样技术，来提高在不同光照条件下的检测能力。</p>
   </div>
 </div>
 
@@ -486,6 +382,110 @@ redirect_from:
       </ul>
       <p><strong>接触的技术：</strong> Python, TensorFlow 2.11.0, scikit-learn, Pandas, NumPy, Matplotlib, Seaborn</p>
       <p><strong>时间：</strong> 2022年5月</p>
+    </div>
+  </div>
+</div>
+
+---
+
+## 研究兴趣
+
+<div class="research-interests">
+  <div class="interest-area">
+    <h3><i class="fas fa-brain" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>医学人工智能</h3>
+    <ul>
+      <li>学习用于医学图像分析和疾病诊断的深度学习</li>
+      <li>多模态临床数据整合和特征提取</li>
+      <li>探索临床应用的计算机辅助诊断系统</li>
+    </ul>
+  </div>
+  
+  <div class="interest-area">
+    <h3><i class="fas fa-robot" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>具身智能</h3>
+    <ul>
+      <li>研究机器人如何通过与世界的物理交互产生智能</li>
+      <li>探索具身智能体中感知与行动的联系</li>
+      <li>学习机器人应用中的强化学习</li>
+    </ul>
+  </div>
+  
+  <div class="interest-area">
+    <h3><i class="fas fa-eye" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>计算机视觉</h3>
+    <ul>
+      <li>基于注意力的目标检测架构</li>
+      <li>人体姿态估计和行为识别</li>
+      <li>实际应用的视觉特征提取</li>
+    </ul>
+  </div>
+  
+  <div class="interest-area">
+    <h3><i class="fas fa-users" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>多智能体系统</h3>
+    <ul>
+      <li>理解多个智能体如何协同工作</li>
+      <li>对智能体群体中的涌现行为和集体智能好奇</li>
+      <li>想要学习多智能体人工智能系统的基础知识</li>
+    </ul>
+  </div>
+</div>
+
+---
+
+## 技术技能
+
+<div class="skills-section">
+  <div class="skills-grid">
+    <div class="skill-category">
+      <h3><i class="fas fa-code" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>编程语言</h3>
+      <ul>
+        <li>Python</li>
+        <li>C, Java, SQL</li>
+        <li>C#, JavaScript, Vue</li>
+      </ul>
+    </div>
+    
+    <div class="skill-category">
+      <h3><i class="fas fa-brain" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>人工智能与机器学习</h3>
+      <ul>
+        <li><strong>框架：</strong> PyTorch, TensorFlow</li>
+        <li><strong>领域：</strong> 计算机视觉, 深度学习, 强化学习</li>
+        <li><strong>技术：</strong> CNN, 注意力机制, 迁移学习</li>
+      </ul>
+    </div>
+    
+    <div class="skill-category">
+      <h3><i class="fas fa-tools" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>开发工具</h3>
+      <ul>
+        <li><strong>版本控制：</strong> Git, GitHub</li>
+        <li><strong>文档：</strong> LaTeX, Markdown</li>
+        <li><strong>环境：</strong> Linux, Jupyter, Docker</li>
+      </ul>
+    </div>
+    
+    <div class="skill-category">
+      <h3><i class="fas fa-chart-bar" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>数据分析</h3>
+      <ul>
+        <li><strong>库：</strong> NumPy, Pandas, SciPy</li>
+        <li><strong>可视化：</strong> Matplotlib, Seaborn, Plotly</li>
+      </ul>
+    </div>
+    
+    <div class="skill-category">
+      <h3><i class="fas fa-language" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>语言</h3>
+      <ul>
+        <li><strong>中文：</strong> 母语</li>
+        <li><strong>英语：</strong> </li>
+        <li>  - 雅思: 总分 6.0 (听力: 6.5, 阅读: 6.5, 写作: 5.5, 口语: 6.0)</li>
+        <li> - CET-6: 总分 467</li>
+      </ul>
+    </div>
+    
+    <div class="skill-category">
+      <h3><i class="fas fa-certificate" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>证书</h3>
+      <ul>
+        <li>DevCloud夏令营培训（华为）</li>
+        <li>人工智能基础Python（山东大学）</li>
+        <li>深度学习基础（山东大学）</li>
+      </ul>
     </div>
   </div>
 </div>
