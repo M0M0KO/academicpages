@@ -198,6 +198,16 @@ redirect_from:
     <p class="contribution"><strong>Co-first author (third position)</strong>: Developed machine learning algorithms for exosome feature analysis and classification in hepatocellular carcinoma research. Contributed to the design and implementation of the random forest algorithm for prognostic signature development.</p>
   </div>
   
+
+  <div class="paper">
+    <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>Multi-omics and Machine Learning-driven CD8+ T Cell Heterogeneity Score for Prognosis</h3>
+    <p><strong>Journal:</strong> <em>Molecular Therapy Nucleic Acids</em> (December 2024)</p>
+    <p><strong>Authors:</strong> Di He, Zhan Yang, Tian Zhang, Yaxian Luo, Lianjie Peng, <strong>Jiatao Yan</strong>, Tao Qiu, Jingyu Zhang, Luying Qin, Zhichao Liu, Xiaoting Zhang, Lining Lin, Mouyuan Sun</p>
+    <p><strong>DOI:</strong> <a href="https://doi.org/10.1016/j.omtn.2024.102413" target="_blank">10.1016/j.omtn.2024.102413</a></p>
+    <p><strong>Impact Factor:</strong> 6.4</p>
+    <p class="contribution">Contribution: Helped implement various machine learning algorithms for key gene identification in HNSCC research.</p>
+  </div>
+
   <div class="paper">
     <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>Using Multiomics and Machine Learning: Insights into Improving the Outcomes of Clear Cell Renal Cell Carcinoma via the SRD5A3- AS1/hsa-let-7e-5p/RRM2 Axis</h3>
     <p><strong>Journal:</strong> <em>ACS Omega</em> (June 2025)</p>
