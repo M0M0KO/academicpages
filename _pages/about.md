@@ -26,67 +26,39 @@ I am a postgraduate student with some initial experience in medical image analys
   </div>
   <div class="highlight-item">
     <i class="fas fa-trophy" style="font-size: 1.2em; color: #4285F4;"></i>
-    <p><strong>Experience:</strong> Participated in competitions, contributed to research projects, and involved in software copyright and patent applications</p>
+    <p><strong>Experience:</strong> Kaggle competitions (RNA 3D Folding, Podcast Listening Time, Calorie Expenditure), Challenge Cup competition, National-level innovation and entrepreneurship program, 2 software copyrights, 1 patent application</p>
   </div>
 </div>
 
 ---
 
-## Research Interests
+## Research Learning and Participation
 
-<div class="research-interests">
-  <div>
-    <i class="fas fa-brain" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
-    <strong>Medical AI</strong>: Learning about deep learning applications in medical image analysis, disease prediction, and multi-modal clinical data integration
+<div class="publication-preview">
+  <div class="publication-card">
+    <i class="fas fa-file-alt" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>
+    <div>
+      <h4>Machine Learning Identifies Exosome Features Related to Hepatocellular Carcinoma</h4>
+      <p><em>Frontiers in Cell and Developmental Biology</em> (2022)</p>
+      <p><strong>Co-first author (third position)</strong>: Developed machine learning algorithms for exosome feature analysis and classification in hepatocellular carcinoma research</p>
+    </div>
   </div>
-  <div>
-    <i class="fas fa-robot" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
-    <strong>Embodied Intelligence</strong>: Learning about physical AI systems, studying robot learning, and trying to understand sensorimotor control
-  </div>
-  <div>
-    <i class="fas fa-eye" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
-    <strong>Computer Vision</strong>: Studying attention-based object detection and image segmentation
-  </div>
-  <div>
-    <i class="fas fa-project-diagram" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
-    <strong>Multi-modal Learning</strong>: Starting to learn about Vision-Language-Action(VLA) models in embodied AI systems
-  </div>
-  <div>
-    <i class="fas fa-users" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
-    <strong>Multi-Agent Systems</strong>: Taking first steps in understanding collaborative AI systems
-  </div>
-</div>
-
----
-
-## Current Focus
-
-<div class="current-focus">
-  <p>As a student, I'm currently focused on building my knowledge in these areas:</p>
   
-  <div class="focus-grid">
-    <div class="focus-item">
-      <i class="fas fa-book-open" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
-      <div>
-        <h4>Building Foundations</h4>
-        <p>Studying core concepts in robotics, reinforcement learning, and computational perception</p>
-      </div>
+  <div class="publication-card">
+    <i class="fas fa-file-alt" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>
+    <div>
+      <h4>Multi-omics and Machine Learning-driven CD8+ T Cell Heterogeneity Score for Prognosis</h4>
+      <p><em>Molecular Therapy Nucleic Acids</em> (2024)</p>
+      <p>Participated in implementing machine learning algorithms for key gene identification in HNSCC research</p>
     </div>
-    
-    <div class="focus-item">
-      <i class="fas fa-laptop-code" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
-      <div>
-        <h4>Practical Skills</h4>
-        <p>Learning to work with simulation environments and developing small projects to apply theoretical knowledge</p>
-      </div>
-    </div>
-    
-    <div class="focus-item">
-      <i class="fas fa-users" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
-      <div>
-        <h4>Multi-Agent Learning</h4>
-        <p>Beginning to explore how multiple AI agents can interact, communicate, and solve problems collaboratively</p>
-      </div>
+  </div>
+  
+  <div class="publication-card">
+    <i class="fas fa-file-alt" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>
+    <div>
+      <h4>Using Multiomics and Machine Learning: Insights into Improving the Outcomes of Clear Cell Renal Cell Carcinoma via the SRD5A3-AS1/hsa-let-7e-5p/RRM2 Axis</h4>
+      <p><em>ACS Omega</em> (June 2025)</p>
+      <p>Implemented machine learning algorithms for identifying SRD5A3-AS1/hsa-let-7e-5p/RRM2 important features</p>
     </div>
   </div>
 </div>
@@ -178,25 +150,61 @@ I am a postgraduate student with some initial experience in medical image analys
 
 ---
 
-## Research Learning and Participation
+## Research Interests
 
-<div class="publication-preview">
-  <div class="publication-card">
-    <i class="fas fa-file-alt" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>
-    <div>
-      <h4>Machine Learning Identifies Exosome Features Related to Hepatocellular Carcinoma</h4>
-      <p><em>Frontiers in Cell and Developmental Biology</em> (2022)</p>
-      <p><strong>Co-first author (third position)</strong>: Developed machine learning algorithms for exosome feature analysis and classification in hepatocellular carcinoma research</p>
-
-    </div>
+<div class="research-interests">
+  <div>
+    <i class="fas fa-brain" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
+    <strong>Medical AI</strong>: Learning about deep learning applications in medical image analysis, disease prediction, and multi-modal clinical data integration
   </div>
+  <div>
+    <i class="fas fa-robot" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
+    <strong>Embodied Intelligence</strong>: Learning about physical AI systems, studying robot learning, and trying to understand sensorimotor control
+  </div>
+  <div>
+    <i class="fas fa-eye" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
+    <strong>Computer Vision</strong>: Studying attention-based object detection and image segmentation
+  </div>
+  <div>
+    <i class="fas fa-project-diagram" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
+    <strong>Multi-modal Learning</strong>: Starting to learn about Vision-Language-Action(VLA) models in embodied AI systems
+  </div>
+  <div>
+    <i class="fas fa-users" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
+    <strong>Multi-Agent Systems</strong>: Taking first steps in understanding collaborative AI systems
+  </div>
+</div>
+
+---
+
+## Current Focus
+
+<div class="current-focus">
+  <p>As a student, I'm currently focused on building my knowledge in these areas:</p>
   
-  <div class="publication-card">
-    <i class="fas fa-file-alt" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>
-    <div>
-      <h4>Multi-omics and Machine Learning-driven CD8+ T Cell Heterogeneity Score for Prognosis</h4>
-      <p><em>Molecular Therapy Nucleic Acids</em> (2024)</p>
-      <p>Participated in implementing machine learning algorithms for key gene identification in HNSCC research</p>
+  <div class="focus-grid">
+    <div class="focus-item">
+      <i class="fas fa-book-open" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
+      <div>
+        <h4>Building Foundations</h4>
+        <p>Studying core concepts in robotics, reinforcement learning, and computational perception</p>
+      </div>
+    </div>
+    
+    <div class="focus-item">
+      <i class="fas fa-laptop-code" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
+      <div>
+        <h4>Practical Skills</h4>
+        <p>Learning to work with simulation environments and developing small projects to apply theoretical knowledge</p>
+      </div>
+    </div>
+    
+    <div class="focus-item">
+      <i class="fas fa-users" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
+      <div>
+        <h4>Multi-Agent Learning</h4>
+        <p>Beginning to explore how multiple AI agents can interact, communicate, and solve problems collaboratively</p>
+      </div>
     </div>
   </div>
 </div>

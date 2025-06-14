@@ -27,67 +27,39 @@ redirect_from:
   </div>
   <div class="highlight-item">
     <i class="fas fa-trophy" style="font-size: 1.2em; color: #4285F4;"></i>
-    <p><strong>荣誉：</strong> 竞赛经历、参与研究项目、软著与发明专利申请</p>
+    <p><strong>荣誉：</strong> Kaggle竞赛（RNA 3D折叠、播客收听时间预测、卡路里消耗预测）、"挑战杯"大学生竞赛、国家级大创、2项软件著作权、1项发明专利申请</p>
   </div>
 </div>
 
 ---
 
-## 研究兴趣
+## 科研学习与参与
 
-<div class="research-interests">
-  <div>
-    <i class="fas fa-brain" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
-    <strong>医学人工智能</strong>：学习深度学习在医学图像分析、疾病预测与诊断、多模态临床数据整合方面的应用
+<div class="publication-preview">
+  <div class="publication-card">
+    <i class="fas fa-file-alt" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>
+    <div>
+      <h4>Machine Learning Identifies Exosome Features Related to Hepatocellular Carcinoma</h4>
+      <p><em>Frontiers in Cell and Developmental Biology</em> (2022)</p>
+      <p><strong>共同第一作者（位次第三）</strong>：负责开发机器学习算法，用于肝细胞癌研究中的外泌体特征分析和分类</p>
+    </div>
   </div>
-  <div>
-    <i class="fas fa-robot" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
-    <strong>具身智能</strong>：探索物理人工智能系统、机器人学习以及发展对感觉运动控制的理解
-  </div>
-  <div>
-    <i class="fas fa-eye" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
-    <strong>计算机视觉</strong>：基于注意力的目标检测、图像分割
-  </div>
-  <div>
-    <i class="fas fa-project-diagram" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
-    <strong>多模态学习</strong>：探索视觉-语言-动作(VLA)模型在具身人工智能中的应用
-  </div>
-  <div>
-    <i class="fas fa-users" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
-    <strong>多智能体系统</strong>：初步接触协作型人工智能系统的基本概念
-  </div>
-</div>
-
----
-
-## 当前学习重点
-
-<div class="current-focus">
-  <p>我目前正在努力在以下领域建立基础知识：</p>
   
-  <div class="focus-grid">
-    <div class="focus-item">
-      <i class="fas fa-book-open" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
-      <div>
-        <h4>打基础</h4>
-        <p>学习机器人技术、强化学习和计算感知的基本概念</p>
-      </div>
+  <div class="publication-card">
+    <i class="fas fa-file-alt" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>
+    <div>
+      <h4>Multi-omics and Machine Learning-driven CD8+ T Cell Heterogeneity Score for Prognosis</h4>
+      <p><em>Molecular Therapy Nucleic Acids</em> (2024)</p>
+      <p>帮助在HNSCC研究中实施各种机器学习算法用于关键基因识别</p>
     </div>
-    
-    <div class="focus-item">
-      <i class="fas fa-laptop-code" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
-      <div>
-        <h4>提升实践能力</h4>
-        <p>尝试使用模拟环境并参与小型项目来应用所学知识</p>
-      </div>
-    </div>
-    
-    <div class="focus-item">
-      <i class="fas fa-users" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
-      <div>
-        <h4>多智能体学习</h4>
-        <p>初步了解多个人工智能智能体如何交互、沟通并协作解决问题</p>
-      </div>
+  </div>
+  
+  <div class="publication-card">
+    <i class="fas fa-file-alt" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>
+    <div>
+      <h4>Using Multiomics and Machine Learning: Insights into Improving the Outcomes of Clear Cell Renal Cell Carcinoma via the SRD5A3-AS1/hsa-let-7e-5p/RRM2 Axis</h4>
+      <p><em>ACS Omega</em> (2025年6月)</p>
+      <p>实施机器学习算法用于识别SRD5A3-AS1/hsa-let-7e-5p/RRM2重要特征</p>
     </div>
   </div>
 </div>
@@ -179,25 +151,61 @@ redirect_from:
 
 ---
 
-## 科研学习与参与
+## 研究兴趣
 
-<div class="publication-preview">
-  <div class="publication-card">
-    <i class="fas fa-file-alt" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>
-    <div>
-      <h4>Machine Learning Identifies Exosome Features Related to Hepatocellular Carcinoma</h4>
-      <p><em>Frontiers in Cell and Developmental Biology</em> (2022)</p>
-      <p><strong>共同第一作者（位次第三）</strong>：负责开发机器学习算法，用于肝细胞癌研究中的外泌体特征分析和分类</p>
-
-    </div>
+<div class="research-interests">
+  <div>
+    <i class="fas fa-brain" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
+    <strong>医学人工智能</strong>：学习深度学习在医学图像分析、疾病预测与诊断、多模态临床数据整合方面的应用
   </div>
+  <div>
+    <i class="fas fa-robot" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
+    <strong>具身智能</strong>：探索物理人工智能系统、机器人学习以及发展对感觉运动控制的理解
+  </div>
+  <div>
+    <i class="fas fa-eye" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
+    <strong>计算机视觉</strong>：基于注意力的目标检测、图像分割
+  </div>
+  <div>
+    <i class="fas fa-project-diagram" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
+    <strong>多模态学习</strong>：探索视觉-语言-动作(VLA)模型在具身人工智能中的应用
+  </div>
+  <div>
+    <i class="fas fa-users" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
+    <strong>多智能体系统</strong>：初步接触协作型人工智能系统的基本概念
+  </div>
+</div>
+
+---
+
+## 当前学习重点
+
+<div class="current-focus">
+  <p>我目前正在努力在以下领域建立基础知识：</p>
   
-  <div class="publication-card">
-    <i class="fas fa-file-alt" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>
-    <div>
-      <h4>Multi-omics and Machine Learning-driven CD8+ T Cell Heterogeneity Score for Prognosis</h4>
-      <p><em>Molecular Therapy Nucleic Acids</em> (2024)</p>
-      <p>帮助在HNSCC研究中实施各种机器学习算法用于关键基因识别</p>
+  <div class="focus-grid">
+    <div class="focus-item">
+      <i class="fas fa-book-open" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
+      <div>
+        <h4>打基础</h4>
+        <p>学习机器人技术、强化学习和计算感知的基本概念</p>
+      </div>
+    </div>
+    
+    <div class="focus-item">
+      <i class="fas fa-laptop-code" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
+      <div>
+        <h4>提升实践能力</h4>
+        <p>尝试使用模拟环境并参与小型项目来应用所学知识</p>
+      </div>
+    </div>
+    
+    <div class="focus-item">
+      <i class="fas fa-users" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
+      <div>
+        <h4>多智能体学习</h4>
+        <p>初步了解多个人工智能智能体如何交互、沟通并协作解决问题</p>
+      </div>
     </div>
   </div>
 </div>
