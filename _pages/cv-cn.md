@@ -278,78 +278,77 @@ redirect_from:
   </div>
 
   <div class="project-entry">
-    <h3><i class="fas fa-microscope" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>癌症研究多模态医学图像分析学习</h3>
+    <h3><i class="fas fa-microscope" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>多模态3D医学图像分割</h3>
     <div class="project-details">
-      <p>学习医学图像分析系统知识，了解肿瘤检测相关技术。<a href="https://github.com/M0M0KO/multi-modal-medical" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <p>开发多模态3D医学图像分割系统，整合T2加权成像和扩散加权成像(DWI)数据，实现多种深度学习架构对比研究。<a href="https://github.com/M0M0KO/multi-modal-medical" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
       <ul>
-        <li>学习肝细胞癌和肾细胞癌的医学图像分割算法原理</li>
-        <li>了解如何整合临床表格数据与影像特征进行综合分析的方法</li>
-        <li>接触多模态融合技术，用于结合不同CT扫描相位</li>
-        <li>初步学习3D体积分割方法，用于全面解剖分析</li>
+        <li>实现多模态医学影像数据处理，包括NIfTI格式处理、强度归一化和多掩码合并</li>
+        <li>开发实现3D分割架构：3D U-Net、Swin-UNETR(基于Transformer)、TransUNet和DeepLabV3Plus</li>
+        <li>建立数据匹配系统，处理T2和DWI影像的时间和空间对齐</li>
+        <li>设计3D体积到2D切片的转换流程，支持不同深度学习框架的数据格式要求</li>
       </ul>
-      <p><strong>接触的技术：</strong> Python, 深度学习, 3D分割, 多模态融合, PyDicom, NumPy</p>
+      <p><strong>使用的技术：</strong> Python, PyTorch, NiBabel, MONAI, 3D分割, Transformer架构, 多模态融合, NumPy</p>
       <p><strong>状态：</strong> 进行中（2025年4月）</p>
       <p><strong>相关成果：</strong> 参与论文准备工作</p>
     </div>
   </div>
 
   <div class="project-entry">
-    <h3><i class="fas fa-disease" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>基于深度学习的疾病检测学习</h3>
+    <h3><i class="fas fa-disease" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>基于深度学习的疾病检测系统</h3>
     <div class="project-details">
-      <p>学习使用深度学习模型从医学影像数据中自动检测和分类疾病，重点关注糖尿病足溃疡检测。<a href="https://github.com/yanjiatao/diabetic-wound-detection" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <p>开发针对医学影像的目标检测系统，关注糖尿病足溃疡检测，实现不同的YOLOv8架构变体进行系统性对比研究。<a href="https://github.com/yanjiatao/diabetic-wound-detection" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
       <ul>
-        <li>学习实现和比较多种增强型YOLOv8架构变体，探索不同注意力机制(GAM, CBAM, ECA, CoordAtt)在临床图像中精确定位糖尿病伤口的应用</li>
-        <li>尝试设计和评估集成新型上采样技术的YOLOv8架构，包括CARAFE和DySample，用于提高特征图分辨率</li>
-        <li>在指导下学习基于三元组的损失函数和Inner-CIoU机制，以提高对不同大小和外观伤口的检测准确性</li>
-        <li>了解如何动态卷积技术适应性地捕捉不同临床设置和光照条件下的伤口特征</li>
+        <li>实现多种注意力机制(GAM、CBAM、ECA、CoordAtt、TripletAttention)增强YOLOv8架构的特征提取能力</li>
+        <li>集成上采样技术(CARAFE、DySample)和动态卷积，提高小目标检测精度和特征图分辨率</li>
+        <li>设计基于三元组损失、Inner-CIoU和Focus Loss的自定义损失函数，优化医学图像中的目标检测性能</li>
+        <li>建立实验框架，通过模型变体的比较，验证不同技术组合在临床场景中的有效性</li>
       </ul>
-      <p><strong>接触的技术：</strong> PyTorch, YOLO, 注意力机制(GAM/CBAM/ECA), 自定义损失函数, 特征上采样技术, 动态卷积</p>
+      <p><strong>使用的技术：</strong> PyTorch, YOLOv8, 注意力机制, 动态卷积, 自定义损失函数, 上采样技术, 医学图像处理</p>
       <p><strong>时间：</strong> 2024年8月</p>
     </div>
   </div>
 
   <div class="project-entry">
-    <h3><i class="fas fa-shield-alt" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Twitter质量与垃圾信息检测系统学习</h3>
+    <h3><i class="fas fa-shield-alt" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Twitter质量与垃圾信息检测系统</h3>
     <div class="project-details">
-      <p>学习如何开发机器学习系统用于Twitter内容质量评估和垃圾信息检测，了解文本处理和分类技术。<a href="https://github.com/M0M0KO/twitter-spam-detection" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <p>开发机器学习系统用于Twitter内容质量评估和垃圾信息检测，实现传统机器学习和深度学习两种方法对比。<a href="https://github.com/M0M0KO/twitter-spam-detection" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
       <ul>
-        <li>学习Twitter数据的文本预处理技术，包括文本规范化、特征提取和缺失值处理</li>
-        <li>尝试通过结合用户指标（关注者数量、关注数量）和行为模式创建复合特征来提高分类性能</li>
-        <li>了解情感分析和内容分析技术，用于识别推文中的质量模式</li>
-        <li>比较多种机器学习模型以了解分类准确性的优化方法</li>
+        <li>处理包含11,968条推文的数据集，进行文本预处理和特征工程</li>
+        <li>创建复合特征：关注者关注比率、每关注者行动数等用户行为指标，结合TF-IDF文本特征</li>
+        <li>实现朴素贝叶斯分类器（网格搜索优化）和双层LSTM深度学习模型进行垃圾信息检测</li>
+        <li>使用ROC曲线、混淆矩阵、交叉验证等多种评估方法优化模型性能和阈值选择</li>
       </ul>
-      <p><strong>接触的技术：</strong> Python, NLTK, scikit-learn, Pandas, Matplotlib, Seaborn</p>
+      <p><strong>使用的技术：</strong> Python, TensorFlow/Keras, LSTM, TF-IDF, NLTK, scikit-learn, Pandas, Matplotlib, Seaborn, WordCloud</p>
       <p><strong>时间：</strong> 2024年8月</p>
     </div>
   </div>
 
   <div class="project-entry">
-    <h3><i class="fas fa-home" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Airbnb价格分析与预测系统学习项目</h3>
+    <h3><i class="fas fa-home" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Airbnb价格分析与预测系统</h3>
     <div class="project-details">
-      <p>学习如何基于各种物业特征和位置数据预测纽约市Airbnb房源价格，探索数据分析和机器学习的应用。<a href="https://github.com/M0M0KO/airbnb-price-prediction" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <p>基于各种物业特征和位置数据预测纽约市Airbnb房源价格，实现传统机器学习和深度学习两种价格预测方法。<a href="https://github.com/M0M0KO/airbnb-price-prediction" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
       <ul>
-        <li>进行包含48,000多个房源的纽约市Airbnb数据集探索性分析，尝试创建可视化图表揭示不同社区的价格模式</li>
-        <li>学习使用Python GIS库进行地理空间分析，以可视化属性分布并识别高价值区域</li>
-        <li>通过转换分类变量和创建新指标来增强相关特征，以更好地捕捉影响价格的因素</li>
-        <li>尝试实现RandomForest回归模型来预测连续的房源价格，学习超参数优化技术</li>
+        <li>对包含49,000个房源的纽约市Airbnb数据集进行探索性分析，创建热力图和地理空间可视化查看价格分布模式</li>
+        <li>使用GeoPandas和Contextily进行地理空间分析，结合NYC社区边界数据可视化房源分布和价格热点区域</li>
+        <li>实现两种预测方法：RandomForest回归模型和Keras深度神经网络（双隐层架构）进行价格预测</li>
+        <li>通过特征工程和数据预处理提升模型性能，使用RMSE和MAE评估模型准确性</li>
       </ul>
-      <p><strong>接触的技术：</strong> Python, Pandas, Scikit-learn, GeoPandas, Matplotlib, Seaborn, RandomForest</p>
+      <p><strong>使用的技术：</strong> Python, Pandas, Scikit-learn, Keras/TensorFlow, GeoPandas, Contextily, Matplotlib, Seaborn, RandomForest</p>
       <p><strong>时间：</strong> 2024年1月</p>
     </div>
   </div>
   
   <div class="project-entry">
-    <h3><i class="fas fa-comment" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>航空公司情感分析系统学习</h3>
+    <h3><i class="fas fa-comment" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>航空公司情感分析系统</h3>
     <div class="project-details">
-      <p>学习为航空相关推文开发情感分析系统，将客户反馈分类为积极、消极或中性，了解自然语言处理技术。<a href="https://github.com/M0M0KO/airline-sentiment" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <p>为航空相关推文开发情感分析系统，将客户反馈分类为积极、消极或中性，实现传统机器学习和深度学习两种方法对比。<a href="https://github.com/M0M0KO/airline-sentiment" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
       <ul>
-        <li>学习专门为Twitter数据设计的文本预处理流程（处理标签、提及、表情符号、URL）</li>
-        <li>尝试多种特征提取技术，包括TF-IDF、词嵌入和上下文嵌入</li>
-        <li>了解并比较各种分类模型，包括LSTM网络、基于transformer的方法和传统机器学习算法</li>
-        <li>学习如何分析误分类推文以识别模式并改进模型性能</li>
-        <li>使用Matplotlib、Seaborn和Plotly创建可视化来理解情感趋势</li>
+        <li>为Twitter数据设计文本预处理流程（去除标签、提及、表情符号、URL，词元化处理）</li>
+        <li>实现两种不同的方法：基于CountVectorizer的朴素贝叶斯分类器和基于LSTM的深度学习模型</li>
+        <li>构建双层LSTM网络架构，包含300维词嵌入层、128和64神经元的LSTM层、Dropout正则化和早停机制</li>
+        <li>使用词云、ROC曲线、混淆矩阵等可视化技术分析情感分布和模型性能</li>
       </ul>
-      <p><strong>接触的技术：</strong> Python, NLTK, spaCy, scikit-learn, Pandas, Matplotlib, Seaborn, Plotly, WordCloud</p>
+      <p><strong>使用的技术：</strong> Python, TensorFlow/Keras, LSTM, 词嵌入, scikit-learn, NLTK, Pandas, Matplotlib, Seaborn, Plotly, WordCloud</p>
       <p><strong>时间：</strong> 2023年12月</p>
     </div>
   </div>
@@ -359,28 +358,28 @@ redirect_from:
     <div class="project-details">
       <p>本科毕业论文项目，在导师指导下学习结合YOLO目标检测与MediaPipe骨架跟踪技术，识别视频流中的吸烟动作。<a href="https://github.com/M0M0KO/smoking-detection" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
       <ul>
-        <li>学习使用YOLO目标检测技术在视频中识别香烟和相关物体</li>
-        <li>尝试使用MediaPipe进行实时骨架跟踪和姿态估计</li>
+        <li>使用YOLO目标检测技术在视频中识别香烟和相关物体</li>
+        <li>使用MediaPipe进行实时骨架跟踪和姿态估计</li>
         <li>在指导下设计算法识别特征吸烟手到嘴动作模式</li>
       </ul>
-      <p><strong>接触的技术：</strong> YOLO, MediaPipe, 姿态估计, 动作识别, PyTorch, OpenCV</p>
+      <p><strong>使用的技术：</strong> YOLO, MediaPipe, 姿态估计, 动作识别, PyTorch, OpenCV</p>
       <p><strong>时间：</strong> 2023年4月</p>
       <p><strong>成果：</strong> 专利申请(202310277784.1)，3项软件著作权，论文获得优秀毕业论文</p>
     </div>
   </div>
 
   <div class="project-entry">
-    <h3><i class="fas fa-heartbeat" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>心脏病预测系统学习项目</h3>
+    <h3><i class="fas fa-heartbeat" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>心脏病预测系统</h3>
     <div class="project-details">
-      <p>学习如何基于患者数据和健康指标预测心脏病的可能性，了解健康数据分析和机器学习应用。<a href="https://github.com/M0M0KO/heart-disease-prediction" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
+      <p>基于患者数据和健康指标预测心脏病的可能性<a href="https://github.com/M0M0KO/heart-disease-prediction" target="_blank"><i class="fab fa-github"></i> GitHub</a></p>
       <ul>
-        <li>尝试对包含各种健康指标和人口统计信息的数据集进行探索性分析</li>
-        <li>学习特征选择和工程方法，以识别心脏病的关键预测因素</li>
+        <li>对包含各种健康指标和人口统计信息的数据集进行探索性分析</li>
+        <li>通过特征选择和工程方法，识别心脏病的关键预测因素</li>
         <li>实现和比较多种分类算法，包括K-近邻、支持向量机、随机森林和朴素贝叶斯</li>
-        <li>了解如何使用交叉验证技术优化模型参数以提高预测性能</li>
+        <li>使用交叉验证技术优化模型参数提高预测性能</li>
         <li>创建可视化来理解健康因素之间的关系</li>
       </ul>
-      <p><strong>接触的技术：</strong> Python, TensorFlow 2.11.0, scikit-learn, Pandas, NumPy, Matplotlib, Seaborn</p>
+      <p><strong>使用的技术：</strong> Python, TensorFlow 2.11.0, scikit-learn, Pandas, NumPy, Matplotlib, Seaborn</p>
       <p><strong>时间：</strong> 2022年5月</p>
     </div>
   </div>
