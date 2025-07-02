@@ -195,7 +195,7 @@ redirect_from:
   <div class="achievement-item">
     <div class="achievement-content">
       <h4><i class="fas fa-wave-square" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>耶鲁/北卡罗来纳州大学教堂山分校 - 地球物理波形反演</h4>
-      <p><strong>排名 161/890</strong> | 前19% | Kaggle全球竞赛 | 进行中（剩余1个月）</p>
+      <p><strong>排名 255/1365</strong> | 前19% | Kaggle全球竞赛 | 2025.07.01</p>
     </div>
   </div>
 

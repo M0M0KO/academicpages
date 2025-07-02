@@ -196,7 +196,7 @@ redirect_from:
   <div class="achievement-item">
     <div class="achievement-content">
       <h4><i class="fas fa-wave-square" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Yale/UNC-CH - Geophysical Waveform Inversion</h4>
-      <p><strong>Ranked 161st/890</strong> | Top 19% | Kaggle Global Competition | Ongoing (1 month remaining)</p>
+      <p><strong>Ranked 255nd/1365</strong> | Top 19% | Kaggle Global Competition | July 1, 2025</p>
     </div>
   </div>
   
