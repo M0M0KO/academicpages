@@ -10,7 +10,7 @@ citation: 'He D, Yang Z, Zhang T, Luo Y, Peng L, Yan J, Qiu T, Zhang J, Qin L, L
 citation_apa: 'He, D., Yang, Z., Zhang, T., Luo, Y., Peng, L., Yan, J., Qiu, T., Zhang, J., Qin, L., Liu, Z., Zhang, X., Lin, L., & Sun, M. (2025). Multi-omics and machine learning-driven CD8+ T cell heterogeneity score for head and neck squamous cell carcinoma. Molecular Therapy Nucleic Acids, 36(1), 102413. https://doi.org/10.1016/j.omtn.2024.102413'
 category: journals
 header:
-  teaser: 'publications/tcell_heterogeneity_teaser.jpg'
+  teaser: 'publications/tcell_pdf_teaser.jpg'
 topic: 'Machine Learning'
 doi: '10.1016/j.omtn.2024.102413'
 bibtex: |
