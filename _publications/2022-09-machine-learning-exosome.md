@@ -45,6 +45,6 @@ Conclusion: The RF signature can accurately predict prognosis of HCC patients an
 
 ## My Contribution
 
-**Co-first author (third position)**: Developed machine learning algorithms for exosome feature analysis and classification in hepatocellular carcinoma research. Contributed to the design and implementation of the random forest algorithm for prognostic signature development.
+**Co-first author (third position)**: Designed and implemented the ML analysis pipeline. Compared multiple algorithms (Random Forest, SVM‑RFE, LASSO) to identify and validate high‑value exosome biomarkers from high‑dimensional proteomics data.
 
 [Access paper here](https://doi.org/10.3389/fcell.2022.1020415) 

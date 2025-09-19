@@ -29,7 +29,7 @@ Pending journal abstract.
 
 ## My Contribution
 
-**Co-first author (third position)**: Designed and implemented deep learning architectures for multi‑phase CT analysis; integrated imaging features with clinical tabular data to build a comprehensive survival/prognostic model for upper tract urothelial carcinoma; participated in model validation and performance optimization.
+Designed and implemented deep learning architectures for multi‑phase CT analysis; integrated imaging features with clinical tabular data to build a comprehensive survival/prognostic model for upper tract urothelial carcinoma; participated in model validation and performance optimization.
 
 [Access paper here](https://doi.org/10.3389/fonc.2025.1644250)
 

@@ -60,7 +60,7 @@ I am a postgraduate student with some initial experience in medical image analys
     <div>
       <h4>Using Multiomics and Machine Learning: Insights into Improving the Outcomes of Clear Cell Renal Cell Carcinoma via the SRD5A3-AS1/hsa-let-7e-5p/RRM2 Axis</h4>
       <p><em>ACS Omega</em> (June 2025) · DOI: <a href="https://doi.org/10.1021/acsomega.5c01337" target="_blank">10.1021/acsomega.5c01337</a></p>
-      <p>Implemented the ML pipeline to identify key features of the SRD5A3‑AS1/hsa‑let‑7e‑5p/RRM2 axis and quantify its prognostic value in ccRCC.</p>
+      <p>Implemented the complete ML analysis pipeline to identify and quantify the prognostic value of the SRD5A3‑AS1/hsa‑let‑7e‑5p/RRM2 axis in ccRCC, and contributed to validation using single‑cell and spatial transcriptomics.</p>
       <p><a href="https://doi.org/10.1021/acsomega.5c01337" target="_blank">Access paper</a></p>
     </div>
   </div>

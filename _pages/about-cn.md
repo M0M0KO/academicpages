@@ -61,7 +61,7 @@ redirect_from:
     <div>
       <h4>Using Multiomics and Machine Learning: Insights into Improving the Outcomes of Clear Cell Renal Cell Carcinoma via the SRD5A3-AS1/hsa-let-7e-5p/RRM2 Axis</h4>
       <p><em>ACS Omega</em> (2025年6月) · DOI: <a href="https://doi.org/10.1021/acsomega.5c01337" target="_blank">10.1021/acsomega.5c01337</a></p>
-      <p>负责实现机器学习流程以识别SRD5A3‑AS1/hsa‑let‑7e‑5p/RRM2信号轴关键特征，并量化其在透明细胞肾细胞癌中的预后价值。</p>
+      <p>实现完整的机器学习分析流程，识别并量化SRD5A3‑AS1/hsa‑let‑7e‑5p/RRM2信号轴在透明细胞肾细胞癌（ccRCC）中的预后价值，并参与单细胞与空间转录组分析验证。</p>
       <p><a href="https://doi.org/10.1021/acsomega.5c01337" target="_blank">访问论文</a></p>
     </div>
   </div>
@@ -119,7 +119,7 @@ redirect_from:
     <i class="fas fa-trophy" style="font-size: 1.2em; color: #D4AF37; margin-right: 0.5em;"></i>
     <div>
       <h4>斯坦福RNA 3D折叠竞赛</h4>
-      <p>铜牌 143/1516 | Kaggle全球竞赛（截止时间2025.5.23）</p>
+      <p>铜牌 144/1516 | Kaggle全球竞赛（截止时间 2025年5月23日）</p>
     </div>
   </div>
 
@@ -127,7 +127,7 @@ redirect_from:
     <i class="fas fa-chart-line" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
     <div>
       <h4>预测卡路里消耗竞赛</h4>
-      <p>排名 178/4316（前5%） | Kaggle全球竞赛（2025.06.01）</p>
+      <p>排名 178/4316（前5%） | Kaggle全球竞赛（2025年6月1日）</p>
     </div>
   </div>
 
@@ -135,7 +135,7 @@ redirect_from:
     <i class="fas fa-chart-line" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>
     <div>
       <h4>预测播客收听时间竞赛</h4>
-      <p>排名 116/3310（前4%） | Kaggle全球竞赛（2025.05.01）</p>
+      <p>排名 116/3310（前4%） | Kaggle全球竞赛（2025年5月1日）</p>
     </div>
   </div>
 

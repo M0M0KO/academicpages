@@ -37,6 +37,6 @@ Background: the paucity of early diagnostic markers for clear cell renal cell ca
 
 ## My Contribution
 
-Implemented machine learning algorithms(LASSO, RF, GB, KNN, SVM, GBM, XGBoost, DT) for identifying SRD5A3-AS1/hsa-let-7e-5p/RRM2 important features.
+Implemented the ML pipeline to identify key features of the SRD5A3‑AS1/hsa‑let‑7e‑5p/RRM2 axis and quantify its prognostic value in clear cell renal cell carcinoma (ccRCC).
 
 [Access paper here](https://doi.org/10.1021/acsomega.5c01337) 

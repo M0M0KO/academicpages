@@ -132,7 +132,7 @@ redirect_from:
     <p><strong>作者：</strong> Mouyuan Sun, Zhan Yang, Yaxian Luo, Luying Qin, Lianjie Peng, Chaoran Pan, <strong>Jiatao Yan</strong>, Tao Qiu, Yan Zhang</p>
     <p><strong>DOI：</strong> <a href="https://doi.org/10.1021/acsomega.5c01337" target="_blank">10.1021/acsomega.5c01337</a></p>
     <p><strong>影响因子：</strong> 3.7</p>
-    <p class="contribution">贡献：实现用于识别SRD5A3-AS1/hsa-let-7e-5p/RRM2重要特征的有关机器学习算法。</p>
+    <p class="contribution">贡献：实现完整的机器学习分析流程，识别并量化SRD5A3-AS1/hsa-let-7e-5p/RRM2信号轴在透明细胞肾细胞癌（ccRCC）中的预后价值；参与单细胞与空间转录组分析验证。</p>
   </div>
   
   <div class="paper">
@@ -514,9 +514,7 @@ redirect_from:
       <h3><i class="fas fa-language" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>语言</h3>
       <ul>
         <li><strong>中文：</strong> 母语</li>
-        <li><strong>英语：</strong> </li>
-        <li>  - 雅思: 总分 6.0 (听力: 6.5, 阅读: 6.5, 写作: 5.5, 口语: 6.0)</li>
-        <li> - CET-6: 总分 467</li>
+        <li><strong>英语：</strong> 雅思 6.0（听力 6.5 / 阅读 6.5 / 写作 5.5 / 口语 6.0）；CET-6 467</li>
       </ul>
     </div>
     

@@ -39,6 +39,6 @@ The heterogeneity of head and neck squamous cell carcinoma (HNSCC) poses a signi
 
 ## My Contribution
 
-Implemented multiple machine learning algorithms (LASSO, RF, GB, KNN, SVM, GBM, XGBoost, DT) for key gene identification in HNSCC research.
+Provided ML support, implementing methods including LASSO regression to identify key prognostic genes from multi‑omics data and supply features for building the CD8+ T cell heterogeneity score (CD8THS).
 
 [Access paper here](https://doi.org/10.1016/j.omtn.2024.102413) 
