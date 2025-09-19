@@ -298,7 +298,7 @@ redirect_from:
       </ul>
       <p><strong>Technologies:</strong> PyTorch, YOLO, Computer Vision, CUDA, Attention Mechanisms</p>
       <p><strong>Status:</strong> Ongoing (April 2025)</p>
-      <p><strong>Related Publications:</strong> Manuscript in preparation (First author)</p>
+      <p><strong>Related publications:</strong> YOLOv11‑LCDFS: Enhanced Smoking Detection With Low‑light Enhancement (manuscript in preparation)</p>
     </div>
   </div>
 
@@ -314,7 +314,7 @@ redirect_from:
       </ul>
       <p><strong>Technologies:</strong> Python, Deep Learning, 3D Segmentation, Multi-modal Fusion, PyDicom, NumPy</p>
       <p><strong>Status:</strong> Ongoing (April 2025)</p>
-      <p><strong>Related Publications:</strong> Manuscript in preparation</p>
+      <p><strong>Related publications:</strong> Multi‑modal medical image segmentation and fusion (manuscript in preparation)</p>
     </div>
   </div>
 

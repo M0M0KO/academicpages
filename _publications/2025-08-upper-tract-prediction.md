@@ -6,11 +6,11 @@ excerpt: ''
 date: 2025-08-06
 venue: 'Frontiers in Oncology'
 paperurl: 'https://www.frontiersin.org/journals/oncology/articles/10.3389/fonc.2025.1644250/full'
-# citation: 'Sun H, Chen S, Bao Y, You F, Zhu H, Yao X, Chen L, Miao J, Shao F, Gao X, Lin B. A multi-data fusion deep learning model for prognostic prediction in upper tract urothelial carcinoma. Frontiers in Oncology. 2025;13:1644250.'
-# citation_apa: 'Sun, H., Chen, S., Bao, Y., You, F., Zhu, H., Yao, X., Chen, L., Miao, J., Shao, F., Gao, X., & Lin, B. (2025). A multi-data fusion deep learning model for prognostic prediction in upper tract urothelial carcinoma. Frontiers in Oncology, 13, 1644250. https://doi.org/10.3389/fonc.2025.1644250'
+citation: 'Sun H, Chen S, Bao Y, You F, Zhu H, Yao X, Chen L, Miao J, Shao F, Gao X and Lin B (2025) A multi-data fusion deep learning model for prognostic prediction in upper tract urothelial carcinoma. Front. Oncol. 15:1644250. https://doi.org/10.3389/fonc.2025.1644250'
+citation_apa: 'Sun, H., Chen, S., Bao, Y., You, F., Zhu, H., Yao, X., Chen, L., Miao, J., Shao, F., Gao, X., & Lin, B. (2025). A multi-data fusion deep learning model for prognostic prediction in upper tract urothelial carcinoma. Frontiers in Oncology, 15, 1644250. https://doi.org/10.3389/fonc.2025.1644250'
 category: journals
 header:
-  teaser: 'publications/utuc_prediction.jpg'
+  teaser: 'publications/utuc_prediction_teaser.jpg'
 topic: 'MultiModal Medical Imaging'
 # codeurl: ''
 doi: '10.3389/fonc.2025.1644250'

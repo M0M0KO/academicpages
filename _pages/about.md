@@ -41,6 +41,7 @@ I am a postgraduate student with some initial experience in medical image analys
       <h4>Machine Learning Identifies Exosome Features Related to Hepatocellular Carcinoma</h4>
       <p><em>Frontiers in Cell and Developmental Biology</em> (2022) · DOI: <a href="https://doi.org/10.3389/fcell.2022.1020415" target="_blank">10.3389/fcell.2022.1020415</a></p>
       <p><strong>Co-first author (third position)</strong>: Designed the ML analysis pipeline; compared Random Forest, SVM‑RFE, and LASSO to identify and validate high‑value exosome biomarkers.</p>
+      <p><a href="https://doi.org/10.3389/fcell.2022.1020415" target="_blank">Access paper</a></p>
     </div>
   </div>
   
@@ -50,6 +51,7 @@ I am a postgraduate student with some initial experience in medical image analys
       <h4>Multi-omics and Machine Learning-driven CD8+ T Cell Heterogeneity Score for Prognosis</h4>
       <p><em>Molecular Therapy Nucleic Acids</em> (2024) · DOI: <a href="https://doi.org/10.1016/j.omtn.2024.102413" target="_blank">10.1016/j.omtn.2024.102413</a></p>
       <p>Provided ML support including LASSO regression to identify key prognostic genes from multi‑omics data and supply features for the CD8+ T cell heterogeneity score.</p>
+      <p><a href="https://doi.org/10.1016/j.omtn.2024.102413" target="_blank">Access paper</a></p>
     </div>
   </div>
   
@@ -59,8 +61,13 @@ I am a postgraduate student with some initial experience in medical image analys
       <h4>Using Multiomics and Machine Learning: Insights into Improving the Outcomes of Clear Cell Renal Cell Carcinoma via the SRD5A3-AS1/hsa-let-7e-5p/RRM2 Axis</h4>
       <p><em>ACS Omega</em> (June 2025) · DOI: <a href="https://doi.org/10.1021/acsomega.5c01337" target="_blank">10.1021/acsomega.5c01337</a></p>
       <p>Implemented the ML pipeline to identify key features of the SRD5A3‑AS1/hsa‑let‑7e‑5p/RRM2 axis and quantify its prognostic value in ccRCC.</p>
+      <p><a href="https://doi.org/10.1021/acsomega.5c01337" target="_blank">Access paper</a></p>
     </div>
   </div>
+</div>
+
+<div class="download-button">
+  <a href="/publications/" class="btn btn-primary"><i class="fas fa-book-open"></i> View all publications</a>
 </div>
 
 ---

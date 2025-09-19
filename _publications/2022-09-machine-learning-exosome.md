@@ -10,7 +10,7 @@ citation: 'Zhu K, Tao Q, Yan J, Lang Z, Li X, Li Y, Fan C, Yu Z. Machine learnin
 citation_apa: 'Zhu, K., Tao, Q., Yan, J., Lang, Z., Li, X., Li, Y., Fan, C., & Yu, Z. (2022). Machine learning identifies exosome features related to hepatocellular carcinoma. Frontiers in Cell and Developmental Biology, 10, 1020415. https://doi.org/10.3389/fcell.2022.1020415'
 category: journals
 header:
-  teaser: 'publications/hcc_exosome.jpg'
+  teaser: 'publications/hcc_exosome_teaser.jpg'
 topic: 'Machine Learning'
 doi: '10.3389/fcell.2022.1020415'
 bibtex: |

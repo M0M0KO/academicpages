@@ -6,24 +6,21 @@ excerpt: ''
 date: 2025-06-05
 venue: 'ACS Omega'
 paperurl: 'https://pubs.acs.org/doi/epdf/10.1021/acsomega.5c01337?ref=article_openPDF'
-# citation: ''
-# citation_apa: ''
+citation: 'Sun M, Yang Z, Luo Y, Qin L, Peng L, Yan J, Qiu T, Zhang Y (2025) Using Multiomics and Machine Learning: Insights into Improving the Outcomes of Clear Cell Renal Cell Carcinoma via SRD5A3-AS1/hsa-let-7e-5p/RRM2 Axis. ACS Omega. https://doi.org/10.1021/acsomega.5c01337'
+citation_apa: 'Sun, M., Yang, Z., Luo, Y., Qin, L., Peng, L., Yan, J., Qiu, T., & Zhang, Y. (2025). Using Multiomics and Machine Learning: Insights into Improving the Outcomes of Clear Cell Renal Cell Carcinoma via SRD5A3-AS1/hsa-let-7e-5p/RRM2 Axis. ACS Omega. https://doi.org/10.1021/acsomega.5c01337'
 category: journals
 header:
-  teaser: 'publications/multiomics_rcc.jpg'
+  teaser: 'publications/multiomics_rcc_teaser.jpg'
 topic: 'Machine Learning'
 doi: '10.1021/acsomega.5c01337'
-# bibtex: |
-#   @article{doi:10.1021/acsomega.5c01337,
-#     title={Multi-omics and machine learning-driven CD8+ T cell heterogeneity score for head and neck squamous cell carcinoma},
-#     author={He, Di and Yang, Zhan and Zhang, Tian and Luo, Yaxian and Peng, Lianjie and Yan, Jiatao and Qiu, Tao and Zhang, Jingyu and Qin, Luying and Liu, Zhichao and others},
-#     journal={Molecular Therapy Nucleic Acids},
-#     volume={0},
-#     number={0},
-#     year={0},
-#     publisher={Elsevier},
-#     doi={10.1021/acsomega.5c01337}
-#   } 
+bibtex: |
+  @article{sun2025rcc_axis,
+    title={Using Multiomics and Machine Learning: Insights into Improving the Outcomes of Clear Cell Renal Cell Carcinoma via SRD5A3-AS1/hsa-let-7e-5p/RRM2 Axis},
+    author={Sun, Mouyuan and Yang, Zhan and Luo, Yaxian and Qin, Luying and Peng, Lianjie and Yan, Jiatao and Qiu, Tao and Zhang, Yan},
+    journal={ACS Omega},
+    year={2025},
+    doi={10.1021/acsomega.5c01337}
+  } 
 # codeurl: 'https://github.com/M0M0KO/multiomics-rcc'
 # preprinturl: ''
 # bibtexurl: ''
