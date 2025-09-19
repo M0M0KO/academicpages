@@ -27,7 +27,7 @@ redirect_from:
   </div>
   <div class="highlight-item">
     <i class="fas fa-trophy" style="font-size: 1.2em; color: #4285F4;"></i>
-    <p><strong>荣誉：</strong> Kaggle竞赛（RNA 3D折叠、播客收听时间预测、卡路里消耗预测）、"挑战杯"大学生竞赛、国家级大创、2项软件著作权、1项发明专利申请</p>
+    <p><strong>荣誉：</strong> Kaggle竞赛（RNA 3D折叠、播客收听时间预测、卡路里消耗预测）、"挑战杯"大学生竞赛、国家级大创、4项软件著作权、1项发明专利申请</p>
   </div>
 </div>
 
@@ -40,8 +40,8 @@ redirect_from:
     <i class="fas fa-file-alt" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>
     <div>
       <h4>Machine Learning Identifies Exosome Features Related to Hepatocellular Carcinoma</h4>
-      <p><em>Frontiers in Cell and Developmental Biology</em> (2022)</p>
-      <p><strong>共同第一作者（位次第三）</strong>：负责开发机器学习算法，用于肝细胞癌研究中的外泌体特征分析和分类</p>
+      <p><em>Frontiers in Cell and Developmental Biology</em> (2022) · DOI: <a href="https://doi.org/10.3389/fcell.2022.1020415" target="_blank">10.3389/fcell.2022.1020415</a></p>
+      <p><strong>共同第一作者（位次第三）</strong>：负责机器学习分析流程的设计与实现；比较随机森林、SVM‑RFE、LASSO等方法，从高维外泌体数据中筛选并验证关键生物标志物。</p>
     </div>
   </div>
   
@@ -49,8 +49,8 @@ redirect_from:
     <i class="fas fa-file-alt" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>
     <div>
       <h4>Multi-omics and Machine Learning-driven CD8+ T Cell Heterogeneity Score for Prognosis</h4>
-      <p><em>Molecular Therapy Nucleic Acids</em> (2024)</p>
-      <p>帮助在HNSCC研究中实施各种机器学习算法用于关键基因识别</p>
+      <p><em>Molecular Therapy Nucleic Acids</em> (2024) · DOI: <a href="https://doi.org/10.1016/j.omtn.2024.102413" target="_blank">10.1016/j.omtn.2024.102413</a></p>
+      <p>作为机器学习技术支持，实现包括LASSO回归在内的多种算法，从多组学数据中识别与HNSCC预后相关的关键基因，并为CD8+T细胞异质性评分提供特征输入。</p>
     </div>
   </div>
   
@@ -58,8 +58,8 @@ redirect_from:
     <i class="fas fa-file-alt" style="font-size: 1.2em; color: var(--global-text-color); margin-right: 0.5em;"></i>
     <div>
       <h4>Using Multiomics and Machine Learning: Insights into Improving the Outcomes of Clear Cell Renal Cell Carcinoma via the SRD5A3-AS1/hsa-let-7e-5p/RRM2 Axis</h4>
-      <p><em>ACS Omega</em> (2025年6月)</p>
-      <p>实施机器学习算法用于识别SRD5A3-AS1/hsa-let-7e-5p/RRM2重要特征</p>
+      <p><em>ACS Omega</em> (2025年6月) · DOI: <a href="https://doi.org/10.1021/acsomega.5c01337" target="_blank">10.1021/acsomega.5c01337</a></p>
+      <p>负责实现机器学习流程以识别SRD5A3‑AS1/hsa‑let‑7e‑5p/RRM2信号轴关键特征，并量化其在透明细胞肾细胞癌中的预后价值。</p>
     </div>
   </div>
 </div>

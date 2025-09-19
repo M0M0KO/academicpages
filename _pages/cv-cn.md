@@ -45,6 +45,7 @@ redirect_from:
       <li><strong>毕业论文：</strong> "基于深度学习和骨架框架的吸烟行为检测"</li>
       <li><strong>相关课程：</strong> 数据结构与算法，Python编程，数据分析，机器学习</li>
       <li><strong>论文指导教师：</strong> 匡芳君教授</li>
+      <li><strong>校内经历：</strong> 本科期间担任学生会干事、校级社团社长；硕士期间担任班委、党支部委员</li>
     </ul>
   </div>
 </div>
@@ -78,6 +79,28 @@ redirect_from:
       <li><strong>指导教师：</strong> 张思扬教授</li>
     </ul>
   </div>
+
+  <div class="experience-entry">
+    <h3><i class="fas fa-building" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>实习生</h3>
+    <p><em>浙江大学城乡规划设计研究院有限公司</em><br>
+    中国杭州 | 2025年9月 - 2025年12月</p>
+    <ul>
+      <li>面向政企场景的智能文档处理与多智能体工作流项目，受保密协议约束</li>
+      <li>引入MCP工具与可插拔工具链，实现多Agent协作与可观测性</li>
+      <li>设计用户中断与断点继续机制，推动方案在生产环境稳定运行</li>
+    </ul>
+  </div>
+
+  <div class="experience-entry">
+    <h3><i class="fas fa-project-diagram" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>参与政企项目</h3>
+    <p><em>企业合作</em><br>
+    2025年</p>
+    <ul>
+      <li>将基于CUDA的YOLOv8训练/推理链路迁移至8×华为昇腾910B（NPU），完成CANN/ACL适配与HCCL多卡训练</li>
+      <li>修复关键算子差异并对齐精度；在保持mAP基本不降前提下优化数据流水与图模式执行</li>
+      <li>支持容器化上线与稳定运行</li>
+    </ul>
+  </div>
 </div>
 
 ---
@@ -91,7 +114,7 @@ redirect_from:
     <p><strong>作者：</strong>  Kai Zhu, Qiqi Tao, <strong>Jiatao Yan</strong>, Zhichao Lang, Xinmiao Li, Yifei Li, Congcong Fan, Zhengping Yu</p>
     <p><strong>DOI：</strong> <a href="https://doi.org/10.3389/fcell.2022.1020415" target="_blank">10.3389/fcell.2022.1020415</a></p>
     <p><strong>影响因子：</strong> 5.8</p>
-    <p class="contribution"><strong>共同第一作者（位次第三）</strong>：负责开发机器学习算法，用于肝细胞癌研究中的外泌体特征分析和分类。参与随机森林算法的设计和实现，用于预后特征开发。</p>
+    <p class="contribution"><strong>共同第一作者（位次第三）</strong>：负责机器学习分析流程的设计与实现。应用并比较了多种算法（随机森林、SVM‑RFE、LASSO），从高维外泌体蛋白质组数据中筛选并验证出具有高预测价值的关键生物标志物。</p>
   </div>
   
   <div class="paper">
@@ -100,7 +123,7 @@ redirect_from:
     <p><strong>作者：</strong> Di He, Zhan Yang, Tian Zhang, Yaxian Luo, Lianjie Peng, <strong>Jiatao Yan</strong>, Tao Qiu, Jingyu Zhang, Luying Qin, Zhichao Liu, Xiaoting Zhang, Lining Lin, Mouyuan Sun</p>
     <p><strong>DOI：</strong> <a href="https://doi.org/10.1016/j.omtn.2024.102413" target="_blank">10.1016/j.omtn.2024.102413</a></p>
     <p><strong>影响因子：</strong> 6.4</p>
-    <p class="contribution">贡献：帮助在HNSCC研究中实施各种机器学习算法用于关键基因识别。</p>
+    <p class="contribution">贡献：作为机器学习技术支持，实现包括LASSO回归在内的多种算法，从多组学数据中识别与头颈鳞癌（HNSCC）预后相关的关键基因，为构建CD8+T细胞异质性评分提供计算支持与特征输入。</p>
   </div>
 
   <div class="paper">
@@ -110,6 +133,14 @@ redirect_from:
     <p><strong>DOI：</strong> <a href="https://doi.org/10.1021/acsomega.5c01337" target="_blank">10.1021/acsomega.5c01337</a></p>
     <p><strong>影响因子：</strong> 3.7</p>
     <p class="contribution">贡献：实现用于识别SRD5A3-AS1/hsa-let-7e-5p/RRM2重要特征的有关机器学习算法。</p>
+  </div>
+  
+  <div class="paper">
+    <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>A multi-data fusion deep learning model for prognostic prediction in upper tract urothelial carcinoma</h3>
+    <p><strong>期刊：</strong> <em>Frontiers in Oncology</em> (2025年8月)</p>
+    <p><strong>作者：</strong> Hongdi Sun, Siping Chen, Yongxing Bao, Fengyan You, Honghui Zhu, Xin Yao, Lianguo Chen, Jiangwei Miao, Fanggui Shao, Xiaomin Gao, Binwei Lin</p>
+    <p><strong>DOI：</strong> <a href="https://doi.org/10.3389/fonc.2025.1644250" target="_blank">10.3389/fonc.2025.1644250</a></p>
+    <p class="contribution">贡献：设计并实现用于分析多相位CT图像的深度学习架构；将影像特征与临床数据整合以构建综合预测模型；参与模型验证与性能优化，为论文产出提供关键技术支持。</p>
   </div>
   
 </div>
@@ -135,17 +166,28 @@ redirect_from:
 
 <div class="manuscripts">
   <div class="paper">
-    <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>Deep Learning Model for Survival Prediction of Localized Upper Tract Urothelial Carcinoma Based on Multi-Phase CT Images and Clinical Data</h3>
-    <p><strong>修订中</strong></p>
-    <p><strong>作者：</strong>  Kai Zhu, Binwei Lin, <strong>Jiatao Yan</strong>, Honghui Zhu, Wei Chen, Xin Yao, Fengyan You, Yue Pan, Feng Wang, Peng Xia, Yeping Li, Lianguo Chen, Zhixian Yu, Shouliang Miao, Xiaomin Gao</p>
-    <p class="contribution"><strong>共同第一作者（位次第三）</strong>：设计并实现用于分析多相位CT图像的深度学习架构。开发将影像特征与临床数据整合以创建综合预测模型的方法，用于上尿路上皮癌的生存预测。参与模型验证和性能优化。</p>
-  </div>
-
-  <div class="paper">
     <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>YOLOv11-LCDFS: Enhanced Smoking Detection With Low-light Enhancement</h3>
     <p><strong>修订中</strong></p>
     <p><strong>作者：</strong> <strong>Jiatao Yan</strong>, Zhuzikai Zheng, Zhengtan Yang, Hao Jiang, Peichen Wang, Fangjun Kuang, Siyang Zhang</p>
     <p class="contribution"><strong>第一作者</strong>：开发一种基于YOLO的架构，集成低光照增强功能、损失函数、注意力机制和优化的上采样技术，来提高在不同光照条件下的检测能力。</p>
+  </div>
+
+  <div class="paper">
+    <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>A Spatio-Temporal Graph Transformer for Decoding Motor Imagery from fNIRS in Post-Stroke Patients</h3>
+    <p><strong>准备中</strong></p>
+    <p class="contribution"><strong>第一作者</strong>：提出用于fNIRS运动想象解码的时空图Transformer（STGT），在真实卒中患者数据上完成统一协议评估（LOSO平均准确率约79.8%），并进行注意力与特征归因的可解释分析。</p>
+  </div>
+  
+  <div class="paper">
+    <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>Validating the TCM Kidney–Brain Co‑Treatment Theory for Post‑Stroke Dysphagia via Explainable Multimodal AI</h3>
+    <p><strong>准备中</strong></p>
+    <p class="contribution"><strong>第一作者</strong>：融合3D脑病灶影像与临床特征，引入“肾虚代理组”以操作化理论，并结合SHAP与Grad‑CAM进行可解释分析，验证“肾→脑→吞咽”的因果链条。</p>
+  </div>
+  
+  <div class="paper">
+    <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>A Deep Learning Model for Automated Sonographic Assessment of Diastasis Recti Abdominis</h3>
+    <p><strong>准备中</strong></p>
+    <p class="contribution"><strong>第一作者</strong>：提出面向腹直肌分离（DRA）的超声自动评估模型，实现分割、关键点估计与像素-厘米标定，支持近实时推理以降低人工测量负担。</p>
   </div>
 </div>
 
@@ -202,7 +244,7 @@ redirect_from:
   <div class="achievement-item">
     <div class="achievement-content">
       <h4><i class="fas fa-microscope" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>BYU - 细菌鞭毛马达定位 2025</h4>
-      <p><strong>排名 335/1175</strong> | 前29% | Kaggle全球竞赛 | 2025.06.05</p>
+      <p><strong>排名 315/1136</strong> | 前28% | Kaggle全球竞赛 | 2025.06.05</p>
     </div>
   </div>
   
@@ -216,7 +258,7 @@ redirect_from:
   <div class="achievement-item">
     <div class="achievement-content">
       <h4><i class="fas fa-trophy" style="font-size: 1.2em; color:rgb(184, 115, 51); margin-right: 0.5em;"></i>斯坦福RNA 3D折叠竞赛</h4>
-      <p><strong>铜牌</strong> | <strong>排名 143/1516</strong> | 前10% | Kaggle全球竞赛 | 截止时间2025.5.23</p>
+      <p><strong>铜牌</strong> | <strong>排名 144/1516</strong> | 前10% | Kaggle全球竞赛 | 截止时间2025.5.23</p>
     </div>
   </div>
 
@@ -230,7 +272,7 @@ redirect_from:
   <div class="achievement-item">
     <div class="achievement-content">
       <h4><i class="fas fa-chart-line" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>HuBMAP + HPA 竞赛</h4>
-      <p><strong>排名 442/1174</strong> | 前38% | Kaggle全球竞赛 | 2022年9月</p>
+      <p><strong>排名 441/1174</strong> | 前38% | Kaggle全球竞赛 | 2022年9月</p>
     </div>
   </div>
   
@@ -273,7 +315,7 @@ redirect_from:
       </ul>
       <p><strong>使用的技术：</strong> PyTorch, YOLO, 计算机视觉, CUDA, 注意力机制</p>
       <p><strong>状态：</strong> 进行中（2025年4月）</p>
-      <p><strong>相关成果：</strong> 正在准备的论文（作为参与者）</p>
+      <p><strong>相关成果：</strong> 准备中的论文：YOLOv11‑LCDFS: Enhanced Smoking Detection With Low‑light Enhancement（第一作者）</p>
     </div>
   </div>
 
@@ -289,7 +331,7 @@ redirect_from:
       </ul>
       <p><strong>使用的技术：</strong> Python, PyTorch, NiBabel, MONAI, 3D分割, Transformer架构, 多模态融合, NumPy</p>
       <p><strong>状态：</strong> 进行中（2025年4月）</p>
-      <p><strong>相关成果：</strong> 参与论文准备工作</p>
+      <p><strong>相关成果：</strong> 准备中的论文（多模态医学影像分割与融合方向）</p>
     </div>
   </div>
 

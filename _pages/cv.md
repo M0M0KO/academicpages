@@ -78,6 +78,28 @@ redirect_from:
       <li><strong>Advisor:</strong> Prof. Siyang Zhang</li>
     </ul>
   </div>
+ 
+  <div class="experience-entry">
+    <h3><i class="fas fa-building" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>Intern</h3>
+    <p><em>Zhejiang University Urban — Rural Planning & Design Institute Co., Ltd</em><br>
+    Hangzhou, China | Sep 2025 - Dec 2025</p>
+    <ul>
+      <li>Enterprise/government scenario project (NDA): intelligent document processing and multi‑agent workflow</li>
+      <li>Introduced MCP tools and pluggable toolchains, enabling multi‑agent collaboration and observability</li>
+      <li>Designed user interruption and resume mechanisms for stable production operation</li>
+    </ul>
+  </div>
+
+  <div class="experience-entry">
+    <h3><i class="fas fa-project-diagram" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>Enterprise Collaboration Project</h3>
+    <p><em>Industry partner</em><br>
+    2025</p>
+    <ul>
+      <li>Migrated CUDA‑based YOLOv8 training/inference pipeline to 8× Huawei Ascend 910B (NPU)</li>
+      <li>Completed CANN/ACL adaptation and HCCL multi‑card training; fixed operator discrepancies and aligned accuracy</li>
+      <li>Optimized data pipelines and graph mode execution with near‑baseline mAP; supported containerized deployment</li>
+    </ul>
+  </div>
 </div>
 
 ---
@@ -91,7 +113,7 @@ redirect_from:
     <p><strong>Authors:</strong> Kai Zhu, Qiqi Tao, <strong>Jiatao Yan</strong>, Zhichao Lang, Xinmiao Li, Yifei Li, Congcong Fan, Zhengping Yu</p>
     <p><strong>DOI:</strong> <a href="https://doi.org/10.3389/fcell.2022.1020415" target="_blank">10.3389/fcell.2022.1020415</a></p>
     <p><strong>Impact Factor:</strong> 5.8</p>
-    <p class="contribution"><strong>Co-first author (third position)</strong>: Developed machine learning algorithms for exosome feature analysis and classification in hepatocellular carcinoma research. Contributed to the design and implementation of the random forest algorithm for prognostic signature development.</p>
+    <p class="contribution"><strong>Co-first author (third position)</strong>: Designed and implemented the ML analysis pipeline. Compared multiple algorithms (Random Forest, SVM‑RFE, LASSO) to identify and validate high‑value exosome biomarkers from high‑dimensional proteomics data.</p>
   </div>
   
 
@@ -101,7 +123,7 @@ redirect_from:
     <p><strong>Authors:</strong> Di He, Zhan Yang, Tian Zhang, Yaxian Luo, Lianjie Peng, <strong>Jiatao Yan</strong>, Tao Qiu, Jingyu Zhang, Luying Qin, Zhichao Liu, Xiaoting Zhang, Lining Lin, Mouyuan Sun</p>
     <p><strong>DOI:</strong> <a href="https://doi.org/10.1016/j.omtn.2024.102413" target="_blank">10.1016/j.omtn.2024.102413</a></p>
     <p><strong>Impact Factor:</strong> 6.4</p>
-    <p class="contribution">Contribution: Helped implement various machine learning algorithms for key gene identification in HNSCC research.</p>
+    <p class="contribution">Contribution: Provided ML support, implementing methods including LASSO regression to identify key prognostic genes from multi‑omics data and supply features for building the CD8+ T cell heterogeneity score (CD8THS).</p>
   </div>
 
   <div class="paper">
@@ -110,9 +132,17 @@ redirect_from:
     <p><strong>Authors:</strong> Mouyuan Sun, Zhan Yang, Yaxian Luo, Luying Qin, Lianjie Peng, Chaoran Pan, <strong>Jiatao Yan</strong>, Tao Qiu, Yan Zhang</p>
     <p><strong>DOI：</strong> <a href="https://doi.org/10.1021/acsomega.5c01337" target="_blank">10.1021/acsomega.5c01337</a></p>
     <p><strong>Impact Factor:</strong> 3.7</p>
-    <p class="contribution">Contribution: Implemented machine learning algorithms for identifying SRD5A3-AS1/hsa-let-7e-5p/RRM2 important features.</p>
+    <p class="contribution">Contribution: Implemented the ML pipeline to identify key features of the SRD5A3‑AS1/hsa‑let‑7e‑5p/RRM2 axis and quantify its prognostic value in clear cell renal cell carcinoma.</p>
   </div>
-  
+   
+  <div class="paper">
+    <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>A multi-data fusion deep learning model for prognostic prediction in upper tract urothelial carcinoma</h3>
+    <p><strong>Journal:</strong> <em>Frontiers in Oncology</em> (August 2025)</p>
+    <p><strong>Authors:</strong> Hongdi Sun, Siping Chen, Yongxing Bao, Fengyan You, Honghui Zhu, Xin Yao, Lianguo Chen, Jiangwei Miao, Fanggui Shao, Xiaomin Gao, Binwei Lin</p>
+    <p><strong>DOI:</strong> <a href="https://doi.org/10.3389/fonc.2025.1644250" target="_blank">10.3389/fonc.2025.1644250</a></p>
+    <p class="contribution">Contribution: Designed and implemented deep learning architectures for multi-phase CT analysis; integrated imaging features with clinical tabular data to build a comprehensive prognostic model; participated in model validation and optimization, providing key technical support for the publication.</p>
+  </div>
+
 </div>
 
 <!-- ---
@@ -135,13 +165,7 @@ redirect_from:
 ## Manuscripts in Preparation
 
 <div class="manuscripts">
-  <div class="paper">
-    <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>Deep Learning Model for Survival Prediction of Localized Upper Tract Urothelial Carcinoma Based on Multi-Phase CT Images and Clinical Data</h3>
-    <p><strong>In Revision</strong></p>
-    <p><strong>Authors:</strong> Kai Zhu, Binwei Lin, <strong>Jiatao Yan</strong>, Honghui Zhu, Wei Chen, Xin Yao, Fengyan You, Yue Pan, Feng Wang, Peng Xia, Yeping Li, Lianguo Chen, Zhixian Yu, Shouliang Miao, Xiaomin Gao</p>
-    <p class="contribution"><strong>Co-first author (third position)</strong>: Designed and implemented the deep learning architecture for analyzing multi-phase CT images. Developed methods for integrating imaging features with clinical data to create a comprehensive predictive model for upper tract urothelial carcinoma survival. Participated in model validation and performance optimization.</p>
-  </div>
-
+  
   <div class="paper">
     <h3><i class="fas fa-file-alt" style="font-size: 1.2em; margin-right: 0.5em; color: var(--global-text-color);"></i>YOLOv11-LCDFS: Enhanced Smoking Detection With Low-light Enhancement</h3>
     <p><strong>In Revision</strong></p>
@@ -196,14 +220,14 @@ redirect_from:
   <div class="achievement-item">
     <div class="achievement-content">
       <h4><i class="fas fa-wave-square" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Yale/UNC-CH - Geophysical Waveform Inversion</h4>
-      <p><strong>Ranked 255nd/1365</strong> | Top 19% | Kaggle Global Competition | July 1, 2025</p>
+      <p><strong>Ranked 255/1365</strong> | Top 19% | Kaggle Global Competition | July 1, 2025</p>
     </div>
   </div>
   
   <div class="achievement-item">
     <div class="achievement-content">
       <h4><i class="fas fa-microscope" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>BYU - Locating Bacterial Flagellar Motors 2025</h4>
-      <p><strong>Ranked 335rd/1175</strong> | Top 29% | Kaggle Global Competition | June 5, 2025</p>
+      <p><strong>Ranked 315/1136</strong> | Top 28% | Kaggle Global Competition | June 5, 2025</p>
     </div>
   </div>
 
@@ -217,21 +241,21 @@ redirect_from:
   <div class="achievement-item">
     <div class="achievement-content">
       <h4><i class="fas fa-trophy" style="font-size: 1.2em; color:rgb(184, 115, 51); margin-right: 0.5em;"></i>Stanford RNA 3D Folding Competition</h4>
-      <p><strong>Bronze Medal</strong> | <strong>Ranked 143rd/1516</strong> | Top 10% | Kaggle Global Competition | Deadline: May 23, 2025</p>
+      <p><strong>Bronze Medal</strong> | <strong>Ranked 144/1516</strong> | Top 10% | Kaggle Global Competition | Deadline: May 23, 2025</p>
     </div>
   </div>
 
   <div class="achievement-item">
     <div class="achievement-content">
       <h4><i class="fas fa-chart-line" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>Predict Podcast Listening Time Competition</h4>
-      <p><strong>Ranked 188th/3683</strong> | Top 4% | Kaggle Global Competition | May 1, 2025</p>
+      <p><strong>Ranked 116/3310</strong> | Top 4% | Kaggle Global Competition | May 1, 2025</p>
     </div>
   </div>
   
   <div class="achievement-item">
     <div class="achievement-content">
       <h4><i class="fas fa-chart-line" style="font-size: 1.2em; color: #4285F4; margin-right: 0.5em;"></i>HuBMAP + HPA Competition</h4>
-      <p><strong>Ranked 442nd/1174</strong> | Top 38% | Kaggle Global Competition | September 2022</p>
+      <p><strong>Ranked 441/1174</strong> | Top 38% | Kaggle Global Competition | September 2022</p>
     </div>
   </div>
   
@@ -481,9 +505,7 @@ redirect_from:
       <h3><i class="fas fa-language" style="font-size: 1.2em; margin-right: 0.5em; color: #4285F4;"></i>Languages</h3>
       <ul>
         <li><strong>Chinese:</strong> Native speaker</li>
-        <li><strong>English:</strong> </li>
-        <li>  - IELTS: Overall 6.0 (Listening: 6.5, Reading: 6.5, Writing: 5.5, Speaking: 6.0)</li>
-        <li>  - CET-6: Score 467 (College English Test - Band 6)</li>
+        <li><strong>English:</strong> IELTS 6.0 (L 6.5 / R 6.5 / W 5.5 / S 6.0); CET‑6 467</li>
       </ul>
     </div>
     
